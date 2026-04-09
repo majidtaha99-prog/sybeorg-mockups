@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{BUSINESS_NAME}} — {{CITY}}, IA</title>
+<meta name="description" content="{{BUSINESS_NAME}} serves {{CITY}} and the surrounding area with {{SERVICE_SHORT}}. Call {{PHONE}} for a free quote.">
+<style>
+  :root {
+    /* Sybeorg brand palette pulled from sybeorg.com */
+    --sy-navy: #0a2540;
+    --sy-navy-light: #123456;
+    --sy-cream: #f5f1e8;
+    --sy-orange: #f59e0b;
+    --sy-orange-dark: #d97706;
+    --sy-text: #1a2332;
+    --sy-text-muted: #5a6578;
+    --sy-border: #e5e0d2;
+    --sy-white: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--sy-text);
+    background: var(--sy-cream);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .nav {
+    background: var(--sy-navy);
+    color: var(--sy-white);
+    padding: 14px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  .logo {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  .logo span { color: var(--sy-orange); }
+  .nav-phone {
+    background: var(--sy-orange);
+    color: var(--sy-navy);
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.15s;
+  }
+  .nav-phone:hover { background: var(--sy-orange-dark); color: var(--sy-white); }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, var(--sy-navy) 0%, var(--sy-navy-light) 100%);
+    color: var(--sy-white);
+    padding: 80px 28px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, var(--sy-orange) 0%, transparent 70%);
+    opacity: 0.12;
+    border-radius: 50%;
+  }
+  .hero-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  .hero h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    font-weight: 900;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 em {
+    color: var(--sy-orange);
+    font-style: normal;
+  }
+  .hero p.sub {
+    font-size: 19px;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 32px;
+    max-width: 540px;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    background: var(--sy-orange);
+    color: var(--sy-navy);
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    transition: transform 0.15s, background 0.15s;
+  }
+  .btn-primary:hover { background: var(--sy-orange-dark); color: var(--sy-white); transform: translateY(-2px); }
+  .btn-ghost {
+    background: transparent;
+    color: var(--sy-white);
+    padding: 16px 32px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+  }
+  .btn-ghost:hover { border-color: var(--sy-orange); color: var(--sy-orange); }
+  .hero-card {
+    background: var(--sy-white);
+    color: var(--sy-text);
+    border-radius: 8px;
+    padding: 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  }
+  .hero-card h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: var(--sy-navy);
+  }
+  .hero-card p.muted {
+    font-size: 13px;
+    color: var(--sy-text-muted);
+    margin-bottom: 18px;
+  }
+  .form-field {
+    margin-bottom: 12px;
+  }
+  .form-field input, .form-field select, .form-field textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--sy-border);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    background: var(--sy-cream);
+  }
+  .form-field input:focus, .form-field select:focus, .form-field textarea:focus {
+    outline: none;
+    border-color: var(--sy-orange);
+  }
+  .hero-card button {
+    width: 100%;
+    background: var(--sy-navy);
+    color: var(--sy-white);
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 6px;
+    font-family: inherit;
+  }
+  .hero-card button:hover { background: var(--sy-orange); color: var(--sy-navy); }
+
+  /* TRUST BAR */
+  .trust-bar {
+    background: var(--sy-white);
+    padding: 28px 28px;
+    border-bottom: 1px solid var(--sy-border);
+  }
+  .trust-bar-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  .trust-item .num {
+    font-size: 34px;
+    font-weight: 900;
+    color: var(--sy-navy);
+    line-height: 1;
+  }
+  .trust-item .label {
+    font-size: 12px;
+    color: var(--sy-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+  }
+
+  /* SERVICES */
+  .section { padding: 80px 28px; }
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+  .section h2 {
+    font-size: 38px;
+    color: var(--sy-navy);
+    margin-bottom: 14px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+  }
+  .section p.lead {
+    font-size: 17px;
+    color: var(--sy-text-muted);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 50px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .service-card {
+    background: var(--sy-white);
+    padding: 32px 28px;
+    border-radius: 6px;
+    border-top: 4px solid var(--sy-orange);
+    box-shadow: 0 4px 20px rgba(10,37,64,0.06);
+    transition: transform 0.2s;
+  }
+  .service-card:hover { transform: translateY(-4px); }
+  .service-card .icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: var(--sy-cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+  .service-card h3 {
+    font-size: 19px;
+    color: var(--sy-navy);
+    margin-bottom: 10px;
+  }
+  .service-card p {
+    font-size: 14px;
+    color: var(--sy-text-muted);
+  }
+
+  /* REVIEWS */
+  .reviews {
+    background: var(--sy-navy);
+    color: var(--sy-white);
+  }
+  .reviews h2 { color: var(--sy-white); }
+  .reviews p.lead { color: rgba(255,255,255,0.7); }
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .review {
+    background: rgba(255,255,255,0.06);
+    padding: 28px;
+    border-radius: 6px;
+    border-left: 3px solid var(--sy-orange);
+  }
+  .stars { color: var(--sy-orange); font-size: 16px; margin-bottom: 10px; }
+  .review p.quote {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: rgba(255,255,255,0.9);
+  }
+  .review .name {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .review .where {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+  }
+
+  /* CTA STRIP */
+  .cta-strip {
+    background: var(--sy-orange);
+    color: var(--sy-navy);
+    padding: 50px 28px;
+    text-align: center;
+  }
+  .cta-strip h2 {
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: var(--sy-navy);
+  }
+  .cta-strip p { font-size: 17px; margin-bottom: 24px; }
+  .cta-strip .btn-primary {
+    background: var(--sy-navy);
+    color: var(--sy-white);
+  }
+
+  /* FOOTER */
+  footer {
+    background: #061a2e;
+    color: rgba(255,255,255,0.6);
+    padding: 40px 28px;
+    text-align: center;
+    font-size: 13px;
+  }
+  footer .logo { margin-bottom: 12px; color: var(--sy-white); }
+
+  /* MOBILE */
+  @media (max-width: 860px) {
+    .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+    .hero h1 { font-size: 36px; }
+    .trust-bar-inner { grid-template-columns: repeat(2, 1fr); }
+    .services-grid, .reviews-grid { grid-template-columns: 1fr; }
+    .section h2 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="logo">{{BUSINESS_NAME_LOGO}}</div>
+  <a href="tel:{{PHONE_RAW}}" class="nav-phone">📞 {{PHONE}}</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <h1>{{HERO_HEADLINE}} <em>{{HERO_EMPHASIS}}</em></h1>
+      <p class="sub">{{HERO_SUBHEAD}}</p>
+      <div class="hero-ctas">
+        <a href="tel:{{PHONE_RAW}}" class="btn-primary">Call {{PHONE}}</a>
+        <a href="#quote" class="btn-ghost">Get a Free Quote</a>
+      </div>
+    </div>
+    <div class="hero-card" id="quote">
+      <h3>Free Quote in 60 Seconds</h3>
+      <p class="muted">No spam. No sales calls. Just a quote.</p>
+      <div class="form-field"><input type="text" placeholder="Your name"></div>
+      <div class="form-field"><input type="tel" placeholder="Phone number"></div>
+      <div class="form-field"><input type="text" placeholder="Your address in {{CITY}}"></div>
+      <div class="form-field">
+        <select>
+          <option>What do you need?</option>
+          <option>{{SERVICE_1}}</option>
+          <option>{{SERVICE_2}}</option>
+          <option>{{SERVICE_3}}</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <button>Get My Free Quote →</button>
+    </div>
+  </div>
+</section>
+
+<section class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item">
+      <div class="num">{{YEARS}}+</div>
+      <div class="label">Years Serving {{CITY}}</div>
+    </div>
+    <div class="trust-item">
+      <div class="num">{{JOBS}}+</div>
+      <div class="label">Jobs Completed</div>
+    </div>
+    <div class="trust-item">
+      <div class="num">{{RATING}}★</div>
+      <div class="label">Google Rating</div>
+    </div>
+    <div class="trust-item">
+      <div class="num">24/7</div>
+      <div class="label">Emergency Service</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <h2>What We Do</h2>
+    <p class="lead">{{SERVICES_LEAD}}</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon">🔧</div>
+        <h3>{{SERVICE_1_TITLE}}</h3>
+        <p>{{SERVICE_1_DESC}}</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">⚡</div>
+        <h3>{{SERVICE_2_TITLE}}</h3>
+        <p>{{SERVICE_2_DESC}}</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">🏠</div>
+        <h3>{{SERVICE_3_TITLE}}</h3>
+        <p>{{SERVICE_3_DESC}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews">
+  <div class="section-inner">
+    <h2>What {{CITY}} Says</h2>
+    <p class="lead">Real reviews from real neighbors.</p>
+    <div class="reviews-grid">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"{{REVIEW_1}}"</p>
+        <div class="name">{{REVIEWER_1}}</div>
+        <div class="where">{{CITY}}, IA</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"{{REVIEW_2}}"</p>
+        <div class="name">{{REVIEWER_2}}</div>
+        <div class="where">{{CITY}}, IA</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"{{REVIEW_3}}"</p>
+        <div class="name">{{REVIEWER_3}}</div>
+        <div class="where">{{CITY}}, IA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <h2>Need help now?</h2>
+  <p>Call us and we'll pick up. That's how this used to work.</p>
+  <a href="tel:{{PHONE_RAW}}" class="btn-primary">📞 {{PHONE}}</a>
+</section>
+
+<footer>
+  <div class="logo">{{BUSINESS_NAME_LOGO}}</div>
+  <p>{{ADDRESS}} · {{CITY}}, IA · {{PHONE}}</p>
+  <p style="margin-top:16px;opacity:0.5;">Mockup by <a href="https://sybeorg.com" style="color:var(--sy-orange);">Sybeorg</a></p>
+</footer>
+
+</body>
+</html>
