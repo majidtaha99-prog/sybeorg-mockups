@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{BUSINESS_NAME}} — Auto Service in {{CITY}}, IA</title>
+<meta name="description" content="{{BUSINESS_NAME}} — honest auto service in {{CITY}}. Upfront pricing, ASE certified, warranty on every job. Call {{PHONE}}.">
+<style>
+  :root {
+    --a-bg: #0c0d10;
+    --a-surface: #14161a;
+    --a-surface-2: #1c1f25;
+    --a-text: #f5f6f8;
+    --a-text-muted: #9098a5;
+    --a-yellow: #fcd34d;
+    --a-yellow-hot: #facc15;
+    --a-steel: #3a4150;
+    --a-border: #262a33;
+    --a-green: #22c55e;
+    --a-stripe: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 20px,
+      rgba(252,211,77,0.03) 20px,
+      rgba(252,211,77,0.03) 40px
+    );
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Helvetica Neue', -apple-system, system-ui, sans-serif;
+    background: var(--a-bg);
+    color: var(--a-text);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+
+  /* TOP BAR */
+  .top-bar {
+    background: var(--a-yellow);
+    color: #0c0d10;
+    padding: 9px 24px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .top-bar span { margin: 0 14px; }
+
+  /* NAV */
+  .nav {
+    background: var(--a-surface);
+    border-bottom: 3px solid var(--a-yellow);
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .logo-mark {
+    width: 48px;
+    height: 48px;
+    background: var(--a-yellow);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--a-bg);
+    font-weight: 900;
+    font-size: 22px;
+  }
+  .logo-text {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+  }
+  .nav-phone {
+    background: var(--a-yellow);
+    color: var(--a-bg);
+    padding: 13px 26px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    clip-path: polygon(6% 0, 100% 0, 94% 100%, 0 100%);
+  }
+  .nav-phone:hover { background: var(--a-yellow-hot); }
+
+  /* HERO */
+  .hero {
+    padding: 80px 28px 100px;
+    background:
+      radial-gradient(ellipse at top left, rgba(252,211,77,0.1) 0%, transparent 50%),
+      var(--a-stripe),
+      var(--a-bg);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; right: -100px;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(252,211,77,0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-inner {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  .hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(252,211,77,0.12);
+    border: 1px solid rgba(252,211,77,0.3);
+    color: var(--a-yellow);
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  }
+  .hero h1 {
+    font-size: 66px;
+    line-height: 0.95;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .hero h1 .y {
+    color: var(--a-yellow);
+    font-style: italic;
+  }
+  .hero h1 .strike {
+    display: block;
+    border-bottom: 6px solid var(--a-yellow);
+    padding-bottom: 4px;
+  }
+  .hero p.sub {
+    font-size: 18px;
+    color: var(--a-text-muted);
+    margin-bottom: 32px;
+    max-width: 520px;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .btn-main {
+    background: var(--a-yellow);
+    color: var(--a-bg);
+    padding: 18px 38px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
+    transition: transform 0.15s;
+  }
+  .btn-main:hover { background: var(--a-yellow-hot); transform: translateX(4px); }
+  .btn-alt {
+    background: transparent;
+    color: var(--a-text);
+    padding: 18px 32px;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 2px solid var(--a-border);
+  }
+  .btn-alt:hover { border-color: var(--a-yellow); color: var(--a-yellow); }
+  .hero-badges {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: var(--a-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .hero-badges span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+  }
+  .hero-badges .check { color: var(--a-green); font-size: 16px; }
+
+  /* QUOTE CARD */
+  .quote-card {
+    background: var(--a-surface);
+    border: 2px solid var(--a-yellow);
+    padding: 32px 28px;
+    position: relative;
+  }
+  .quote-card::before {
+    content: 'QUOTE';
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background: var(--a-yellow);
+    color: var(--a-bg);
+    padding: 4px 14px;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  .quote-card h3 {
+    font-size: 22px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: -0.3px;
+  }
+  .quote-card p.muted {
+    font-size: 13px;
+    color: var(--a-text-muted);
+    margin-bottom: 22px;
+  }
+  .form-field { margin-bottom: 12px; }
+  .form-field input, .form-field select {
+    width: 100%;
+    background: var(--a-bg);
+    border: 1px solid var(--a-border);
+    color: var(--a-text);
+    padding: 14px 16px;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  .form-field input:focus, .form-field select:focus {
+    outline: none;
+    border-color: var(--a-yellow);
+  }
+  .quote-card button {
+    width: 100%;
+    background: var(--a-yellow);
+    color: var(--a-bg);
+    padding: 16px;
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 6px;
+    clip-path: polygon(3% 0, 100% 0, 97% 100%, 0 100%);
+  }
+  .quote-card button:hover { background: var(--a-yellow-hot); }
+
+  /* STATS */
+  .stats {
+    background: var(--a-surface);
+    padding: 36px 28px;
+    border-top: 1px solid var(--a-border);
+    border-bottom: 1px solid var(--a-border);
+  }
+  .stats-inner {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .stat {
+    padding: 0 14px;
+    border-right: 1px solid var(--a-border);
+  }
+  .stat:last-child { border-right: none; }
+  .stat .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--a-text-muted);
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+  .stat .num {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--a-yellow);
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  /* SECTION */
+  .section { padding: 100px 28px; }
+  .section-inner { max-width: 1150px; margin: 0 auto; }
+  .section-head { margin-bottom: 60px; }
+  .section-head .eyebrow {
+    font-size: 12px;
+    color: var(--a-yellow);
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .section-head h2 {
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+  .section-head p {
+    font-size: 17px;
+    color: var(--a-text-muted);
+    max-width: 600px;
+  }
+
+  /* SERVICES */
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .service {
+    background: var(--a-surface);
+    border: 1px solid var(--a-border);
+    padding: 32px 28px;
+    position: relative;
+    transition: all 0.2s;
+  }
+  .service::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 40px;
+    height: 4px;
+    background: var(--a-yellow);
+  }
+  .service:hover {
+    border-color: var(--a-yellow);
+    background: var(--a-surface-2);
+    transform: translateY(-4px);
+  }
+  .service-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--a-yellow);
+    margin-bottom: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .service h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 900;
+    letter-spacing: -0.3px;
+  }
+  .service p {
+    color: var(--a-text-muted);
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .service-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 16px;
+    border-top: 1px dashed var(--a-border);
+  }
+  .service-price .from {
+    font-size: 11px;
+    color: var(--a-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .service-price .amt {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--a-yellow);
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* WHY */
+  .why {
+    background: var(--a-surface-2);
+    padding: 100px 28px;
+  }
+  .why-inner {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .why h2 {
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+  .why h2 .y { color: var(--a-yellow); }
+  .why .lead {
+    color: var(--a-text-muted);
+    font-size: 17px;
+    margin-bottom: 32px;
+  }
+  .why-list { list-style: none; }
+  .why-list li {
+    display: flex;
+    gap: 18px;
+    padding: 18px 0;
+    border-top: 1px solid var(--a-border);
+  }
+  .why-list li:last-child { border-bottom: 1px solid var(--a-border); }
+  .why-list .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--a-yellow);
+    font-weight: 700;
+    min-width: 40px;
+  }
+  .why-list .content h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 4px;
+    letter-spacing: -0.2px;
+  }
+  .why-list .content p {
+    font-size: 14px;
+    color: var(--a-text-muted);
+  }
+
+  /* REVIEWS */
+  .reviews { background: var(--a-bg); }
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .review {
+    background: var(--a-surface);
+    border: 1px solid var(--a-border);
+    border-left: 3px solid var(--a-yellow);
+    padding: 28px;
+  }
+  .stars { color: var(--a-yellow); font-size: 16px; margin-bottom: 12px; letter-spacing: 2px; }
+  .review p.q { font-size: 15px; margin-bottom: 18px; }
+  .review .reviewer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 14px;
+    border-top: 1px solid var(--a-border);
+  }
+  .review .name { font-weight: 800; font-size: 14px; text-transform: uppercase; }
+  .review .car { font-size: 12px; color: var(--a-text-muted); font-family: 'JetBrains Mono', monospace; }
+
+  /* BOOK */
+  .book {
+    padding: 100px 28px;
+    text-align: center;
+    background:
+      radial-gradient(ellipse at center, rgba(252,211,77,0.12) 0%, transparent 60%),
+      var(--a-bg);
+  }
+  .book h2 {
+    font-size: 62px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  .book h2 .y { color: var(--a-yellow); }
+  .book p {
+    font-size: 18px;
+    color: var(--a-text-muted);
+    margin-bottom: 36px;
+  }
+  .book .phone-big {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 44px;
+    color: var(--a-yellow);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 24px;
+    font-weight: 900;
+    letter-spacing: -1px;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--a-surface);
+    border-top: 3px solid var(--a-yellow);
+    padding: 40px 28px;
+    text-align: center;
+    color: var(--a-text-muted);
+    font-size: 13px;
+  }
+  footer strong { color: var(--a-text); }
+  footer a { color: var(--a-yellow); text-decoration: none; }
+
+  /* MOBILE */
+  @media (max-width: 860px) {
+    .top-bar span { display: block; margin: 2px 0; }
+    .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+    .hero h1 { font-size: 44px; }
+    .hero { padding: 50px 20px 70px; }
+    .stats-inner { grid-template-columns: repeat(2, 1fr); }
+    .stat { border-right: none; border-bottom: 1px solid var(--a-border); padding: 16px 0; }
+    .services, .reviews-grid { grid-template-columns: 1fr; }
+    .why-inner { grid-template-columns: 1fr; gap: 40px; }
+    .section-head h2, .why h2 { font-size: 36px; }
+    .book h2 { font-size: 40px; }
+    .book .phone-big { font-size: 28px; }
+    .section { padding: 60px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <span>⚡ ASE CERTIFIED</span>
+  <span>🛡 12 MO / 12K MI WARRANTY</span>
+  <span>💰 PRICE MATCH GUARANTEE</span>
+</div>
+
+<nav class="nav">
+  <div class="logo">
+    <div class="logo-mark">{{INITIAL}}</div>
+    <div class="logo-text">{{BUSINESS_NAME}}</div>
+  </div>
+  <a href="tel:{{PHONE_RAW}}" class="nav-phone">📞 {{PHONE}}</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-tag">⚙ {{CITY}}'s Honest Shop</div>
+      <h1>{{HERO_LINE_1}}<br><span class="strike">{{HERO_LINE_2}}</span> <span class="y">{{HERO_LINE_3}}</span></h1>
+      <p class="sub">{{HERO_SUBHEAD}}</p>
+      <div class="hero-ctas">
+        <a href="#quote" class="btn-main">Book Appointment →</a>
+        <a href="tel:{{PHONE_RAW}}" class="btn-alt">Call Us</a>
+      </div>
+      <div class="hero-badges">
+        <span><span class="check">✓</span> ASE Certified</span>
+        <span><span class="check">✓</span> Upfront Pricing</span>
+        <span><span class="check">✓</span> {{YEARS}}+ Years in {{CITY}}</span>
+      </div>
+    </div>
+    <div class="quote-card" id="quote">
+      <h3>Quick Quote</h3>
+      <p class="muted">Tell us what's wrong. We'll call back in 15 min.</p>
+      <div class="form-field"><input type="text" placeholder="Your name"></div>
+      <div class="form-field"><input type="tel" placeholder="Phone"></div>
+      <div class="form-field"><input type="text" placeholder="Year / Make / Model"></div>
+      <div class="form-field">
+        <select>
+          <option>What's wrong?</option>
+          <option>{{SERVICE_1_TITLE}}</option>
+          <option>{{SERVICE_2_TITLE}}</option>
+          <option>{{SERVICE_3_TITLE}}</option>
+          <option>Check engine light</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <button>Get My Quote</button>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats-inner">
+    <div class="stat">
+      <div class="label">Years Serving {{CITY}}</div>
+      <div class="num">{{YEARS}}+</div>
+    </div>
+    <div class="stat">
+      <div class="label">Cars Fixed</div>
+      <div class="num">{{JOBS}}+</div>
+    </div>
+    <div class="stat">
+      <div class="label">Google Rating</div>
+      <div class="num">{{RATING}}★</div>
+    </div>
+    <div class="stat">
+      <div class="label">Warranty</div>
+      <div class="num">12MO</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">// SERVICES</div>
+      <h2>What we do</h2>
+      <p>{{SERVICES_LEAD}}</p>
+    </div>
+    <div class="services">
+      <div class="service">
+        <div class="service-number">01 / SERVICE</div>
+        <h3>{{SERVICE_1_TITLE}}</h3>
+        <p>{{SERVICE_1_DESC}}</p>
+        <div class="service-price">
+          <span class="from">Starting at</span>
+          <span class="amt">{{SERVICE_1_PRICE}}</span>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-number">02 / SERVICE</div>
+        <h3>{{SERVICE_2_TITLE}}</h3>
+        <p>{{SERVICE_2_DESC}}</p>
+        <div class="service-price">
+          <span class="from">Starting at</span>
+          <span class="amt">{{SERVICE_2_PRICE}}</span>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-number">03 / SERVICE</div>
+        <h3>{{SERVICE_3_TITLE}}</h3>
+        <p>{{SERVICE_3_DESC}}</p>
+        <div class="service-price">
+          <span class="from">Starting at</span>
+          <span class="amt">{{SERVICE_3_PRICE}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="why-inner">
+    <div>
+      <h2>Why {{CITY}}<br>trusts <span class="y">us</span></h2>
+      <p class="lead">We've been fixing cars in {{CITY}} since {{YEAR_FOUNDED}}. No upsells. No surprises.</p>
+    </div>
+    <ul class="why-list">
+      <li>
+        <div class="num">01</div>
+        <div class="content">
+          <h4>No surprise bills</h4>
+          <p>We call before we touch anything extra. You approve every penny.</p>
+        </div>
+      </li>
+      <li>
+        <div class="num">02</div>
+        <div class="content">
+          <h4>12 / 12 warranty</h4>
+          <p>12 months or 12,000 miles on every repair. Nationwide coverage.</p>
+        </div>
+      </li>
+      <li>
+        <div class="num">03</div>
+        <div class="content">
+          <h4>Same-day service</h4>
+          <p>Most repairs done same day. Loaner cars available.</p>
+        </div>
+      </li>
+      <li>
+        <div class="num">04</div>
+        <div class="content">
+          <h4>Real mechanics</h4>
+          <p>ASE certified techs with an average of 15+ years of experience.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section reviews">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">// REVIEWS</div>
+      <h2>Real customers</h2>
+      <p>{{REVIEW_COUNT}} verified Google reviews. No cherry-picking.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="q">"{{REVIEW_1}}"</p>
+        <div class="reviewer">
+          <div>
+            <div class="name">{{REVIEWER_1}}</div>
+            <div class="car">{{CAR_1}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="q">"{{REVIEW_2}}"</p>
+        <div class="reviewer">
+          <div>
+            <div class="name">{{REVIEWER_2}}</div>
+            <div class="car">{{CAR_2}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="q">"{{REVIEW_3}}"</p>
+        <div class="reviewer">
+          <div>
+            <div class="name">{{REVIEWER_3}}</div>
+            <div class="car">{{CAR_3}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="book">
+  <h2>Ready to <span class="y">book</span>?</h2>
+  <p>Call now or we'll call you within 15 minutes.</p>
+  <a href="tel:{{PHONE_RAW}}" class="phone-big">{{PHONE}}</a>
+  <div><a href="#quote" class="btn-main">Book Online Instead →</a></div>
+</section>
+
+<footer>
+  <p><strong>{{BUSINESS_NAME}}</strong> · {{ADDRESS}} · {{CITY}}, IA {{ZIP}}</p>
+  <p style="margin-top:8px;">Open {{HOURS_SHORT}} · ASE Certified · Licensed & Insured</p>
+  <p style="margin-top:20px;opacity:0.5;">Mockup by <a href="https://sybeorg.com">Sybeorg</a></p>
+</footer>
+
+</body>
+</html>
