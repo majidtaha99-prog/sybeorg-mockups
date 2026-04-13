@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Richardson Plumbing — Des Moines's Emergency Plumbing</title>
+<meta name="description" content="Richardson Plumbing — fast Plumbing service in Des Moines. Same-day appointments. Licensed & insured. Call (515) 306-1205.">
+<style>
+  :root {
+    --t-bg: #0e1116;
+    --t-surface: #161b22;
+    --t-surface-2: #1c232d;
+    --t-text: #e6edf3;
+    --t-text-muted: #8b98a9;
+    --t-accent: #ef4444;
+    --t-accent-hot: #dc2626;
+    --t-warn: #f59e0b;
+    --t-green: #22c55e;
+    --t-border: #252d38;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', -apple-system, system-ui, sans-serif;
+    background: var(--t-bg);
+    color: var(--t-text);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* EMERGENCY BANNER */
+  .emergency-bar {
+    background: var(--t-accent-hot);
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .emergency-bar .pulse {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+  /* NAV */
+  .nav {
+    background: var(--t-surface);
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--t-border);
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-mark {
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(135deg, var(--t-accent), var(--t-warn));
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 22px;
+    color: var(--t-bg);
+  }
+  .logo-text { font-size: 20px; font-weight: 900; letter-spacing: -0.3px; }
+  .nav-phone {
+    background: var(--t-accent);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .nav-phone:hover { background: var(--t-accent-hot); }
+
+  /* HERO */
+  .hero {
+    padding: 70px 28px 80px;
+    background:
+      radial-gradient(ellipse at top right, rgba(239,68,68,0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom left, rgba(245,158,11,0.08) 0%, transparent 50%),
+      var(--t-bg);
+    position: relative;
+  }
+  .hero-inner {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(239,68,68,0.15);
+    color: var(--t-accent);
+    padding: 7px 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(239,68,68,0.3);
+  }
+  .hero h1 {
+    font-size: 58px;
+    line-height: 1.05;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    margin-bottom: 22px;
+  }
+  .hero h1 .highlight {
+    background: linear-gradient(120deg, var(--t-accent) 0%, var(--t-warn) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .hero p.sub {
+    font-size: 19px;
+    color: var(--t-text-muted);
+    margin-bottom: 30px;
+    max-width: 560px;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .btn-primary {
+    background: var(--t-accent);
+    color: white;
+    padding: 18px 34px;
+    border-radius: 8px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 6px 20px rgba(239,68,68,0.35);
+    transition: transform 0.15s;
+  }
+  .btn-primary:hover { transform: translateY(-2px); background: var(--t-accent-hot); }
+  .btn-secondary {
+    background: var(--t-surface);
+    color: var(--t-text);
+    padding: 18px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid var(--t-border);
+  }
+  .btn-secondary:hover { border-color: var(--t-accent); color: var(--t-accent); }
+  .hero-trust {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--t-text-muted);
+  }
+  .hero-trust span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .check { color: var(--t-green); font-weight: 900; }
+
+  /* HERO CARD */
+  .hero-card {
+    background: var(--t-surface);
+    border: 1px solid var(--t-border);
+    border-radius: 12px;
+    padding: 28px;
+    position: relative;
+  }
+  .hero-card::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--t-accent), var(--t-warn));
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .hero-card h3 { font-size: 20px; margin-bottom: 4px; }
+  .hero-card p.muted { font-size: 13px; color: var(--t-text-muted); margin-bottom: 20px; }
+  .form-field { margin-bottom: 12px; }
+  .form-field input, .form-field select {
+    width: 100%;
+    background: var(--t-bg);
+    border: 1px solid var(--t-border);
+    color: var(--t-text);
+    padding: 13px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  .form-field input:focus, .form-field select:focus {
+    outline: none;
+    border-color: var(--t-accent);
+  }
+  .hero-card button {
+    width: 100%;
+    background: var(--t-accent);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 6px;
+  }
+  .hero-card button:hover { background: var(--t-accent-hot); }
+
+  /* STATS STRIP */
+  .stats {
+    background: var(--t-surface);
+    padding: 40px 28px;
+    border-top: 1px solid var(--t-border);
+    border-bottom: 1px solid var(--t-border);
+  }
+  .stats-inner {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: center;
+  }
+  .stat .num {
+    font-size: 44px;
+    font-weight: 900;
+    background: linear-gradient(120deg, var(--t-accent), var(--t-warn));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    line-height: 1;
+  }
+  .stat .label {
+    font-size: 12px;
+    color: var(--t-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 8px;
+  }
+
+  /* SECTION */
+  .section { padding: 90px 28px; }
+  .section-inner { max-width: 1150px; margin: 0 auto; }
+  .section-header { text-align: center; margin-bottom: 56px; }
+  .section-header h2 {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    margin-bottom: 14px;
+  }
+  .section-header p {
+    font-size: 17px;
+    color: var(--t-text-muted);
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  /* SERVICES */
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .service {
+    background: var(--t-surface);
+    border: 1px solid var(--t-border);
+    border-radius: 12px;
+    padding: 30px;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .service::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--t-accent), var(--t-warn));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+  .service:hover { border-color: var(--t-accent); transform: translateY(-4px); }
+  .service:hover::before { transform: scaleX(1); }
+  .service .icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  .service p {
+    color: var(--t-text-muted);
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .service .price {
+    color: var(--t-warn);
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  /* REVIEWS */
+  .reviews { background: var(--t-surface-2); }
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .review {
+    background: var(--t-bg);
+    padding: 28px;
+    border-radius: 10px;
+    border: 1px solid var(--t-border);
+  }
+  .stars { color: var(--t-warn); margin-bottom: 12px; font-size: 16px; }
+  .review p.quote { font-size: 15px; margin-bottom: 16px; color: var(--t-text); }
+  .review .reviewer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--t-accent), var(--t-warn));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: white;
+    font-size: 14px;
+  }
+  .reviewer-info .name { font-weight: 700; font-size: 14px; }
+  .reviewer-info .date { font-size: 12px; color: var(--t-text-muted); }
+
+  /* BIG CTA */
+  .big-cta {
+    padding: 80px 28px;
+    background:
+      radial-gradient(ellipse at center, rgba(239,68,68,0.15) 0%, transparent 60%),
+      var(--t-bg);
+    text-align: center;
+  }
+  .big-cta h2 {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+  }
+  .big-cta p {
+    font-size: 18px;
+    color: var(--t-text-muted);
+    margin-bottom: 32px;
+  }
+  .big-cta .phone-huge {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--t-accent);
+    text-decoration: none;
+    margin-bottom: 20px;
+    letter-spacing: -1.5px;
+  }
+  .big-cta .phone-huge:hover { color: var(--t-warn); }
+
+  /* FOOTER */
+  footer {
+    background: var(--t-surface);
+    padding: 40px 28px;
+    border-top: 1px solid var(--t-border);
+    text-align: center;
+    color: var(--t-text-muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--t-accent); text-decoration: none; }
+
+  /* STICKY MOBILE CALL BAR */
+  .sticky-call {
+    display: none;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--t-accent);
+    padding: 14px;
+    text-align: center;
+    z-index: 200;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+  }
+  .sticky-call a {
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  /* MOBILE */
+  @media (max-width: 860px) {
+    .hero-inner { grid-template-columns: 1fr; gap: 36px; }
+    .hero h1 { font-size: 38px; }
+    .hero { padding: 40px 20px 60px; }
+    .stats-inner { grid-template-columns: repeat(2, 1fr); }
+    .services, .reviews-grid { grid-template-columns: 1fr; }
+    .section { padding: 60px 20px; }
+    .section-header h2 { font-size: 30px; }
+    .big-cta h2 { font-size: 32px; }
+    .big-cta .phone-huge { font-size: 34px; }
+    .sticky-call { display: block; }
+    body { padding-bottom: 60px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="emergency-bar">
+  <span class="pulse"></span> 24/7 EMERGENCY SERVICE AVAILABLE IN DES MOINES — CALL NOW
+</div>
+
+<nav class="nav">
+  <div class="logo">
+    <div class="logo-mark">R</div>
+    <div class="logo-text">Richardson Plumbing</div>
+  </div>
+  <a href="tel:5153061205" class="nav-phone">📞 (515) 306-1205</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge">⚡ Licensed · Insured · Des Moines-Owned</div>
+      <h1>Water where it shouldn't be?<br><span class="highlight">Call John. He's been fixing this for 40 years.</span></h1>
+      <p class="sub">John Richardson has served Polk, Warren, and Dallas County for four decades. Trustworthy, respectful, dependable. Drop cloths on every job. Done right the first time.</p>
+      <div class="hero-ctas">
+        <a href="tel:5153061205" class="btn-primary">📞 Call (515) 306-1205</a>
+        <a href="#quote" class="btn-secondary">Text for Quote</a>
+      </div>
+      <div class="hero-trust">
+        <span><span class="check">✓</span> Same-day service</span>
+        <span><span class="check">✓</span> Upfront pricing</span>
+        <span><span class="check">✓</span> 40+ years local</span>
+      </div>
+    </div>
+    <div class="hero-card" id="quote">
+      <h3>Get a Quote in 60 Seconds</h3>
+      <p class="muted">We text back within 10 minutes.</p>
+      <div class="form-field"><input type="text" placeholder="Your name"></div>
+      <div class="form-field"><input type="tel" placeholder="Phone number"></div>
+      <div class="form-field">
+        <select>
+          <option>What's going on?</option>
+          <option>Plumber Services</option>
+          <option>Drainage Service</option>
+          <option>Hot Water & Gas</option>
+          <option>Emergency — ASAP</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="form-field"><input type="text" placeholder="Zip code"></div>
+      <button>Get My Quote →</button>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats-inner">
+    <div class="stat">
+      <div class="num">40+</div>
+      <div class="label">Years in Des Moines</div>
+    </div>
+    <div class="stat">
+      <div class="num">10,000+</div>
+      <div class="label">Jobs Completed</div>
+    </div>
+    <div class="stat">
+      <div class="num">5.0★</div>
+      <div class="label">95+ Reviews</div>
+    </div>
+    <div class="stat">
+      <div class="num">24/7</div>
+      <div class="label">Emergency Line</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="section-header">
+      <h2>What we fix</h2>
+      <p>Four decades of plumbing expertise across residential and commercial. Honest recommendations, transparent pricing.</p>
+    </div>
+    <div class="services">
+      <div class="service">
+        <div class="icon">🔧</div>
+        <h3>Plumber Services</h3>
+        <p>Leaks, repairs, remodels, new installations. From faucets to full bathroom rebuilds.</p>
+        <div class="price">Transparent pricing</div>
+      </div>
+      <div class="service">
+        <div class="icon">⚡</div>
+        <h3>Drainage Service</h3>
+        <p>Main sewer lines, kitchen drains, backups. Clean work, clean cleanup.</p>
+        <div class="price">Fast diagnosis</div>
+      </div>
+      <div class="service">
+        <div class="icon">🏠</div>
+        <h3>Hot Water & Gas</h3>
+        <p>Water heater install and repair, water softeners, gas line work — all code-compliant.</p>
+        <div class="price">Code-compliant installs</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews">
+  <div class="section-inner">
+    <div class="section-header">
+      <h2>Des Moines trusts us</h2>
+      <p>95+ verified Google reviews. Here are a few.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"John took the time to show me how to maintain my water heater and extend its life. Most knowledgeable, transparent plumber I've ever worked with."</p>
+        <div class="reviewer">
+          <div class="avatar">R</div>
+          <div class="reviewer-info">
+            <div class="name">Ryan P.</div>
+            <div class="date">1 month ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"John cares about his craft and it shows. Next-day service, fair price, no surprises. He's my plumber from here on out."</p>
+        <div class="reviewer">
+          <div class="avatar">M</div>
+          <div class="reviewer-info">
+            <div class="name">Megan S.</div>
+            <div class="date">3 weeks ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Water heater venting problem nobody else caught. John found it, fixed it, and we finally have reliable hot water again."</p>
+        <div class="reviewer">
+          <div class="avatar">T</div>
+          <div class="reviewer-info">
+            <div class="name">Tom H.</div>
+            <div class="date">2 months ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="big-cta">
+  <h2>Need help right now?</h2>
+  <p>We pick up. We show up. We fix it.</p>
+  <a href="tel:5153061205" class="phone-huge">📞 (515) 306-1205</a>
+  <div>
+    <a href="tel:5153061205" class="btn-primary">Call Now</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Richardson Plumbing</strong> · Serving Polk, Warren & Dallas County · Des Moines, IA</p>
+  <p style="margin-top:10px;">Licensed & Insured · Iowa Licensed, Insured & Bonded</p>
+  <p style="margin-top:20px;opacity:0.5;">Site concept by <a href="https://sybeorg.com">Sybeorg</a></p>
+</footer>
+
+<div class="sticky-call">
+  <a href="tel:5153061205">📞 Tap to Call (515) 306-1205</a>
+</div>
+
+</body>
+</html>
