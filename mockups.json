@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "project": "sybeorg-mockups",
+  "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
+  "updatedBy": "Hermes",
+  "lastUpdated": "2026-05-27",
+  "liveRoot": "https://sybeorg.com",
+  "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
+  "github": {
+    "remote": "https://github.com/majidtaha99-prog/sybeorg-mockups.git",
+    "defaultBranch": "main",
+    "writeAccess": "pending-github-token"
+  },
+  "positioning": {
+    "coreAngle": "Lead with proof, not pitch: Sybeorg already built a no-obligation custom landing-page mockup for the prospect, focused on converting emergency/service calls on mobile.",
+    "riskGuardrails": [
+      "Do not imply partnership, endorsement, or that the business requested the mockup.",
+      "Avoid quoting unverified review counts or fabricated testimonials in outreach.",
+      "Use the phrase sample/mockup/concept so the recipient understands it is a preview, not a live replacement site."
+    ],
+    "bestCTA": "Ask permission for a quick yes/no review: 'Worth polishing this up for you?' or offer a 15-minute call."
+  },
+  "currentProspects": [
+    {
+      "id": "8-finger-hvac",
+      "business": "8 Finger HVAC",
+      "vertical": "HVAC",
+      "market": "Martelle / Eastern Iowa",
+      "phone": "(319) 251-0327",
+      "mockupPath": "8-finger-hvac/",
+      "mockupUrl": "PENDING_DEPLOY",
+      "angle": "Small-town emergency HVAC page that makes Bobby/owner-operator trust the hero, with phone-first mobile CTA.",
+      "draftStatus": "ready_for_review",
+      "priority": "medium"
+    },
+    {
+      "id": "bunch-heating-cooling",
+      "business": "Bunch Heating and Cooling",
+      "vertical": "HVAC + plumbing",
+      "market": "Marion / Cedar Rapids",
+      "phone": "(319) 551-3283",
+      "officialSiteChecked": "https://bunchheatingandcooling.com",
+      "mockupPath": "bunch-heating-cooling/",
+      "mockupUrl": "PENDING_DEPLOY",
+      "angle": "Their current site already has solid service proof; the pitch is a sharper mobile emergency-call landing page for paid search / urgent calls.",
+      "draftStatus": "ready_for_review",
+      "priority": "high"
+    },
+    {
+      "id": "five-seasons-hvac",
+      "business": "Five Seasons Heating & Cooling",
+      "vertical": "HVAC",
+      "market": "Hiawatha / Cedar Rapids",
+      "phone": "(319) 390-4900",
+      "officialSiteChecked": "https://www.fiveseasonsheatingandcooling.com/",
+      "mockupPath": "five-seasons-hvac/",
+      "mockupUrl": "PENDING_DEPLOY",
+      "angle": "Family-owned/local/licensed proof is strong; position the mockup as a cleaner same-day-service funnel for mobile visitors.",
+      "draftStatus": "ready_for_review",
+      "priority": "high"
+    },
+    {
+      "id": "mp-plumbing",
+      "business": "M&P Plumbing",
+      "vertical": "Plumbing",
+      "market": "Urbandale / Des Moines",
+      "phone": "(515) 777-1100",
+      "mockupPath": "mp-plumbing/",
+      "mockupUrl": "PENDING_DEPLOY",
+      "angle": "Master-plumber trust + emergency water-heater/leak CTA; good fit for a dedicated conversion page separate from general web presence.",
+      "draftStatus": "ready_for_review",
+      "priority": "high"
+    },
+    {
+      "id": "platinum-phc",
+      "business": "Platinum Plumbing, Heating & Cooling",
+      "vertical": "Plumbing + HVAC",
+      "market": "Des Moines metro",
+      "phone": "(515) 729-5065",
+      "mockupPath": "platinum-phc/",
+      "mockupUrl": "PENDING_DEPLOY",
+      "angle": "One-call plumbing/HVAC/electrical convenience; pitch the mockup as a simple page that makes emergency visitors call or text fast.",
+      "draftStatus": "ready_for_review",
+      "priority": "medium"
+    },
+    {
+      "id": "richardson-plumbing",
+      "business": "Richardson Plumbing",
+      "vertical": "Plumbing",
+      "market": "Des Moines / Polk, Warren, Dallas County",
+      "phone": "(515) 306-1205",
+      "mockupPath": "richardson-plumbing/",
+      "mockupUrl": "PENDING_DEPLOY",
+      "angle": "Forty-year craftsman/trust story; outreach should feel respectful and personal, not agency-bro salesy.",
+      "draftStatus": "ready_for_review",
+      "priority": "medium"
+    }
+  ],
+  "nextBatchQueue": [
+    {
+      "vertical": "auto repair",
+      "targetMarket": "Iowa City / Coralville / Cedar Rapids",
+      "reason": "High-intent searches, easy before/after website gap spotting, strong template already exists.",
+      "status": "queued"
+    },
+    {
+      "vertical": "roofing / storm damage",
+      "targetMarket": "Des Moines / Cedar Rapids",
+      "reason": "Emergency-driven, seasonal urgency, simple landing-page economics.",
+      "status": "queued"
+    },
+    {
+      "vertical": "dental / med spa",
+      "targetMarket": "Iowa City / North Liberty",
+      "reason": "Higher ticket services and clear booking CTA; needs softer premium design than trades.",
+      "status": "queued"
+    }
+  ],
+  "gmail": {
+    "account": "SYBEORG@gmail.com",
+    "accessStatus": "blocked_until_google_workspace_or_himalaya_auth",
+    "note": "Hermes cannot read or update Gmail drafts yet. Current drafts are prepared locally in outreach/current-prospect-drafts.md and can be copied or pushed to Gmail once OAuth/app-password setup is complete."
+  }
+}
