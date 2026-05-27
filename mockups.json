@@ -4,7 +4,7 @@
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
   "updatedBy": "Hermes",
   "lastUpdated": "2026-05-27",
-  "liveRoot": "https://sybeorg.com",
+  "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
     "remote": "https://github.com/majidtaha99-prog/sybeorg-mockups.git",
@@ -28,7 +28,7 @@
       "market": "Martelle / Eastern Iowa",
       "phone": "(319) 251-0327",
       "mockupPath": "8-finger-hvac/",
-      "mockupUrl": "PENDING_DEPLOY",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
       "angle": "Small-town emergency HVAC page that makes Bobby/owner-operator trust the hero, with phone-first mobile CTA.",
       "draftStatus": "ready_for_review",
       "priority": "medium"
@@ -41,7 +41,7 @@
       "phone": "(319) 551-3283",
       "officialSiteChecked": "https://bunchheatingandcooling.com",
       "mockupPath": "bunch-heating-cooling/",
-      "mockupUrl": "PENDING_DEPLOY",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
       "angle": "Their current site already has solid service proof; the pitch is a sharper mobile emergency-call landing page for paid search / urgent calls.",
       "draftStatus": "ready_for_review",
       "priority": "high"
@@ -54,7 +54,7 @@
       "phone": "(319) 390-4900",
       "officialSiteChecked": "https://www.fiveseasonsheatingandcooling.com/",
       "mockupPath": "five-seasons-hvac/",
-      "mockupUrl": "PENDING_DEPLOY",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
       "angle": "Family-owned/local/licensed proof is strong; position the mockup as a cleaner same-day-service funnel for mobile visitors.",
       "draftStatus": "ready_for_review",
       "priority": "high"
@@ -66,7 +66,7 @@
       "market": "Urbandale / Des Moines",
       "phone": "(515) 777-1100",
       "mockupPath": "mp-plumbing/",
-      "mockupUrl": "PENDING_DEPLOY",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
       "angle": "Master-plumber trust + emergency water-heater/leak CTA; good fit for a dedicated conversion page separate from general web presence.",
       "draftStatus": "ready_for_review",
       "priority": "high"
@@ -78,7 +78,7 @@
       "market": "Des Moines metro",
       "phone": "(515) 729-5065",
       "mockupPath": "platinum-phc/",
-      "mockupUrl": "PENDING_DEPLOY",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/platinum-phc/",
       "angle": "One-call plumbing/HVAC/electrical convenience; pitch the mockup as a simple page that makes emergency visitors call or text fast.",
       "draftStatus": "ready_for_review",
       "priority": "medium"
@@ -90,7 +90,7 @@
       "market": "Des Moines / Polk, Warren, Dallas County",
       "phone": "(515) 306-1205",
       "mockupPath": "richardson-plumbing/",
-      "mockupUrl": "PENDING_DEPLOY",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/richardson-plumbing/",
       "angle": "Forty-year craftsman/trust story; outreach should feel respectful and personal, not agency-bro salesy.",
       "draftStatus": "ready_for_review",
       "priority": "medium"
