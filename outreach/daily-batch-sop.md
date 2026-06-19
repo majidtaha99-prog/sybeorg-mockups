@@ -74,25 +74,50 @@ For each candidate:
 
 ## Mockup workflow
 
+Quality beats quantity. The daily run should generally create **1–3 excellent mockups**, not 5 generic ones. If the visual concept is weak, save research/draft only and mark the mockup as `revisionNeededBeforeOutreach`.
+
+Before creating any mockup, read and follow:
+
+- `outreach/strategy/mockup-quality-standard.md`
+
 If `mockup_need = create_now`:
 
 1. Create a slug under repo root: `business-name-market/`.
-2. Use existing templates as inspiration:
+2. Choose a design direction based on the opportunity angle:
+   - `local_heritage` — years/family/local trust story.
+   - `emergency_dispatch` — urgent call / same-day service path.
+   - `reputation_match` — strong reviews but weak website.
+   - `service_specific` — high-value missing service page.
+   - `premium_refresh` — high-ticket/premium local brand upgrade.
+   - `gmb_conversion` — Google profile click path needs a better destination.
+3. Use existing templates as reference only, not as clone sources:
    - `templates/trades-emergency/index.html`
    - `templates/auto-shop/index.html`
    - `templates/sybeorg-classic/index.html`
-3. Create a standalone `index.html` with:
+4. Create a standalone `index.html` with:
+   - a distinct visual concept from recent mockups,
    - business-specific hero and CTA,
    - phone/contact route if public,
    - trust proof based only on verified public facts,
    - service area,
    - mobile-first CTA,
-   - clear sample/mockup framing if needed.
-4. Do not fabricate review quotes, review counts, awards, certifications, or years in business.
-5. Add the mockup to `index.html` root gallery if appropriate.
-6. Update `mockups.json` or a daily lead board with the new prospect.
-7. Commit and push so Vercel can deploy automatically.
-8. Verify the live Vercel URL returns `200 OK` after push/deploy if possible.
+   - clear sample/mockup framing if needed,
+   - no fake testimonials, fake review counts, invented owner names, fake licenses, or unsupported stats.
+5. Avoid generic AI-template patterns unless there is a deliberate reason:
+   - dark charcoal + orange/red gradients for every trade page,
+   - right-side quote form hero every time,
+   - three service cards + three fake reviews + final CTA as the whole page,
+   - emoji-style icons as the primary visual system.
+6. Add a quality note to the daily batch explaining:
+   - why this design direction fits the lead,
+   - what real assets/proof were found,
+   - what claims were intentionally avoided,
+   - how this mockup differs from recent ones.
+7. Run visual QA with browser/screenshot tools when possible. If it looks generic, do not use it as the lead hook.
+8. Add the mockup to `index.html` root gallery if appropriate.
+9. Update `mockups.json` or a daily lead board with the new prospect.
+10. Commit and push so Vercel can deploy automatically.
+11. Verify the live Vercel URL returns `200 OK` after push/deploy if possible.
 
 If `mockup_need != create_now`, still save the lead research and draft angle; do not force a mockup.
 
