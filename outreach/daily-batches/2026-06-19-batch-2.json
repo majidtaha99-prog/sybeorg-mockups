@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 2,
+  "campaign": "sybeorg-trades-home-services",
+  "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
+  "batchDate": "2026-06-19",
+  "batchNumber": 2,
+  "senderAccount": "sybeorg@gmail.com",
+  "status": "approval_required_no_sends",
+  "discoveryPass": {
+    "candidatesScreened": 14,
+    "sources": [
+      "OpenStreetMap/public listing fields",
+      "official websites",
+      "direct HTTP site checks"
+    ],
+    "excludedDuplicates": [
+      "mockups.json currentProspects",
+      "outreach/master-send-board.json",
+      "outreach/daily-batches/2026-06-19-batch-1.*"
+    ],
+    "candidateScores": [
+      {
+        "business": "Quality Plumbing",
+        "vertical": "Plumbing",
+        "market": "Marion/Cedar Rapids",
+        "primaryAngleCategory": "urgent_bug",
+        "opportunityScore": 88
+      },
+      {
+        "business": "Premier Plumbing",
+        "vertical": "Plumbing",
+        "market": "Ankeny",
+        "primaryAngleCategory": "no_website",
+        "opportunityScore": 84
+      },
+      {
+        "business": "Arriaga Lawn Maintenance",
+        "vertical": "Landscaping",
+        "market": "Des Moines metro",
+        "primaryAngleCategory": "urgent_bug",
+        "opportunityScore": 82
+      },
+      {
+        "business": "Fini Conditioned Air",
+        "vertical": "HVAC",
+        "market": "Des Moines",
+        "primaryAngleCategory": "urgent_bug",
+        "opportunityScore": 80
+      },
+      {
+        "business": "Kriens Plumbing & Mechanical Corporation",
+        "vertical": "Plumbing",
+        "market": "Des Moines",
+        "primaryAngleCategory": "contact_route_gap",
+        "opportunityScore": 75
+      },
+      {
+        "business": "General Tree Service",
+        "vertical": "Tree service",
+        "market": "Iowa City",
+        "primaryAngleCategory": "gmb_leak",
+        "opportunityScore": 73
+      },
+      {
+        "business": "5 Star Plumbing",
+        "vertical": "Plumbing",
+        "market": "Eastern Iowa",
+        "primaryAngleCategory": "mobile_conversion",
+        "opportunityScore": 71
+      },
+      {
+        "business": "Priority Plumbing",
+        "vertical": "Plumbing",
+        "market": "Ankeny/Des Moines",
+        "primaryAngleCategory": "service_page_gap",
+        "opportunityScore": 68
+      },
+      {
+        "business": "All Auto Repair",
+        "vertical": "Auto repair",
+        "market": "Des Moines",
+        "primaryAngleCategory": "contact_route_gap",
+        "opportunityScore": 66
+      },
+      {
+        "business": "Terradyne Lawn Service",
+        "vertical": "Lawn care",
+        "market": "Ankeny",
+        "primaryAngleCategory": "seasonal_urgency",
+        "opportunityScore": 63
+      },
+      {
+        "business": "Recon Roofing",
+        "vertical": "Roofing",
+        "market": "Central Iowa",
+        "primaryAngleCategory": "tracking_gap",
+        "opportunityScore": 62
+      },
+      {
+        "business": "Smith Automotive",
+        "vertical": "Auto repair",
+        "market": "Des Moines",
+        "primaryAngleCategory": "booking_gap",
+        "opportunityScore": 59
+      },
+      {
+        "business": "Schaal Eastern Iowa",
+        "vertical": "HVAC",
+        "market": "Cedar Rapids",
+        "primaryAngleCategory": "skip",
+        "opportunityScore": 48
+      },
+      {
+        "business": "Golden Rule Plumbing Heating Cooling & Electrical",
+        "vertical": "PHC/electrical",
+        "market": "Des Moines",
+        "primaryAngleCategory": "skip",
+        "opportunityScore": 45
+      }
+    ]
+  },
+  "policy": {
+    "noOutboundWithoutStarkApproval": true,
+    "approvalRequiredFor": [
+      "recipient",
+      "subject",
+      "body",
+      "senderAccount",
+      "batchSize",
+      "timing"
+    ]
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "prospectId": "quality-plumbing-marion",
+      "business": "Quality Plumbing",
+      "vertical": "Plumbing",
+      "market": "Marion / Cedar Rapids area",
+      "officialSite": "https://qualityplumbingmarion.com",
+      "gmbSignals": "OSM/public listing showed plumber category, website https://qualityplumbingmarion.com, phone +1-319-373-4114; public rating not visible in this pass.",
+      "contactRoute": "phone/manual research",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 88,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "contact_route_gap",
+        "mobile_conversion",
+        "paid_ad_readiness"
+      ],
+      "evidenceQuality": "strong",
+      "verifiedEvidence": [
+        "Official URL redirected to localhero.com/when-to-call-a-plumber-essential-signs-and-tips-to-avoid-costly-disasters/ during 2026-06-19 fetch.",
+        "Fetched page title was 'When to Call a Plumber: Essential Signs and Tips to Avoid Costly Disasters'.",
+        "Public listing phone was +1-319-373-4114."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "review count",
+        "owner name",
+        "license",
+        "years in business",
+        "warranties",
+        "24/7 availability"
+      ],
+      "diagnosis": "Public website path redirects to unrelated plumbing article/lead-gen style content instead of a Quality Plumbing service page.",
+      "bestHook": "Listed website appears to leak visitors into a confusing third-party article before they can call Quality Plumbing.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low",
+      "nextBestAction": "phone_script",
+      "upsellPath": [
+        "landing_page",
+        "service_page",
+        "gmb_cleanup",
+        "google_ads"
+      ],
+      "whyThisShouldClose": "Concrete public bug in a high-intent plumbing vertical; easy to explain without insulting the business.",
+      "recommendedChannel": "manual/phone or researched email only",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/quality-plumbing-marion/",
+      "mockupDecisionReason": "Visual sample makes the bug fix obvious: replace confusing redirect with call-first plumbing path.",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Light water/cream visual system with problem-selector dispatch card; not a dark contractor hero and not a quote-form-first layout.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Marion / Cedar Rapids area"
+        ],
+        "phone": "(319) 373-4114"
+      },
+      "unverifiedClaimsAvoided": [
+        "owner name",
+        "license",
+        "years in business",
+        "review count",
+        "warranties",
+        "24/7"
+      ],
+      "visualQaNotes": "Browser visual QA passed as a credible, distinct concept with local context and call-first hierarchy. Main caveat: it intentionally reads like a business-owner concept/audit page more than a final customer-facing site; add real logo/photos/hours before production.",
+      "revisionNeededBeforeOutreach": false,
+      "subject": "quick website path issue for Quality Plumbing",
+      "draftCopy": "Hi Quality Plumbing team — I was reviewing Marion/Cedar Rapids plumbing listings and noticed the public website URL I found for Quality Plumbing redirected to a LocalHero article instead of a clear Quality Plumbing service page. If someone is dealing with a leak or water-heater issue, that detour could be enough for them to back out and call another plumber.\n\nI made a no-obligation sample concept showing a cleaner first screen with your public phone number, problem paths, and a mobile tap-to-call button: https://sybeorg-mockups.vercel.app/quality-plumbing-marion/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "premier-plumbing-ankeny",
+      "business": "Premier Plumbing",
+      "vertical": "Plumbing",
+      "market": "Ankeny, IA",
+      "officialSite": "http://www.premierplumbing.org/",
+      "gmbSignals": "OSM/public listing showed plumber category, website http://www.premierplumbing.org/, phone 515-965-0714 / 866-965-0714, city Ankeny; public rating not visible in this pass.",
+      "contactRoute": "phone/manual research",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 84,
+      "primaryAngleCategory": "no_website",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "booking_gap",
+        "paid_ad_readiness"
+      ],
+      "evidenceQuality": "strong",
+      "verifiedEvidence": [
+        "Homepage returned HTTP 200 with title 'Coming Soon'.",
+        "Fetched page was about 1.5KB and exposed phone numbers but no service detail/form/navigation."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "review count",
+        "owner name",
+        "license",
+        "years in business",
+        "warranties",
+        "emergency hours"
+      ],
+      "diagnosis": "Placeholder website gives too little information for comparison-shopping plumbing prospects.",
+      "bestHook": "A minimum useful one-page site would be a clear upgrade over the current coming-soon screen.",
+      "recommendedOffer": "landing_page",
+      "closeDifficulty": "low",
+      "nextBestAction": "phone_script",
+      "upsellPath": [
+        "landing_page",
+        "gmb_cleanup",
+        "service_page",
+        "google_ads"
+      ],
+      "whyThisShouldClose": "Small first offer, visible public issue, high-intent vertical.",
+      "recommendedChannel": "manual/phone or researched email only",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
+      "mockupDecisionReason": "A sample page demonstrates the specific replacement for the coming-soon screen.",
+      "designDirection": "local_heritage",
+      "designDifferentiation": "Warm paper/copper editorial presence; not another dark emergency trade page.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Ankeny, IA"
+        ],
+        "phone": "515-965-0714"
+      },
+      "unverifiedClaimsAvoided": [
+        "years",
+        "owner",
+        "license",
+        "reviews",
+        "warranties",
+        "emergency hours"
+      ],
+      "visualQaNotes": "Browser visual QA passed as a credible, distinct warm local concept. Main caveat: it reads as a strategic coming-soon replacement proposal rather than final homeowner-facing content; add real branding/services/hours/photos before production.",
+      "revisionNeededBeforeOutreach": false,
+      "subject": "sample replacement for Premier Plumbing’s coming-soon page",
+      "draftCopy": "Hi Premier Plumbing team — I was looking at Ankeny plumbing listings and saw the public Premier Plumbing website loading as a short 'Coming Soon' page. It does show a phone number, but it does not give homeowners much context before they choose who to call.\n\nI put together a no-obligation sample one-page concept showing how the first screen could make the phone number, service categories, and request path clearer: https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "arriaga-lawn-maintenance",
+      "business": "Arriaga Lawn Maintenance",
+      "vertical": "Landscaping / lawn maintenance",
+      "market": "Des Moines metro",
+      "officialSite": "https://www.arriagalawn.com",
+      "gmbSignals": "OSM/public listing showed website https://www.arriagalawn.com and phone +1-515-808-2442; public rating not visible in this pass.",
+      "contactRoute": "phone/manual research",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 82,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "no_website",
+        "seasonal_urgency",
+        "gmb_leak"
+      ],
+      "evidenceQuality": "strong",
+      "verifiedEvidence": [
+        "Official URL returned HTTP 404-style page with title 'SITE NOT FOUND'."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "services list",
+        "review count",
+        "photos",
+        "owner name"
+      ],
+      "diagnosis": "Public website appears dead/not found.",
+      "bestHook": "Helpful alert that listed site is not loading as a real website.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low",
+      "nextBestAction": "phone_script",
+      "upsellPath": [
+        "landing_page",
+        "gmb_cleanup",
+        "seasonal_service_page"
+      ],
+      "whyThisShouldClose": "Urgent visible bug; useful even before selling anything.",
+      "recommendedChannel": "manual/phone only until public email verified",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Mockup skipped to avoid generic landscaping page before real services/photos are verified.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Des Moines metro"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "service menu",
+        "reviews",
+        "owner",
+        "years"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick website not-found note for Arriaga Lawn Maintenance",
+      "draftCopy": "Hi Arriaga Lawn Maintenance team — quick helpful note: the public website URL I found for Arriaga Lawn Maintenance loaded a 'SITE NOT FOUND' page today. If that is the listing customers are clicking from search, it may be blocking people before they see your services or phone number.\n\nI did not send anything or make changes — just flagging it. If useful, I can have SYBEORG mock up a simple lawn-care/service-area page so you can see the cleaner version. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 4,
+      "prospectId": "fini-conditioned-air",
+      "business": "Fini Conditioned Air",
+      "vertical": "HVAC",
+      "market": "Des Moines, IA",
+      "officialSite": "http://www.finiconditionedair.com/",
+      "gmbSignals": "OSM/public listing showed HVAC category, phone +1-515-262-9694, city Des Moines. Listed/searched domain failed DNS resolution in this pass.",
+      "contactRoute": "phone/manual research",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 80,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "no_website",
+        "seasonal_urgency",
+        "mobile_conversion"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "www.finiconditionedair.com failed DNS resolution during fetch."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "official active domain",
+        "review count",
+        "emergency hours",
+        "certifications"
+      ],
+      "diagnosis": "Possible broken domain/listing path; needs manual verification before outreach names the domain as official.",
+      "bestHook": "If this domain is still listed anywhere public, customers hit a dead end.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "medium",
+      "nextBestAction": "manual_research",
+      "upsellPath": [
+        "domain_cleanup",
+        "landing_page",
+        "seasonal_hvac_page"
+      ],
+      "whyThisShouldClose": "Broken domain plus HVAC urgency, but domain source should be verified before contact.",
+      "recommendedChannel": "manual verification then phone script",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped until the active official domain/listing route is verified.",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Des Moines"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "official domain",
+        "reviews",
+        "certifications",
+        "emergency hours"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick domain/listing note for Fini Conditioned Air",
+      "draftCopy": "Hi Fini Conditioned Air team — quick helpful note: I tried the public domain I found for Fini Conditioned Air today and it did not resolve. If that domain is still connected to any customer-facing listing, people may be hitting a dead end before they can request HVAC help.\n\nI can mock up a simple replacement call-first HVAC page if you want to see what a cleaner first screen could look like. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 5,
+      "prospectId": "general-tree-service",
+      "business": "General Tree Service",
+      "vertical": "Tree service",
+      "market": "Iowa City, IA",
+      "officialSite": "https://www.generaltreeia.com/",
+      "gmbSignals": "OSM/public listing showed website https://www.generaltreeia.com/, phone +1-319-354-2838, city Iowa City. Official site fetch surfaced generaltreeserviceiacity@gmail.com and phone numbers (319) 354-2838 / (319) 219-8146.",
+      "contactRoute": "public email",
+      "publicEmail": "generaltreeserviceiacity@gmail.com",
+      "emailSource": "official website fetch from https://www.generaltreeia.com/",
+      "opportunityScore": 73,
+      "primaryAngleCategory": "gmb_leak",
+      "secondaryAngles": [
+        "reputation_mismatch",
+        "seasonal_urgency",
+        "contact_route_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Functional website title: Tree Care | Iowa | General Tree Service.",
+        "Public Gmail and phone numbers found in official site HTML."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "rating",
+        "review count",
+        "specific services beyond tree care without further review"
+      ],
+      "diagnosis": "Functional site; strongest angle is local profile/contact/service-path cleanup rather than urgent rebuild.",
+      "bestHook": "Respectful local-profile/service-path improvement, not a website teardown.",
+      "recommendedOffer": "gmb_cleanup",
+      "closeDifficulty": "medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "gmb_cleanup",
+        "seasonal_service_page",
+        "landing_page"
+      ],
+      "whyThisShouldClose": "Public email exists and angle is friendly; avoid overbuilding until real photos/reviews are collected.",
+      "recommendedChannel": "Gmail draft after Stark approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped to avoid a generic tree-service page without verified photos/reviews.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Iowa City"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "rating",
+        "review count",
+        "storm cleanup details",
+        "certifications"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick local-profile idea for General Tree Service",
+      "draftCopy": "Hi General Tree Service team — I came across your Iowa City tree-care listing and website today. Nothing urgent or negative here; the opportunity I noticed is mostly around making the path from search to 'request tree help' clearer for seasonal work, storm cleanup, trimming, and removal.\n\nIf useful, I can put together a no-obligation sample page/profile cleanup concept using only verified info from your site and public listing. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ]
+}

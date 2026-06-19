@@ -513,6 +513,82 @@
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
       }
+    },
+    {
+      "id": "quality-plumbing-marion",
+      "business": "Quality Plumbing",
+      "vertical": "Plumbing",
+      "market": "Marion / Cedar Rapids area",
+      "phone": "(319) 373-4114",
+      "officialSiteChecked": "https://qualityplumbingmarion.com",
+      "siteDiscoverySource": "OpenStreetMap public listing + direct site fetch verified 2026-06-19",
+      "mockupPath": "quality-plumbing-marion/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/quality-plumbing-marion/",
+      "angle": "Urgent public website-path bug: listed domain redirected to an unrelated LocalHero plumbing article instead of a Quality Plumbing service page.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Light water/cream problem-selector dispatch layout; avoids dark hero/right quote-form template.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Marion / Cedar Rapids area"
+        ],
+        "phone": "(319) 373-4114"
+      },
+      "unverifiedClaimsAvoided": [
+        "owner name",
+        "license",
+        "years in business",
+        "review count",
+        "warranties",
+        "24/7"
+      ],
+      "visualQaNotes": "Browser visual QA passed as a credible, distinct concept with local context and call-first hierarchy. Main caveat: it intentionally reads like a business-owner concept/audit page more than a final customer-facing site; add real logo/photos/hours before production.",
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "premier-plumbing-ankeny",
+      "business": "Premier Plumbing",
+      "vertical": "Plumbing",
+      "market": "Ankeny, IA",
+      "phone": "515-965-0714",
+      "officialSiteChecked": "http://www.premierplumbing.org/",
+      "siteDiscoverySource": "OpenStreetMap public listing + direct site fetch verified 2026-06-19",
+      "mockupPath": "premier-plumbing-ankeny/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
+      "angle": "No/placeholder website: homepage returned a short Coming Soon page with phone numbers but no service context or request path.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "local_heritage",
+      "designDifferentiation": "Warm paper/copper minimum-useful-public-site concept; avoids dark emergency-template repetition.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Ankeny, IA"
+        ],
+        "phone": "515-965-0714"
+      },
+      "unverifiedClaimsAvoided": [
+        "years",
+        "owner",
+        "license",
+        "reviews",
+        "warranties",
+        "emergency hours"
+      ],
+      "visualQaNotes": "Browser visual QA passed as a credible, distinct warm local concept. Main caveat: it reads as a strategic coming-soon replacement proposal rather than final homeowner-facing content; add real branding/services/hours/photos before production.",
+      "revisionNeededBeforeOutreach": false
     }
   ],
   "nextBatchQueue": [
