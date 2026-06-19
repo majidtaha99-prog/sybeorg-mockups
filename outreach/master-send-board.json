@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaign": "sybeorg-trades-home-services",
+  "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
+  "status": "approval_required_no_sends",
+  "senderAccount": "sybeorg@gmail.com",
+  "lastReviewed": "2026-06-19",
+  "policy": {
+    "noOutboundWithoutStarkApproval": true,
+    "approvalRequiredFor": [
+      "recipient",
+      "subject",
+      "body",
+      "senderAccount",
+      "batchSize",
+      "timing"
+    ]
+  },
+  "recommendedGmailBatch": [
+    {
+      "rank": 1,
+      "prospectId": "mp-plumbing",
+      "business": "M&P Plumbing",
+      "recipient": "mpplumbingservice@gmail.com",
+      "recipientSource": "official site mailto/schema on https://mp-plumbing.com",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
+      "gmbSignal": "Google Maps limited view showed 4.8 stars",
+      "leadQuality": "high",
+      "subject": "quick mockup for M&P Plumbing",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "platinum-phc",
+      "business": "Platinum Plumbing, Heating & Cooling",
+      "recipient": "eric@platinumphcdsm.com",
+      "recipientSource": "official site mailto/header on https://platinumphcdsm.com",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/platinum-phc/",
+      "gmbSignal": "Google Maps limited view showed 5.0 stars",
+      "leadQuality": "high",
+      "subject": "quick mockup for Platinum PHC",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "richardson-plumbing",
+      "business": "Richardson Plumbing",
+      "recipient": "richardsonplmb@gmail.com",
+      "recipientSource": "official site schema on https://www.richardsonplumbing.net/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/richardson-plumbing/",
+      "gmbSignal": "Google Maps limited view showed 4.7 stars",
+      "leadQuality": "medium",
+      "subject": "sample page for Richardson Plumbing",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ],
+  "manualHighPriorityQueue": [
+    {
+      "rank": 1,
+      "prospectId": "five-seasons-hvac",
+      "business": "Five Seasons Heating & Cooling",
+      "recipient": null,
+      "contactRoute": "website contact form or phone",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
+      "gmbSignal": "Google Maps limited view showed 4.6 stars",
+      "leadQuality": "very_high",
+      "reasonNotInGmailBatch": "No public email found; strongest route is contact form/manual outreach.",
+      "angle": "Visible Yext placeholder / request-service page issue; present helpful mockup.",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "bunch-heating-cooling",
+      "business": "Bunch Heating and Cooling",
+      "recipient": null,
+      "contactRoute": "phone/manual owner-email research",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
+      "gmbSignal": "Google Maps limited view showed 5.0 stars",
+      "leadQuality": "medium_high",
+      "reasonNotInGmailBatch": "No public email or contact form found.",
+      "angle": "Since 1993 + emergency-service positioning; improve mobile emergency conversion.",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "8-finger-hvac",
+      "business": "8 Finger HVAC",
+      "recipient": "bobbyghvac86@outlook.com",
+      "contactRoute": "Gmail only if Stark approves existing recipient source; otherwise research/phone",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
+      "gmbSignal": "Google Maps limited view showed 5.0 stars, but listing lacked phone in limited view; official site looked portal-like.",
+      "leadQuality": "medium_high",
+      "reasonNotInGmailBatch": "Recipient not re-exposed by official site fetch; verify before using.",
+      "angle": "Strong reputation but weak/unfinished web presence.",
+      "sendStatus": "not_sent"
+    }
+  ]
+}

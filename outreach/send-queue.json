@@ -1,0 +1,73 @@
+{
+  "updated": "2026-06-19",
+  "from_account": "sybeorg@gmail.com",
+  "gmail_status": "verified_himalaya_imap_smtp",
+  "policy": "Do not send outbound email until Stark approves exact recipients and message content.",
+  "first_batch": [
+    "bunch-heating-cooling",
+    "five-seasons-hvac",
+    "mp-plumbing"
+  ],
+  "queue": [
+    {
+      "id": "bunch-heating-cooling",
+      "business": "Bunch Heating and Cooling",
+      "priority": "high",
+      "recipient_email": "",
+      "recipient_status": "needed",
+      "subject": "Quick mockup for Bunch Heating and Cooling",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
+      "send_status": "ready_pending_recipient_and_stark_approval"
+    },
+    {
+      "id": "five-seasons-hvac",
+      "business": "Five Seasons Heating & Cooling",
+      "priority": "high",
+      "recipient_email": "",
+      "recipient_status": "needed",
+      "subject": "Sample page for Five Seasons Heating & Cooling",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
+      "send_status": "ready_pending_recipient_and_stark_approval"
+    },
+    {
+      "id": "mp-plumbing",
+      "business": "M&P Plumbing",
+      "priority": "high",
+      "recipient_email": "",
+      "recipient_status": "needed",
+      "subject": "Quick mockup for M&P Plumbing",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
+      "send_status": "ready_pending_recipient_and_stark_approval"
+    },
+    {
+      "id": "8-finger-hvac",
+      "business": "8 Finger HVAC",
+      "priority": "medium",
+      "recipient_email": "",
+      "recipient_status": "needed",
+      "subject": "Bobby — quick mockup for 8 Finger HVAC",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
+      "send_status": "queued_after_first_batch"
+    },
+    {
+      "id": "platinum-phc",
+      "business": "Platinum Plumbing, Heating & Cooling",
+      "priority": "medium",
+      "recipient_email": "",
+      "recipient_status": "needed",
+      "subject": "Quick mockup for Platinum PHC",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/platinum-phc/",
+      "send_status": "queued_after_first_batch"
+    },
+    {
+      "id": "richardson-plumbing",
+      "business": "Richardson Plumbing",
+      "priority": "medium",
+      "recipient_email": "",
+      "recipient_status": "needed",
+      "subject": "John — quick mockup for Richardson Plumbing",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/richardson-plumbing/",
+      "send_status": "queued_after_first_batch"
+    }
+  ]
+}

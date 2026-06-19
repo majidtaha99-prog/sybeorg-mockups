@@ -3,7 +3,7 @@
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
   "updatedBy": "Hermes",
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-06-19",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -117,8 +117,14 @@
     }
   ],
   "gmail": {
-    "account": "SYBEORG@gmail.com",
-    "accessStatus": "blocked_until_google_workspace_or_himalaya_auth",
-    "note": "Hermes cannot read or update Gmail drafts yet. Current drafts are prepared locally in outreach/current-prospect-drafts.md and can be copied or pushed to Gmail once OAuth/app-password setup is complete."
+    "account": "sybeorg@gmail.com",
+    "accessStatus": "verified_himalaya_imap_smtp",
+    "verifiedAt": "2026-06-19T03:57:42Z",
+    "note": "Himalaya v1.2.0 can access sybeorg, majidclawbot, and radi Gmail accounts. Outbound sending still requires Stark approval per Hermes safety rules.",
+    "firstBatchRecommendation": [
+      "bunch-heating-cooling",
+      "five-seasons-hvac",
+      "mp-plumbing"
+    ]
   }
 }
