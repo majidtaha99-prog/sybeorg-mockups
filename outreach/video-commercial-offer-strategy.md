@@ -135,7 +135,7 @@ A lot of local businesses have a decent website or social page, but no polished 
 - clips for the website and Google profile
 - optional landing page + ad campaign to generate calls
 
-If you want, I can send over a simple concept/storyboard for what a {{business_type}} commercial could look like.
+If you want, I can send over a simple concept/storyboard for what a {{business_type}} commercial could look like. We also have a sample commercial/ad spot here so you can see the production/editing style: https://sybeorg-mockups.vercel.app/video-commercial/
 
 Worth a quick look?
 
@@ -153,14 +153,27 @@ SYBEORG
 7. Do you want us to run ads with it or just deliver assets?
 8. What would one new customer/booking/job be worth?
 
+## Current Proof Asset
+
+Live sample page: https://sybeorg-mockups.vercel.app/video-commercial/
+
+Embedded sample:
+- Mazahir for Council — commercial/ad sample
+- 44 seconds
+- Web-ready MP4 + poster image stored under `assets/video/`
+
+Use this line in outreach when appropriate:
+
+> We have a sample commercial/ad spot here so you can see the production/editing style: https://sybeorg-mockups.vercel.app/video-commercial/
+
 ## Recommended Immediate Next Steps
 
-1. Put the video flyer/page live inside the mockups Vercel site.
-2. Add video offer line to every mockup page and homepage.
+1. Use the live video flyer/page inside the mockups Vercel site.
+2. Add video offer line to every mockup page.
 3. Add video section to first-batch email drafts.
-4. Build a list of 25 video-first prospects in Iowa City / Cedar Rapids / Des Moines.
-5. Create 3 tiered package PDFs/flyers once Stark confirms pricing and footage examples.
-6. If SYBEORG has sample footage, add a reel/embed page next.
+4. Work the 25 video-first prospects in `outreach/video-first-prospect-hit-list.md`.
+5. Create 3 tiered package PDFs/flyers once Stark confirms final pricing and any additional footage examples.
+6. Add more sample reels as Stark provides them.
 
 ## Guardrails
 
