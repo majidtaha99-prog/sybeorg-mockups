@@ -94,6 +94,58 @@
       "angle": "Forty-year craftsman/trust story; outreach should feel respectful and personal, not agency-bro salesy.",
       "draftStatus": "ready_for_review",
       "priority": "medium"
+    },
+    {
+      "id": "number-one-auto",
+      "business": "Number One Auto",
+      "vertical": "Auto repair",
+      "market": "Iowa City",
+      "phone": "(319) 354-3932",
+      "officialSiteChecked": "http://www.number1autorepair.com/",
+      "mockupPath": "number-one-auto/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/number-one-auto/",
+      "angle": "Auto repair landing-page concept built around restoring trust after the public site currently fails with an expired-certificate warning.",
+      "draftStatus": "ready_for_review",
+      "priority": "high"
+    },
+    {
+      "id": "sd-auto-repair-center",
+      "business": "S & D Auto Repair Center",
+      "vertical": "Auto repair",
+      "market": "Iowa City",
+      "phone": "(319) 569-2176",
+      "officialSiteChecked": "https://www.sdautorepaircenter.com/home",
+      "mockupPath": "sd-auto-repair-center/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/sd-auto-repair-center/",
+      "angle": "Auto repair concept for a shop whose current website route lands on a Google sign-in screen instead of a public page.",
+      "draftStatus": "ready_for_review",
+      "priority": "high"
+    },
+    {
+      "id": "grenell-tree-service",
+      "business": "Grenell Tree Service LLC",
+      "vertical": "Tree service",
+      "market": "Iowa City area",
+      "phone": "(319) 853-8105",
+      "officialSiteChecked": "none_found",
+      "mockupPath": "grenell-tree-service/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
+      "angle": "Starter website concept for a tree-service listing with strong rating signal but no website button in Google Maps limited view.",
+      "draftStatus": "ready_for_review",
+      "priority": "high"
+    },
+    {
+      "id": "eastern-iowa-spray-foam-waterproofing",
+      "business": "Eastern Iowa Spray Foam & Waterproofing LLC",
+      "vertical": "Waterproofing / spray foam",
+      "market": "Cedar Rapids / Waterloo corridor",
+      "phone": "(319) 447-7480",
+      "officialSiteChecked": "https://www.easterniowasprayfoam.com/",
+      "mockupPath": "eastern-iowa-spray-foam-waterproofing/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/eastern-iowa-spray-foam-waterproofing/",
+      "angle": "Waterproofing concept to modernize an older Hibu-style site and make basement flooding, sump pumps, and estimates clearer on mobile.",
+      "draftStatus": "ready_for_review",
+      "priority": "medium_high"
     }
   ],
   "nextBatchQueue": [
