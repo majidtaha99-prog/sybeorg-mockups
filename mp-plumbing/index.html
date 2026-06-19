@@ -15,7 +15,7 @@
   .nav { position:sticky; top:0; z-index:10; display:flex; justify-content:space-between; align-items:center; gap:18px; padding:18px clamp(18px,4vw,56px); background:color-mix(in srgb, var(--bg) 88%, white); border-bottom:1px solid color-mix(in srgb, var(--ink) 12%, transparent); backdrop-filter:blur(16px); }
   .brand { display:flex; align-items:center; gap:12px; font-weight:900; letter-spacing:-.04em; }
   .mark { width:42px; height:42px; display:grid; place-items:center; border-radius:16px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:white; box-shadow:0 14px 30px color-mix(in srgb, var(--accent) 28%, transparent); overflow:hidden; }
-  .mark img { max-width:100%; max-height:100%; object-fit:contain; background:white; padding:5px; width:100%; height:100%; }
+  .mark img { max-width:100%; max-height:100%; object-fit:contain; background:white; padding:4px; width:100%; height:100%; }
   .nav small { display:block; color:var(--muted); font-weight:650; letter-spacing:.08em; text-transform:uppercase; font-size:10px; }
   .phone { display:inline-flex; align-items:center; gap:8px; background:var(--accent); color:white; padding:12px 17px; border-radius:999px; text-decoration:none; font-weight:850; box-shadow:0 12px 30px color-mix(in srgb, var(--accent) 22%, transparent); }
   .hero { padding:clamp(52px,8vw,92px) clamp(18px,4vw,56px) 42px; }
@@ -55,7 +55,7 @@
 </head>
 <body class="leak-triage">
   <div class="mockup-note">SYBEORG sample concept — not the official website of M&amp;P Plumbing</div>
-  <nav class="nav"><div class="brand"><div class="mark"><img src="https://du9m0k402rjmo.cloudfront.net/images/P_48287/c58d33f2-8571-4127-9f21-93c8013e6535.jpg" alt="M&amp;P Plumbing logo" loading="lazy"></div><div>M&amp;P Plumbing<small>Plumbing · Urbandale / Des Moines</small></div></div><a class="phone nav-phone" href="tel:5157771100">(515) 777-1100</a></nav>
+  <nav class="nav"><div class="brand"><div class="mark"><img src="https://du9m0k402rjmo.cloudfront.net/images/P_48287/c58d33f2-8571-4127-9f21-93c8013e6535.jpg" alt="M&amp;P Plumbing logo" loading="lazy" onerror="this.remove();this.parentElement.textContent='M';"></div><div>M&amp;P Plumbing<small>Plumbing · Urbandale / Des Moines</small></div></div><a class="phone nav-phone" href="tel:5157771100">(515) 777-1100</a></nav>
   <main>
     <!-- Brand cues pulled from public site: https://www.mp-plumbing.com/ · logo: https://du9m0k402rjmo.cloudfront.net/images/P_48287/c58d33f2-8571-4127-9f21-93c8013e6535.jpg -->
     <section class="hero"><div class="hero-grid"><div><div class="eyebrow">Leak/water-heater decision tree with trust-first copy and no fake plumber claims.</div><h1>Leak, clog, or water heater problem in the Des Moines area?</h1><p class="sub">A service-specific landing concept that gets visitors from “water is where it should not be” to a phone call fast.</p><div class="hero-actions"><a class="btn primary" href="tel:5157771100">Talk to M&amp;P: (515) 777-1100</a><a class="btn secondary" href="#services">See service paths</a></div></div><aside class="diagnostic"><h2>Fast issue routing</h2><p>Instead of a generic quote form, this mockup lets a mobile visitor identify the problem and call with confidence.</p><div class="issue-grid"><button>Leak repair</button><button>Water heaters</button><button>Drain problems</button><button>Fixture installs</button></div></aside></div></section>

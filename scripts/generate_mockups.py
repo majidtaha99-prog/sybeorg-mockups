@@ -121,7 +121,14 @@ def page(prospect: dict) -> str:
     selector = "".join(f"<button>{html.escape(s)}</button>" for s in p["services"])
     source = p.get("brandKit", {}).get("sourceUrl")
     logo = p.get("brandKit", {}).get("logoUsed")
-    logo_mark = f'<img src="{html.escape(logo)}" alt="{html.escape(p["business"])} logo" loading="lazy">' if logo else html.escape(p['short'][0])
+    logo_candidates = p.get("brandKit", {}).get("logoCandidates") or []
+    logo = logo or (logo_candidates[0].get("url") if logo_candidates else None)
+    fallback_mark = html.escape(p['short'][0])
+    logo_mark = (
+        f'<img src="{html.escape(logo)}" alt="{html.escape(p["business"])} logo" loading="lazy" '
+        f'onerror="this.remove();this.parentElement.textContent=\'{fallback_mark}\';">'
+        if logo else fallback_mark
+    )
     source_note = f"<!-- Brand cues pulled from public site{': ' + html.escape(source) if source else ''}{' · logo: ' + html.escape(logo) if logo else ''} -->"
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -140,7 +147,7 @@ def page(prospect: dict) -> str:
   .nav {{ position:sticky; top:0; z-index:10; display:flex; justify-content:space-between; align-items:center; gap:18px; padding:18px clamp(18px,4vw,56px); background:color-mix(in srgb, var(--bg) 88%, white); border-bottom:1px solid color-mix(in srgb, var(--ink) 12%, transparent); backdrop-filter:blur(16px); }}
   .brand {{ display:flex; align-items:center; gap:12px; font-weight:900; letter-spacing:-.04em; }}
   .mark {{ width:42px; height:42px; display:grid; place-items:center; border-radius:16px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:white; box-shadow:0 14px 30px color-mix(in srgb, var(--accent) 28%, transparent); overflow:hidden; }}
-  .mark img {{ max-width:100%; max-height:100%; object-fit:contain; background:white; padding:5px; width:100%; height:100%; }}
+  .mark img {{ max-width:100%; max-height:100%; object-fit:contain; background:white; padding:4px; width:100%; height:100%; }}
   .nav small {{ display:block; color:var(--muted); font-weight:650; letter-spacing:.08em; text-transform:uppercase; font-size:10px; }}
   .phone {{ display:inline-flex; align-items:center; gap:8px; background:var(--accent); color:white; padding:12px 17px; border-radius:999px; text-decoration:none; font-weight:850; box-shadow:0 12px 30px color-mix(in srgb, var(--accent) 22%, transparent); }}
   .hero {{ padding:clamp(52px,8vw,92px) clamp(18px,4vw,56px) 42px; }}
