@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "from_account": "sybeorg@gmail.com",
-  "gmail_status": "verified_himalaya_imap_smtp",
+  "gmail_status": "verified_himalaya_account_available_sybeorg",
   "policy": "Do not send outbound email until Stark approves exact recipients and message content.",
   "first_batch": [
     "bunch-heating-cooling",
@@ -33,11 +33,14 @@
       "id": "mp-plumbing",
       "business": "M&P Plumbing",
       "priority": "high",
-      "recipient_email": "",
-      "recipient_status": "needed",
-      "subject": "Quick mockup for M&P Plumbing",
+      "recipient_email": "mpplumbingservice@gmail.com",
+      "recipient_status": "verified_from_master_send_board_official_site_mailto_schema",
+      "subject": "quick mockup idea for M&P Plumbing",
       "mockup_url": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
-      "send_status": "ready_pending_recipient_and_stark_approval"
+      "send_status": "ready_pending_stark_approval",
+      "draft_path": "outreach/drafts/mp-plumbing-email.eml",
+      "review_path": "outreach/drafts/mp-plumbing-email-draft.md",
+      "last_prepared": "2026-06-20 02:24 CDT"
     },
     {
       "id": "8-finger-hvac",
