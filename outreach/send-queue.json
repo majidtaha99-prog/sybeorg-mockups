@@ -2,12 +2,80 @@
   "updated": "2026-06-20",
   "from_account": "sybeorg@gmail.com",
   "gmail_status": "verified_himalaya_account_available_sybeorg",
-  "policy": "Do not use mockup outreach unless the prospect has no linked website, a weak/broken/placeholder site, or our mockup is clearly stronger than the current site. Do not send outbound email until Stark approves exact recipients and message content.",
+  "policy": "First outreach batch prioritizes no-website, placeholder, broken-site, or clearly weak-site prospects. Strong-site prospects require audit/campaign/video angles instead. Do not send outbound email until Stark approves exact recipients and message content.",
   "first_batch": [
-    "bunch-heating-cooling",
-    "five-seasons-hvac"
+    "cpc-performance",
+    "premier-plumbing-ankeny",
+    "grenell-tree-service",
+    "arriaga-lawn-maintenance",
+    "fini-conditioned-air"
   ],
   "queue": [
+    {
+      "id": "cpc-performance",
+      "business": "CPC Performance",
+      "priority": "high",
+      "recipient_email": "cpcxperformance23@gmail.com",
+      "recipient_status": "public_email_needs_google_maps_verification",
+      "subject": "quick first-site idea for CPC Performance",
+      "mockup_url": "",
+      "send_status": "not_sent_pending_verification_and_mockup",
+      "qualification": "no_website_first_batch",
+      "current_web_presence": "no website field found in OSM/public listing pass",
+      "contact_route": "public email from OSM listing"
+    },
+    {
+      "id": "premier-plumbing-ankeny",
+      "business": "Premier Plumbing",
+      "priority": "high",
+      "recipient_email": "",
+      "recipient_status": "needed_or_manual_phone_route",
+      "subject": "sample replacement for Premier Plumbing’s coming-soon page",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
+      "send_status": "not_sent_manual_channel_needed",
+      "qualification": "no_website_first_batch",
+      "current_web_presence": "coming-soon placeholder page",
+      "contact_route": "phone/manual research; no public email yet"
+    },
+    {
+      "id": "grenell-tree-service",
+      "business": "Grenell Tree Service LLC",
+      "priority": "high",
+      "recipient_email": "",
+      "recipient_status": "needed_or_manual_phone_route",
+      "subject": "sample first website for Grenell Tree Service",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
+      "send_status": "not_sent_manual_channel_needed",
+      "qualification": "no_website_first_batch",
+      "current_web_presence": "no website button visible in public Maps view from earlier pass",
+      "contact_route": "phone/manual research; no public email yet"
+    },
+    {
+      "id": "arriaga-lawn-maintenance",
+      "business": "Arriaga Lawn Maintenance",
+      "priority": "medium_high",
+      "recipient_email": "",
+      "recipient_status": "needed_or_manual_phone_route",
+      "subject": "quick website not-found note for Arriaga Lawn Maintenance",
+      "mockup_url": "",
+      "send_status": "not_sent_manual_channel_needed",
+      "qualification": "no_website_first_batch",
+      "current_web_presence": "listed URL returned SITE NOT FOUND during 2026-06-19 fetch",
+      "contact_route": "phone/manual research; no public email yet"
+    },
+    {
+      "id": "fini-conditioned-air",
+      "business": "Fini Conditioned Air",
+      "priority": "medium_high",
+      "recipient_email": "",
+      "recipient_status": "needed_or_manual_phone_route",
+      "subject": "quick domain/listing note for Fini Conditioned Air",
+      "mockup_url": "",
+      "send_status": "not_sent_manual_verification_needed",
+      "qualification": "no_website_first_batch",
+      "current_web_presence": "listed/searched domain failed DNS resolution in earlier pass",
+      "contact_route": "phone/manual verification; no public email yet"
+    },
     {
       "id": "bunch-heating-cooling",
       "business": "Bunch Heating and Cooling",

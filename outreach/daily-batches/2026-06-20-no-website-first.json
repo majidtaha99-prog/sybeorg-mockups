@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "campaign": "sybeorg-no-website-first-batch",
+  "scopeNote": "SYBEORG only. No outbound without Stark approval.",
+  "batchDate": "2026-06-20",
+  "batchName": "no-website-first",
+  "senderAccount": "sybeorg@gmail.com",
+  "status": "approval_required_no_sends",
+  "policy": {
+    "noOutboundWithoutStarkApproval": true,
+    "primaryRule": "First batch should prioritize businesses with no real website, no Google/Maps website link, a coming-soon/placeholder page, or a broken public website path.",
+    "mockupRule": "Use mockup outreach only when the current public web presence is missing, broken, placeholder, or clearly weaker than our sample. Strong-site prospects move to audit/campaign/video angle instead.",
+    "approvalRequiredFor": [
+      "recipient",
+      "subject",
+      "body",
+      "senderAccount",
+      "batchSize",
+      "timing"
+    ]
+  },
+  "firstBatchRecommendation": [
+    {
+      "rank": 1,
+      "prospectId": "cpc-performance",
+      "business": "CPC Performance",
+      "vertical": "Auto performance / auto repair",
+      "market": "Des Moines, IA",
+      "currentWebPresence": "no website field found in OSM/public listing pass",
+      "contactRoute": "public email from OSM listing",
+      "publicEmail": "cpcxperformance23@gmail.com",
+      "phone": "+1-702-338-9796",
+      "address": "4370 Northwest 4th Street, Des Moines",
+      "evidenceQuality": "needs_google_maps_verification_before_send",
+      "whyFirstBatch": "Has public email plus no website signal, so this is the cleanest no-website email test candidate.",
+      "mockupNeed": "create_before_send",
+      "mockupUrl": null,
+      "recommendedOffer": "first website / mobile call page",
+      "subject": "quick first-site idea for CPC Performance",
+      "draftCopy": "Hi CPC Performance team — I’m Majid with SYBEORG here in Iowa. I came across your Des Moines listing and didn’t see a website attached in the public listing data I checked. For an auto performance/repair shop, even a simple mobile page can help people confirm the address, hours, services, and tap to call before they choose where to go.\n\nIf useful, I can send over a no-obligation sample first-site concept for CPC with your phone, address, hours, and a clean mobile call path. Worth a quick look? Reply NO and I won’t follow up.",
+      "sendStatus": "not_sent_pending_verification_and_mockup"
+    },
+    {
+      "rank": 2,
+      "prospectId": "premier-plumbing-ankeny",
+      "business": "Premier Plumbing",
+      "vertical": "Plumbing",
+      "market": "Ankeny, IA",
+      "currentWebPresence": "coming-soon placeholder page",
+      "contactRoute": "phone/manual research; no public email yet",
+      "publicEmail": null,
+      "phone": "515-965-0714",
+      "evidenceQuality": "strong; verified in 2026-06-19 batch",
+      "whyFirstBatch": "Current site is effectively a placeholder; mockup is appropriate and already built.",
+      "mockupNeed": "ready",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
+      "recommendedOffer": "replace coming-soon page with useful one-page site",
+      "subject": "sample replacement for Premier Plumbing’s coming-soon page",
+      "draftCopy": "Hi Premier Plumbing team — I was looking at Ankeny plumbing listings and saw the public Premier Plumbing website loading as a short 'Coming Soon' page. It does show a phone number, but it does not give homeowners much context before they choose who to call.\n\nI put together a no-obligation sample one-page concept showing how the first screen could make the phone number, service categories, and request path clearer: https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "sendStatus": "not_sent_manual_channel_needed"
+    },
+    {
+      "rank": 3,
+      "prospectId": "grenell-tree-service",
+      "business": "Grenell Tree Service LLC",
+      "vertical": "Tree service",
+      "market": "Iowa City area",
+      "currentWebPresence": "no website button visible in public Maps view from earlier pass",
+      "contactRoute": "phone/manual research; no public email yet",
+      "publicEmail": null,
+      "phone": "(319) 853-8105",
+      "evidenceQuality": "good; verified in 2026-06-19 batch but should re-check before contact",
+      "whyFirstBatch": "Strong no-website signal and mockup already built.",
+      "mockupNeed": "ready",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
+      "recommendedOffer": "first website for Maps traffic",
+      "subject": "sample first website for Grenell Tree Service",
+      "draftCopy": "Hi Grenell Tree Service team — I came across your Iowa City-area listing and saw a strong local signal, but I did not see a website button in the public Maps view. For tree work, a simple mobile page can help people quickly confirm services and call when they have a limb, removal, or cleanup issue.\n\nI put together a no-obligation first-site concept with the phone number, service categories, and a fast estimate/call path: https://sybeorg-mockups.vercel.app/grenell-tree-service/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "sendStatus": "not_sent_manual_channel_needed"
+    },
+    {
+      "rank": 4,
+      "prospectId": "arriaga-lawn-maintenance",
+      "business": "Arriaga Lawn Maintenance",
+      "vertical": "Landscaping / lawn maintenance",
+      "market": "Des Moines metro",
+      "currentWebPresence": "listed URL returned SITE NOT FOUND during 2026-06-19 fetch",
+      "contactRoute": "phone/manual research; no public email yet",
+      "publicEmail": null,
+      "phone": "+1-515-808-2442",
+      "evidenceQuality": "strong for broken-site issue; needs services/photos verification before mockup",
+      "whyFirstBatch": "Broken public site path is close to no-site and creates a helpful outreach hook.",
+      "mockupNeed": "create_after_services_verified",
+      "mockupUrl": null,
+      "recommendedOffer": "fix not-found site / simple service-area page",
+      "subject": "quick website not-found note for Arriaga Lawn Maintenance",
+      "draftCopy": "Hi Arriaga Lawn Maintenance team — quick helpful note: the public website URL I found for Arriaga Lawn Maintenance loaded a 'SITE NOT FOUND' page. If that is the listing customers are clicking from search, it may be blocking people before they see your services or phone number.\n\nI did not send anything or make changes — just flagging it. If useful, I can have SYBEORG mock up a simple lawn-care/service-area page so you can see the cleaner version. Worth a quick look? Reply NO and I will not follow up.",
+      "sendStatus": "not_sent_manual_channel_needed"
+    },
+    {
+      "rank": 5,
+      "prospectId": "fini-conditioned-air",
+      "business": "Fini Conditioned Air",
+      "vertical": "HVAC",
+      "market": "Des Moines, IA",
+      "currentWebPresence": "listed/searched domain failed DNS resolution in earlier pass",
+      "contactRoute": "phone/manual verification; no public email yet",
+      "publicEmail": null,
+      "phone": "+1-515-262-9694",
+      "evidenceQuality": "needs manual Google Maps verification before naming domain",
+      "whyFirstBatch": "HVAC urgency plus dead-domain signal, but verify source before contact.",
+      "mockupNeed": "research_then_create",
+      "mockupUrl": null,
+      "recommendedOffer": "domain/listing cleanup + first landing page",
+      "subject": "quick domain/listing note for Fini Conditioned Air",
+      "draftCopy": "Hi Fini Conditioned Air team — quick helpful note: I tried the public domain I found for Fini Conditioned Air and it did not resolve. If that domain is still connected to any customer-facing listing, people may be hitting a dead end before they can request HVAC help.\n\nI can mock up a simple replacement call-first HVAC page if you want to see what a cleaner first screen could look like. Worth a quick look? Reply NO and I will not follow up.",
+      "sendStatus": "not_sent_manual_verification_needed"
+    }
+  ],
+  "strongSiteOrNonFirstBatch": [
+    {
+      "prospectId": "mp-plumbing",
+      "business": "M&P Plumbing",
+      "reason": "Current site is stronger than our mockup; do not use generic mockup outreach.",
+      "futureAngle": "conversion audit / paid ads landing page / video campaign / SEO service-page expansion"
+    },
+    {
+      "prospectId": "general-tree-service",
+      "business": "General Tree Service",
+      "reason": "Functional existing site; not a no-website target.",
+      "futureAngle": "profile/service path cleanup or seasonal campaign"
+    },
+    {
+      "prospectId": "gerard-electric",
+      "business": "Gerard Electric Inc",
+      "reason": "Functional site; strongest angle is reputation/profile cleanup rather than mockup.",
+      "futureAngle": "audit/profile cleanup"
+    }
+  ],
+  "nextActions": [
+    "Verify CPC Performance on Google Maps / Google Business Profile before building or sending.",
+    "Research public emails/contact forms for Premier, Grenell, Arriaga, and Fini; otherwise prepare phone/DM scripts.",
+    "Build CPC mockup if verification confirms no website link.",
+    "Use Premier and Grenell existing mockups as the first manual outreach tests.",
+    "Move strong-site prospects into separate audit/campaign/video angle board."
+  ]
+}
