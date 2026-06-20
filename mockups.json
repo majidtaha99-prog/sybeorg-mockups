@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes",
+  "updatedBy": "Hermes / SYBEORG v3 rollout",
   "lastUpdated": "2026-06-19",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
@@ -32,10 +32,10 @@
       "mockupPath": "8-finger-hvac/",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
       "angle": "Small-town emergency HVAC page that makes Bobby/owner-operator trust the hero, with phone-first mobile CTA.",
-      "draftStatus": "premium_v2_ready_for_review",
+      "draftStatus": "premium_v3_ready_for_review",
       "priority": "medium",
-      "redesignStatus": "premium_v2_qa_passed_2026-06-19",
-      "qualityDirection": "Local owner-operator / rural dispatch, warm palette, no generic dark emergency template.",
+      "redesignStatus": "premium_v3_qa_passed_2026-06-19",
+      "qualityDirection": "V3 rural dispatch / owner-operator page with warm field-route motif, mobile sticky call dock, and HVAC problem selector.",
       "officialSiteChecked": "https://8fingerhvacllc.com/",
       "siteDiscoverySource": "DuckDuckGo result verified 2026-06-19",
       "brandKit": {
@@ -66,7 +66,10 @@
           "muted": "#667085"
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
-      }
+      },
+      "visualQaNotes": "Local QA passed: desktop and 390px mobile have no horizontal overflow; mobile call dock visible; route selector interaction updates copy; console errors clean after inline favicon.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false
     },
     {
       "id": "bunch-heating-cooling",
@@ -78,10 +81,10 @@
       "mockupPath": "bunch-heating-cooling/",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
       "angle": "Their current site already has solid service proof; the pitch is a sharper mobile emergency-call landing page for paid search / urgent calls.",
-      "draftStatus": "premium_v2_ready_for_review",
+      "draftStatus": "premium_v3_ready_for_review",
       "priority": "high",
-      "redesignStatus": "premium_v2_qa_passed_2026-06-19",
-      "qualityDirection": "Split HVAC + plumbing paid-search funnel with problem routing.",
+      "redesignStatus": "premium_v3_qa_passed_2026-06-19",
+      "qualityDirection": "V3 split-service command center with red/blue HVAC/plumbing router, paid-search segmentation, and mobile sticky call dock.",
       "brandKit": {
         "sourceUrl": "https://bunchheatingandcooling.com",
         "extractedAt": "2026-06-19T10:31:09Z",
@@ -147,7 +150,10 @@
           "muted": "#667085"
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
-      }
+      },
+      "visualQaNotes": "Local QA passed: desktop and 390px mobile have no horizontal overflow; mobile call dock visible; route selector interaction updates copy; console errors clean after inline favicon.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false
     },
     {
       "id": "five-seasons-hvac",
@@ -159,10 +165,10 @@
       "mockupPath": "five-seasons-hvac/",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
       "angle": "Family-owned/local/licensed proof is strong; position the mockup as a cleaner same-day-service funnel for mobile visitors.",
-      "draftStatus": "premium_v2_ready_for_review",
+      "draftStatus": "premium_v3_ready_for_review",
       "priority": "high",
-      "redesignStatus": "premium_v2_qa_passed_2026-06-19",
-      "qualityDirection": "Family-owned proof-first refresh with calm licensed confidence.",
+      "redesignStatus": "premium_v3_qa_passed_2026-06-19",
+      "qualityDirection": "V3 family-owned seasonal comfort editorial with seasonal issue selector, calm trust-first proof, and mobile sticky call dock.",
       "brandKit": {
         "sourceUrl": "https://www.fiveseasonsheatingandcooling.com/",
         "extractedAt": "2026-06-19T10:31:12Z",
@@ -218,7 +224,10 @@
           "muted": "#667085"
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
-      }
+      },
+      "visualQaNotes": "Local QA passed: desktop and 390px mobile have no horizontal overflow; mobile call dock visible; route selector interaction updates copy; console errors clean after inline favicon.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false
     },
     {
       "id": "mp-plumbing",
@@ -306,10 +315,10 @@
       "mockupPath": "platinum-phc/",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/platinum-phc/",
       "angle": "One-call plumbing/HVAC/electrical convenience; pitch the mockup as a simple page that makes emergency visitors call or text fast.",
-      "draftStatus": "premium_v2_ready_for_review",
+      "draftStatus": "premium_v3_ready_for_review",
       "priority": "medium",
-      "redesignStatus": "premium_v2_qa_passed_2026-06-19",
-      "qualityDirection": "Premium one-call home systems positioning for multi-service convenience.",
+      "redesignStatus": "premium_v3_qa_passed_2026-06-19",
+      "qualityDirection": "V3 premium home-systems concierge with plumbing/HVAC/electrical selector, polished one-call positioning, and mobile sticky call dock.",
       "officialSiteChecked": "https://platinumphcdsm.com/",
       "siteDiscoverySource": "DuckDuckGo result verified 2026-06-19",
       "brandKit": {
@@ -334,7 +343,10 @@
           "muted": "#667085"
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
-      }
+      },
+      "visualQaNotes": "Local QA passed: desktop and 390px mobile have no horizontal overflow; mobile call dock visible; route selector interaction updates copy; console errors clean after inline favicon.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false
     },
     {
       "id": "richardson-plumbing",
@@ -345,10 +357,10 @@
       "mockupPath": "richardson-plumbing/",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/richardson-plumbing/",
       "angle": "Forty-year craftsman/trust story; outreach should feel respectful and personal, not agency-bro salesy.",
-      "draftStatus": "premium_v2_ready_for_review",
+      "draftStatus": "premium_v3_ready_for_review",
       "priority": "medium",
-      "redesignStatus": "premium_v2_qa_passed_2026-06-19",
-      "qualityDirection": "Heritage craftsman trust page with restrained local tone.",
+      "redesignStatus": "premium_v3_qa_passed_2026-06-19",
+      "qualityDirection": "V3 craftsman trust ledger with county/service routing, restrained heritage tone, and mobile sticky call dock.",
       "officialSiteChecked": "https://www.richardsonplumbing.net/",
       "siteDiscoverySource": "DuckDuckGo result verified 2026-06-19",
       "brandKit": {
@@ -406,7 +418,10 @@
           "muted": "#667085"
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
-      }
+      },
+      "visualQaNotes": "Local QA passed: desktop and 390px mobile have no horizontal overflow; mobile call dock visible; route selector interaction updates copy; console errors clean after inline favicon.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false
     },
     {
       "id": "number-one-auto",
