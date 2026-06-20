@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 2,
+  "campaign": "sybeorg-trades-home-services",
+  "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
+  "batchDate": "2026-06-20",
+  "batchNumber": 1,
+  "senderAccount": "sybeorg@gmail.com",
+  "status": "approval_required_no_sends",
+  "policy": {
+    "noOutboundWithoutStarkApproval": true,
+    "approvalRequiredFor": [
+      "recipient",
+      "subject",
+      "body",
+      "senderAccount",
+      "batchSize",
+      "timing"
+    ]
+  },
+  "discoveryPass": {
+    "candidatesScreened": 11,
+    "sources": [
+      "Nominatim/OpenStreetMap public listing fields",
+      "official website/direct HTTP checks",
+      "repo de-duplication against mockups.json, master-send-board.json, and recent daily batches"
+    ],
+    "candidateScores": [
+      {
+        "business": "Maxio's Auto Repair",
+        "vertical": "Auto repair",
+        "market": "Des Moines",
+        "signal": "OSM/Nominatim showed Business Site URL and phone; direct fetch returned Google 404",
+        "angle": "urgent_bug",
+        "score": 87
+      },
+      {
+        "business": "Holt Plumbing & Heating",
+        "vertical": "Plumbing/HVAC",
+        "market": "West Des Moines",
+        "signal": "Official site blocked automated fetch with Cloudflare Attention Required; no public email in OSM pass",
+        "angle": "mobile_conversion / reputation_mismatch",
+        "score": 74
+      },
+      {
+        "business": "Master Plumbing, Heating & Cooling",
+        "vertical": "Plumbing/HVAC",
+        "market": "Cedar Rapids",
+        "signal": "Official site functional; HTML exposed placeholder phone strings alongside real phone",
+        "angle": "urgent_bug / site QA",
+        "score": 72
+      },
+      {
+        "business": "Valenta Plumbing",
+        "vertical": "Plumbing/heating",
+        "market": "Cedar Rapids",
+        "signal": "Official site functional but older WordPress presence; phone visible, no public email found",
+        "angle": "service_page_gap / mobile_conversion",
+        "score": 70
+      },
+      {
+        "business": "4 Star Roofing & Siding",
+        "vertical": "Roofing/siding",
+        "market": "Cedar Rapids",
+        "signal": "OSM/public listing found business name/location but no website/phone in pass",
+        "angle": "gmb_leak / no_website",
+        "score": 68
+      },
+      {
+        "business": "Mitchell Auto Repair",
+        "vertical": "Auto repair",
+        "market": "Des Moines",
+        "signal": "OSM/public listing found shop/category but no website/phone in pass",
+        "angle": "gmb_leak / no_website",
+        "score": 66
+      },
+      {
+        "business": "Silzer Auto Repair",
+        "vertical": "Auto repair",
+        "market": "Des Moines",
+        "signal": "OSM/public listing found shop/category but no website/phone in pass",
+        "angle": "gmb_leak / no_website",
+        "score": 65
+      },
+      {
+        "business": "DHI Roofing",
+        "vertical": "Roofing",
+        "market": "Cedar Rapids / Iowa location",
+        "signal": "Functional location page with phones; likely larger regional operator",
+        "angle": "paid_ad_readiness",
+        "score": 61
+      },
+      {
+        "business": "Dalton PHC",
+        "vertical": "PHC/electrical",
+        "market": "Des Moines/Waterloo",
+        "signal": "Functional polished site with multiple phones; likely larger operator",
+        "angle": "paid_ad_readiness / tracking_gap",
+        "score": 58
+      },
+      {
+        "business": "American Plumbing Supply Co.",
+        "vertical": "Plumbing supply",
+        "market": "Des Moines",
+        "signal": "Functional site; supply retail not ideal service lead",
+        "angle": "skip_or_nurture",
+        "score": 48
+      },
+      {
+        "business": "Mitchell's Sunset Beach Used Auto Parts & Repair",
+        "vertical": "Auto parts/repair",
+        "market": "Des Moines",
+        "signal": "OSM landuse/listing signal only; no contact details found",
+        "angle": "manual_research",
+        "score": 46
+      }
+    ]
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "prospectId": "maxios-auto-repair",
+      "business": "Maxio's Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Des Moines, IA",
+      "officialSite": "https://maxiosautorepair.business.site/",
+      "gmbSignals": "Nominatim/OSM public listing surfaced shop/car_repair category, address 1405 East 14th Street, Des Moines, website https://maxiosautorepair.business.site/, phone +1 515-528-2450. Google rating not visible in this pass.",
+      "contactRoute": "phone/manual research; no public email found",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 87,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "no_website",
+        "mobile_conversion",
+        "booking_gap",
+        "paid_ad_readiness"
+      ],
+      "evidenceQuality": "strong",
+      "verifiedEvidence": [
+        "Direct fetch of https://maxiosautorepair.business.site/ returned HTTP 404 with title 'Error 404 (Not Found)!!1'.",
+        "Public listing phone +1 515-528-2450 and address 1405 East 14th Street, Des Moines were present in Nominatim/OSM data."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "reviews",
+        "ASE certification",
+        "warranty",
+        "owner name",
+        "hours",
+        "exact service menu beyond auto repair category"
+      ],
+      "diagnosis": "A public website click appears to land on a Google 404, so mobile searchers do not get address confidence, service context, or a tap-to-call path.",
+      "bestHook": "Helpful alert: the public Business Site URL is not loading as a real shop page.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low",
+      "nextBestAction": "phone_script",
+      "upsellPath": [
+        "landing_page",
+        "booking_flow",
+        "google_business_profile_cleanup",
+        "google_ads"
+      ],
+      "whyThisShouldClose": "Specific public bug in a high-intent auto repair category; the mockup makes the fix visible without criticizing their work.",
+      "recommendedChannel": "manual/phone or researched email only",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/maxios-auto-repair/",
+      "mockupDecisionReason": "A visual concept is useful because the current click path is a 404; the page shows the minimum useful replacement.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Warm work-order/ticket-board design with address confidence and symptom routing; avoids generic mechanic hero, fake reviews, and fake ASE/trust badges.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Des Moines, IA"
+        ],
+        "phone": "+1 515-528-2450",
+        "address": "1405 East 14th Street, Des Moines"
+      },
+      "unverifiedClaimsAvoided": [
+        "ASE certification",
+        "warranty",
+        "review count",
+        "owner name",
+        "years in business",
+        "specialty claims beyond public category"
+      ],
+      "visualQaNotes": "Local browser QA passed: distinct work-order concept, no fake proof, mobile sticky call dock visible, strong sample framing. Add real shop photos/hours/verified service list before production.",
+      "revisionNeededBeforeOutreach": false,
+      "subject": "quick website 404 note for Maxio's Auto Repair",
+      "draftCopy": "Hi Maxio's Auto Repair team — quick helpful note: I found a public website link for Maxio's that opened to a Google 404 page instead of a shop page. If that is what customers click from search, they may not see your address, phone, or repair info before choosing where to go.\n\nI made a no-obligation sample concept showing a cleaner first screen with your public phone, Des Moines address, and a simple mobile call path: https://sybeorg-mockups.vercel.app/maxios-auto-repair/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "holt-plumbing-heating",
+      "business": "Holt Plumbing & Heating",
+      "vertical": "Plumbing / heating",
+      "market": "West Des Moines, IA",
+      "officialSite": "https://holtplumbingandheating.com/",
+      "gmbSignals": "Nominatim/OSM public listing surfaced craft/plumber, West Des Moines address, official website; phone/rating not visible in this pass.",
+      "contactRoute": "manual research / phone needed",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 74,
+      "primaryAngleCategory": "mobile_conversion",
+      "secondaryAngles": [
+        "reputation_mismatch",
+        "contact_route_gap",
+        "service_page_gap"
+      ],
+      "evidenceQuality": "fair",
+      "verifiedEvidence": [
+        "Official site fetch returned HTTP 403 Cloudflare Attention Required in this automated pass; do not call this broken in copy without manual browser verification."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "site is broken for all users",
+        "review count",
+        "emergency hours",
+        "licenses"
+      ],
+      "diagnosis": "Potential friction if protective/bot-blocking layer or site experience interferes with visitors; needs manual browser/GMB verification before outreach.",
+      "bestHook": "Offer a quick mobile/service-path audit rather than a bug accusation.",
+      "recommendedOffer": "landing_page",
+      "closeDifficulty": "medium",
+      "nextBestAction": "manual_research",
+      "upsellPath": [
+        "service_page",
+        "mobile_conversion_audit",
+        "gmb_cleanup"
+      ],
+      "whyThisShouldClose": "Local high-intent trade, but evidence is not strong enough for mockup-led outreach yet.",
+      "recommendedChannel": "manual research first",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; Cloudflare result is not enough to build a credible custom concept.",
+      "designDirection": "local_heritage",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "West Des Moines"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "public site broken",
+        "phone",
+        "rating",
+        "years"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick mobile service-page idea for Holt Plumbing & Heating",
+      "draftCopy": "Hi Holt Plumbing & Heating team — I was reviewing West Des Moines plumbing/heating listings and wanted to flag a simple opportunity: making the mobile path from search to the right service call as clear as possible. I would want to verify a couple details manually before sending anything specific.\n\nIf useful, I can put together a short no-obligation audit or sample service page focused on calls from mobile search. Worth a quick look? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "master-plumbing-cr",
+      "business": "Master Plumbing, Heating & Cooling",
+      "vertical": "Plumbing / HVAC",
+      "market": "Cedar Rapids, IA",
+      "officialSite": "https://www.masterplumbingcr.com/",
+      "gmbSignals": "Nominatim/OSM public listing surfaced craft/plumber, website, phone +1 319-363-7533; official site itself shows functional Cedar Rapids plumbing/HVAC positioning.",
+      "contactRoute": "contact form/phone/manual; no public email found",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 72,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "tracking_gap",
+        "mobile_conversion",
+        "service_page_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Official site loaded HTTP 200 with title Cedar Rapids Plumbing & HVAC Company | Master Plumbing, Heating & Cooling.",
+        "Automated HTML fetch surfaced placeholder phone-like strings such as (000) 000-0000 alongside real numbers; requires visual confirmation before outreach."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "visible placeholder to all users",
+        "review count",
+        "form failure"
+      ],
+      "diagnosis": "Possible site QA/placeholder data issue, but not severe enough for mockup before manual confirmation.",
+      "bestHook": "Helpful technical QA note if visual/manual check confirms placeholder strings are public.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "medium",
+      "nextBestAction": "manual_research",
+      "upsellPath": [
+        "bug_fix",
+        "tracking_cleanup",
+        "service_page"
+      ],
+      "whyThisShouldClose": "Specific QA issues can get replies, but the business already has a functional site so copy must be precise.",
+      "recommendedChannel": "manual verification, then contact form/phone script",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; existing site is robust and a generic mockup would weaken positioning.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Cedar Rapids"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "public bug visible",
+        "reviews",
+        "certifications"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick website QA note for Master Plumbing",
+      "draftCopy": "Hi Master Plumbing team — I was checking Cedar Rapids plumbing/HVAC sites and noticed a possible small website QA issue in the page code: placeholder phone-like strings appeared alongside real contact numbers. I would want to verify it visually before calling it a public issue, but it may be worth a quick cleanup check.\n\nIf useful, I can send a concise no-obligation audit with the exact spots to review. Worth a quick look? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 4,
+      "prospectId": "valenta-plumbing",
+      "business": "Valenta Plumbing",
+      "vertical": "Plumbing / heating",
+      "market": "Cedar Rapids, IA",
+      "officialSite": "https://www.valentaplumbing.com/",
+      "gmbSignals": "Nominatim/OSM public listing surfaced craft/plumber, website, phone +1 319-365-6977. Public rating not visible in this pass.",
+      "contactRoute": "phone/contact form/manual; no public email found",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 70,
+      "primaryAngleCategory": "service_page_gap",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "paid_ad_readiness",
+        "brand_trust_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Official site loaded HTTP 200 and redirected to valentaplumbing.com with title 'Valenta Plumbing – A full-service plumbing and heating contractor'.",
+        "Phone (319) 365-6977 visible in fetch."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "reviews",
+        "years",
+        "emergency availability",
+        "paid ad spend"
+      ],
+      "diagnosis": "Functional older site; likely better approached with a focused water-heater/drain/seasonal landing page than a homepage redesign.",
+      "bestHook": "One high-intent service page could be easier than a full website pitch.",
+      "recommendedOffer": "service_page",
+      "closeDifficulty": "medium",
+      "nextBestAction": "contact_form_draft",
+      "upsellPath": [
+        "service_page",
+        "ads_landing_page",
+        "tracking_setup"
+      ],
+      "whyThisShouldClose": "Plumbing service pages have direct lead value and avoid insulting an existing functional site.",
+      "recommendedChannel": "contact form draft after approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; need identify exact missing high-value service page and collect real proof before building.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Cedar Rapids"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "reviews",
+        "years",
+        "guarantees"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick service-page idea for Valenta Plumbing",
+      "draftCopy": "Hi Valenta Plumbing team — I came across your Cedar Rapids site today. Nothing urgent or negative here; the opportunity I noticed is more specific: a focused page for a high-intent service like water heaters, drain issues, or heating/plumbing repair could give search visitors a clearer path than a general homepage.\n\nIf useful, I can mock up one no-obligation service-page concept using only verified info from your site. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 5,
+      "prospectId": "4-star-roofing-siding",
+      "business": "4 Star Roofing & Siding",
+      "vertical": "Roofing / siding",
+      "market": "Cedar Rapids, IA",
+      "officialSite": "none_found_in_this_pass",
+      "gmbSignals": "Nominatim/OSM public listing surfaced business name/location around 17th Avenue Southwest / Cedar Rapids but no website, phone, email, or rating in this pass.",
+      "contactRoute": "manual research needed",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 68,
+      "primaryAngleCategory": "gmb_leak",
+      "secondaryAngles": [
+        "no_website",
+        "seasonal_urgency",
+        "contact_route_gap"
+      ],
+      "evidenceQuality": "fair",
+      "verifiedEvidence": [
+        "Public listing data showed name/location but no website/phone fields in this pass."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "active business status",
+        "phone",
+        "reviews",
+        "services",
+        "storm damage offer"
+      ],
+      "diagnosis": "Potential local profile leakage: if a roofing/siding business has no website or phone in a public listing, storm/repair searchers have no clear next step.",
+      "bestHook": "Profile/contact-path cleanup after confirming active contact details.",
+      "recommendedOffer": "gmb_cleanup",
+      "closeDifficulty": "medium",
+      "nextBestAction": "manual_research",
+      "upsellPath": [
+        "gmb_cleanup",
+        "storm_damage_page",
+        "landing_page"
+      ],
+      "whyThisShouldClose": "Roofing is high-ticket and seasonal, but contact details must be verified before outreach.",
+      "recommendedChannel": "manual research only",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; no contact route or real assets yet, so a mockup would be generic.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Cedar Rapids"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "active phone",
+        "reviews",
+        "storm services",
+        "insurance claims"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick local listing idea for 4 Star Roofing & Siding",
+      "draftCopy": "Hi 4 Star Roofing & Siding team — I came across a Cedar Rapids public listing for the business, but in the data I checked I did not see a website or phone attached. I would want to verify the best contact details before saying more, but for roofing/siding work that missing click path can make it harder for homeowners to reach you.\n\nIf useful, I can prepare a no-obligation profile cleanup checklist or simple storm/roofing page concept. Worth a quick look? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ]
+}

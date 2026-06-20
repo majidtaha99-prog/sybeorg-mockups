@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG map + security pipeline pass",
+  "updatedBy": "Hermes / SYBEORG daily opportunity batch 2026-06-20-batch-1",
   "lastUpdated": "2026-06-20",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
@@ -630,6 +630,45 @@
       "siteDiscoverySource": "Overpass/OSM public listing pass 2026-06-20",
       "visualQaNotes": "Static QA passed; mobile width check passed; Google Maps/GBP no-website signal still needs verification before sending.",
       "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "maxios-auto-repair",
+      "business": "Maxio's Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Des Moines, IA",
+      "phone": "+1 515-528-2450",
+      "officialSiteChecked": "https://maxiosautorepair.business.site/",
+      "siteDiscoverySource": "Nominatim/OSM public listing + direct site fetch verified 2026-06-20",
+      "mockupPath": "maxios-auto-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/maxios-auto-repair/",
+      "angle": "Urgent public path fix: listed Google Business Site URL returned a 404, so the concept replaces the dead click with a mobile call-first auto repair page.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Warm work-order/ticket-board layout with address confidence and symptom routing; avoids generic mechanic hero, fake ASE badges, fake reviews, or right-side quote form.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Des Moines, IA"
+        ],
+        "phone": "+1 515-528-2450",
+        "address": "1405 East 14th Street, Des Moines"
+      },
+      "unverifiedClaimsAvoided": [
+        "ASE certification",
+        "warranty",
+        "review count",
+        "owner name",
+        "years in business",
+        "specialty claims beyond public listing category"
+      ],
+      "visualQaNotes": "Local browser QA passed: distinct work-order concept, no fake proof, mobile sticky call dock visible, strong sample framing. Uses public listing address/phone only; add real photos/hours/services before production.",
       "revisionNeededBeforeOutreach": false
     }
   ],
