@@ -8,6 +8,20 @@ Mockups are strongest when the prospect has no real website, a weak website, a b
 
 Do not lead with a mockup when the business already has a polished, credible site. In that case, the mockup can make SYBEORG look less serious unless the improvement is specific and obvious.
 
+## Premium mockup standard
+
+Every mockup that goes in front of a prospect needs to feel like the M&P premium direction, not a generic AI page:
+
+1. **Branded loading screen first.** Show a short full-screen loader before the site opens. Use the company logo if available; otherwise use a tasteful temporary monogram that can be replaced after approval.
+2. **Pull real brand cues when available.** Use public logo, colors, phone, address, hours, service area, and map coordinates. If logo/colors are unavailable, create a restrained temporary identity and label it internally as replaceable.
+3. **Real map section.** Include an embedded local map or styled static map area with service-area/location pills and an open-map link.
+4. **Contact us section.** Include a polished contact block with name/phone/message fields plus a strong call button. Do not leave the page as hero/cards only.
+5. **Motion with restraint.** Add subtle loader motion, ambient floating shapes, marquees/tickers, or interactive route cards. Avoid gimmicky animation.
+6. **Interactive customer path.** Include at least one useful moving/interactive element, such as issue routing, service selector, estimate path, or before/after state.
+7. **Clean mobile UI.** Sticky phone CTA, no horizontal overflow, large tap targets, and readable headline wrapping.
+8. **No AI-looking slop.** Avoid generic icons, fake reviews, fake awards, vague superlatives, duplicated sections, and templated copy like "transform your digital presence."
+9. **Credibility guardrails.** Use only verified public facts. Do not invent years, licenses, ratings, reviews, warranties, emergency availability, or owner names.
+
 ## Qualify before building or sending
 
 Score each prospect before creating/sending:

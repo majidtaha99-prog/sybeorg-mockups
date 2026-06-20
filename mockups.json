@@ -463,7 +463,11 @@
       "mockupUrl": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
       "angle": "Starter website concept for a tree-service listing with strong rating signal but no website button in Google Maps limited view.",
       "draftStatus": "ready_for_review",
-      "priority": "high"
+      "priority": "high",
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-20",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false,
+      "visualQaNotes": "Premium pass added branded loader/monogram, local map, contact section, interactive routing, motion accents, mobile sticky call dock, and static QA passed."
     },
     {
       "id": "eastern-iowa-spray-foam-waterproofing",
@@ -605,7 +609,27 @@
         "warranties",
         "emergency hours"
       ],
-      "visualQaNotes": "Browser visual QA passed as a credible, distinct warm local concept. Main caveat: it reads as a strategic coming-soon replacement proposal rather than final homeowner-facing content; add real branding/services/hours/photos before production.",
+      "visualQaNotes": "Premium pass added branded loader/monogram, local map, contact section, interactive routing, motion accents, mobile sticky call dock, and static QA passed.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-20"
+    },
+    {
+      "id": "cpc-performance",
+      "business": "CPC Performance",
+      "vertical": "Auto performance / auto repair",
+      "market": "Des Moines, IA",
+      "phone": "+1 (702) 338-9796",
+      "mockupPath": "cpc-performance/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/cpc-performance/",
+      "angle": "No-website first-site concept using public listing phone/email/address/hours; verify Google Maps/GBP before outreach.",
+      "draftStatus": "premium_mockup_ready_needs_verification",
+      "priority": "high",
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-20",
+      "qualityDirection": "Premium first-site page with branded loader/monogram, interactive customer routing, local OSM map, contact section, motion accents, and mobile sticky call dock.",
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "Overpass/OSM public listing pass 2026-06-20",
+      "visualQaNotes": "Static QA passed; mobile width check passed; Google Maps/GBP no-website signal still needs verification before sending.",
+      "qualityGatePassed": true,
       "revisionNeededBeforeOutreach": false
     }
   ],

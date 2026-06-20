@@ -33,12 +33,12 @@
       "address": "4370 Northwest 4th Street, Des Moines",
       "evidenceQuality": "needs_google_maps_verification_before_send",
       "whyFirstBatch": "Has public email plus no website signal, so this is the cleanest no-website email test candidate.",
-      "mockupNeed": "create_before_send",
-      "mockupUrl": null,
+      "mockupNeed": "premium_mockup_ready_needs_google_maps_verification_before_send",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/cpc-performance/",
       "recommendedOffer": "first website / mobile call page",
       "subject": "quick first-site idea for CPC Performance",
       "draftCopy": "Hi CPC Performance team — I’m Majid with SYBEORG here in Iowa. I came across your Des Moines listing and didn’t see a website attached in the public listing data I checked. For an auto performance/repair shop, even a simple mobile page can help people confirm the address, hours, services, and tap to call before they choose where to go.\n\nIf useful, I can send over a no-obligation sample first-site concept for CPC with your phone, address, hours, and a clean mobile call path. Worth a quick look? Reply NO and I won’t follow up.",
-      "sendStatus": "not_sent_pending_verification_and_mockup"
+      "sendStatus": "not_sent_pending_verification_and_stark_approval"
     },
     {
       "rank": 2,
@@ -52,12 +52,12 @@
       "phone": "515-965-0714",
       "evidenceQuality": "strong; verified in 2026-06-19 batch",
       "whyFirstBatch": "Current site is effectively a placeholder; mockup is appropriate and already built.",
-      "mockupNeed": "ready",
+      "mockupNeed": "premium_mockup_ready",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
       "recommendedOffer": "replace coming-soon page with useful one-page site",
       "subject": "sample replacement for Premier Plumbing’s coming-soon page",
       "draftCopy": "Hi Premier Plumbing team — I was looking at Ankeny plumbing listings and saw the public Premier Plumbing website loading as a short 'Coming Soon' page. It does show a phone number, but it does not give homeowners much context before they choose who to call.\n\nI put together a no-obligation sample one-page concept showing how the first screen could make the phone number, service categories, and request path clearer: https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
-      "sendStatus": "not_sent_manual_channel_needed"
+      "sendStatus": "not_sent_premium_mockup_ready_manual_channel_needed"
     },
     {
       "rank": 3,
@@ -71,12 +71,12 @@
       "phone": "(319) 853-8105",
       "evidenceQuality": "good; verified in 2026-06-19 batch but should re-check before contact",
       "whyFirstBatch": "Strong no-website signal and mockup already built.",
-      "mockupNeed": "ready",
+      "mockupNeed": "premium_mockup_ready",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
       "recommendedOffer": "first website for Maps traffic",
       "subject": "sample first website for Grenell Tree Service",
       "draftCopy": "Hi Grenell Tree Service team — I came across your Iowa City-area listing and saw a strong local signal, but I did not see a website button in the public Maps view. For tree work, a simple mobile page can help people quickly confirm services and call when they have a limb, removal, or cleanup issue.\n\nI put together a no-obligation first-site concept with the phone number, service categories, and a fast estimate/call path: https://sybeorg-mockups.vercel.app/grenell-tree-service/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
-      "sendStatus": "not_sent_manual_channel_needed"
+      "sendStatus": "not_sent_premium_mockup_ready_manual_channel_needed"
     },
     {
       "rank": 4,
