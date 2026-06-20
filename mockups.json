@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG v3 rollout",
-  "lastUpdated": "2026-06-19",
+  "updatedBy": "Hermes / SYBEORG map + security pipeline pass",
+  "lastUpdated": "2026-06-20",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -238,10 +238,10 @@
       "mockupPath": "mp-plumbing/",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
       "angle": "Master-plumber trust + emergency water-heater/leak CTA; good fit for a dedicated conversion page separate from general web presence.",
-      "draftStatus": "premium_v2_ready_for_review",
+      "draftStatus": "premium_v3_ready_for_review",
       "priority": "high",
-      "redesignStatus": "premium_v2_qa_passed_2026-06-19",
-      "qualityDirection": "Leak/water-heater triage page for first-60-seconds emergency intent.",
+      "redesignStatus": "premium_v3_real_map_security_qa_passed_2026-06-20",
+      "qualityDirection": "V3 leak/water-heater triage page with real embedded OpenStreetMap service-area panel, phone-first CTA, and secure static deployment headers.",
       "officialSiteChecked": "https://www.mp-plumbing.com/",
       "siteDiscoverySource": "DuckDuckGo result verified 2026-06-19",
       "brandKit": {
@@ -304,7 +304,10 @@
           "muted": "#667085"
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
-      }
+      },
+      "visualQaNotes": "Static QA passed: JSON valid, no mixed-content asset links, no external scripts, iframe map has title/lazy/referrerpolicy/sandbox, target=_blank links guarded.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false
     },
     {
       "id": "platinum-phc",
@@ -656,6 +659,28 @@
       "livePage": "video-commercial/index.html",
       "status": "integrated_into_homepage_and_six_current_mockups",
       "lastUpdated": "2026-06-19"
+    },
+    "staticQa": {
+      "script": "scripts/qa_static.py",
+      "status": "passing_2026-06-20",
+      "checks": [
+        "valid JSON",
+        "no http asset links",
+        "no external script src",
+        "safe target=_blank rel",
+        "secure/lazy iframe embeds"
+      ]
+    },
+    "deploymentSecurity": {
+      "config": "vercel.json",
+      "status": "headers_added_2026-06-20",
+      "headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy",
+        "X-Content-Type-Options",
+        "Permissions-Policy",
+        "Strict-Transport-Security"
+      ]
     }
   }
 }
