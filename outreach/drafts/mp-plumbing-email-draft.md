@@ -1,43 +1,37 @@
-# M&P Plumbing outreach draft
+# M&P Plumbing outreach draft — paused
 
-_Last prepared: 2026-06-20 02:24 CDT_
+_Last revised: 2026-06-20 02:45 CDT_
 
-## Status
+## Decision
 
-- Sender account: `sybeorg` / `sybeorg@gmail.com`
-- Recipient: `mpplumbingservice@gmail.com`
-- Recipient source: official site mailto/schema tracked in `outreach/master-send-board.json`
-- Mockup URL: <https://sybeorg-mockups.vercel.app/mp-plumbing/>
-- Send status: ready pending Stark approval
-- Do not send until Stark approves exact recipient + subject + body.
+Do **not** send the mockup email to M&P Plumbing.
 
-## Recommended subject
+Stark reviewed their live site and the official M&P site is currently stronger than our mockup. Hermes verified the homepage has solid branding, navigation, contact access, service cards, footer structure, and an established local-business feel.
 
-quick mockup idea for M&P Plumbing
+A generic "we made you a better mockup" message would weaken SYBEORG's positioning here.
 
-## Email body
+## Updated mockup outreach rule
 
-Hey M&P team — I’m Majid from SYBEORG.
+Use mockup outreach only when at least one is true:
 
-I put together a quick sample landing-page concept for M&P Plumbing because plumbing visitors usually decide in the first minute whether they’re calling or bouncing — especially for leaks, water heaters, and drain problems.
+1. The Google Business Profile / Google Maps listing has no website link.
+2. The linked website is broken, outdated, thin, placeholder-style, or obviously low-trust.
+3. The site is a Google/Yext/GBP-style mini page rather than a real website.
+4. Our mockup is clearly stronger within 5 seconds on mobile.
+5. There is a specific broken flow we can demonstrate, like a weak booking/contact/request-service path.
 
-Mockup: https://sybeorg-mockups.vercel.app/mp-plumbing/
+Do **not** use mockup outreach when their current website is already polished and credible.
 
-I kept it clearly marked as a sample concept, not an official page. The direction is a mobile-first call path: issue buttons up front, a real Urbandale / Des Moines map section, and no fake reviews or made-up claims.
+## Better M&P approach, if we revisit later
 
-If it feels useful, I can polish it around your real photos, proof, and whichever service brings in the best calls.
+Only pursue M&P with a specific improvement angle, for example:
 
-Worth refining for you, or should I leave it alone?
+- 3-point conversion audit: hero CTA, quote/request flow, visible trust above the fold.
+- A dedicated paid-ads landing page for a high-value service.
+- A seasonal campaign page for water heaters, commercial plumbing, or new construction.
+- A short video/commercial package that can support their existing site.
+- SEO/local service page expansion, not homepage redesign.
 
-— Majid
-SYBEORG
+## Send status
 
-## Ready-to-send Himalaya command
-
-From repo root:
-
-```bash
-cat outreach/drafts/mp-plumbing-email.eml | '/c/Users/TAHA/AppData/Local/hermes/bin/himalaya.exe' template send --account sybeorg
-```
-
-Only run after Stark explicitly approves sending.
+Paused. No outbound email should be sent for this draft.

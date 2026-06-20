@@ -2,11 +2,10 @@
   "updated": "2026-06-20",
   "from_account": "sybeorg@gmail.com",
   "gmail_status": "verified_himalaya_account_available_sybeorg",
-  "policy": "Do not send outbound email until Stark approves exact recipients and message content.",
+  "policy": "Do not use mockup outreach unless the prospect has no linked website, a weak/broken/placeholder site, or our mockup is clearly stronger than the current site. Do not send outbound email until Stark approves exact recipients and message content.",
   "first_batch": [
     "bunch-heating-cooling",
-    "five-seasons-hvac",
-    "mp-plumbing"
+    "five-seasons-hvac"
   ],
   "queue": [
     {
@@ -32,15 +31,17 @@
     {
       "id": "mp-plumbing",
       "business": "M&P Plumbing",
-      "priority": "high",
+      "priority": "paused",
       "recipient_email": "mpplumbingservice@gmail.com",
       "recipient_status": "verified_from_master_send_board_official_site_mailto_schema",
-      "subject": "quick mockup idea for M&P Plumbing",
+      "subject": "PAUSED - do not send mockup pitch",
       "mockup_url": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
-      "send_status": "ready_pending_stark_approval",
+      "send_status": "paused_strong_existing_site_needs_new_angle",
       "draft_path": "outreach/drafts/mp-plumbing-email.eml",
       "review_path": "outreach/drafts/mp-plumbing-email-draft.md",
-      "last_prepared": "2026-06-20 02:24 CDT"
+      "last_prepared": "2026-06-20 02:34 CDT",
+      "reason_paused": "Official website is already stronger than our current mockup. Mockups should be reserved for no-site, weak-site, placeholder, or clearly worse current-site prospects.",
+      "recommended_next_angle": "conversion audit / high-value service campaign / Google Ads landing page / video campaign, not generic redesign"
     },
     {
       "id": "8-finger-hvac",

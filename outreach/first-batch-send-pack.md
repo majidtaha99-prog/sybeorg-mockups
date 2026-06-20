@@ -56,27 +56,18 @@ https://sybeorg.com
 
 ---
 
-## 3) M&P Plumbing
+## 3) M&P Plumbing — paused / do not send
 
-To: [NEED RECIPIENT EMAIL]  
-Subject: Quick mockup for M&P Plumbing
+M&P is removed from the first mockup-send batch.
 
-Hi M&P Plumbing team,
+Reason: Stark checked the live M&P site and it is currently stronger than our mockup. Hermes verified the site already has solid branding, navigation, contact info, service cards, gallery/testimonials/contact structure, and a credible local-business feel.
 
-I’m Majid with Sybeorg. I built a quick sample landing page for M&P Plumbing:
+Do not send a generic redesign/mockup pitch here. If we revisit M&P, use a stronger-specific angle only:
 
-https://sybeorg-mockups.vercel.app/mp-plumbing/
+- conversion audit with 3 concrete fixes,
+- high-value service landing page tied to ads,
+- seasonal campaign page,
+- short commercial/video ad package,
+- local SEO/service-page expansion.
 
-The concept is built around urgent plumbing calls — leaks, water heaters, drain/sewer issues — with the phone number and trust points front and center on mobile.
-
-This is only a mockup. You didn’t request it, and there’s no obligation. I just wanted to show a concrete example instead of sending a normal agency pitch.
-
-If you like the direction, I can polish it with your real photos, exact service list, and preferred wording.
-
-Would this be worth refining for M&P?
-
-P.S. We can also shoot a professional 30–60 second business commercial or short video ads and connect them to the landing page, so it becomes a full campaign instead of just a nicer page: https://sybeorg-mockups.vercel.app/video-commercial/
-
-— Majid
-Sybeorg
-https://sybeorg.com
+Mockup outreach is now reserved for no-site, weak-site, placeholder, broken-flow, or clearly worse-current-site prospects.

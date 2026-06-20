@@ -4,7 +4,7 @@
   "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
   "status": "approval_required_no_sends",
   "senderAccount": "sybeorg@gmail.com",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-20",
   "policy": {
     "noOutboundWithoutStarkApproval": true,
     "approvalRequiredFor": [
@@ -19,19 +19,6 @@
   "recommendedGmailBatch": [
     {
       "rank": 1,
-      "prospectId": "mp-plumbing",
-      "business": "M&P Plumbing",
-      "recipient": "mpplumbingservice@gmail.com",
-      "recipientSource": "official site mailto/schema on https://mp-plumbing.com",
-      "mockupUrl": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
-      "gmbSignal": "Google Maps limited view showed 4.8 stars",
-      "leadQuality": "high",
-      "subject": "quick mockup for M&P Plumbing",
-      "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent"
-    },
-    {
-      "rank": 2,
       "prospectId": "platinum-phc",
       "business": "Platinum Plumbing, Heating & Cooling",
       "recipient": "eric@platinumphcdsm.com",
@@ -44,7 +31,7 @@
       "sendStatus": "not_sent"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "prospectId": "richardson-plumbing",
       "business": "Richardson Plumbing",
       "recipient": "richardsonplmb@gmail.com",
@@ -96,6 +83,43 @@
       "reasonNotInGmailBatch": "Recipient not re-exposed by official site fetch; verify before using.",
       "angle": "Strong reputation but weak/unfinished web presence.",
       "sendStatus": "not_sent"
+    }
+  ],
+  "positioningPolicy": {
+    "mockupOutreachUseOnlyWhen": [
+      "business has no website linked from Google Business Profile / Google Maps",
+      "website is visibly outdated, broken, low-trust, or Google/Yext/GBP-style placeholder",
+      "mockup is clearly stronger than the existing site within 5 seconds on mobile",
+      "there is a specific page-level gap such as no service page, no landing page, poor mobile CTA, or broken request flow"
+    ],
+    "doNotUseMockupOutreachWhen": [
+      "existing website is already more polished than the mockup",
+      "existing website has solid branding, navigation, service structure, testimonials/gallery/contact paths",
+      "our advantage is only generic aesthetics rather than a concrete conversion or campaign angle"
+    ],
+    "alternateAnglesForStrongSites": [
+      "conversion audit with 3 specific fixes",
+      "Google Ads / landing page campaign for one high-value service",
+      "seasonal offer page tied to paid ads",
+      "commercial/video ad package that points to their existing site or a campaign page",
+      "SEO/local service page expansion rather than homepage redesign"
+    ]
+  },
+  "pausedStrongSiteProspects": [
+    {
+      "rank": 1,
+      "prospectId": "mp-plumbing",
+      "business": "M&P Plumbing",
+      "recipient": "mpplumbingservice@gmail.com",
+      "recipientSource": "official site mailto/schema on https://mp-plumbing.com",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/mp-plumbing/",
+      "gmbSignal": "Google Maps limited view showed 4.8 stars",
+      "leadQuality": "rework_only",
+      "subject": "quick mockup for M&P Plumbing",
+      "approvalStatus": "do_not_send_mockup_pitch",
+      "sendStatus": "paused",
+      "reasonPaused": "Stark reviewed official site and judged it stronger than our current mockup; generic redesign/mockup pitch would weaken SYBEORG positioning.",
+      "recommendedNextApproach": "Only pursue with a precise conversion audit, paid-ads landing page, or video/campaign angle after we can show a concrete improvement over their current site."
     }
   ]
 }
