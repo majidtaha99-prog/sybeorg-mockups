@@ -19,11 +19,15 @@
       "recipient_status": "public_email_needs_google_maps_verification",
       "subject": "quick first-site idea for CPC Performance",
       "mockup_url": "https://sybeorg-mockups.vercel.app/cpc-performance/",
-      "send_status": "not_sent_pending_verification_and_stark_approval",
+      "send_status": "gmail_draft_saved_pending_verification_and_stark_approval",
       "qualification": "no_website_first_batch",
       "current_web_presence": "no website field found in OSM/public listing pass",
       "contact_route": "public email from OSM listing",
-      "quality_standard": "premium_loader_map_contact_motion_ready"
+      "quality_standard": "premium_loader_map_contact_motion_ready",
+      "gmail_draft_account": "sybeorg",
+      "gmail_draft_from": "sybeorg@gmail.com",
+      "gmail_draft_id": "547",
+      "gmail_draft_verified": "2026-06-20 via himalaya sybeorg drafts"
     },
     {
       "id": "premier-plumbing-ankeny",
