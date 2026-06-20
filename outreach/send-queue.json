@@ -2,7 +2,7 @@
   "updated": "2026-06-20",
   "from_account": "sybeorg@gmail.com",
   "gmail_status": "verified_himalaya_account_available_sybeorg",
-  "policy": "First outreach batch prioritizes no-website, placeholder, broken-site, or clearly weak-site prospects. Strong-site prospects require audit/campaign/video angles instead. Do not send outbound email until Stark approves exact recipients and message content.",
+  "policy": "First outreach batch prioritizes no-website, placeholder, broken-site, or clearly weak-site prospects. Strong-site prospects require audit/campaign/video angles instead. Do not send outbound email until Stark approves exact recipients and message content. Outreach voice must sound human/local: specific observation, plain language, no canned opt-out commands, no generic micro-CTAs, no AI-ish pressure disclaimers.",
   "first_batch": [
     "cpc-performance",
     "premier-plumbing-ankeny",
@@ -26,8 +26,10 @@
       "quality_standard": "premium_loader_map_contact_motion_ready",
       "gmail_draft_account": "sybeorg",
       "gmail_draft_from": "sybeorg@gmail.com",
-      "gmail_draft_id": "547",
-      "gmail_draft_verified": "2026-06-20 via himalaya sybeorg drafts"
+      "gmail_draft_id": "553",
+      "gmail_draft_verified": "2026-06-20 via himalaya sybeorg drafts; cleaned human voice, no botty opt-out CTA",
+      "draft_path": "outreach/drafts/cpc-performance-email.eml",
+      "voice_status": "humanized_personal_no_botty_optout"
     },
     {
       "id": "premier-plumbing-ankeny",

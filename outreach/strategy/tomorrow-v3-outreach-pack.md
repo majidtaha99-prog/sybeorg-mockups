@@ -63,7 +63,7 @@ Live gallery: <https://sybeorg-mockups.vercel.app/>
 1. Do not imply these are official websites.
 2. Do not claim fake results, reviews, certifications, or launch timelines.
 3. Lead with the custom observation, not “I build websites.”
-4. Keep the ask small: “Worth polishing?” / “Should I tailor it around your highest-value service?”
+4. Keep the next step small and human: “If this is useful, I can clean it up with the real details” / “I can tailor it around your highest-value service.”
 5. If they reply positively, next step is a short call or a cleaned proof version using only verified assets.
 
 ## Fast DM/email template

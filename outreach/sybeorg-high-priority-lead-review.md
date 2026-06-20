@@ -31,8 +31,8 @@ The Gmail drafts have strong hooks, but several should be softened before sendin
 1. Avoid over-claiming losses like “probably costing you real calls” unless framed as “could be.”
 2. Avoid harsh phrasing like “you need to see your website right now.”
 3. Avoid unverified claims unless we just re-confirmed them.
-4. Keep the tone helpful/local: “I noticed this, made a quick mockup, no pressure.”
-5. Use a light CTA first: “Worth polishing this up?” instead of pushing the calendar too hard.
+4. Keep the tone helpful/local: “I noticed this, made a quick mockup, nothing pushy.”
+5. Use a light CTA first: “If the direction feels useful, I can clean it up.” instead of pushing the calendar too hard.
 
 ## Prospect-by-prospect lead board
 
@@ -77,9 +77,9 @@ Why: public emails verified on official sites, good GMB presence, and live mocku
 - Subject lines should be specific but not insulting.
 - First line should prove this is not spam: mention their exact business/site observation.
 - The mockup should be framed as “sample/concept,” not as something they requested.
-- One primary CTA: “Worth polishing this up for you?”
+- One soft next step in a normal human voice, not a canned micro-CTA.
 - Calendar link can be secondary, not the main ask.
-- Keep opt-out line.
+- Do not include botty opt-out commands.
 
 ### Strongest angles by lead
 
@@ -94,8 +94,8 @@ Why: public emails verified on official sites, good GMB presence, and live mocku
 
 ### 1) M&P Plumbing
 
-To: `mpplumbingservice@gmail.com`  
-Sender: `sybeorg@gmail.com`  
+To: `mpplumbingservice@gmail.com`
+Sender: `sybeorg@gmail.com`
 Subject: quick mockup for M&P Plumbing
 
 Body:
@@ -104,24 +104,24 @@ Body:
 >
 > MJ here from Sybeorg, a small Iowa digital agency. I was looking through local plumbing companies and noticed M&P has the trust pieces people want — local service, real phone number, and strong Google presence — but the website could make emergency visitors act faster on mobile.
 >
-> I put together a quick no-obligation sample page to show what a more direct emergency-plumbing funnel could look like for you:
+> I put together a quick sample page to show what a more direct emergency-plumbing funnel could look like for you:
 >
 > https://sybeorg-mockups.vercel.app/mp-plumbing/
 >
 > The idea is simple: make the phone number, urgent-service message, and trust proof obvious before someone keeps searching.
 >
-> Worth polishing this up for you?
+> If the direction is useful, I can clean it up with the real details.
 >
-> MJ  
-> Sybeorg — sybeorg.com  
+> MJ
+> Sybeorg — sybeorg.com
 > Iowa City, IA
 >
-> Reply NO and I will not follow up.
+>
 
 ### 2) Platinum Plumbing, Heating & Cooling
 
-To: `eric@platinumphcdsm.com`  
-Sender: `sybeorg@gmail.com`  
+To: `eric@platinumphcdsm.com`
+Sender: `sybeorg@gmail.com`
 Subject: quick mockup for Platinum PHC
 
 Body:
@@ -136,18 +136,18 @@ Body:
 >
 > The goal would be to make it easier for a homeowner on mobile to see trust, tap the number, and request help without digging around.
 >
-> No pressure — just wanted to show instead of pitch. Worth polishing this up for you?
+> I wanted to show the idea instead of sending a cold pitch. If the direction is useful, I can clean it up with the real details.
 >
-> MJ  
-> Sybeorg — sybeorg.com  
+> MJ
+> Sybeorg — sybeorg.com
 > Iowa City, IA
 >
-> Reply NO and I will not follow up.
+>
 
 ### 3) Richardson Plumbing
 
-To: `richardsonplmb@gmail.com`  
-Sender: `sybeorg@gmail.com`  
+To: `richardsonplmb@gmail.com`
+Sender: `sybeorg@gmail.com`
 Subject: sample page for Richardson Plumbing
 
 Body:
@@ -162,13 +162,13 @@ Body:
 >
 > The idea is to make the phone number, service area, and trust proof easier for a homeowner to act on quickly.
 >
-> Worth polishing this up for you?
+> If the direction is useful, I can clean it up with the real details.
 >
-> MJ  
-> Sybeorg — sybeorg.com  
+> MJ
+> Sybeorg — sybeorg.com
 > Iowa City, IA
 >
-> Reply NO and I will not follow up.
+>
 
 ## Five Seasons manual/contact-form note
 

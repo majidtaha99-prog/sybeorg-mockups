@@ -11,17 +11,15 @@ Subject: Quick mockup for Bunch Heating and Cooling
 
 Hi Bunch team,
 
-I’m Majid with Sybeorg here in Iowa. I came across Bunch Heating and Cooling and built a quick sample landing page for you:
+I’m Majid with SYBEORG here in Iowa. I came across Bunch Heating and Cooling and put together a sample page around the kind of calls people make when they need help fast:
 
 https://sybeorg-mockups.vercel.app/bunch-heating-cooling/
 
-The idea is simple: when someone has no AC, no heat, or a water heater issue, the page should make it dead easy to call from mobile — phone number up top, emergency message clear, services easy to scan, and trust signals visible fast.
+I kept it focused on the basics that matter on mobile: the phone number easy to reach, emergency HVAC/water heater messaging clear, services easy to scan, and trust points visible without making people hunt for them.
 
-This is just a mockup, not something you asked for or committed to. I wanted to show the work first instead of sending a generic pitch.
+I wanted to show the idea instead of sending a normal agency pitch. If the direction feels close, I can clean it up with your real photos, wording, and service details.
 
-Worth polishing this up for Bunch?
-
-P.S. SYBEORG is also re-opening our commercial/video production side. If useful, we can pair the page with a polished 30–60 second business commercial and short video ad cuts for Facebook, Instagram, TikTok, YouTube, or the website: https://sybeorg-mockups.vercel.app/video-commercial/
+P.S. We’re also opening up video/commercial work again. If you ever want the page paired with a short shop/team commercial or ad cuts for Facebook, Instagram, TikTok, YouTube, or the website, this is the style we’re building: https://sybeorg-mockups.vercel.app/video-commercial/
 
 — Majid
 Sybeorg
@@ -36,19 +34,15 @@ Subject: Sample page for Five Seasons Heating & Cooling
 
 Hi Five Seasons team,
 
-I’m Majid with Sybeorg, an Iowa-based web/design shop. I put together a quick custom mockup for Five Seasons Heating & Cooling:
+I’m Majid with SYBEORG, an Iowa web/design shop. I put together a sample page for Five Seasons Heating & Cooling:
 
 https://sybeorg-mockups.vercel.app/five-seasons-hvac/
 
-I noticed your strongest angle is trust: local technicians, licensed and insured, warranty-backed work, and same-day service. The mockup leans into that and makes the call-to-action obvious for mobile visitors who need heating or AC help fast.
+The part I leaned into was trust. Local techs, licensed and insured work, warranty-backed service, and a clear same-day-service path. On mobile, someone with no heat or no AC should be able to understand the offer and call without digging around.
 
-No pressure — this is just a sample concept so you can see the direction before any conversation.
+If the direction feels useful, I can clean it up with your exact wording, photos, and service details.
 
-If it looks useful, I can clean it up with your exact wording/photos and make it production-ready.
-
-Worth taking a look?
-
-P.S. We also have professional commercial/video production available now. If Five Seasons ever wants an owner/team trust video, seasonal AC/furnace promo, or short video ads tied to this page, that can be packaged together: https://sybeorg-mockups.vercel.app/video-commercial/
+P.S. We’re also opening up video/commercial work again. A short owner/team trust video or seasonal AC/furnace promo could fit this kind of page well: https://sybeorg-mockups.vercel.app/video-commercial/
 
 — Majid
 Sybeorg

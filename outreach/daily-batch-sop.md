@@ -131,8 +131,8 @@ Use old audit drafts as intelligence only, not direct copy. First-touch copy mus
 - non-accusatory,
 - based on freshly verified observations,
 - mockup framed as a sample/concept,
-- one CTA: “Worth polishing this up for you?” or similar,
-- include opt-out line: “Reply NO and I will not follow up.”
+- one soft next step in a normal human voice, e.g. “If this is useful, I can clean it up with the real details.”
+- do not include opt-out commands or canned micro-CTAs that sound automated.
 
 Do **not** send Gmail, submit contact forms, call, or DM. Draft only.
 

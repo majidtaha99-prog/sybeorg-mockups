@@ -137,7 +137,7 @@ A lot of local businesses have a decent website or social page, but no polished 
 
 If you want, I can send over a simple concept/storyboard for what a {{business_type}} commercial could look like. We also have a sample commercial/ad spot here so you can see the production/editing style: https://sybeorg-mockups.vercel.app/video-commercial/
 
-Worth a quick look?
+If you want, I can send the concept over.
 
 — Majid  
 SYBEORG

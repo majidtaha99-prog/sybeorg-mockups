@@ -12,7 +12,7 @@ Do not lead with "your site is bad." Lead with the public customer path:
 
 Hi, is this the right number for [Business]?
 
-My name is Majid with SYBEORG. Quick helpful note: I was checking local [trade] listings and I didn't see a real website / saw the listed website issue for [Business]. If a customer clicks from Google before calling, they may not get a clean page with services, hours, and a tap-to-call button.
+My name is Majid with SYBEORG. I was checking local [trade] listings and noticed [Business] either did not have a clear website attached or had a website issue. If a customer clicks from Google before calling, they may not get a clean page with services, hours, and a tap-to-call button.
 
 I’m not calling to lock you into anything. I’m putting together a few sample first-site pages for local businesses with missing or broken web links. If I send you a quick mockup, would you want to look at it?
 
@@ -22,7 +22,7 @@ If yes: What email or text number should I send it to?
 
 Hi [Business] team — I’m Majid with SYBEORG. I noticed your public listing doesn’t seem to have a clear website / has a website issue. For customers coming from Google, a simple mobile page with services, location, and tap-to-call can help before they choose who to call.
 
-I put together / can put together a no-obligation sample first-site concept. Worth sending over?
+I put together / can put together a simple first-site concept. If you want, I can send it over.
 
 ## Email version for CPC Performance
 
@@ -30,11 +30,14 @@ Subject: quick first-site idea for CPC Performance
 
 Hi CPC Performance team,
 
-I’m Majid with SYBEORG here in Iowa. I came across your Des Moines listing and didn’t see a website attached in the public listing data I checked. For an auto performance/repair shop, even a simple mobile page can help people confirm the address, hours, services, and tap to call before they choose where to go.
+I’m Majid with SYBEORG here in Iowa. I came across CPC while looking at Des Moines auto shops and noticed I couldn’t find a proper website attached to the listing I checked.
 
-If useful, I can send over a no-obligation sample first-site concept for CPC with your phone, address, hours, and a clean mobile call path.
+I made a simple first-page mockup so you can see what I mean:
+https://sybeorg-mockups.vercel.app/cpc-performance/
 
-Worth a quick look? Reply NO and I won’t follow up.
+It’s meant to give people the basics fast on their phone: what you do, where the shop is, hours, and an easy way to call before they pick a place.
+
+If it feels useful, I can clean it up with your exact services, photos, and wording.
 
 — Majid
 SYBEORG

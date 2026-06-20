@@ -10,7 +10,7 @@ Use a short, specific, low-pressure email. The hook is not "we build websites" �
 
 > I already built you a quick custom mockup so you can see the idea before we talk.
 
-Keep the CTA tiny: ask if it is worth polishing, not for a contract.
+Keep the next step tiny: offer to clean it up with their real details, not push for a contract.
 
 ---
 
@@ -29,18 +29,16 @@ Keep the CTA tiny: ask if it is worth polishing, not for a contract.
 
 Hi Bunch team,
 
-I’m Majid with Sybeorg here in Iowa. I came across Bunch Heating and Cooling and built a quick sample landing page for you:
+I’m Majid with SYBEORG here in Iowa. I came across Bunch Heating and Cooling and put together a sample page around the kind of calls people make when they need help fast:
 
 https://sybeorg-mockups.vercel.app/bunch-heating-cooling/
 
-The idea is simple: when someone has no AC, no heat, or a water heater issue, the page should make it dead easy to call from mobile — phone number up top, emergency message clear, services easy to scan, and trust signals visible fast.
+I kept it focused on the basics that matter on mobile: the phone number easy to reach, emergency HVAC/water heater messaging clear, services easy to scan, and trust points visible without making people hunt for them.
 
-This is just a mockup, not something you asked for or committed to. I wanted to show the work first instead of sending a generic pitch.
-
-Worth polishing this up for Bunch?
+I wanted to show the idea instead of sending a normal agency pitch. If the direction feels close, I can clean it up with your real photos, wording, and service details.
 
 — Majid
-Sybeorg
+SYBEORG
 https://sybeorg.com
 
 ---
@@ -60,20 +58,16 @@ https://sybeorg.com
 
 Hi Five Seasons team,
 
-I’m Majid with Sybeorg, an Iowa-based web/design shop. I put together a quick custom mockup for Five Seasons Heating & Cooling:
+I’m Majid with SYBEORG, an Iowa web/design shop. I put together a sample page for Five Seasons Heating & Cooling:
 
 https://sybeorg-mockups.vercel.app/five-seasons-hvac/
 
-I noticed your strongest angle is trust: local technicians, licensed and insured, warranty-backed work, and same-day service. The mockup leans into that and makes the call-to-action obvious for mobile visitors who need heating or AC help fast.
+The part I leaned into was trust. Local techs, licensed and insured work, warranty-backed service, and a clear same-day-service path. On mobile, someone with no heat or no AC should be able to understand the offer and call without digging around.
 
-No pressure — this is just a sample concept so you can see the direction before any conversation.
-
-If it looks useful, I can clean it up with your exact wording/photos and make it production-ready.
-
-Worth taking a look?
+If the direction feels useful, I can clean it up with your exact wording, photos, and service details.
 
 — Majid
-Sybeorg
+SYBEORG
 https://sybeorg.com
 
 ---
@@ -93,20 +87,18 @@ https://sybeorg.com
 
 Hi M&P Plumbing team,
 
-I’m Majid with Sybeorg. I built a quick sample landing page for M&P Plumbing:
+I’m Majid with SYBEORG. I built a quick sample landing page for M&P Plumbing:
 
 https://sybeorg-mockups.vercel.app/mp-plumbing/
 
 The concept is built around urgent plumbing calls — leaks, water heaters, drain/sewer issues — with the phone number and trust points front and center on mobile.
 
-This is only a mockup. You didn’t request it, and there’s no obligation. I just wanted to show a concrete example instead of sending a normal agency pitch.
+I made this as a sample so you can see the direction before any sales conversation.
 
 If you like the direction, I can polish it with your real photos, exact service list, and preferred wording.
 
-Would this be worth refining for M&P?
-
 — Majid
-Sybeorg
+SYBEORG
 https://sybeorg.com
 
 ---
@@ -126,20 +118,18 @@ https://sybeorg.com
 
 Hi Bobby,
 
-I’m Majid with Sybeorg. I saw 8 Finger HVAC and made a quick sample landing page for you:
+I’m Majid with SYBEORG. I saw 8 Finger HVAC and made a quick sample landing page for you:
 
 https://sybeorg-mockups.vercel.app/8-finger-hvac/
 
 I kept it focused on what matters for HVAC calls: clear phone number, emergency service messaging, small-town trust, and a mobile layout that gets people to call fast.
 
-This is just a mockup — no obligation and no weird sales trap. I wanted to show the idea first and see if it’s useful.
+I made this as a sample because it is easier to judge the idea when you can actually see it.
 
-If you like it, I can polish it up with your exact photos, services, and wording.
-
-Worth refining?
+If the direction feels right, I can polish it with your exact photos, services, and wording.
 
 — Majid
-Sybeorg
+SYBEORG
 https://sybeorg.com
 
 ---
@@ -159,20 +149,18 @@ https://sybeorg.com
 
 Hi Eric,
 
-I’m Majid with Sybeorg. I put together a quick sample landing page for Platinum Plumbing, Heating & Cooling:
+I’m Majid with SYBEORG. I put together a quick sample landing page for Platinum Plumbing, Heating & Cooling:
 
 https://sybeorg-mockups.vercel.app/platinum-phc/
 
 The angle is simple: if someone has a plumbing, heating, cooling, or electrical issue, they should instantly know who to call and what you handle. The mockup is phone-first and built around emergency service visitors on mobile.
 
-This is just a sample concept — you didn’t ask for it, and there’s no obligation. I built it so you could see the idea before we ever talk.
+I built this as a sample so you could see the idea before we ever talk.
 
-If it looks close, I can polish it with your exact services, photos, and preferred wording.
-
-Worth taking a look?
+If it feels close, I can polish it with your exact services, photos, and preferred wording.
 
 — Majid
-Sybeorg
+SYBEORG
 https://sybeorg.com
 
 ---
@@ -192,20 +180,18 @@ https://sybeorg.com
 
 Hi John,
 
-I’m Majid with Sybeorg. I built a quick sample landing page for Richardson Plumbing:
+I’m Majid with SYBEORG. I built a quick sample landing page for Richardson Plumbing:
 
 https://sybeorg-mockups.vercel.app/richardson-plumbing/
 
 I kept it straightforward: clear service areas, plumbing services easy to scan, strong phone call CTA, and a tone built around trust rather than hype.
 
-This is only a mockup — you didn’t request it, and there’s no obligation. I wanted to show the work first and see if the direction is useful.
+I wanted to show the work first instead of sending a cold pitch with nothing attached.
 
-If you like it, I can clean it up with your exact wording, photos, and service details.
-
-Worth polishing this for you?
+If the direction feels useful, I can clean it up with your exact wording, photos, and service details.
 
 — Majid
-Sybeorg
+SYBEORG
 https://sybeorg.com
 
 ---
