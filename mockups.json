@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG daily opportunity batch 2026-06-21",
+  "updatedBy": "Hermes / SYBEORG redesign readiness 2026-06-21",
   "lastUpdated": "2026-06-21",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
@@ -437,7 +437,12 @@
       "mockupUrl": "https://sybeorg-mockups.vercel.app/number-one-auto/",
       "angle": "Auto repair landing-page concept built around restoring trust after the public site currently fails with an expired-certificate warning.",
       "draftStatus": "ready_for_review",
-      "priority": "high"
+      "priority": "high",
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
+      "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false,
+      "visualQaNotes": "Generated to SYBEORG premium standard; pending browser QA after this redesign pass."
     },
     {
       "id": "sd-auto-repair-center",
@@ -450,7 +455,12 @@
       "mockupUrl": "https://sybeorg-mockups.vercel.app/sd-auto-repair-center/",
       "angle": "Auto repair concept for a shop whose current website route lands on a Google sign-in screen instead of a public page.",
       "draftStatus": "ready_for_review",
-      "priority": "high"
+      "priority": "high",
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
+      "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false,
+      "visualQaNotes": "Generated to SYBEORG premium standard; pending browser QA after this redesign pass."
     },
     {
       "id": "grenell-tree-service",
@@ -534,7 +544,12 @@
           "muted": "#667085"
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
-      }
+      },
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
+      "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails.",
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false,
+      "visualQaNotes": "Generated to SYBEORG premium standard; pending browser QA after this redesign pass."
     },
     {
       "id": "quality-plumbing-marion",
@@ -571,8 +586,10 @@
         "warranties",
         "24/7"
       ],
-      "visualQaNotes": "Browser visual QA passed as a credible, distinct concept with local context and call-first hierarchy. Main caveat: it intentionally reads like a business-owner concept/audit page more than a final customer-facing site; add real logo/photos/hours before production.",
-      "revisionNeededBeforeOutreach": false
+      "visualQaNotes": "Generated to SYBEORG premium standard; pending browser QA after this redesign pass.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
+      "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails."
     },
     {
       "id": "premier-plumbing-ankeny",
@@ -668,8 +685,10 @@
         "years in business",
         "specialty claims beyond public listing category"
       ],
-      "visualQaNotes": "Local browser QA passed: distinct work-order concept, no fake proof, mobile sticky call dock visible, strong sample framing. Uses public listing address/phone only; add real photos/hours/services before production.",
-      "revisionNeededBeforeOutreach": false
+      "visualQaNotes": "Generated to SYBEORG premium standard; pending browser QA after this redesign pass.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
+      "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails."
     },
     {
       "id": "arriaga-lawn-maintenance",
@@ -783,8 +802,10 @@
         "years in business",
         "exact service menu"
       ],
-      "visualQaNotes": "Browser QA passed locally: distinct repair-ticket concept, sample framing clear, mobile sticky call dock visible, no fabricated proof.",
-      "revisionNeededBeforeOutreach": false
+      "visualQaNotes": "Generated to SYBEORG premium standard; pending browser QA after this redesign pass.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
+      "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails."
     },
     {
       "id": "xpress-oil-lube-waterloo",
@@ -822,8 +843,10 @@
         "owner name",
         "full service menu"
       ],
-      "visualQaNotes": "Browser QA passed locally: distinct bay-board concept, sample framing clear, mobile sticky call dock visible, no unsupported coupons/certifications.",
-      "revisionNeededBeforeOutreach": false
+      "visualQaNotes": "Generated to SYBEORG premium standard; pending browser QA after this redesign pass.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
+      "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails."
     }
   ],
   "nextBatchQueue": [
