@@ -203,3 +203,119 @@ https://sybeorg.com
 - Keep every email short and permission-based.
 - Best first sends: Bunch, Five Seasons, M&P.
 - Send 3 first, wait for replies, then send the remaining 3 with small tweaks if deliverability looks good.
+---
+
+# No-site / broken-site first batch — ready for review
+
+Source of truth for this batch: `outreach/no-website-first-batch-scripts.md`. Local `.eml` drafts are saved under `outreach/drafts/`. Gmail drafts should only be created when a public recipient email is verified.
+
+## CPC Performance
+
+**Mockup:** https://sybeorg-mockups.vercel.app/cpc-performance/  
+**Gmail draft:** saved in SYBEORG Gmail, draft ID `553`; not sent.
+
+Subject: quick first-site idea for CPC Performance
+
+Hi CPC Performance team,
+
+I’m Majid with SYBEORG here in Iowa. I came across CPC while looking at Des Moines auto shops and noticed I couldn’t find a proper website attached to the listing I checked.
+
+I made a simple first-page mockup so you can see what I mean:
+https://sybeorg-mockups.vercel.app/cpc-performance/
+
+It’s meant to give people the basics fast on their phone: what you do, where the shop is, hours, and an easy way to call before they pick a place.
+
+If it feels useful, I can clean it up with your exact services, photos, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## Premier Plumbing
+
+**Mockup:** https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/  
+**Status:** local draft ready; verified email still needed.
+
+Subject: sample page for Premier Plumbing in Ankeny
+
+Hi Premier Plumbing team,
+
+I’m Majid with SYBEORG here in Iowa. I was looking at Ankeny plumbing listings and saw the Premier Plumbing site was still showing as a short coming-soon page.
+
+I made a simple first-page concept so you can see the difference a real mobile landing page would make:
+https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/
+
+I kept it focused on what a homeowner needs before calling: the phone number, service lanes, location context, and a way to explain the job if it is not urgent.
+
+If it feels close, I can clean it up with your real logo, photos, services, hours, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## Grenell Tree Service LLC
+
+**Mockup:** https://sybeorg-mockups.vercel.app/grenell-tree-service/  
+**Status:** local draft ready; verified email still needed.
+
+Subject: sample first website for Grenell Tree Service
+
+Hi Grenell Tree Service team,
+
+I’m Majid with SYBEORG. I was looking through Iowa City-area tree service listings and couldn’t find a clear website attached to the public listing I checked.
+
+I made a simple first-site concept for Grenell so you can see the idea:
+https://sybeorg-mockups.vercel.app/grenell-tree-service/
+
+It gives people the basics fast on their phone: tree service paths, a local map, your phone number, and a simple way to explain what they need help with.
+
+If it feels useful, I can clean it up with your real photos, exact services, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## Arriaga Lawn Maintenance
+
+**Mockup:** https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/  
+**Status:** local draft ready; verified email still needed.
+
+Subject: website link note for Arriaga Lawn Maintenance
+
+Hi Arriaga Lawn Maintenance team,
+
+I’m Majid with SYBEORG here in Iowa. I checked the public website link I found for Arriaga Lawn Maintenance and it loaded as a not-found page on my end.
+
+I made a simple replacement concept so you can see what customers could land on instead:
+https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/
+
+It is built around the basics: lawn-care service paths, local context, your phone number, and a clean way for someone to describe the yard before you follow up.
+
+If this is useful, I can clean it up with your real services, photos, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## Fini Conditioned Air
+
+**Mockup:** https://sybeorg-mockups.vercel.app/fini-conditioned-air/  
+**Status:** local draft ready; verified email still needed; manually verify active domain/listing before outreach.
+
+Subject: domain/listing note for Fini Conditioned Air
+
+Hi Fini Conditioned Air team,
+
+I’m Majid with SYBEORG. I was checking Des Moines HVAC listings and the public domain path I found for Fini Conditioned Air did not load on my end.
+
+I made a simple call-first HVAC page concept so you can see the fix if that link is still attached anywhere customers might click:
+https://sybeorg-mockups.vercel.app/fini-conditioned-air/
+
+The page keeps the phone number close, separates heating and cooling requests, and gives people a clear contact path from mobile.
+
+If the direction is useful, I can clean it up with your real services, photos, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+

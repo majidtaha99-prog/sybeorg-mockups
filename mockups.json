@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG daily opportunity batch 2026-06-20-batch-1",
-  "lastUpdated": "2026-06-20",
+  "updatedBy": "Hermes / SYBEORG daily opportunity batch 2026-06-21",
+  "lastUpdated": "2026-06-21",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -12,14 +12,14 @@
     "writeAccess": "pending-github-token"
   },
   "positioning": {
-    "coreAngle": "Lead with proof, not pitch: Sybeorg already built a no-obligation custom landing-page mockup for the prospect, focused on converting emergency/service calls on mobile.",
+    "coreAngle": "Lead with proof, not pitch: Sybeorg already built a custom landing-page mockup for the prospect, focused on converting emergency/service calls on mobile.",
     "riskGuardrails": [
       "Do not imply partnership, endorsement, or that the business requested the mockup.",
       "Avoid quoting unverified review counts or fabricated testimonials in outreach.",
       "Use the phrase sample/mockup/concept so the recipient understands it is a preview, not a live replacement site."
     ],
-    "bestCTA": "Ask permission for a quick yes/no review: 'Worth polishing this up for you?' or offer a 15-minute call.",
-    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30–60 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
+    "bestCTA": "Keep the ask human and specific: offer to clean up the concept with their real photos, services, and wording after Stark approves the send.",
+    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30\u201360 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
@@ -669,6 +669,160 @@
         "specialty claims beyond public listing category"
       ],
       "visualQaNotes": "Local browser QA passed: distinct work-order concept, no fake proof, mobile sticky call dock visible, strong sample framing. Uses public listing address/phone only; add real photos/hours/services before production.",
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "arriaga-lawn-maintenance",
+      "business": "Arriaga Lawn Maintenance",
+      "vertical": "Landscaping / lawn maintenance",
+      "market": "Des Moines metro",
+      "phone": "+1 (515) 808-2442",
+      "officialSiteChecked": "https://www.arriagalawn.com",
+      "siteDiscoverySource": "OSM/public listing + direct fetch from 2026-06-19 batch",
+      "mockupPath": "arriaga-lawn-maintenance/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/",
+      "angle": "Broken public website path: listed URL returned a site-not-found page, so the concept replaces the dead click with a call-first lawn-care page.",
+      "draftStatus": "local_draft_ready_no_verified_email",
+      "priority": "medium_high",
+      "designDirection": "green_local_service_path",
+      "designDifferentiation": "Premium lawn-care first page with service routing, local map, contact block, and broken-link framing without inventing service claims.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-20",
+      "visualQaNotes": "Static QA pending browser pass; page includes branded loader/monogram, interactive routing, OSM map, contact section, mobile sticky call dock, and no invented claims.",
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Des Moines metro"
+        ],
+        "phone": "+1 (515) 808-2442"
+      },
+      "unverifiedClaimsAvoided": [
+        "service menu",
+        "review count",
+        "owner name",
+        "years in business",
+        "guarantees"
+      ]
+    },
+    {
+      "id": "fini-conditioned-air",
+      "business": "Fini Conditioned Air",
+      "vertical": "HVAC",
+      "market": "Des Moines",
+      "phone": "+1 (515) 262-9694",
+      "officialSiteChecked": "http://www.finiconditionedair.com/",
+      "siteDiscoverySource": "OSM/public listing + DNS fetch from 2026-06-19 batch",
+      "mockupPath": "fini-conditioned-air/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/fini-conditioned-air/",
+      "angle": "Possible broken domain/listing path: searched/listed domain failed DNS resolution, so the concept shows a call-first HVAC page while keeping the claim careful pending manual verification.",
+      "draftStatus": "local_draft_ready_no_verified_email",
+      "priority": "medium_high",
+      "designDirection": "hvac_domain_fix",
+      "designDifferentiation": "Premium HVAC first page with heating/cooling routing, local map, contact block, and domain-fix framing without unsupported emergency claims.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-20",
+      "visualQaNotes": "Static QA pending browser pass; page includes branded loader/monogram, interactive routing, OSM map, contact section, mobile sticky call dock, and no invented certifications/reviews.",
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Des Moines"
+        ],
+        "phone": "+1 (515) 262-9694"
+      },
+      "unverifiedClaimsAvoided": [
+        "official active domain",
+        "review count",
+        "certifications",
+        "emergency hours",
+        "warranties"
+      ]
+    },
+    {
+      "id": "howards-auto-repair",
+      "business": "Howard's Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Oskaloosa, IA",
+      "phone": "+1-641-673-3310",
+      "officialSiteChecked": "http://arnoldmotorsupply.com/location/howards-auto-repair.php",
+      "siteDiscoverySource": "Overpass/OSM public listing + direct site fetch verified 2026-06-21",
+      "mockupPath": "howards-auto-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/howards-auto-repair/",
+      "angle": "Urgent public path fix: listed third-party URL returned a 404 Error page, so the concept replaces the dead click with a call-first repair page.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Warm repair-ticket/service-counter layout with 404 repair-ticket motif; avoids dark mechanic template, fake ASE badges, fake reviews, and right-side quote form.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Oskaloosa, IA"
+        ],
+        "phone": "+1-641-673-3310",
+        "address": "1603 South Market Street, Oskaloosa"
+      },
+      "unverifiedClaimsAvoided": [
+        "ASE certification",
+        "warranty",
+        "review count",
+        "owner name",
+        "years in business",
+        "exact service menu"
+      ],
+      "visualQaNotes": "Browser QA passed locally: distinct repair-ticket concept, sample framing clear, mobile sticky call dock visible, no fabricated proof.",
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "xpress-oil-lube-waterloo",
+      "business": "Xpress Oil & Lube",
+      "vertical": "Auto repair / oil & lube",
+      "market": "Waterloo, IA",
+      "phone": "+1-319-232-0854",
+      "officialSiteChecked": "http://xpressoilandlube.com",
+      "siteDiscoverySource": "Overpass/OSM public listing + direct DNS/site fetch verified 2026-06-21",
+      "mockupPath": "xpress-oil-lube-waterloo/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/",
+      "angle": "Urgent domain/listing fix: listed domain failed DNS resolution, so the concept replaces the dead click with a phone-and-hours service path.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Dark bay-status board and fast-lube routing system; distinct from Howard's warm ticket design and recent generic auto-shop pages.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Waterloo, IA"
+        ],
+        "phone": "+1-319-232-0854",
+        "hours": "Mo-Fr 08:00-17:00; Sa 09:00-15:00"
+      },
+      "unverifiedClaimsAvoided": [
+        "reviews",
+        "certifications",
+        "coupons",
+        "warranties",
+        "owner name",
+        "full service menu"
+      ],
+      "visualQaNotes": "Browser QA passed locally: distinct bay-board concept, sample framing clear, mobile sticky call dock visible, no unsupported coupons/certifications.",
       "revisionNeededBeforeOutreach": false
     }
   ],

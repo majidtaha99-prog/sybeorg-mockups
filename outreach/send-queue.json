@@ -37,13 +37,16 @@
       "priority": "high",
       "recipient_email": "",
       "recipient_status": "needed_or_manual_phone_route",
-      "subject": "sample replacement for Premier Plumbing’s coming-soon page",
+      "subject": "sample page for Premier Plumbing in Ankeny",
       "mockup_url": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
-      "send_status": "not_sent_premium_mockup_ready_contact_route_needed",
+      "send_status": "local_draft_ready_no_verified_email_stark_approval_required",
       "qualification": "no_website_first_batch",
       "current_web_presence": "coming-soon placeholder page",
       "contact_route": "phone/manual research; no public email yet",
-      "quality_standard": "premium_loader_map_contact_motion_ready"
+      "quality_standard": "premium_loader_map_contact_motion_ready",
+      "draft_path": "outreach/drafts/premier-plumbing-ankeny-email.eml",
+      "review_path": "outreach/drafts/premier-plumbing-ankeny-email-draft.md",
+      "voice_status": "humanized_personal_no_botty_optout"
     },
     {
       "id": "grenell-tree-service",
@@ -53,11 +56,14 @@
       "recipient_status": "needed_or_manual_phone_route",
       "subject": "sample first website for Grenell Tree Service",
       "mockup_url": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
-      "send_status": "not_sent_premium_mockup_ready_contact_route_needed",
+      "send_status": "local_draft_ready_no_verified_email_stark_approval_required",
       "qualification": "no_website_first_batch",
       "current_web_presence": "no website button visible in public Maps view from earlier pass",
       "contact_route": "phone/manual research; no public email yet",
-      "quality_standard": "premium_loader_map_contact_motion_ready"
+      "quality_standard": "premium_loader_map_contact_motion_ready",
+      "draft_path": "outreach/drafts/grenell-tree-service-email.eml",
+      "review_path": "outreach/drafts/grenell-tree-service-email-draft.md",
+      "voice_status": "humanized_personal_no_botty_optout"
     },
     {
       "id": "arriaga-lawn-maintenance",
@@ -65,12 +71,16 @@
       "priority": "medium_high",
       "recipient_email": "",
       "recipient_status": "needed_or_manual_phone_route",
-      "subject": "quick website not-found note for Arriaga Lawn Maintenance",
-      "mockup_url": "",
-      "send_status": "not_sent_manual_channel_needed",
-      "qualification": "no_website_first_batch",
+      "subject": "website link note for Arriaga Lawn Maintenance",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/",
+      "send_status": "local_draft_ready_no_verified_email_stark_approval_required",
+      "qualification": "broken_site_first_batch",
       "current_web_presence": "listed URL returned SITE NOT FOUND during 2026-06-19 fetch",
-      "contact_route": "phone/manual research; no public email yet"
+      "contact_route": "phone/manual research; no public email yet",
+      "draft_path": "outreach/drafts/arriaga-lawn-maintenance-email.eml",
+      "review_path": "outreach/drafts/arriaga-lawn-maintenance-email-draft.md",
+      "voice_status": "humanized_personal_no_botty_optout",
+      "quality_standard": "premium_loader_map_contact_motion_ready"
     },
     {
       "id": "fini-conditioned-air",
@@ -78,12 +88,16 @@
       "priority": "medium_high",
       "recipient_email": "",
       "recipient_status": "needed_or_manual_phone_route",
-      "subject": "quick domain/listing note for Fini Conditioned Air",
-      "mockup_url": "",
-      "send_status": "not_sent_manual_verification_needed",
-      "qualification": "no_website_first_batch",
+      "subject": "domain/listing note for Fini Conditioned Air",
+      "mockup_url": "https://sybeorg-mockups.vercel.app/fini-conditioned-air/",
+      "send_status": "local_draft_ready_no_verified_email_stark_approval_required",
+      "qualification": "domain_issue_first_batch",
       "current_web_presence": "listed/searched domain failed DNS resolution in earlier pass",
-      "contact_route": "phone/manual verification; no public email yet"
+      "contact_route": "phone/manual verification; no public email yet",
+      "draft_path": "outreach/drafts/fini-conditioned-air-email.eml",
+      "review_path": "outreach/drafts/fini-conditioned-air-email-draft.md",
+      "voice_status": "humanized_personal_no_botty_optout",
+      "quality_standard": "premium_loader_map_contact_motion_ready"
     },
     {
       "id": "bunch-heating-cooling",

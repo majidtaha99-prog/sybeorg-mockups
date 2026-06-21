@@ -1,4 +1,4 @@
-# No-website first batch scripts
+# No-website / broken-site first batch scripts
 
 Updated: 2026-06-20
 
@@ -6,25 +6,25 @@ Updated: 2026-06-20
 
 Do not lead with "your site is bad." Lead with the public customer path:
 
-> I noticed people clicking from Maps/search may not have a clear website to confirm services and call you. I made / can make a simple first-page concept so you can see the fix.
+> I noticed people clicking from Maps/search may not have a clear page to confirm services and call you. I made a simple first-page concept so you can see the fix.
+
+Keep the tone human, local, and specific. No canned opt-out commands, no fake pressure disclaimers, and no generic agency language.
 
 ## Phone opener
 
 Hi, is this the right number for [Business]?
 
-My name is Majid with SYBEORG. I was checking local [trade] listings and noticed [Business] either did not have a clear website attached or had a website issue. If a customer clicks from Google before calling, they may not get a clean page with services, hours, and a tap-to-call button.
+My name is Majid with SYBEORG. I was checking local [trade] listings and noticed [specific issue: no clear website / coming-soon page / website link not loading]. If a customer clicks from Google before calling, they may not get a clean page with services, location, and a tap-to-call button.
 
-I’m not calling to lock you into anything. I’m putting together a few sample first-site pages for local businesses with missing or broken web links. If I send you a quick mockup, would you want to look at it?
-
-If yes: What email or text number should I send it to?
+I made a sample page so you can actually see what I mean. What email or text number should I send it to?
 
 ## Text/DM version
 
-Hi [Business] team — I’m Majid with SYBEORG. I noticed your public listing doesn’t seem to have a clear website / has a website issue. For customers coming from Google, a simple mobile page with services, location, and tap-to-call can help before they choose who to call.
+Hi [Business] team — I’m Majid with SYBEORG here in Iowa. I noticed [specific public listing/site issue] and made a simple first-page concept showing how that customer path could look cleaner on mobile: [mockup link]
 
-I put together / can put together a simple first-site concept. If you want, I can send it over.
+If it feels useful, I can clean it up with your real photos, services, hours, and wording.
 
-## Email version for CPC Performance
+## Email: CPC Performance
 
 Subject: quick first-site idea for CPC Performance
 
@@ -41,11 +41,88 @@ If it feels useful, I can clean it up with your exact services, photos, and word
 
 — Majid
 SYBEORG
+https://sybeorg.com
 
-## First batch order
+## Email: Premier Plumbing
 
-1. CPC Performance — verify Google Maps no-site signal, then build/send mockup email if approved.
-2. Premier Plumbing — coming-soon site, mockup ready, needs email/contact route or phone.
-3. Grenell Tree Service — no website signal, mockup ready, needs email/contact route or phone.
-4. Arriaga Lawn Maintenance — site not found, needs service verification before mockup.
-5. Fini Conditioned Air — DNS/listing issue, verify before naming domain.
+Subject: sample page for Premier Plumbing in Ankeny
+
+Hi Premier Plumbing team,
+
+I’m Majid with SYBEORG here in Iowa. I was looking at Ankeny plumbing listings and saw the Premier Plumbing site was still showing as a short coming-soon page.
+
+I made a simple first-page concept so you can see the difference a real mobile landing page would make:
+https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/
+
+I kept it focused on what a homeowner needs before calling: the phone number, service lanes, location context, and a way to explain the job if it is not urgent.
+
+If it feels close, I can clean it up with your real logo, photos, services, hours, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## Email: Grenell Tree Service
+
+Subject: sample first website for Grenell Tree Service
+
+Hi Grenell Tree Service team,
+
+I’m Majid with SYBEORG. I was looking through Iowa City-area tree service listings and couldn’t find a clear website attached to the public listing I checked.
+
+I made a simple first-site concept for Grenell so you can see the idea:
+https://sybeorg-mockups.vercel.app/grenell-tree-service/
+
+It gives people the basics fast on their phone: tree service paths, a local map, your phone number, and a simple way to explain what they need help with.
+
+If it feels useful, I can clean it up with your real photos, exact services, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## Email: Arriaga Lawn Maintenance
+
+Subject: website link note for Arriaga Lawn Maintenance
+
+Hi Arriaga Lawn Maintenance team,
+
+I’m Majid with SYBEORG here in Iowa. I checked the public website link I found for Arriaga Lawn Maintenance and it loaded as a not-found page on my end.
+
+I made a simple replacement concept so you can see what customers could land on instead:
+https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/
+
+It is built around the basics: lawn-care service paths, local context, your phone number, and a clean way for someone to describe the yard before you follow up.
+
+If this is useful, I can clean it up with your real services, photos, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## Email: Fini Conditioned Air
+
+Subject: domain/listing note for Fini Conditioned Air
+
+Hi Fini Conditioned Air team,
+
+I’m Majid with SYBEORG. I was checking Des Moines HVAC listings and the public domain path I found for Fini Conditioned Air did not load on my end.
+
+I made a simple call-first HVAC page concept so you can see the fix if that link is still attached anywhere customers might click:
+https://sybeorg-mockups.vercel.app/fini-conditioned-air/
+
+The page keeps the phone number close, separates heating and cooling requests, and gives people a clear contact path from mobile.
+
+If the direction is useful, I can clean it up with your real services, photos, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
+
+## First batch readiness
+
+1. CPC Performance — Gmail draft saved; verify Google Maps/GBP signal before Stark approves send.
+2. Premier Plumbing — mockup ready; local email draft ready; needs verified email or phone/text route.
+3. Grenell Tree Service — mockup ready; local email draft ready; needs verified email or phone/text route.
+4. Arriaga Lawn Maintenance — mockup ready; local email draft ready; needs verified email or phone/text route.
+5. Fini Conditioned Air — mockup ready; local email draft ready; manually verify the active listing/domain before outreach names it as current.

@@ -1,0 +1,20 @@
+# Arriaga Lawn Maintenance outreach draft
+
+Status: local draft only; no verified recipient email yet; do not send without Stark approval.
+
+Subject: website link note for Arriaga Lawn Maintenance
+
+Hi Arriaga Lawn Maintenance team,
+
+I’m Majid with SYBEORG here in Iowa. I checked the public website link I found for Arriaga Lawn Maintenance and it loaded as a not-found page on my end.
+
+I made a simple replacement concept so you can see what customers could land on instead:
+https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/
+
+It is built around the basics: lawn-care service paths, local context, your phone number, and a clean way for someone to describe the yard before you follow up.
+
+If this is useful, I can clean it up with your real services, photos, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com

@@ -1,0 +1,20 @@
+# Grenell Tree Service LLC outreach draft
+
+Status: local draft only; no verified recipient email yet; do not send without Stark approval.
+
+Subject: sample first website for Grenell Tree Service
+
+Hi Grenell Tree Service team,
+
+I’m Majid with SYBEORG. I was looking through Iowa City-area tree service listings and couldn’t find a clear website attached to the public listing I checked.
+
+I made a simple first-site concept for Grenell so you can see the idea:
+https://sybeorg-mockups.vercel.app/grenell-tree-service/
+
+It gives people the basics fast on their phone: tree service paths, a local map, your phone number, and a simple way to explain what they need help with.
+
+If it feels useful, I can clean it up with your real photos, exact services, service area, and wording.
+
+— Majid
+SYBEORG
+https://sybeorg.com
