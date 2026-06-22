@@ -27,7 +27,14 @@
       "bestOffer": "Storm/roof-repair landing page for SEO or paid ads",
       "upsell": "Google Ads/local SEO for storm damage plus video/commercial roof inspection creatives.",
       "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent"
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1-515-708-4027",
+        "email": "ge.construction.ia@gmail.com",
+        "form": "contact form also present",
+        "contactStatus": "gmail_ready_verified_email",
+        "contactNotes": "Email from OSM public listing plus official-site mailto; Gmail draft 561 live."
+      }
     },
     {
       "rank": 2,
@@ -39,7 +46,14 @@
       "bestOffer": "Hail-repair landing page / appointment funnel",
       "upsell": "Hail-season paid ads, local SEO, and short video/commercial before-after creatives.",
       "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent"
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1-319-621-4245",
+        "email": "midwestdentdrp@gmail.com",
+        "form": "contact form also present",
+        "contactStatus": "gmail_ready_verified_email",
+        "contactNotes": "Email/phone from official-site HTML; Gmail draft 562 live."
+      }
     }
   ],
   "manualHighPriorityQueue": [
@@ -50,7 +64,14 @@
       "status": "mockup_ready_no_verified_email",
       "route": "phone/manual email research",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/howards-auto-repair/",
-      "bestOffer": "Broken-link fix plus first mobile shop page"
+      "bestOffer": "Broken-link fix plus first mobile shop page",
+      "contactSummary": {
+        "phone": "+1-641-673-3310",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "Phone from OSM/public listing; listed website URL returns Arnold Motor Supply 404."
+      }
     },
     {
       "rank": 2,
@@ -59,7 +80,14 @@
       "status": "mockup_ready_no_verified_email",
       "route": "phone/Facebook/manual email research",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/",
-      "bestOffer": "Domain repair/replacement landing page with mobile call and hours"
+      "bestOffer": "Domain repair/replacement landing page with mobile call and hours",
+      "contactSummary": {
+        "phone": "+1-319-232-0854",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "Phone/hours from OSM/public listing; listed domain failed DNS."
+      }
     },
     {
       "rank": 3,
@@ -68,7 +96,14 @@
       "status": "local_draft_ready_no_verified_email",
       "route": "phone/manual research",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
-      "bestOffer": "First website / tree-service landing page"
+      "bestOffer": "First website / tree-service landing page",
+      "contactSummary": {
+        "phone": "(319) 853-8105",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "Phone from prior Maps/public pass; unrelated tree-service emails rejected."
+      }
     },
     {
       "rank": 4,
@@ -77,7 +112,14 @@
       "status": "local_draft_ready_no_verified_email",
       "route": "phone/manual research",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/",
-      "bestOffer": "Broken-site repair / replacement landing page"
+      "bestOffer": "Broken-site repair / replacement landing page",
+      "contactSummary": {
+        "phone": "+1-515-808-2442",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "Phone from OSM/public listing; arriagalawn.com returned SITE NOT FOUND; no verified email."
+      }
     },
     {
       "rank": 5,
@@ -86,7 +128,14 @@
       "status": "local_draft_ready_no_verified_email",
       "route": "phone/manual verification",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/fini-conditioned-air/",
-      "bestOffer": "Domain/site repair plus mobile HVAC landing page"
+      "bestOffer": "Domain/site repair plus mobile HVAC landing page",
+      "contactSummary": {
+        "phone": "+1-515-262-9694",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "Phone from OSM/public listing; domain failed DNS; unrelated Conditioned Air emails rejected."
+      }
     }
   ],
   "positioningPolicy": {
@@ -126,7 +175,14 @@
       "recommendedNextApproach": "Only pursue with a precise conversion audit, paid-ads landing page, or video/campaign angle after we can show a concrete improvement over their current site.",
       "primaryPain": "Website is already strong, so generic redesign is not the play.",
       "bestOffer": "Conversion audit, paid-ads landing page, or high-value service campaign",
-      "upsell": "Video ads/commercial shoot, remarketing creatives, and SEO/service-page expansion."
+      "upsell": "Video ads/commercial shoot, remarketing creatives, and SEO/service-page expansion.",
+      "contactSummary": {
+        "phone": null,
+        "email": "mpplumbingservice@gmail.com",
+        "form": null,
+        "contactStatus": "verified_email_but_paused",
+        "contactNotes": "Official site mailto/schema; paused because generic mockup pitch is wrong angle."
+      }
     }
   ],
   "gapBasedOfferPolicy": {
@@ -164,27 +220,62 @@
     {
       "prospectId": "pioneer-auto-sergeant-bluff",
       "business": "Pioneer Auto",
-      "needed": "mockup + email/contact research before outreach"
+      "needed": "mockup + email/contact research before outreach",
+      "contactSummary": {
+        "phone": "+1-712-943-7830 / +1-712-587-9287",
+        "email": null,
+        "form": null,
+        "contactStatus": "phones_found_email_not_found",
+        "contactNotes": "Two public listing phone numbers found; no website/email fields in pass."
+      }
     },
     {
       "prospectId": "bunch-heating-cooling",
       "business": "Bunch Heating and Cooling",
-      "needed": "verified recipient before Gmail; manual/contact form route otherwise"
+      "needed": "verified recipient before Gmail; manual/contact form route otherwise",
+      "contactSummary": {
+        "phone": null,
+        "email": null,
+        "form": "official site/contact form route noted",
+        "contactStatus": "contact_form_or_phone_needed",
+        "contactNotes": "Official site/contact page fetch exposed no email."
+      }
     },
     {
       "prospectId": "five-seasons-hvac",
       "business": "Five Seasons Heating & Cooling",
-      "needed": "verified recipient before Gmail; contact form/phone route otherwise"
+      "needed": "verified recipient before Gmail; contact form/phone route otherwise",
+      "contactSummary": {
+        "phone": null,
+        "email": null,
+        "form": "official site/contact form route noted",
+        "contactStatus": "contact_form_or_phone_needed",
+        "contactNotes": "Official site fetch exposed no email."
+      }
     },
     {
       "prospectId": "8-finger-hvac",
       "business": "8 Finger HVAC",
-      "needed": "re-verify old Outlook recipient before Gmail"
+      "needed": "re-verify old Outlook recipient before Gmail",
+      "contactSummary": {
+        "phone": null,
+        "email": "bobbyghvac86@outlook.com (unverified old lead)",
+        "form": null,
+        "contactStatus": "old_email_unverified",
+        "contactNotes": "Official portal fetch exposed no email; do not Gmail until re-verified."
+      }
     },
     {
       "prospectId": "mp-plumbing",
       "business": "M&P Plumbing",
-      "needed": "paused; needs non-generic conversion/video/campaign angle"
+      "needed": "paused; needs non-generic conversion/video/campaign angle",
+      "contactSummary": {
+        "phone": null,
+        "email": "mpplumbingservice@gmail.com",
+        "form": null,
+        "contactStatus": "verified_email_but_paused",
+        "contactNotes": "Official site mailto/schema; paused because generic mockup pitch is wrong angle."
+      }
     }
   ],
   "sentPreviousBatch": [
@@ -208,5 +299,6 @@
       "business": "Platinum PHC",
       "sentStatus": "sent_2026-06-22"
     }
-  ]
+  ],
+  "contactResearchStatus": "Existing pass checked public listing/OSM fields, official-site HTML/mailto, and direct site/contact-page fetches where available; contact forms were identified but not submitted because that is outbound and requires Stark approval."
 }

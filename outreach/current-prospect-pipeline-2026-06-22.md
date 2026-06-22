@@ -41,3 +41,22 @@ These are the only prospects currently ready with verified Gmail drafts in the S
 ## Sent today
 
 CPC Performance, Premier Plumbing, Richardson Plumbing, and Platinum PHC were already sent from `sybeorg@gmail.com` on 2026-06-22.
+
+## Contact research status
+
+Yes — I checked public listing/OSM fields, official-site HTML/mailto links, and direct site/contact-page fetches where available. I did **not** submit contact forms because that counts as outbound and needs approval.
+
+| Prospect | Email status | Phone / form status | Notes |
+| --- | --- | --- | --- |
+| Super Eagle Roofing | `ge.construction.ia@gmail.com` verified; Gmail draft `561` | `+1-515-708-4027`; contact form also present | Ready for Gmail approval. |
+| Midwest Dent | `midwestdentdrp@gmail.com` verified; Gmail draft `562` | `+1-319-621-4245`; contact form also present | Ready for Gmail approval. |
+| Howard's Auto Repair | No verified email found | `+1-641-673-3310` | Phone/manual route; listed site returned 404. |
+| Xpress Oil & Lube | No verified email found | `+1-319-232-0854` | Phone/Facebook/manual route; listed domain failed DNS. |
+| Pioneer Auto | No verified email found | `+1-712-943-7830` / `+1-712-587-9287` | Needs mockup and manual verification before outreach. |
+| Grenell Tree Service | No verified email found | `(319) 853-8105` | Unrelated tree-service emails were rejected. |
+| Arriaga Lawn Maintenance | No verified email found | `+1-515-808-2442` | Site returned SITE NOT FOUND; phone/manual route. |
+| Fini Conditioned Air | No verified email found | `+1-515-262-9694` | Domain failed DNS; unrelated Conditioned Air emails rejected. |
+| Bunch Heating and Cooling | No verified email found | Contact form/phone route noted, phone not captured in current tracker | Needs deeper contact capture if we want Gmail. |
+| Five Seasons Heating & Cooling | No verified email found | Contact form/phone route noted, phone not captured in current tracker | Needs deeper contact capture if we want Gmail. |
+| 8 Finger HVAC | `bobbyghvac86@outlook.com` exists as an old lead but is unverified | No verified phone in current tracker | Re-verify before Gmail. |
+| M&P Plumbing | `mpplumbingservice@gmail.com` verified | Not prioritized | Paused; needs campaign/video/conversion angle, not generic mockup. |
