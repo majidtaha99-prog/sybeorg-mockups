@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 2,
+  "campaign": "sybeorg-no-website-weak-site-next-batch",
+  "batchDate": "2026-06-22",
+  "status": "draft_ready_no_sends_for_next_batch",
+  "senderAccount": "sybeorg@gmail.com",
+  "sentPreviousBatch": [
+    "cpc-performance",
+    "premier-plumbing-ankeny",
+    "richardson-plumbing",
+    "platinum-phc"
+  ],
+  "policy": {
+    "noOutboundWithoutStarkApproval": true,
+    "note": "Next batch is staged only. No second-wave emails sent."
+  },
+  "leads": [
+    {
+      "prospectId": "howards-auto-repair",
+      "business": "Howard's Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Oskaloosa, IA",
+      "officialSite": "http://arnoldmotorsupply.com/location/howards-auto-repair.php",
+      "gmbSignals": "Overpass/OSM public listing surfaced shop=car_repair, Oskaloosa address 1603 South Market Street, phone +1-641-673-3310, and a listed website URL at arnoldmotorsupply.com/location/howards-auto-repair.php. Google rating not visible in this pass.",
+      "contactRoute": "phone/manual research; no public email found",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 88,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "no_website",
+        "mobile_conversion",
+        "gmb_leak",
+        "paid_ad_readiness"
+      ],
+      "verifiedEvidence": [
+        "Direct fetch of http://arnoldmotorsupply.com/location/howards-auto-repair.php redirected to https://arnoldmotorsupply.com:443/location/howards-auto-repair.php and returned HTTP 404.",
+        "Fetched page title was '404 Error - Arnold Motor Supply'.",
+        "Public listing phone +1-641-673-3310 and Oskaloosa address signal were present in Overpass/OSM data."
+      ],
+      "diagnosis": "A public listing website click appears to land on a third-party 404 page, which can block mobile searchers before they see shop context, phone confidence, or a repair-service path.",
+      "recommendedOffer": "bug_fix",
+      "nextBestAction": "phone_script",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/howards-auto-repair/",
+      "subject": "quick 404 note for Howard's Auto Repair",
+      "draftCopy": "Hi Howard's Auto Repair team — I found a public website link for Howard's that opened to a 404 page on an Arnold Motor Supply URL instead of a shop page. If customers are clicking that from search, they may not see your phone or repair info before choosing who to call.\n\nI made a no-obligation sample showing how that first screen could look with your public phone and Oskaloosa context: https://sybeorg-mockups.vercel.app/howards-auto-repair/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "revisionNeededBeforeOutreach": false,
+      "rank": 1,
+      "readiness": "mockup_ready_no_verified_email_phone_manual_route"
+    },
+    {
+      "prospectId": "xpress-oil-lube-waterloo",
+      "business": "Xpress Oil & Lube",
+      "vertical": "Auto repair / oil & lube",
+      "market": "Waterloo, IA",
+      "officialSite": "http://xpressoilandlube.com",
+      "gmbSignals": "Overpass/OSM public listing surfaced shop=car_repair, Waterloo address 357 Fletcher Avenue, phone +1-319-232-0854, listed website http://xpressoilandlube.com, and hours Mo-Fr 08:00-17:00; Sa 09:00-15:00. Google rating not visible in this pass.",
+      "contactRoute": "phone/manual research; no public email found",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 86,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "no_website",
+        "mobile_conversion",
+        "booking_gap",
+        "paid_ad_readiness"
+      ],
+      "verifiedEvidence": [
+        "Direct fetch of http://xpressoilandlube.com failed DNS resolution during this pass.",
+        "Public listing phone +1-319-232-0854 and hours Mo-Fr 08:00-17:00; Sa 09:00-15:00 were present in Overpass/OSM data."
+      ],
+      "diagnosis": "If the listed domain is still attached to search/local listings, customers may hit a dead end before seeing hours, phone, or the fastest way to call from mobile.",
+      "recommendedOffer": "bug_fix",
+      "nextBestAction": "phone_script",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/",
+      "subject": "quick domain note for Xpress Oil & Lube",
+      "draftCopy": "Hi Xpress Oil & Lube team — I checked the public domain I found for Xpress Oil & Lube and it did not resolve during my pass. If that URL is still connected to a customer-facing listing, drivers may hit a dead end before they see your phone or hours.\n\nI made a no-obligation sample of a simple replacement page with the public phone, Waterloo context, and a mobile call path: https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "revisionNeededBeforeOutreach": false,
+      "rank": 2,
+      "readiness": "mockup_ready_no_verified_email_phone_manual_route"
+    },
+    {
+      "prospectId": "pioneer-auto-sergeant-bluff",
+      "business": "Pioneer Auto",
+      "vertical": "Auto repair",
+      "market": "Sergeant Bluff, IA",
+      "officialSite": "none_found_in_osm_public_listing_pass",
+      "gmbSignals": "Overpass/OSM public listing surfaced shop=car_repair, phone +1 712-943-7830 and +1 712-587-9287, and hours Mo-Fr 07:30-17:00; Sa-Su off; no website/email fields in this pass.",
+      "contactRoute": "phone/manual research; no public email found",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 76,
+      "primaryAngleCategory": "gmb_leak",
+      "secondaryAngles": [
+        "no_website",
+        "contact_route_gap",
+        "mobile_conversion"
+      ],
+      "verifiedEvidence": [
+        "Public OSM listing contained phone/hours but no website/email fields in this pass."
+      ],
+      "diagnosis": "Potential local-profile leak: drivers can see phone/hours, but no public website path was exposed in this data pass, so there is no place to explain services or convert after-hours visitors.",
+      "recommendedOffer": "gmb_cleanup",
+      "nextBestAction": "manual_research",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "subject": "quick local listing idea for Pioneer Auto",
+      "draftCopy": "Hi Pioneer Auto team — I came across a Sergeant Bluff public listing with phone/hours, but in the listing data I checked I did not see a website attached. If that is still true, drivers may have no easy place to confirm services or reach you after hours from search.\n\nI would want to verify the details first, but a simple one-page site/profile cleanup could close that gap. Worth polishing an example for you? Reply NO and I will not follow up.",
+      "revisionNeededBeforeOutreach": true,
+      "rank": 3,
+      "readiness": "needs_mockup_and_no_verified_email_phone_manual_route"
+    },
+    {
+      "prospectId": "super-eagle-roofing-ames",
+      "business": "Super Eagle Roofing",
+      "vertical": "Roofing",
+      "market": "Ames, IA",
+      "officialSite": "https://supereagleroofing.com/",
+      "gmbSignals": "Nominatim/OSM public listing surfaced roofing category, Ames address, website, phone +1 515-708-4027, public email ge.construction.ia@gmail.com, and hours Mo-Sa 08:00-18:00. Google rating not visible in this pass.",
+      "contactRoute": "public email from OSM listing and official-site mailto; contact form also present",
+      "publicEmail": "ge.construction.ia@gmail.com",
+      "emailSource": "OSM public listing plus official-site mailto in fetched HTML",
+      "opportunityScore": 75,
+      "primaryAngleCategory": "paid_ad_readiness",
+      "secondaryAngles": [
+        "service_page_gap",
+        "seasonal_urgency",
+        "contact_route_gap"
+      ],
+      "verifiedEvidence": [
+        "Official site loaded HTTP 200 with title 'Super Eagle Roofing - #1 Roofing Ames IA Company'.",
+        "Official-site fetch exposed mailto ge.construction.ia@gmail.com and storm/roof repair keywords."
+      ],
+      "diagnosis": "Functional website and reachable email, but the easiest close is not a redesign: create a storm/roof-repair landing page that is more ad-ready and focused than the general site.",
+      "recommendedOffer": "ads_landing_page",
+      "nextBestAction": "email_draft",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "subject": "quick storm/roof page idea for Super Eagle Roofing",
+      "draftCopy": "Hi Super Eagle Roofing team — I came across your Ames roofing site and email while researching local roof repair/storm-damage pages. Your site already loads, so I would not lead with a redesign pitch. The clearer opportunity is a focused roof-repair or storm-inspection landing page that can be used for seasonal search traffic or ads.\n\nIf useful, I can mock up one focused page using only verified details from your site. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "revisionNeededBeforeOutreach": true,
+      "rank": 4,
+      "readiness": "verified_email_found_local_draft_ready_mockup_optional_needed_before_send",
+      "gmailDraftId": "561",
+      "gmailDraftStatus": "saved_pending_stark_approval",
+      "draftPath": "outreach/drafts/super-eagle-roofing-ames-email.eml"
+    },
+    {
+      "prospectId": "midwest-dent-clinton",
+      "business": "Midwest Dent",
+      "vertical": "Paintless dent / hail repair",
+      "market": "Clinton, IA",
+      "officialSite": "https://www.midwestdentrepair.com/",
+      "gmbSignals": "Overpass/OSM public listing surfaced website, phone +1-319-621-4245, and official-site fetch found public mailto midwestdentdrp@gmail.com. Google rating not visible in this pass.",
+      "contactRoute": "public email from official-site mailto; contact form also present",
+      "publicEmail": "midwestdentdrp@gmail.com",
+      "emailSource": "official-site mailto in fetched HTML",
+      "opportunityScore": 72,
+      "primaryAngleCategory": "paid_ad_readiness",
+      "secondaryAngles": [
+        "seasonal_urgency",
+        "service_page_gap",
+        "booking_gap"
+      ],
+      "verifiedEvidence": [
+        "Official site loaded HTTP 200 with title 'Paintless Dent & Hail Repair Company | Midwest Dent Repair'.",
+        "Public mailto midwestdentdrp@gmail.com and phone 319-621-4245 were found in fetched HTML."
+      ],
+      "diagnosis": "High-intent hail/dent repair category with a public email route; best first offer is a seasonal hail-repair landing page or ad-ready appointment path, not a generic redesign.",
+      "recommendedOffer": "ads_landing_page",
+      "nextBestAction": "email_draft",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "subject": "quick hail repair page idea for Midwest Dent",
+      "draftCopy": "Hi Midwest Dent team — I found your Clinton dent/hail repair site and public email while researching local auto-service pages. I would not lead with a generic redesign; the more useful angle looks like a focused hail-repair landing page that makes the appointment path easier when demand spikes.\n\nIf useful, I can put together a sample page using verified info from your site and leave room for your real photos/proof. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "revisionNeededBeforeOutreach": true,
+      "rank": 5,
+      "readiness": "verified_email_found_local_draft_ready_mockup_optional_needed_before_send",
+      "gmailDraftId": "562",
+      "gmailDraftStatus": "saved_pending_stark_approval",
+      "draftPath": "outreach/drafts/midwest-dent-clinton-email.eml"
+    }
+  ]
+}

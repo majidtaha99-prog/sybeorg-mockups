@@ -19,7 +19,7 @@
       "recipient_status": "public_email_needs_google_maps_verification",
       "subject": "quick first-site idea for CPC Performance",
       "mockup_url": "https://sybeorg-mockups.vercel.app/cpc-performance/",
-      "send_status": "gmail_draft_polished_pending_stark_approval",
+      "send_status": "sent_2026-06-22",
       "qualification": "no_website_first_batch",
       "current_web_presence": "no website field found in OSM/public listing pass",
       "contact_route": "public email from OSM listing",
@@ -29,7 +29,10 @@
       "gmail_draft_id": "556",
       "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
       "draft_path": "outreach/drafts/cpc-performance-email.eml",
-      "voice_status": "humanized_personal_no_botty_optout"
+      "voice_status": "humanized_personal_no_botty_optout",
+      "sent_account": "sybeorg@gmail.com",
+      "sent_folder_ids": "127/128",
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
     },
     {
       "id": "premier-plumbing-ankeny",
@@ -39,7 +42,7 @@
       "recipient_status": "verified_official_contact_page_2026-06-22",
       "subject": "sample page for Premier Plumbing in Ankeny",
       "mockup_url": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
-      "send_status": "gmail_draft_polished_pending_stark_approval",
+      "send_status": "sent_2026-06-22",
       "qualification": "no_website_first_batch",
       "current_web_presence": "coming-soon placeholder page",
       "contact_route": "public email on official contact page https://www.premierplumbingiowa.com/contact-us/2590581",
@@ -51,7 +54,10 @@
       "gmail_draft_account": "sybeorg",
       "gmail_draft_from": "sybeorg@gmail.com",
       "gmail_draft_id": "557",
-      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent"
+      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
+      "sent_account": "sybeorg@gmail.com",
+      "sent_folder_ids": "129/130",
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
     },
     {
       "id": "grenell-tree-service",
@@ -163,13 +169,16 @@
       "recipient_status": "verified_official_site_mailto_2026-06-22",
       "subject": "quick mockup for Platinum PHC",
       "mockup_url": "https://sybeorg-mockups.vercel.app/platinum-phc/",
-      "send_status": "gmail_draft_polished_pending_stark_approval",
+      "send_status": "sent_2026-06-22",
       "draft_path": "outreach/drafts/platinum-phc-email.eml",
       "review_path": "outreach/drafts/platinum-phc-email-draft.md",
       "gmail_draft_account": "sybeorg",
       "gmail_draft_from": "sybeorg@gmail.com",
       "gmail_draft_id": "560",
-      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent"
+      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
+      "sent_account": "sybeorg@gmail.com",
+      "sent_folder_ids": "133/134",
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
     },
     {
       "id": "richardson-plumbing",
@@ -179,13 +188,16 @@
       "recipient_status": "verified_official_site_visible_email_2026-06-22",
       "subject": "sample page for Richardson Plumbing",
       "mockup_url": "https://sybeorg-mockups.vercel.app/richardson-plumbing/",
-      "send_status": "gmail_draft_polished_pending_stark_approval",
+      "send_status": "sent_2026-06-22",
       "draft_path": "outreach/drafts/richardson-plumbing-email.eml",
       "review_path": "outreach/drafts/richardson-plumbing-email-draft.md",
       "gmail_draft_account": "sybeorg",
       "gmail_draft_from": "sybeorg@gmail.com",
       "gmail_draft_id": "559",
-      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent"
+      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
+      "sent_account": "sybeorg@gmail.com",
+      "sent_folder_ids": "131/132",
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
     }
   ]
 }
