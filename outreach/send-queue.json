@@ -32,7 +32,11 @@
       "voice_status": "humanized_personal_no_botty_optout",
       "sent_account": "sybeorg@gmail.com",
       "sent_folder_ids": "127/128",
-      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message.",
+      "primary_pain": "No proper website discovered in listing pass; first-site gap blocks mobile shoppers from seeing basics.",
+      "best_offer": "First website / mobile landing page",
+      "upsell_path": "Logo/brand cleanup after basic site if their identity is thin; SEO/GMB once site exists",
+      "offer_basis": "no_website"
     },
     {
       "id": "premier-plumbing-ankeny",
@@ -57,7 +61,11 @@
       "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
       "sent_account": "sybeorg@gmail.com",
       "sent_folder_ids": "129/130",
-      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message.",
+      "primary_pain": "Official site showed a coming-soon/placeholder experience.",
+      "best_offer": "Finish/publish credible plumbing landing page",
+      "upsell_path": "Logo/photo polish if assets are missing; SEO/GMB and emergency-service ads after page launch",
+      "offer_basis": "placeholder_site"
     },
     {
       "id": "grenell-tree-service",
@@ -75,7 +83,11 @@
       "draft_path": "outreach/drafts/grenell-tree-service-email.eml",
       "review_path": "outreach/drafts/grenell-tree-service-email-draft.md",
       "voice_status": "humanized_personal_no_botty_optout",
-      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route",
+      "primary_pain": "No website button visible in public Maps view from earlier pass.",
+      "best_offer": "First website / tree-service landing page",
+      "upsell_path": "Local SEO/GMB cleanup for service-area calls; simple logo refresh if no usable mark",
+      "offer_basis": "no_website"
     },
     {
       "id": "arriaga-lawn-maintenance",
@@ -93,7 +105,11 @@
       "review_path": "outreach/drafts/arriaga-lawn-maintenance-email-draft.md",
       "voice_status": "humanized_personal_no_botty_optout",
       "quality_standard": "premium_loader_map_contact_motion_ready",
-      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route",
+      "primary_pain": "Listed URL returned SITE NOT FOUND during fetch.",
+      "best_offer": "Broken-site repair / replacement landing page",
+      "upsell_path": "Seasonal lawn-care SEO and paid ads once site works; logo/brand refresh if identity is weak",
+      "offer_basis": "broken_site"
     },
     {
       "id": "fini-conditioned-air",
@@ -111,7 +127,11 @@
       "review_path": "outreach/drafts/fini-conditioned-air-email-draft.md",
       "voice_status": "humanized_personal_no_botty_optout",
       "quality_standard": "premium_loader_map_contact_motion_ready",
-      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route",
+      "primary_pain": "Listed/searched domain failed DNS resolution.",
+      "best_offer": "Domain/site repair plus mobile HVAC landing page",
+      "upsell_path": "Emergency HVAC ads, SEO service pages, and trust/photo/video assets after site is fixed",
+      "offer_basis": "dead_domain"
     },
     {
       "id": "bunch-heating-cooling",
@@ -122,7 +142,11 @@
       "subject": "Quick mockup for Bunch Heating and Cooling",
       "mockup_url": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
       "send_status": "ready_pending_recipient_and_stark_approval",
-      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route",
+      "primary_pain": "Existing presence needs sharper emergency/mobile conversion, not necessarily full replacement.",
+      "best_offer": "Emergency HVAC landing page",
+      "upsell_path": "Google Ads for emergency/water-heater calls; commercial/video ad creative if web basics are covered",
+      "offer_basis": "conversion_gap"
     },
     {
       "id": "five-seasons-hvac",
@@ -133,7 +157,11 @@
       "subject": "Sample page for Five Seasons Heating & Cooling",
       "mockup_url": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
       "send_status": "ready_pending_recipient_and_stark_approval",
-      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route",
+      "primary_pain": "Strong local proof but contact/request flow looked like a place to improve.",
+      "best_offer": "Same-day HVAC conversion landing page",
+      "upsell_path": "SEO/paid ads for high-intent HVAC searches; video/commercial proof assets if branding is already solid",
+      "offer_basis": "conversion_gap"
     },
     {
       "id": "mp-plumbing",
@@ -148,7 +176,11 @@
       "review_path": "outreach/drafts/mp-plumbing-email-draft.md",
       "last_prepared": "2026-06-20 02:34 CDT",
       "reason_paused": "Official website is already stronger than our current mockup. Mockups should be reserved for no-site, weak-site, placeholder, or clearly worse current-site prospects.",
-      "recommended_next_angle": "conversion audit / high-value service campaign / Google Ads landing page / video campaign, not generic redesign"
+      "recommended_next_angle": "conversion audit / high-value service campaign / Google Ads landing page / video campaign, not generic redesign",
+      "primary_pain": "Existing site is strong enough that a generic mockup pitch is paused.",
+      "best_offer": "Precise conversion audit or paid-ads campaign page",
+      "upsell_path": "Video ads/commercial shoot, remarketing creatives, and SEO/service-page expansion",
+      "offer_basis": "strong_site_alternate"
     },
     {
       "id": "8-finger-hvac",
@@ -156,10 +188,14 @@
       "priority": "medium",
       "recipient_email": "",
       "recipient_status": "needed",
-      "subject": "Bobby — quick mockup for 8 Finger HVAC",
+      "subject": "Bobby \u2014 quick mockup for 8 Finger HVAC",
       "mockup_url": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
       "send_status": "queued_after_first_batch",
-      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route",
+      "primary_pain": "Strong reputation signal with weak/unfinished web presence.",
+      "best_offer": "Personal owner-operator HVAC landing page",
+      "upsell_path": "Logo/brand polish if needed; local SEO and short video ad once web page is present",
+      "offer_basis": "weak_web_presence"
     },
     {
       "id": "platinum-phc",
@@ -178,7 +214,11 @@
       "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
       "sent_account": "sybeorg@gmail.com",
       "sent_folder_ids": "133/134",
-      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message.",
+      "primary_pain": "Multi-service PHC business can benefit from a clearer phone-first emergency campaign path.",
+      "best_offer": "Emergency service landing page",
+      "upsell_path": "Paid search by service line; video/commercial ads for plumbing/HVAC/electrical if existing web basics are acceptable",
+      "offer_basis": "campaign_landing_page"
     },
     {
       "id": "richardson-plumbing",
@@ -197,7 +237,12 @@
       "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
       "sent_account": "sybeorg@gmail.com",
       "sent_folder_ids": "131/132",
-      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message."
+      "sent_note": "Himalaya reported Message successfully sent; Gmail Sent shows duplicate saved copies for this message.",
+      "primary_pain": "Existing proof needs a respectful trust/conversion angle, not hype.",
+      "best_offer": "Trust-first plumbing landing page",
+      "upsell_path": "Local SEO/service area pages; simple video/customer-proof assets after page polish",
+      "offer_basis": "conversion_gap"
     }
-  ]
+  ],
+  "offer_strategy": "Gap-based upsell: sell the missing or weakest revenue lever, not the same website offer to everyone. No/broken/placeholder site -> website or landing page. No/weak logo -> logo/brand refresh. Needs calls/foot traffic or weak local visibility -> SEO, Google Business Profile cleanup, or paid ads. Already has decent web/SEO/brand -> video ads, short-form creatives, commercial shoot, remarketing assets, or campaign landing page."
 }

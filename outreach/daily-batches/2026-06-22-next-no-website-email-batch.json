@@ -44,10 +44,14 @@
       "mockupNeed": "create_now",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/howards-auto-repair/",
       "subject": "quick 404 note for Howard's Auto Repair",
-      "draftCopy": "Hi Howard's Auto Repair team — I found a public website link for Howard's that opened to a 404 page on an Arnold Motor Supply URL instead of a shop page. If customers are clicking that from search, they may not see your phone or repair info before choosing who to call.\n\nI made a no-obligation sample showing how that first screen could look with your public phone and Oskaloosa context: https://sybeorg-mockups.vercel.app/howards-auto-repair/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "draftCopy": "Hi Howard's Auto Repair team \u2014 I found a public website link for Howard's that opened to a 404 page on an Arnold Motor Supply URL instead of a shop page. If customers are clicking that from search, they may not see your phone or repair info before choosing who to call.\n\nI made a no-obligation sample showing how that first screen could look with your public phone and Oskaloosa context: https://sybeorg-mockups.vercel.app/howards-auto-repair/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
       "revisionNeededBeforeOutreach": false,
       "rank": 1,
-      "readiness": "mockup_ready_no_verified_email_phone_manual_route"
+      "readiness": "mockup_ready_no_verified_email_phone_manual_route",
+      "primaryPain": "Public listing website click appears to land on a third-party 404 page.",
+      "bestOffer": "Broken-link fix plus first mobile shop page",
+      "upsell": "Logo/brand cleanup if no strong mark exists, then local SEO/GMB cleanup and oil/repair paid ads once the page works.",
+      "evidence": "Arnold Motor Supply URL returned HTTP 404 with title 404 Error - Arnold Motor Supply."
     },
     {
       "prospectId": "xpress-oil-lube-waterloo",
@@ -77,10 +81,14 @@
       "mockupNeed": "create_now",
       "mockupUrl": "https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/",
       "subject": "quick domain note for Xpress Oil & Lube",
-      "draftCopy": "Hi Xpress Oil & Lube team — I checked the public domain I found for Xpress Oil & Lube and it did not resolve during my pass. If that URL is still connected to a customer-facing listing, drivers may hit a dead end before they see your phone or hours.\n\nI made a no-obligation sample of a simple replacement page with the public phone, Waterloo context, and a mobile call path: https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "draftCopy": "Hi Xpress Oil & Lube team \u2014 I checked the public domain I found for Xpress Oil & Lube and it did not resolve during my pass. If that URL is still connected to a customer-facing listing, drivers may hit a dead end before they see your phone or hours.\n\nI made a no-obligation sample of a simple replacement page with the public phone, Waterloo context, and a mobile call path: https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
       "revisionNeededBeforeOutreach": false,
       "rank": 2,
-      "readiness": "mockup_ready_no_verified_email_phone_manual_route"
+      "readiness": "mockup_ready_no_verified_email_phone_manual_route",
+      "primaryPain": "Listed domain failed DNS, creating a dead end for drivers.",
+      "bestOffer": "Domain repair/replacement landing page with mobile call and hours",
+      "upsell": "Local SEO/GMB cleanup plus paid ads for oil changes, brakes, inspections, or fast service; logo refresh if identity is weak.",
+      "evidence": "Direct fetch of xpressoilandlube.com failed DNS; listing still had phone and hours."
     },
     {
       "prospectId": "pioneer-auto-sergeant-bluff",
@@ -108,10 +116,14 @@
       "mockupNeed": "research_only",
       "mockupUrl": null,
       "subject": "quick local listing idea for Pioneer Auto",
-      "draftCopy": "Hi Pioneer Auto team — I came across a Sergeant Bluff public listing with phone/hours, but in the listing data I checked I did not see a website attached. If that is still true, drivers may have no easy place to confirm services or reach you after hours from search.\n\nI would want to verify the details first, but a simple one-page site/profile cleanup could close that gap. Worth polishing an example for you? Reply NO and I will not follow up.",
+      "draftCopy": "Hi Pioneer Auto team \u2014 I came across a Sergeant Bluff public listing with phone/hours, but in the listing data I checked I did not see a website attached. If that is still true, drivers may have no easy place to confirm services or reach you after hours from search.\n\nI would want to verify the details first, but a simple one-page site/profile cleanup could close that gap. Worth polishing an example for you? Reply NO and I will not follow up.",
       "revisionNeededBeforeOutreach": true,
       "rank": 3,
-      "readiness": "needs_mockup_and_no_verified_email_phone_manual_route"
+      "readiness": "needs_mockup_and_no_verified_email_phone_manual_route",
+      "primaryPain": "Public listing showed phone/hours but no website/email path in this pass.",
+      "bestOffer": "First website/profile cleanup after details are verified",
+      "upsell": "Logo/brand refresh if no usable mark exists, then local SEO and simple service ads after site launch.",
+      "evidence": "OSM/public listing pass contained phone/hours but no website/email fields."
     },
     {
       "prospectId": "super-eagle-roofing-ames",
@@ -140,13 +152,17 @@
       "mockupNeed": "research_only",
       "mockupUrl": null,
       "subject": "quick storm/roof page idea for Super Eagle Roofing",
-      "draftCopy": "Hi Super Eagle Roofing team — I came across your Ames roofing site and email while researching local roof repair/storm-damage pages. Your site already loads, so I would not lead with a redesign pitch. The clearer opportunity is a focused roof-repair or storm-inspection landing page that can be used for seasonal search traffic or ads.\n\nIf useful, I can mock up one focused page using only verified details from your site. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "draftCopy": "Hi Super Eagle Roofing team \u2014 I came across your Ames roofing site and email while researching local roof repair/storm-damage pages. Your site already loads, so I would not lead with a redesign pitch. The clearer opportunity is a focused roof-repair or storm-inspection landing page that can be used for seasonal search traffic or ads.\n\nIf useful, I can mock up one focused page using only verified details from your site. Worth polishing this up for you? Reply NO and I will not follow up.",
       "revisionNeededBeforeOutreach": true,
       "rank": 4,
       "readiness": "verified_email_found_local_draft_ready_mockup_optional_needed_before_send",
       "gmailDraftId": "561",
       "gmailDraftStatus": "saved_pending_stark_approval",
-      "draftPath": "outreach/drafts/super-eagle-roofing-ames-email.eml"
+      "draftPath": "outreach/drafts/super-eagle-roofing-ames-email.eml",
+      "primaryPain": "Site loads, so the gap is campaign focus for storm/roof-repair demand, not a generic redesign.",
+      "bestOffer": "Storm/roof-repair landing page for SEO or paid ads",
+      "upsell": "Google Ads/local SEO for storm damage plus video/commercial roof inspection creatives.",
+      "evidence": "Official site loaded HTTP 200 and exposed mailto plus storm/roof repair keywords."
     },
     {
       "prospectId": "midwest-dent-clinton",
@@ -175,13 +191,18 @@
       "mockupNeed": "research_only",
       "mockupUrl": null,
       "subject": "quick hail repair page idea for Midwest Dent",
-      "draftCopy": "Hi Midwest Dent team — I found your Clinton dent/hail repair site and public email while researching local auto-service pages. I would not lead with a generic redesign; the more useful angle looks like a focused hail-repair landing page that makes the appointment path easier when demand spikes.\n\nIf useful, I can put together a sample page using verified info from your site and leave room for your real photos/proof. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "draftCopy": "Hi Midwest Dent team \u2014 I found your Clinton dent/hail repair site and public email while researching local auto-service pages. I would not lead with a generic redesign; the more useful angle looks like a focused hail-repair landing page that makes the appointment path easier when demand spikes.\n\nIf useful, I can put together a sample page using verified info from your site and leave room for your real photos/proof. Worth polishing this up for you? Reply NO and I will not follow up.",
       "revisionNeededBeforeOutreach": true,
       "rank": 5,
       "readiness": "verified_email_found_local_draft_ready_mockup_optional_needed_before_send",
       "gmailDraftId": "562",
       "gmailDraftStatus": "saved_pending_stark_approval",
-      "draftPath": "outreach/drafts/midwest-dent-clinton-email.eml"
+      "draftPath": "outreach/drafts/midwest-dent-clinton-email.eml",
+      "primaryPain": "Site loads, but hail-repair demand needs a focused seasonal appointment path.",
+      "bestOffer": "Hail-repair landing page / appointment funnel",
+      "upsell": "Paid ads during hail season, local SEO, and short video/commercial creatives showing dent repair before/after.",
+      "evidence": "Official site loaded HTTP 200 and public mailto/phone were found in HTML."
     }
-  ]
+  ],
+  "offerStrategy": "Gap-based upsell: start with the missing/weakest revenue lever, then move to the next service. Fields below use primaryPain, bestOffer, upsell, and evidence so tomorrow outreach is specific instead of generic."
 }

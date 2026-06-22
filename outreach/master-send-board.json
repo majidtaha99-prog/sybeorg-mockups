@@ -28,7 +28,10 @@
       "leadQuality": "high",
       "subject": "quick mockup for Platinum PHC",
       "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent"
+      "sendStatus": "not_sent",
+      "primaryPain": "Multi-service emergency visitors need a clearer campaign path than a general site browse.",
+      "bestOffer": "Emergency plumbing/HVAC/electrical landing page",
+      "upsell": "Paid search by service line plus video/commercial ad creative."
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "leadQuality": "medium",
       "subject": "sample page for Richardson Plumbing",
       "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent"
+      "sendStatus": "not_sent",
+      "primaryPain": "Trust/conversion polish opportunity, not a harsh redesign angle.",
+      "bestOffer": "Trust-first plumbing landing page or conversion audit",
+      "upsell": "Local SEO/service-area pages and lightweight customer-proof video assets."
     }
   ],
   "manualHighPriorityQueue": [
@@ -56,7 +62,10 @@
       "leadQuality": "very_high",
       "reasonNotInGmailBatch": "No public email found on official site fetch; strongest route is contact form/manual outreach.",
       "angle": "Visible Yext placeholder / request-service page issue; present helpful mockup.",
-      "sendStatus": "not_sent"
+      "sendStatus": "not_sent",
+      "primaryPain": "Strong local proof needs a cleaner same-day-service conversion path.",
+      "bestOffer": "Same-day HVAC landing page",
+      "upsell": "Paid ads and local SEO for high-intent HVAC searches; video/commercial proof if web basics are covered."
     },
     {
       "rank": 2,
@@ -69,7 +78,10 @@
       "leadQuality": "medium_high",
       "reasonNotInGmailBatch": "No public email found on official site/contact fetch; use contact form/phone/manual owner-email research.",
       "angle": "Since 1993 + emergency-service positioning; improve mobile emergency conversion.",
-      "sendStatus": "not_sent"
+      "sendStatus": "not_sent",
+      "primaryPain": "Emergency/mobile callers need a faster path to call and trust the company.",
+      "bestOffer": "Emergency HVAC/mobile conversion landing page",
+      "upsell": "Google Ads for emergency/water-heater calls; commercial/video ad creative."
     },
     {
       "rank": 3,
@@ -82,7 +94,10 @@
       "leadQuality": "medium_high",
       "reasonNotInGmailBatch": "Old Outlook recipient not re-verified on official site fetch; verify before Gmail use.",
       "angle": "Strong reputation but weak/unfinished web presence.",
-      "sendStatus": "not_sent"
+      "sendStatus": "not_sent",
+      "primaryPain": "Weak/unfinished web presence despite strong reputation signal.",
+      "bestOffer": "Owner-operator HVAC landing page",
+      "upsell": "Logo/brand polish if needed, then local SEO and short video ads."
     }
   ],
   "positioningPolicy": {
@@ -119,7 +134,22 @@
       "approvalStatus": "do_not_send_mockup_pitch",
       "sendStatus": "paused",
       "reasonPaused": "Stark reviewed official site and judged it stronger than our current mockup; generic redesign/mockup pitch would weaken SYBEORG positioning.",
-      "recommendedNextApproach": "Only pursue with a precise conversion audit, paid-ads landing page, or video/campaign angle after we can show a concrete improvement over their current site."
+      "recommendedNextApproach": "Only pursue with a precise conversion audit, paid-ads landing page, or video/campaign angle after we can show a concrete improvement over their current site.",
+      "primaryPain": "Website is already strong, so generic redesign is not the play.",
+      "bestOffer": "Conversion audit, paid-ads landing page, or high-value service campaign",
+      "upsell": "Video ads/commercial shoot, remarketing creatives, and SEO/service-page expansion."
     }
-  ]
+  ],
+  "gapBasedOfferPolicy": {
+    "primaryPain": "The concrete business gap we can point to without insulting them.",
+    "bestOffer": "The first thing SYBEORG should sell for that gap.",
+    "upsell": "The next logical service if the first gap is solved or already covered.",
+    "rules": [
+      "No logo or weak identity -> logo/brand refresh.",
+      "Needs more walk-ins, calls, or foot traffic -> local SEO, Google Business Profile cleanup, and/or paid ads.",
+      "Weak SEO or thin service-area visibility -> SEO/service pages.",
+      "No/broken/placeholder site -> website, repair, or focused landing page.",
+      "If web/SEO/brand basics are already solid -> video ads, short-form creatives, commercial shoots, remarketing assets, or campaign pages."
+    ]
+  }
 }
