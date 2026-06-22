@@ -26,3 +26,14 @@ Use this for every lead tomorrow instead of a generic “website” pitch:
 | Pioneer Auto | Listing showed phone/hours but no website/email path in this pass. | First website/profile cleanup after verification. | Logo/brand refresh if no usable mark; then local SEO and simple service ads. | Public listing pass contained phone/hours but no website/email fields. |
 | Super Eagle Roofing | Existing site loads; gap is campaign focus for storm/roof-repair demand. | Storm/roof-repair landing page for SEO or paid ads. | Google Ads/local SEO plus roof-inspection video/commercial creatives. | Site loaded HTTP 200 and exposed mailto plus storm/roof repair keywords. |
 | Midwest Dent | Existing site loads; hail-repair demand needs a focused seasonal appointment path. | Hail-repair landing page / appointment funnel. | Hail-season paid ads, local SEO, and short video/commercial before-after creatives. | Site loaded HTTP 200 and public mailto/phone were found. |
+
+## Current pipeline count update
+
+Live Gmail Drafts check shows **2 Gmail-ready prospects** in `sybeorg@gmail.com`:
+
+1. Super Eagle Roofing — `ge.construction.ia@gmail.com` — Gmail draft `561` — storm/roof-repair landing page angle.
+2. Midwest Dent — `midwestdentdrp@gmail.com` — Gmail draft `562` — hail-repair landing page angle.
+
+Manual-route ready but no verified Gmail recipient yet: **5** — Howard's Auto Repair, Xpress Oil & Lube, Grenell Tree Service, Arriaga Lawn Maintenance, Fini Conditioned Air.
+
+Needs work/paused: **5** — Pioneer Auto, Bunch Heating and Cooling, Five Seasons HVAC, 8 Finger HVAC, M&P Plumbing.

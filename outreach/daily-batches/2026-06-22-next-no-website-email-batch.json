@@ -204,5 +204,24 @@
       "evidence": "Official site loaded HTTP 200 and public mailto/phone were found in HTML."
     }
   ],
-  "offerStrategy": "Gap-based upsell: start with the missing/weakest revenue lever, then move to the next service. Fields below use primaryPain, bestOffer, upsell, and evidence so tomorrow outreach is specific instead of generic."
+  "offerStrategy": "Gap-based upsell: start with the missing/weakest revenue lever, then move to the next service. Fields below use primaryPain, bestOffer, upsell, and evidence so tomorrow outreach is specific instead of generic.",
+  "pipelineSummary": {
+    "updated": "2026-06-22",
+    "source": "repo + live SYBEORG Gmail Drafts via Himalaya",
+    "gmailReadyCount": 2,
+    "gmailReadyDraftIds": [
+      "561",
+      "562"
+    ],
+    "manualReadyNoGmailCount": 5,
+    "needsWorkOrPausedCount": 5,
+    "sentTodayCount": 4,
+    "sentToday": [
+      "CPC Performance",
+      "Premier Plumbing",
+      "Richardson Plumbing",
+      "Platinum PHC"
+    ],
+    "noOutboundWithoutStarkApproval": true
+  }
 }

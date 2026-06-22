@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "campaign": "sybeorg-trades-home-services",
   "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
-  "status": "approval_required_no_sends",
+  "status": "current_pipeline_approval_required_no_sends",
   "senderAccount": "sybeorg@gmail.com",
   "lastReviewed": "2026-06-22",
   "policy": {
@@ -19,85 +19,74 @@
   "recommendedGmailBatch": [
     {
       "rank": 1,
-      "prospectId": "platinum-phc",
-      "business": "Platinum Plumbing, Heating & Cooling",
-      "recipient": "eric@platinumphcdsm.com",
-      "recipientSource": "official site mailto/header on https://platinumphcdsm.com",
-      "mockupUrl": "https://sybeorg-mockups.vercel.app/platinum-phc/",
-      "gmbSignal": "Google Maps limited view showed 5.0 stars",
-      "leadQuality": "high",
-      "subject": "quick mockup for Platinum PHC",
+      "prospectId": "super-eagle-roofing-ames",
+      "business": "Super Eagle Roofing",
+      "recipient": "ge.construction.ia@gmail.com",
+      "gmailDraftId": "561",
+      "subject": "quick storm/roof page idea for Super Eagle Roofing",
+      "bestOffer": "Storm/roof-repair landing page for SEO or paid ads",
+      "upsell": "Google Ads/local SEO for storm damage plus video/commercial roof inspection creatives.",
       "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent",
-      "primaryPain": "Multi-service emergency visitors need a clearer campaign path than a general site browse.",
-      "bestOffer": "Emergency plumbing/HVAC/electrical landing page",
-      "upsell": "Paid search by service line plus video/commercial ad creative."
+      "sendStatus": "not_sent"
     },
     {
       "rank": 2,
-      "prospectId": "richardson-plumbing",
-      "business": "Richardson Plumbing",
-      "recipient": "richardsonplmb@gmail.com",
-      "recipientSource": "official site schema on https://www.richardsonplumbing.net/",
-      "mockupUrl": "https://sybeorg-mockups.vercel.app/richardson-plumbing/",
-      "gmbSignal": "Google Maps limited view showed 4.7 stars",
-      "leadQuality": "medium",
-      "subject": "sample page for Richardson Plumbing",
+      "prospectId": "midwest-dent-clinton",
+      "business": "Midwest Dent",
+      "recipient": "midwestdentdrp@gmail.com",
+      "gmailDraftId": "562",
+      "subject": "quick hail repair page idea for Midwest Dent",
+      "bestOffer": "Hail-repair landing page / appointment funnel",
+      "upsell": "Hail-season paid ads, local SEO, and short video/commercial before-after creatives.",
       "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent",
-      "primaryPain": "Trust/conversion polish opportunity, not a harsh redesign angle.",
-      "bestOffer": "Trust-first plumbing landing page or conversion audit",
-      "upsell": "Local SEO/service-area pages and lightweight customer-proof video assets."
+      "sendStatus": "not_sent"
     }
   ],
   "manualHighPriorityQueue": [
     {
       "rank": 1,
-      "prospectId": "five-seasons-hvac",
-      "business": "Five Seasons Heating & Cooling",
-      "recipient": null,
-      "contactRoute": "website contact form or phone",
-      "mockupUrl": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
-      "gmbSignal": "Google Maps limited view showed 4.6 stars",
-      "leadQuality": "very_high",
-      "reasonNotInGmailBatch": "No public email found on official site fetch; strongest route is contact form/manual outreach.",
-      "angle": "Visible Yext placeholder / request-service page issue; present helpful mockup.",
-      "sendStatus": "not_sent",
-      "primaryPain": "Strong local proof needs a cleaner same-day-service conversion path.",
-      "bestOffer": "Same-day HVAC landing page",
-      "upsell": "Paid ads and local SEO for high-intent HVAC searches; video/commercial proof if web basics are covered."
+      "prospectId": "howards-auto-repair",
+      "business": "Howard's Auto Repair",
+      "status": "mockup_ready_no_verified_email",
+      "route": "phone/manual email research",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/howards-auto-repair/",
+      "bestOffer": "Broken-link fix plus first mobile shop page"
     },
     {
       "rank": 2,
-      "prospectId": "bunch-heating-cooling",
-      "business": "Bunch Heating and Cooling",
-      "recipient": null,
-      "contactRoute": "phone/manual owner-email research",
-      "mockupUrl": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
-      "gmbSignal": "Google Maps limited view showed 5.0 stars",
-      "leadQuality": "medium_high",
-      "reasonNotInGmailBatch": "No public email found on official site/contact fetch; use contact form/phone/manual owner-email research.",
-      "angle": "Since 1993 + emergency-service positioning; improve mobile emergency conversion.",
-      "sendStatus": "not_sent",
-      "primaryPain": "Emergency/mobile callers need a faster path to call and trust the company.",
-      "bestOffer": "Emergency HVAC/mobile conversion landing page",
-      "upsell": "Google Ads for emergency/water-heater calls; commercial/video ad creative."
+      "prospectId": "xpress-oil-lube-waterloo",
+      "business": "Xpress Oil & Lube",
+      "status": "mockup_ready_no_verified_email",
+      "route": "phone/Facebook/manual email research",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/xpress-oil-lube-waterloo/",
+      "bestOffer": "Domain repair/replacement landing page with mobile call and hours"
     },
     {
       "rank": 3,
-      "prospectId": "8-finger-hvac",
-      "business": "8 Finger HVAC",
-      "recipient": "bobbyghvac86@outlook.com",
-      "contactRoute": "Gmail only if Stark approves existing recipient source; otherwise research/phone",
-      "mockupUrl": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
-      "gmbSignal": "Google Maps limited view showed 5.0 stars, but listing lacked phone in limited view; official site looked portal-like.",
-      "leadQuality": "medium_high",
-      "reasonNotInGmailBatch": "Old Outlook recipient not re-verified on official site fetch; verify before Gmail use.",
-      "angle": "Strong reputation but weak/unfinished web presence.",
-      "sendStatus": "not_sent",
-      "primaryPain": "Weak/unfinished web presence despite strong reputation signal.",
-      "bestOffer": "Owner-operator HVAC landing page",
-      "upsell": "Logo/brand polish if needed, then local SEO and short video ads."
+      "prospectId": "grenell-tree-service",
+      "business": "Grenell Tree Service LLC",
+      "status": "local_draft_ready_no_verified_email",
+      "route": "phone/manual research",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/grenell-tree-service/",
+      "bestOffer": "First website / tree-service landing page"
+    },
+    {
+      "rank": 4,
+      "prospectId": "arriaga-lawn-maintenance",
+      "business": "Arriaga Lawn Maintenance",
+      "status": "local_draft_ready_no_verified_email",
+      "route": "phone/manual research",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/arriaga-lawn-maintenance/",
+      "bestOffer": "Broken-site repair / replacement landing page"
+    },
+    {
+      "rank": 5,
+      "prospectId": "fini-conditioned-air",
+      "business": "Fini Conditioned Air",
+      "status": "local_draft_ready_no_verified_email",
+      "route": "phone/manual verification",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/fini-conditioned-air/",
+      "bestOffer": "Domain/site repair plus mobile HVAC landing page"
     }
   ],
   "positioningPolicy": {
@@ -151,5 +140,73 @@
       "No/broken/placeholder site -> website, repair, or focused landing page.",
       "If web/SEO/brand basics are already solid -> video ads, short-form creatives, commercial shoots, remarketing assets, or campaign pages."
     ]
-  }
+  },
+  "pipelineSummary": {
+    "updated": "2026-06-22",
+    "source": "repo + live SYBEORG Gmail Drafts via Himalaya",
+    "gmailReadyCount": 2,
+    "gmailReadyDraftIds": [
+      "561",
+      "562"
+    ],
+    "manualReadyNoGmailCount": 5,
+    "needsWorkOrPausedCount": 5,
+    "sentTodayCount": 4,
+    "sentToday": [
+      "CPC Performance",
+      "Premier Plumbing",
+      "Richardson Plumbing",
+      "Platinum PHC"
+    ],
+    "noOutboundWithoutStarkApproval": true
+  },
+  "needsWorkOrPausedQueue": [
+    {
+      "prospectId": "pioneer-auto-sergeant-bluff",
+      "business": "Pioneer Auto",
+      "needed": "mockup + email/contact research before outreach"
+    },
+    {
+      "prospectId": "bunch-heating-cooling",
+      "business": "Bunch Heating and Cooling",
+      "needed": "verified recipient before Gmail; manual/contact form route otherwise"
+    },
+    {
+      "prospectId": "five-seasons-hvac",
+      "business": "Five Seasons Heating & Cooling",
+      "needed": "verified recipient before Gmail; contact form/phone route otherwise"
+    },
+    {
+      "prospectId": "8-finger-hvac",
+      "business": "8 Finger HVAC",
+      "needed": "re-verify old Outlook recipient before Gmail"
+    },
+    {
+      "prospectId": "mp-plumbing",
+      "business": "M&P Plumbing",
+      "needed": "paused; needs non-generic conversion/video/campaign angle"
+    }
+  ],
+  "sentPreviousBatch": [
+    {
+      "prospectId": "cpc-performance",
+      "business": "CPC Performance",
+      "sentStatus": "sent_2026-06-22"
+    },
+    {
+      "prospectId": "premier-plumbing-ankeny",
+      "business": "Premier Plumbing",
+      "sentStatus": "sent_2026-06-22"
+    },
+    {
+      "prospectId": "richardson-plumbing",
+      "business": "Richardson Plumbing",
+      "sentStatus": "sent_2026-06-22"
+    },
+    {
+      "prospectId": "platinum-phc",
+      "business": "Platinum PHC",
+      "sentStatus": "sent_2026-06-22"
+    }
+  ]
 }
