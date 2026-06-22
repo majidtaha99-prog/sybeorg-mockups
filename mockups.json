@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG redesign readiness 2026-06-21",
-  "lastUpdated": "2026-06-21",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-22",
+  "lastUpdated": "2026-06-22",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -847,6 +847,81 @@
       "revisionNeededBeforeOutreach": false,
       "redesignStatus": "premium_loader_map_contact_motion_ready_2026-06-21",
       "qualityDirection": "Premium mobile-first redesign with loader, interactive routing, local map, contact section, sticky mobile CTA, and public-facts-only proof guardrails."
+    },
+    {
+      "id": "southwest-iowa-plumbing-heating",
+      "business": "Southwest Iowa Plumbing and Heating",
+      "vertical": "Plumbing / HVAC",
+      "market": "Council Bluffs, IA",
+      "phone": "verify before launch",
+      "officialSiteChecked": "https://www.swiowaplumbingandhvac.com/request-an-estimate",
+      "mockupPath": "southwest-iowa-plumbing-heating/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/southwest-iowa-plumbing-heating/",
+      "angle": "The public estimate path appears broken, so high-intent visitors may hit a dead end before requesting service.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Light blue/cream estimate-path repair concept with route cards; not dark hero/right-form/cards/reviews.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Council Bluffs, IA"
+        ],
+        "phone": "verify before launch"
+      },
+      "unverifiedClaimsAvoided": [
+        "phone number",
+        "emergency hours",
+        "license",
+        "owner",
+        "reviews",
+        "guarantees"
+      ],
+      "visualQaNotes": "Browser visual QA passed after fixing internal CTA wording: credible light estimate-path concept; clear sample framing; phone marked pending confirmation rather than using an unverified number; no fake proof or generic testimonial blocks.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "created_2026-06-22_batch_1"
+    },
+    {
+      "id": "automotive-service-evolution",
+      "business": "Automotive Service Evolution",
+      "vertical": "Auto repair",
+      "market": "Cedar Rapids, IA",
+      "phone": "+1 319-377-7060",
+      "officialSiteChecked": "https://autoevolution.us/",
+      "mockupPath": "automotive-service-evolution/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/automotive-service-evolution/",
+      "angle": "The site may block some visitors or automated/mobile contexts; a call-first repair page could preserve leads if the public path fails.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Service-bay/ticket-board composition; avoids stock mechanic hero, fake certifications, fake reviews, and right-side quote form.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Cedar Rapids, IA"
+        ],
+        "phone": "+1 319-377-7060"
+      },
+      "unverifiedClaimsAvoided": [
+        "ASE certification",
+        "review count",
+        "warranty",
+        "owner name",
+        "exact service menu"
+      ],
+      "visualQaNotes": "Browser visual QA passed after changing badge from ASE to AE to avoid certification ambiguity; credible service-bay/ticket-board concept; layout intact; phone CTA visible; no fake reviews/badges/warranties.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "created_2026-06-22_batch_1"
     }
   ],
   "nextBatchQueue": [

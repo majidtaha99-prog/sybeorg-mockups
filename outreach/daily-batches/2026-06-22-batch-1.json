@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 2,
+  "campaign": "sybeorg-trades-home-services",
+  "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, accounts, and campaigns excluded. No outbound without Stark approval.",
+  "batchDate": "2026-06-22",
+  "batchNumber": 1,
+  "senderAccount": "sybeorg@gmail.com",
+  "status": "approval_required_no_sends",
+  "policy": {
+    "noOutboundWithoutStarkApproval": true,
+    "approvalRequiredFor": [
+      "recipient",
+      "subject",
+      "body",
+      "senderAccount",
+      "batchSize",
+      "timing"
+    ]
+  },
+  "discoveryPass": {
+    "candidatesScreened": 15,
+    "sources": [
+      "OpenStreetMap/Nominatim public listing fields",
+      "DuckDuckGo HTML result snippets where available",
+      "direct official-site HTTP checks",
+      "repo de-duplication against mockups.json, master-send-board.json, and recent daily batches"
+    ],
+    "candidateScores": [
+      {
+        "business": "Southwest Iowa Plumbing and Heating",
+        "score": 88,
+        "angle": "urgent_bug"
+      },
+      {
+        "business": "Automotive Service Evolution",
+        "score": 84,
+        "angle": "urgent_bug"
+      },
+      {
+        "business": "Professional Muffler",
+        "score": 80,
+        "angle": "urgent_bug"
+      },
+      {
+        "business": "Burrage Roofing",
+        "score": 78,
+        "angle": "paid_ad_readiness"
+      },
+      {
+        "business": "Breese Plumbing and Heating LLC",
+        "score": 74,
+        "angle": "gmb_leak"
+      },
+      {
+        "business": "Mt. Vernon Road Tire",
+        "score": 70,
+        "angle": "service_page_gap"
+      },
+      {
+        "business": "Recon Roofing and Construction",
+        "score": 68,
+        "angle": "paid_ad_readiness but polished"
+      },
+      {
+        "business": "Heims Plumbing and Electric",
+        "score": 66,
+        "angle": "brand_trust_gap"
+      },
+      {
+        "business": "D and L Plumbing and Heating",
+        "score": 64,
+        "angle": "mobile_conversion"
+      },
+      {
+        "business": "Quality Auto Rebuilders",
+        "score": 63,
+        "angle": "booking_gap"
+      },
+      {
+        "business": "Harapat Auto",
+        "score": 62,
+        "angle": "booking_gap"
+      },
+      {
+        "business": "Collins Road Tire Company",
+        "score": 61,
+        "angle": "service_page_gap"
+      },
+      {
+        "business": "Milex Complete Auto Care",
+        "score": 58,
+        "angle": "franchise/redirect nurture"
+      },
+      {
+        "business": "Al's Full Service",
+        "score": 55,
+        "angle": "corporate redirect"
+      },
+      {
+        "business": "Tuffy / Brakes Plus",
+        "score": 42,
+        "angle": "franchise skip"
+      }
+    ]
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "prospectId": "southwest-iowa-plumbing-heating",
+      "business": "Southwest Iowa Plumbing and Heating",
+      "vertical": "Plumbing / HVAC",
+      "market": "Council Bluffs, IA",
+      "officialSite": "https://www.swiowaplumbingandhvac.com/request-an-estimate",
+      "gmbSignals": "DuckDuckGo result showed a request-an-estimate page; direct fetch returned HTTP 404 with title SITE NOT FOUND. Broader Google rating not verified in this pass.",
+      "contactRoute": "manual research / phone before any email; no public email verified",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 88,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "no_website",
+        "booking_gap",
+        "mobile_conversion",
+        "gmb_leak"
+      ],
+      "evidenceQuality": "strong",
+      "verifiedEvidence": [
+        "Direct fetch of request-an-estimate URL returned HTTP 404.",
+        "Fetched title was SITE NOT FOUND."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "phone number",
+        "Google rating",
+        "years in business",
+        "license",
+        "24/7 emergency service"
+      ],
+      "diagnosis": "The public estimate path appears broken, so high-intent visitors may hit a dead end before requesting service.",
+      "bestHook": "Helpful alert: request-an-estimate page returned SITE NOT FOUND; sample shows a clean replacement path.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low",
+      "nextBestAction": "manual_research",
+      "upsellPath": [
+        "website_path_fix",
+        "landing_page",
+        "gmb_cleanup",
+        "tracking"
+      ],
+      "whyThisShouldClose": "Specific, visible public bug in a high-intent home-service vertical.",
+      "recommendedChannel": "manual research / phone script",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/southwest-iowa-plumbing-heating/",
+      "mockupDecisionReason": "The broken estimate path is visual and concrete; a sample replacement strengthens the helpful-alert note.",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Light blue/cream estimate-path repair concept with route cards; not dark hero/right-form/cards/reviews.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Council Bluffs, IA"
+        ],
+        "phone": "verify before launch"
+      },
+      "unverifiedClaimsAvoided": [
+        "phone number",
+        "emergency hours",
+        "license",
+        "owner",
+        "reviews",
+        "guarantees"
+      ],
+      "visualQaNotes": "Browser visual QA passed after fixing internal CTA wording: credible light estimate-path concept; clear sample framing; phone marked pending confirmation rather than using an unverified number; no fake proof or generic testimonial blocks.",
+      "revisionNeededBeforeOutreach": false,
+      "subject": "quick estimate-page note for Southwest Iowa Plumbing",
+      "draftCopy": "Hi Southwest Iowa Plumbing and Heating team \u2014 I found a public request-an-estimate page for your business that returned a SITE NOT FOUND page during my check. If that page is still connected anywhere customers click, it could block quote requests before they reach you.\n\nI made a no-obligation sample showing how that first estimate path could look once the real phone, services, and photos are confirmed: https://sybeorg-mockups.vercel.app/southwest-iowa-plumbing-heating/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "automotive-service-evolution",
+      "business": "Automotive Service Evolution",
+      "vertical": "Auto repair",
+      "market": "Cedar Rapids, IA",
+      "officialSite": "https://autoevolution.us/",
+      "gmbSignals": "Overpass/OSM public listing surfaced auto repair category, Cedar Rapids-area phone +1 319-377-7060 and website https://autoevolution.us/. Google rating not verified.",
+      "contactRoute": "phone/manual research; no public email found in fetch",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 84,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "booking_gap",
+        "paid_ad_readiness"
+      ],
+      "evidenceQuality": "strong",
+      "verifiedEvidence": [
+        "Direct fetch of https://autoevolution.us/ returned HTTP 406.",
+        "Fetched page title was Not Acceptable!.",
+        "OSM public listing supplied phone +1 319-377-7060."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "ASE certification despite name/initials",
+        "review count",
+        "warranty",
+        "owner name",
+        "service menu"
+      ],
+      "diagnosis": "The site may block some visitors or automated/mobile contexts; a call-first repair page could preserve leads if the public path fails.",
+      "bestHook": "Helpful alert: site returned Not Acceptable during check; sample shows a more reliable first screen.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low",
+      "nextBestAction": "phone_script",
+      "upsellPath": [
+        "site_accessibility_fix",
+        "landing_page",
+        "booking_flow",
+        "google_ads"
+      ],
+      "whyThisShouldClose": "Specific technical issue plus public phone in a high-intent auto-repair category.",
+      "recommendedChannel": "manual phone script or researched email only",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/automotive-service-evolution/",
+      "mockupDecisionReason": "A service-bay sample makes the public-path issue easy to understand without criticizing their business.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Service-bay/ticket-board composition; avoids stock mechanic hero, fake certifications, fake reviews, and right-side quote form.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Cedar Rapids, IA"
+        ],
+        "phone": "+1 319-377-7060"
+      },
+      "unverifiedClaimsAvoided": [
+        "ASE certification",
+        "review count",
+        "warranty",
+        "owner name",
+        "exact service menu"
+      ],
+      "visualQaNotes": "Browser visual QA passed after changing badge from ASE to AE to avoid certification ambiguity; credible service-bay/ticket-board concept; layout intact; phone CTA visible; no fake reviews/badges/warranties.",
+      "revisionNeededBeforeOutreach": false,
+      "subject": "quick website access note for Automotive Service Evolution",
+      "draftCopy": "Hi Automotive Service Evolution team \u2014 I checked the public site I found for ASE and it returned a \u201cNot Acceptable\u201d page during my pass. It may be harmless, but if some visitors hit the same screen, they would not see a repair path or phone CTA.\n\nI made a no-obligation sample of a cleaner first screen using only public info I could verify: https://sybeorg-mockups.vercel.app/automotive-service-evolution/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "professional-muffler-cedar-rapids",
+      "business": "Professional Muffler",
+      "vertical": "Auto repair / muffler and brake",
+      "market": "Cedar Rapids, IA",
+      "officialSite": "https://www.professionalmuffler.com/muffler-repair-collins-road-cedar-rapids",
+      "gmbSignals": "OSM public listing surfaced Cedar Rapids phone +1-319-373-7020 and website. Direct fetch found mailto promuf3@gmail.com and promuffler3@gmail.com; Google rating not verified.",
+      "contactRoute": "public email mailto plus phone; email source should be rechecked in browser before send",
+      "publicEmail": "promuf3@gmail.com / promuffler3@gmail.com",
+      "emailSource": "official-site mailto in fetched HTML",
+      "opportunityScore": 80,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "contact_route_gap",
+        "service_page_gap",
+        "mobile_conversion"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Official page loaded HTTP 200 with title Muffler Experts | Cedar Rapids, IA | Professional Muffler Inc.",
+        "Fetched HTML contained real mailto addresses and also the placeholder string your@email.com.",
+        "Page H1 text appeared as dMuffler & Brake Repair on Collins Rd in Cedar Rapids, IA in raw fetch."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "review count",
+        "ASE certification",
+        "warranty",
+        "exact cause of placeholder text"
+      ],
+      "diagnosis": "The site works, but a placeholder email string and awkward fetched H1 suggest a small public QA issue; first touch should be a helpful note, not a redesign pitch.",
+      "bestHook": "Helpful QA alert: placeholder email string appears in page HTML; offer quick cleanup/service-page polish.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low_medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "site_QA_cleanup",
+        "muffler_brake_service_page",
+        "tracking"
+      ],
+      "whyThisShouldClose": "They have a reachable public email and the issue is precise/non-insulting.",
+      "recommendedChannel": "email draft after Stark approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; the current site is functional and a generic auto mockup would weaken the specific QA-alert angle.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Cedar Rapids, IA"
+        ],
+        "phone": "+1-319-373-7020",
+        "email": "promuf3@gmail.com / promuffler3@gmail.com"
+      },
+      "unverifiedClaimsAvoided": [
+        "reviews",
+        "certifications",
+        "warranties"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick website QA note for Professional Muffler",
+      "draftCopy": "Hi Professional Muffler team \u2014 I was looking at the Collins Road muffler/brake page and noticed a small public QA item: the page HTML includes a placeholder-looking email string alongside the real contact emails. Your site is already live, so this is not a redesign pitch \u2014 just a quick cleanup/service-page polish idea.\n\nIf useful, I can send over the exact spot and a cleaner version of that first screen. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 4,
+      "prospectId": "burrage-roofing-davenport",
+      "business": "Burrage Roofing",
+      "vertical": "Roofing",
+      "market": "Davenport, IA",
+      "officialSite": "https://burrageroofing.com/",
+      "gmbSignals": "Nominatim/OSM public listing surfaced roofing category, Davenport address, phone +1 563-549-9544, website, and email kendrick@burrageroofing.com. Google rating not verified.",
+      "contactRoute": "public email from OSM listing; official site has forms/phone; email should be source-verified before send",
+      "publicEmail": "kendrick@burrageroofing.com",
+      "emailSource": "OSM public listing; direct official-site fetch did not expose same mailto in first pass",
+      "opportunityScore": 78,
+      "primaryAngleCategory": "paid_ad_readiness",
+      "secondaryAngles": [
+        "service_page_gap",
+        "seasonal_urgency",
+        "contact_route_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Official site loaded HTTP 200 with title #1 Roofing Davenport IA Company.",
+        "Direct fetch found storm, roof repair, hail, residential, commercial, estimate, and review keywords.",
+        "Public listing supplied phone and email."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "ad spend",
+        "ranking impact",
+        "#1 claim endorsement",
+        "insurance claim expertise beyond verified site wording"
+      ],
+      "diagnosis": "The site is functional; the stronger close is a focused storm/roof-repair landing page for paid search/seasonal traffic, not a homepage rebuild.",
+      "bestHook": "Additive offer: one Davenport storm/roof-repair landing page that can support ads and lead tracking.",
+      "recommendedOffer": "ads_landing_page",
+      "closeDifficulty": "medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "storm_damage_page",
+        "call_tracking",
+        "google_ads",
+        "review_reuse"
+      ],
+      "whyThisShouldClose": "Roofing is high-ticket, public contact route exists, and the offer does not insult their current site.",
+      "recommendedChannel": "email draft after Stark approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; a high-quality roofing page needs deeper proof/photos and page audit to avoid becoming generic.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Davenport, IA"
+        ],
+        "phone": "+1 563-549-9544",
+        "email": "kendrick@burrageroofing.com"
+      },
+      "unverifiedClaimsAvoided": [
+        "ranking/ad performance",
+        "review count",
+        "insurance process claims"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick storm-page idea for Burrage Roofing",
+      "draftCopy": "Hi Burrage Roofing team \u2014 I came across your Davenport roofing site while researching storm/roof-repair pages. Your site already loads, so I would not lead with a generic redesign pitch. The clearer opportunity looks like one focused roof-repair/storm-inspection landing page that could support seasonal searches or ads.\n\nIf useful, I can mock up a focused page using verified details from your site/listing and leave room for your real photos/proof. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 5,
+      "prospectId": "breese-plumbing-heating-iowa-city",
+      "business": "Breese Plumbing and Heating LLC",
+      "vertical": "Plumbing / HVAC",
+      "market": "Iowa City, IA",
+      "officialSite": "https://www.breeseplumbingandheating.com/",
+      "gmbSignals": "DuckDuckGo result and direct fetch verified official site; direct fetch found contact form, 4 tel links, emergency/financing/water heater/commercial/residential keywords. Google rating not verified.",
+      "contactRoute": "contact form or phone/manual; no public email found in fetch",
+      "publicEmail": null,
+      "emailSource": null,
+      "opportunityScore": 74,
+      "primaryAngleCategory": "gmb_leak",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "service_page_gap",
+        "booking_gap",
+        "reputation_mismatch"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Official site loaded HTTP 200 with title Plumber | Breese Plumbing & Heating LLC | Iowa City, IA.",
+        "Direct fetch found a form, four tel links, and water heater/emergency/financing keywords.",
+        "No public email found in fetched HTML."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "Google rating",
+        "review count",
+        "license details",
+        "same-day guarantee"
+      ],
+      "diagnosis": "The site is functional and has phone/form paths, but the opportunity is local-profile/contact conversion: make emergency/water-heater visitors land on a simpler phone-first page and confirm GMB fields.",
+      "bestHook": "Profile/contact-path audit plus optional water-heater/emergency landing page after confirmation.",
+      "recommendedOffer": "gmb_cleanup",
+      "closeDifficulty": "medium",
+      "nextBestAction": "contact_form_draft",
+      "upsellPath": [
+        "gmb_cleanup",
+        "water_heater_page",
+        "mobile_conversion_landing_page",
+        "ads_landing_page"
+      ],
+      "whyThisShouldClose": "Local plumbing/HVAC is high-intent and the angle is additive, but contact route needs manual approval because email was not found.",
+      "recommendedChannel": "contact-form draft after Stark approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; existing site is functional and the best visual angle requires verified GMB/review/photo proof first.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Iowa City, IA"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "reviews",
+        "license",
+        "guarantees",
+        "emergency hours"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick Iowa City plumbing page idea",
+      "draftCopy": "Hi Breese Plumbing and Heating team \u2014 I found your Iowa City plumbing/HVAC site while checking local service pages. The site is live and has contact paths, so I would not lead with a full redesign pitch. The more useful opportunity looks like a tighter emergency/water-heater page and a quick local-profile/contact-path audit so search visitors know exactly what to tap next.\n\nIf useful, I can put together a focused sample using only verified details from your site. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ]
+}
