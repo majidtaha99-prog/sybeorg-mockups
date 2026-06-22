@@ -1,8 +1,6 @@
-# Arriaga Lawn Maintenance outreach draft
+# website link note for Arriaga Lawn Maintenance
 
-Status: local draft only; no verified recipient email yet; do not send without Stark approval.
-
-Subject: website link note for Arriaga Lawn Maintenance
+To: [no verified email yet]
 
 Hi Arriaga Lawn Maintenance team,
 

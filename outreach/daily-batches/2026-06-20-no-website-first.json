@@ -47,8 +47,8 @@
       "vertical": "Plumbing",
       "market": "Ankeny, IA",
       "currentWebPresence": "coming-soon placeholder page",
-      "contactRoute": "phone/manual research; no public email yet",
-      "publicEmail": null,
+      "contactRoute": "public email from official contact page",
+      "publicEmail": "rheintz@premierplumbing.org",
       "phone": "515-965-0714",
       "evidenceQuality": "strong; verified in 2026-06-19 batch",
       "whyFirstBatch": "Current site is effectively a placeholder; mockup is appropriate and already built.",
@@ -57,7 +57,8 @@
       "recommendedOffer": "replace coming-soon page with useful one-page site",
       "subject": "sample replacement for Premier Plumbing’s coming-soon page",
       "draftCopy": "Hi Premier Plumbing team — I was looking at Ankeny plumbing listings and saw the public Premier Plumbing website loading as a short 'Coming Soon' page. It does show a phone number, but it does not give homeowners much context before they choose who to call.\n\nI put together a sample one-page concept showing how the first screen could make the phone number, service categories, and request path clearer: https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/\n\nIf the direction is useful, I can clean this up with the real details.",
-      "sendStatus": "not_sent_premium_mockup_ready_manual_channel_needed"
+      "sendStatus": "not_sent_gmail_draft_saved_pending_stark_approval",
+      "emailSource": "official contact page https://www.premierplumbingiowa.com/contact-us/2590581 verified 2026-06-22"
     },
     {
       "rank": 3,
@@ -76,7 +77,8 @@
       "recommendedOffer": "first website for Maps traffic",
       "subject": "sample first website for Grenell Tree Service",
       "draftCopy": "Hi Grenell Tree Service team — I came across your Iowa City-area listing and saw a strong local signal, but I did not see a website button in the public Maps view. For tree work, a simple mobile page can help people quickly confirm services and call when they have a limb, removal, or cleanup issue.\n\nI put together a first-site concept with the phone number, service categories, and a fast estimate/call path: https://sybeorg-mockups.vercel.app/grenell-tree-service/\n\nIf the direction is useful, I can clean this up with the real details.",
-      "sendStatus": "not_sent_premium_mockup_ready_manual_channel_needed"
+      "sendStatus": "not_sent_premium_mockup_ready_manual_channel_needed",
+      "emailSearch20260622": "No verified public email found via direct search fetch; keep phone/manual route unless Stark supplies one."
     },
     {
       "rank": 4,
@@ -95,7 +97,8 @@
       "recommendedOffer": "fix not-found site / simple service-area page",
       "subject": "quick website not-found note for Arriaga Lawn Maintenance",
       "draftCopy": "Hi Arriaga Lawn Maintenance team — the public website URL I found for Arriaga Lawn Maintenance loaded a 'SITE NOT FOUND' page. If that is the listing customers are clicking from search, it may be blocking people before they see your services or phone number.\n\nI did not send anything or make changes — just flagging it. If useful, I can have SYBEORG mock up a simple lawn-care/service-area page so you can see the cleaner version. If this is useful, I can send the details over.",
-      "sendStatus": "not_sent_manual_channel_needed"
+      "sendStatus": "not_sent_manual_channel_needed",
+      "emailSearch20260622": "No verified public email found via direct search fetch; keep phone/manual route unless Stark supplies one."
     },
     {
       "rank": 5,
@@ -114,7 +117,8 @@
       "recommendedOffer": "domain/listing cleanup + first landing page",
       "subject": "quick domain/listing note for Fini Conditioned Air",
       "draftCopy": "Hi Fini Conditioned Air team — I tried the public domain I found for Fini Conditioned Air and it did not resolve. If that domain is still connected to any customer-facing listing, people may be hitting a dead end before they can request HVAC help.\n\nI can mock up a simple replacement call-first HVAC page if you want to see what a cleaner first screen could look like. If this is useful, I can send the details over.",
-      "sendStatus": "not_sent_manual_verification_needed"
+      "sendStatus": "not_sent_manual_verification_needed",
+      "emailSearch20260622": "No verified public email found via direct search fetch; keep phone/manual route unless Stark supplies one."
     }
   ],
   "strongSiteOrNonFirstBatch": [

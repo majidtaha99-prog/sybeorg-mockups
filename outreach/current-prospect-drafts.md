@@ -1,8 +1,8 @@
 # Current Prospect Outreach Drafts — SYBEORG
 
-Updated: 2026-05-27
+Updated: 2026-06-22
 Status: ready for Stark review; not sent yet.
-Important: Gmail draft access is not authenticated yet, so these are local ready-to-copy drafts.
+Important: Gmail draft access is authenticated for SYBEORG. Send-ready verified-recipient drafts are staged in Gmail; missing-recipient items remain local/manual-route drafts.
 
 ## Recommended angle
 
@@ -319,3 +319,17 @@ If the direction is useful, I can clean it up with your real services, photos, s
 SYBEORG
 https://sybeorg.com
 
+
+
+---
+
+## 2026-06-22 Gmail draft staging update
+
+SYBEORG Gmail drafts staged, not sent:
+
+- CPC Performance — draft `556` — `cpcxperformance23@gmail.com`
+- Premier Plumbing — draft `557` — `rheintz@premierplumbing.org`
+- Richardson Plumbing — draft `559` — `richardsonplmb@gmail.com`
+- Platinum PHC — draft `560` — `eric@platinumphcdsm.com`
+
+Still local/manual-route only: Grenell Tree Service, Arriaga Lawn Maintenance, Fini Conditioned Air, Bunch Heating and Cooling, Five Seasons Heating & Cooling, 8 Finger HVAC.

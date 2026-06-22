@@ -1,8 +1,6 @@
-From: SYBEORG Digital Agency <sybeorg@gmail.com>
+# quick first-site idea for CPC Performance
+
 To: CPC Performance <cpcxperformance23@gmail.com>
-Subject: quick first-site idea for CPC Performance
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
 
 Hi CPC Performance team,
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20",
+  "updated": "2026-06-22",
   "from_account": "sybeorg@gmail.com",
   "gmail_status": "verified_himalaya_account_available_sybeorg",
   "policy": "First outreach batch prioritizes no-website, placeholder, broken-site, or clearly weak-site prospects. Strong-site prospects require audit/campaign/video angles instead. Do not send outbound email until Stark approves exact recipients and message content. Outreach voice must sound human/local: specific observation, plain language, no canned opt-out commands, no generic micro-CTAs, no AI-ish pressure disclaimers.",
@@ -19,15 +19,15 @@
       "recipient_status": "public_email_needs_google_maps_verification",
       "subject": "quick first-site idea for CPC Performance",
       "mockup_url": "https://sybeorg-mockups.vercel.app/cpc-performance/",
-      "send_status": "gmail_draft_saved_pending_verification_and_stark_approval",
+      "send_status": "gmail_draft_polished_pending_stark_approval",
       "qualification": "no_website_first_batch",
       "current_web_presence": "no website field found in OSM/public listing pass",
       "contact_route": "public email from OSM listing",
       "quality_standard": "premium_loader_map_contact_motion_ready",
       "gmail_draft_account": "sybeorg",
       "gmail_draft_from": "sybeorg@gmail.com",
-      "gmail_draft_id": "553",
-      "gmail_draft_verified": "2026-06-20 via himalaya sybeorg drafts; cleaned human voice, no botty opt-out CTA",
+      "gmail_draft_id": "556",
+      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent",
       "draft_path": "outreach/drafts/cpc-performance-email.eml",
       "voice_status": "humanized_personal_no_botty_optout"
     },
@@ -35,18 +35,23 @@
       "id": "premier-plumbing-ankeny",
       "business": "Premier Plumbing",
       "priority": "high",
-      "recipient_email": "",
-      "recipient_status": "needed_or_manual_phone_route",
+      "recipient_email": "rheintz@premierplumbing.org",
+      "recipient_status": "verified_official_contact_page_2026-06-22",
       "subject": "sample page for Premier Plumbing in Ankeny",
       "mockup_url": "https://sybeorg-mockups.vercel.app/premier-plumbing-ankeny/",
-      "send_status": "local_draft_ready_no_verified_email_stark_approval_required",
+      "send_status": "gmail_draft_polished_pending_stark_approval",
       "qualification": "no_website_first_batch",
       "current_web_presence": "coming-soon placeholder page",
-      "contact_route": "phone/manual research; no public email yet",
+      "contact_route": "public email on official contact page https://www.premierplumbingiowa.com/contact-us/2590581",
       "quality_standard": "premium_loader_map_contact_motion_ready",
       "draft_path": "outreach/drafts/premier-plumbing-ankeny-email.eml",
       "review_path": "outreach/drafts/premier-plumbing-ankeny-email-draft.md",
-      "voice_status": "humanized_personal_no_botty_optout"
+      "voice_status": "humanized_personal_no_botty_optout",
+      "email_source": "official contact page mailto/text fetch 2026-06-22",
+      "gmail_draft_account": "sybeorg",
+      "gmail_draft_from": "sybeorg@gmail.com",
+      "gmail_draft_id": "557",
+      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent"
     },
     {
       "id": "grenell-tree-service",
@@ -63,7 +68,8 @@
       "quality_standard": "premium_loader_map_contact_motion_ready",
       "draft_path": "outreach/drafts/grenell-tree-service-email.eml",
       "review_path": "outreach/drafts/grenell-tree-service-email-draft.md",
-      "voice_status": "humanized_personal_no_botty_optout"
+      "voice_status": "humanized_personal_no_botty_optout",
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
     },
     {
       "id": "arriaga-lawn-maintenance",
@@ -80,7 +86,8 @@
       "draft_path": "outreach/drafts/arriaga-lawn-maintenance-email.eml",
       "review_path": "outreach/drafts/arriaga-lawn-maintenance-email-draft.md",
       "voice_status": "humanized_personal_no_botty_optout",
-      "quality_standard": "premium_loader_map_contact_motion_ready"
+      "quality_standard": "premium_loader_map_contact_motion_ready",
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
     },
     {
       "id": "fini-conditioned-air",
@@ -97,7 +104,8 @@
       "draft_path": "outreach/drafts/fini-conditioned-air-email.eml",
       "review_path": "outreach/drafts/fini-conditioned-air-email-draft.md",
       "voice_status": "humanized_personal_no_botty_optout",
-      "quality_standard": "premium_loader_map_contact_motion_ready"
+      "quality_standard": "premium_loader_map_contact_motion_ready",
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
     },
     {
       "id": "bunch-heating-cooling",
@@ -107,7 +115,8 @@
       "recipient_status": "needed",
       "subject": "Quick mockup for Bunch Heating and Cooling",
       "mockup_url": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
-      "send_status": "ready_pending_recipient_and_stark_approval"
+      "send_status": "ready_pending_recipient_and_stark_approval",
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
     },
     {
       "id": "five-seasons-hvac",
@@ -117,7 +126,8 @@
       "recipient_status": "needed",
       "subject": "Sample page for Five Seasons Heating & Cooling",
       "mockup_url": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
-      "send_status": "ready_pending_recipient_and_stark_approval"
+      "send_status": "ready_pending_recipient_and_stark_approval",
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
     },
     {
       "id": "mp-plumbing",
@@ -142,27 +152,40 @@
       "recipient_status": "needed",
       "subject": "Bobby — quick mockup for 8 Finger HVAC",
       "mockup_url": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
-      "send_status": "queued_after_first_batch"
+      "send_status": "queued_after_first_batch",
+      "email_search_2026_06_22": "no verified public email found in direct search/official-site fetch; use phone/contact-form/manual route"
     },
     {
       "id": "platinum-phc",
       "business": "Platinum Plumbing, Heating & Cooling",
       "priority": "medium",
-      "recipient_email": "",
-      "recipient_status": "needed",
-      "subject": "Quick mockup for Platinum PHC",
+      "recipient_email": "eric@platinumphcdsm.com",
+      "recipient_status": "verified_official_site_mailto_2026-06-22",
+      "subject": "quick mockup for Platinum PHC",
       "mockup_url": "https://sybeorg-mockups.vercel.app/platinum-phc/",
-      "send_status": "queued_after_first_batch"
+      "send_status": "gmail_draft_polished_pending_stark_approval",
+      "draft_path": "outreach/drafts/platinum-phc-email.eml",
+      "review_path": "outreach/drafts/platinum-phc-email-draft.md",
+      "gmail_draft_account": "sybeorg",
+      "gmail_draft_from": "sybeorg@gmail.com",
+      "gmail_draft_id": "560",
+      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent"
     },
     {
       "id": "richardson-plumbing",
       "business": "Richardson Plumbing",
       "priority": "medium",
-      "recipient_email": "",
-      "recipient_status": "needed",
-      "subject": "John — quick mockup for Richardson Plumbing",
+      "recipient_email": "richardsonplmb@gmail.com",
+      "recipient_status": "verified_official_site_visible_email_2026-06-22",
+      "subject": "sample page for Richardson Plumbing",
       "mockup_url": "https://sybeorg-mockups.vercel.app/richardson-plumbing/",
-      "send_status": "queued_after_first_batch"
+      "send_status": "gmail_draft_polished_pending_stark_approval",
+      "draft_path": "outreach/drafts/richardson-plumbing-email.eml",
+      "review_path": "outreach/drafts/richardson-plumbing-email-draft.md",
+      "gmail_draft_account": "sybeorg",
+      "gmail_draft_from": "sybeorg@gmail.com",
+      "gmail_draft_id": "559",
+      "gmail_draft_verified": "2026-06-22 via himalaya sybeorg drafts after polish; not sent"
     }
   ]
 }

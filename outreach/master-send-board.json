@@ -4,7 +4,7 @@
   "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
   "status": "approval_required_no_sends",
   "senderAccount": "sybeorg@gmail.com",
-  "lastReviewed": "2026-06-20",
+  "lastReviewed": "2026-06-22",
   "policy": {
     "noOutboundWithoutStarkApproval": true,
     "approvalRequiredFor": [
@@ -54,7 +54,7 @@
       "mockupUrl": "https://sybeorg-mockups.vercel.app/five-seasons-hvac/",
       "gmbSignal": "Google Maps limited view showed 4.6 stars",
       "leadQuality": "very_high",
-      "reasonNotInGmailBatch": "No public email found; strongest route is contact form/manual outreach.",
+      "reasonNotInGmailBatch": "No public email found on official site fetch; strongest route is contact form/manual outreach.",
       "angle": "Visible Yext placeholder / request-service page issue; present helpful mockup.",
       "sendStatus": "not_sent"
     },
@@ -67,7 +67,7 @@
       "mockupUrl": "https://sybeorg-mockups.vercel.app/bunch-heating-cooling/",
       "gmbSignal": "Google Maps limited view showed 5.0 stars",
       "leadQuality": "medium_high",
-      "reasonNotInGmailBatch": "No public email or contact form found.",
+      "reasonNotInGmailBatch": "No public email found on official site/contact fetch; use contact form/phone/manual owner-email research.",
       "angle": "Since 1993 + emergency-service positioning; improve mobile emergency conversion.",
       "sendStatus": "not_sent"
     },
@@ -80,7 +80,7 @@
       "mockupUrl": "https://sybeorg-mockups.vercel.app/8-finger-hvac/",
       "gmbSignal": "Google Maps limited view showed 5.0 stars, but listing lacked phone in limited view; official site looked portal-like.",
       "leadQuality": "medium_high",
-      "reasonNotInGmailBatch": "Recipient not re-exposed by official site fetch; verify before using.",
+      "reasonNotInGmailBatch": "Old Outlook recipient not re-verified on official site fetch; verify before Gmail use.",
       "angle": "Strong reputation but weak/unfinished web presence.",
       "sendStatus": "not_sent"
     }

@@ -1,12 +1,10 @@
-# Fini Conditioned Air outreach draft
+# domain/listing note for Fini Conditioned Air
 
-Status: local draft only; no verified recipient email yet; do not send without Stark approval.
-
-Subject: domain/listing note for Fini Conditioned Air
+To: [no verified email yet]
 
 Hi Fini Conditioned Air team,
 
-I’m Majid with SYBEORG. I was checking Des Moines HVAC listings and the public domain path I found for Fini Conditioned Air did not load on my end.
+I’m Majid with SYBEORG here in Iowa. I was checking Des Moines HVAC listings and the public domain path I found for Fini Conditioned Air did not load on my end.
 
 I made a simple call-first HVAC page concept so you can see the fix if that link is still attached anywhere customers might click:
 https://sybeorg-mockups.vercel.app/fini-conditioned-air/
