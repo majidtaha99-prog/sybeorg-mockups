@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-22",
-  "lastUpdated": "2026-06-22",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-23",
+  "lastUpdated": "2026-06-23",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -19,7 +19,7 @@
       "Use the phrase sample/mockup/concept so the recipient understands it is a preview, not a live replacement site."
     ],
     "bestCTA": "Keep the ask human and specific: offer to clean up the concept with their real photos, services, and wording after Stark approves the send.",
-    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30\u201360 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
+    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30–60 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
@@ -922,6 +922,87 @@
       "visualQaNotes": "Browser visual QA passed after changing badge from ASE to AE to avoid certification ambiguity; credible service-bay/ticket-board concept; layout intact; phone CTA visible; no fake reviews/badges/warranties.",
       "revisionNeededBeforeOutreach": false,
       "redesignStatus": "created_2026-06-22_batch_1"
+    },
+    {
+      "id": "country-car-shop",
+      "business": "Country Car Shop",
+      "vertical": "Auto repair",
+      "market": "central Iowa / Hardin County area",
+      "phone": "+1-641-858-2407",
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "Overpass/OSM public listing + direct fetch verified 2026-06-23",
+      "mockupPath": "country-car-shop/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/country-car-shop/",
+      "angle": "Search/listing visitors appear to get phone/email/hours but no owned page that explains services, location context, or after-hours next steps.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Rural repair logbook / county-road first-site concept with cream paper, garage-lane routing, and verified hours/email; avoids dark bay-board repeat and fake ASE/review proof.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "central Iowa / Hardin County area"
+        ],
+        "phone": "+1-641-858-2407",
+        "email": "countrycarshopllc@gmail.com",
+        "hours": "Mo-Fr 09:00-18:00"
+      },
+      "unverifiedClaimsAvoided": [
+        "review count",
+        "certifications",
+        "warranties",
+        "owner name",
+        "exact service menu",
+        "same-day guarantee"
+      ],
+      "visualQaNotes": "Local browser QA passed: distinctive light logbook composition, mobile sticky phone/email dock visible, sample framing clear, no fake reviews/certifications/owner claims.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "created_2026-06-23_batch_1"
+    },
+    {
+      "id": "irvine-water-conditioning-plumbing",
+      "business": "Irvine Water Conditioning & Plumbing",
+      "vertical": "Plumbing / water conditioning",
+      "market": "Oelwein, IA",
+      "phone": "+1-319-283-6608",
+      "officialSiteChecked": "https://irvinewaterconditioningandplumbing.com/",
+      "siteDiscoverySource": "Overpass/OSM public listing + direct fetch verified 2026-06-23",
+      "mockupPath": "irvine-water-conditioning-plumbing/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/irvine-water-conditioning-plumbing/",
+      "angle": "A listed business website appears to resolve to a generic/directory-style destination, which can leak high-intent water/plumbing visitors before they see the phone or service context.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Water-conditioner diagnostic card layout with blue/linen palette and repair-order sidebar; distinct from recent plumbing emergency pages and avoids fake licensing/review badges.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Oelwein, IA"
+        ],
+        "phone": "+1-319-283-6608",
+        "email": "irvinewater@yahoo.com"
+      },
+      "unverifiedClaimsAvoided": [
+        "license",
+        "emergency hours",
+        "review count",
+        "owner name",
+        "warranty",
+        "specific service brands/equipment"
+      ],
+      "visualQaNotes": "Local browser QA passed: clean water/plumbing diagnostic page, sample framing clear, mobile contact dock visible, no fabricated proof or unsupported service claims.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "created_2026-06-23_batch_1"
     }
   ],
   "nextBatchQueue": [

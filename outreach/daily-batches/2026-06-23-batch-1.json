@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 2,
+  "campaign": "sybeorg-trades-home-services",
+  "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, accounts, and campaigns excluded. No outbound without Stark approval.",
+  "batchDate": "2026-06-23",
+  "batchNumber": 1,
+  "senderAccount": "sybeorg@gmail.com",
+  "status": "approval_required_no_sends",
+  "policy": {
+    "noOutboundWithoutStarkApproval": true,
+    "approvalRequiredFor": [
+      "recipient",
+      "subject",
+      "body",
+      "senderAccount",
+      "batchSize",
+      "timing"
+    ]
+  },
+  "discoveryPass": {
+    "candidatesScreened": 15,
+    "sources": [
+      "Overpass/OSM public listing fields",
+      "direct official-site HTTP checks",
+      "repo de-duplication against mockups.json, master-send-board.json, and recent daily batches"
+    ],
+    "candidateScores": [
+      {
+        "business": "Country Car Shop",
+        "score": 88,
+        "angle": "no_website"
+      },
+      {
+        "business": "Irvine Water Conditioning & Plumbing",
+        "score": 86,
+        "angle": "urgent_bug"
+      },
+      {
+        "business": "Black Hawk Customs",
+        "score": 82,
+        "angle": "urgent_bug"
+      },
+      {
+        "business": "Breitbach Garage",
+        "score": 79,
+        "angle": "urgent_bug/http_500"
+      },
+      {
+        "business": "Shamrock Roofing and Construction",
+        "score": 78,
+        "angle": "paid_ad_readiness"
+      },
+      {
+        "business": "Sickles Trucking and Repair",
+        "score": 76,
+        "angle": "gmb_leak/no_website"
+      },
+      {
+        "business": "Young Construction",
+        "score": 74,
+        "angle": "paid_ad_readiness"
+      },
+      {
+        "business": "AAA Septic Service Inc.",
+        "score": 72,
+        "angle": "service_page_gap"
+      },
+      {
+        "business": "Albaugh P.H.C. INC.",
+        "score": 71,
+        "angle": "mobile_conversion"
+      },
+      {
+        "business": "Clark's Muffler & Service",
+        "score": 70,
+        "angle": "service_page_gap"
+      },
+      {
+        "business": "Hildreth Garage",
+        "score": 69,
+        "angle": "booking_gap"
+      },
+      {
+        "business": "Integrity Comfort Solutions, Inc.",
+        "score": 68,
+        "angle": "service_page_gap"
+      },
+      {
+        "business": "Prime Electric",
+        "score": 67,
+        "angle": "service_page_gap"
+      },
+      {
+        "business": "Ace Body and Motor",
+        "score": 66,
+        "angle": "booking_gap"
+      },
+      {
+        "business": "J-Tech Construction and Solar",
+        "score": 62,
+        "angle": "polished/nurture"
+      }
+    ]
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "prospectId": "country-car-shop",
+      "business": "Country Car Shop",
+      "vertical": "Auto repair",
+      "market": "central Iowa / Hardin County area",
+      "officialSite": "none_found_in_osm_public_listing_pass",
+      "gmbSignals": "Overpass/OSM public listing surfaced shop=car_repair, public Gmail countrycarshopllc@gmail.com, phone +1-641-858-2407, and hours Mo-Fr 09:00-18:00; no website/contact:website/url tag in this pass. Google rating not verified.",
+      "contactRoute": "public email from OSM listing plus phone; verify business listing before sending",
+      "publicEmail": "countrycarshopllc@gmail.com",
+      "emailSource": "OSM public listing email field",
+      "opportunityScore": 88,
+      "primaryAngleCategory": "no_website",
+      "secondaryAngles": [
+        "gmb_leak",
+        "contact_route_gap",
+        "mobile_conversion",
+        "paid_ad_readiness"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Public OSM listing has auto repair category, Gmail address, phone, and hours.",
+        "No website/contact:website/url field appeared in OSM listing pass."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "Google rating",
+        "owner name",
+        "ASE certification",
+        "warranty",
+        "exact service menu",
+        "active domain ownership"
+      ],
+      "diagnosis": "Search/listing visitors appear to get phone/email/hours but no owned page that explains services, location context, or after-hours next steps.",
+      "bestHook": "First-site/local profile cleanup: turn a no-website listing into a simple mobile call page using only verified phone/email/hours.",
+      "recommendedOffer": "full_site",
+      "closeDifficulty": "low_medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "first_site",
+        "gmb_cleanup",
+        "booking_flow",
+        "google_ads"
+      ],
+      "whyThisShouldClose": "No-website signal plus public Gmail route makes this a concrete, low-pressure first-site offer.",
+      "recommendedChannel": "email draft after Stark approval",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/country-car-shop/",
+      "mockupDecisionReason": "A visual first-page concept helps because there is no website path to compare against, and public phone/email/hours are enough for a useful non-fabricated sample.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Rural repair logbook / county-road first-site concept with cream paper, garage-lane routing, and verified hours/email; avoids dark bay-board repeat and fake ASE/review proof.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "central Iowa / Hardin County area"
+        ],
+        "phone": "+1-641-858-2407",
+        "email": "countrycarshopllc@gmail.com",
+        "hours": "Mo-Fr 09:00-18:00"
+      },
+      "unverifiedClaimsAvoided": [
+        "review count",
+        "certifications",
+        "warranties",
+        "owner name",
+        "exact service menu",
+        "same-day guarantee"
+      ],
+      "visualQaNotes": "Local browser QA passed: distinctive light logbook composition, mobile sticky phone/email dock visible, sample framing clear, no fake reviews/certifications/owner claims.",
+      "revisionNeededBeforeOutreach": false,
+      "subject": "quick first-page idea for Country Car Shop",
+      "draftCopy": "Hi Country Car Shop team — I came across a public listing for your shop with phone, email, and weekday hours, but I did not see a website attached in the listing data I checked. If that is still true, drivers may not have a simple page to confirm the shop, hours, or next step before calling.\n\nI made a no-obligation sample using only the public phone/email/hours I could verify: https://sybeorg-mockups.vercel.app/country-car-shop/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "irvine-water-conditioning-plumbing",
+      "business": "Irvine Water Conditioning & Plumbing",
+      "vertical": "Plumbing / water conditioning",
+      "market": "Oelwein, IA",
+      "officialSite": "https://irvinewaterconditioningandplumbing.com/",
+      "gmbSignals": "OSM public listing surfaced plumber category, Oelwein market, phone +1-319-283-6608, Yahoo email irvinewater@yahoo.com, and website. Direct fetch of listed site ended at http://www.importantlocalbusinesses.com with title Important Local Businesses. Google rating not verified.",
+      "contactRoute": "public email from OSM listing plus phone; verify official listing before sending",
+      "publicEmail": "irvinewater@yahoo.com",
+      "emailSource": "OSM public listing email field",
+      "opportunityScore": 86,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "gmb_leak",
+        "no_website",
+        "mobile_conversion",
+        "service_page_gap"
+      ],
+      "evidenceQuality": "strong",
+      "verifiedEvidence": [
+        "Listed website fetched successfully but final URL was http://www.importantlocalbusinesses.com rather than a business-owned service page.",
+        "Fetched title was Important Local Businesses.",
+        "OSM listing provided phone and email."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "current Google rating",
+        "exact services beyond plumbing/water conditioning name",
+        "license",
+        "emergency hours",
+        "owner name",
+        "warranties"
+      ],
+      "diagnosis": "A listed business website appears to resolve to a generic/directory-style destination, which can leak high-intent water/plumbing visitors before they see the phone or service context.",
+      "bestHook": "Helpful alert: listed site resolves to a generic local-business page; sample shows a cleaner owned plumbing/water-conditioning click path.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "website_path_fix",
+        "landing_page",
+        "gmb_cleanup",
+        "tracking"
+      ],
+      "whyThisShouldClose": "Specific public-path issue with a reachable public email in a high-intent home-service category.",
+      "recommendedChannel": "email draft after Stark approval",
+      "mockupNeed": "create_now",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/irvine-water-conditioning-plumbing/",
+      "mockupDecisionReason": "A visual owned-click-path sample makes the directory/redirect issue obvious and useful without overclaiming their services.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Water-conditioner diagnostic card layout with blue/linen palette and repair-order sidebar; distinct from recent plumbing emergency pages and avoids fake licensing/review badges.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Oelwein, IA"
+        ],
+        "phone": "+1-319-283-6608",
+        "email": "irvinewater@yahoo.com"
+      },
+      "unverifiedClaimsAvoided": [
+        "license",
+        "emergency hours",
+        "review count",
+        "owner name",
+        "warranty",
+        "specific service brands/equipment"
+      ],
+      "visualQaNotes": "Local browser QA passed: clean water/plumbing diagnostic page, sample framing clear, mobile contact dock visible, no fabricated proof or unsupported service claims.",
+      "revisionNeededBeforeOutreach": false,
+      "subject": "quick website-path note for Irvine Water Conditioning & Plumbing",
+      "draftCopy": "Hi Irvine Water Conditioning & Plumbing team — I checked the public website URL I found for your business and it landed on an Important Local Businesses page instead of a dedicated Irvine service page. If customers hit that same path, they may not see your phone or water/plumbing details clearly.\n\nI made a no-obligation sample of a cleaner first page using only public contact details I could verify: https://sybeorg-mockups.vercel.app/irvine-water-conditioning-plumbing/\n\nWorth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "black-hawk-customs",
+      "business": "Black Hawk Customs",
+      "vertical": "Auto repair / custom auto",
+      "market": "Waterloo, IA",
+      "officialSite": "https://blackhawkcustomswaterloo.com",
+      "gmbSignals": "OSM public listing surfaced Waterloo shop=car_repair, public Gmail cameron.enterprises.ia@gmail.com, phone +1-319-232-1552, hours Mo-Fr 07:00-18:00; Sa 07:00-15:00, and website. Direct HTTPS fetch failed with an SSL error in this pass. Google rating not verified.",
+      "contactRoute": "public email from OSM listing plus phone; recheck SSL issue in browser before send",
+      "publicEmail": "cameron.enterprises.ia@gmail.com",
+      "emailSource": "OSM contact:email field",
+      "opportunityScore": 82,
+      "primaryAngleCategory": "urgent_bug",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "contact_route_gap",
+        "paid_ad_readiness"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Direct fetch of listed HTTPS site failed with SSLError during this pass.",
+        "Public listing supplied phone, email, and hours."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "whether all browsers see the SSL issue",
+        "review count",
+        "certifications",
+        "warranty",
+        "specialty menu beyond car_repair/customs name"
+      ],
+      "diagnosis": "If the certificate/access issue is visible to customers, the first click can create distrust before callers see hours or phone.",
+      "bestHook": "Helpful SSL/access alert; no mockup yet because browser verification should come first.",
+      "recommendedOffer": "bug_fix",
+      "closeDifficulty": "low_medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "ssl_fix",
+        "landing_page",
+        "booking_flow",
+        "paid_ads"
+      ],
+      "whyThisShouldClose": "Specific technical/accessibility issue plus a direct public email route.",
+      "recommendedChannel": "email draft after Stark approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped today; need browser-level confirmation of the SSL issue and real brand/assets before a high-quality visual mockup.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Waterloo, IA"
+        ],
+        "phone": "+1-319-232-1552",
+        "email": "cameron.enterprises.ia@gmail.com",
+        "hours": "Mo-Fr 07:00-18:00; Sa 07:00-15:00"
+      },
+      "unverifiedClaimsAvoided": [
+        "review count",
+        "certifications",
+        "warranty",
+        "exact SSL cause"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick website access note for Black Hawk Customs",
+      "draftCopy": "Hi Black Hawk Customs team — I checked the public website URL I found for your Waterloo listing and hit an SSL/access error during my pass. It may be a temporary or tool-specific issue, but if customers see the same thing, it can block them before they reach your phone or hours.\n\nIf useful, I can recheck the exact path and send a cleaner first-screen concept after confirming the issue. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 4,
+      "prospectId": "shamrock-roofing-and-construction",
+      "business": "Shamrock Roofing and Construction",
+      "vertical": "Roofing",
+      "market": "Urbandale / Des Moines, IA",
+      "officialSite": "https://shamrockroofer.com/",
+      "gmbSignals": "OSM listing surfaced roofer category, contact@shamrockroofer.com, phone +1 515-735-3310, website, and 24/7 hours. Direct site fetch loaded HTTP 200 with title Shamrock | Roofing Contractor Since 1977 and storm/hail/estimate/financing keywords. Google rating not verified.",
+      "contactRoute": "public email from OSM listing plus site/contact form; verify official preferred contact before send",
+      "publicEmail": "contact@shamrockroofer.com",
+      "emailSource": "OSM public listing email field",
+      "opportunityScore": 78,
+      "primaryAngleCategory": "paid_ad_readiness",
+      "secondaryAngles": [
+        "service_page_gap",
+        "seasonal_urgency",
+        "tracking_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Official site loaded HTTP 200.",
+        "Public listing supplied email, phone, 24/7 hours, and roofer category.",
+        "Fetched site included storm/hail/estimate/financing keywords."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "ad spend",
+        "ranking improvement",
+        "storm-event timing",
+        "review count",
+        "insurance claim performance"
+      ],
+      "diagnosis": "The site is credible; the money leak is likely campaign-specific: storm/hail clicks need a focused landing page with call tracking before ad spend.",
+      "bestHook": "Additive paid-search storm/hail landing page, not a redesign critique.",
+      "recommendedOffer": "ads_landing_page",
+      "closeDifficulty": "medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "storm_hail_landing_page",
+        "call_tracking",
+        "google_ads",
+        "video_creatives"
+      ],
+      "whyThisShouldClose": "High-ticket roofing, public contact route, and 24/7/storm/hail signals support an additive campaign page offer.",
+      "recommendedChannel": "email draft after Stark approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; existing site is credible and a high-quality roofing mockup needs real photos/proof and page-level audit to avoid generic storm-page vibes.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Urbandale / Des Moines, IA"
+        ],
+        "phone": "+1 515-735-3310",
+        "email": "contact@shamrockroofer.com",
+        "hours": "24/7"
+      },
+      "unverifiedClaimsAvoided": [
+        "review count",
+        "ranking/ad performance",
+        "insurance process claims",
+        "storm-event recency"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick storm landing-page idea for Shamrock Roofing",
+      "draftCopy": "Hi Shamrock Roofing team — I came across your Des Moines-area roofing site while checking storm/hail repair pages. Your site already has credibility, so I would not lead with a redesign pitch. The clearer opportunity looks like one focused storm/hail landing page with cleaner call tracking before paid traffic.\n\nIf useful, I can mock up a focused page using verified details from your site/listing and leave room for real project photos/proof. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 5,
+      "prospectId": "sickles-trucking-and-repair",
+      "business": "Sickles Trucking and Repair",
+      "vertical": "Auto / truck repair",
+      "market": "Greenfield, IA",
+      "officialSite": "none_found_in_osm_public_listing_pass",
+      "gmbSignals": "OSM public listing surfaced shop=car_repair, public Gmail sicklestruckingandrepair@gmail.com, phone +1-641-743-6618, Greenfield market, and hours Mo-Fr 07:00-17:00; Sa 07:30-12:00; no website/contact:website/url tag in this pass. Google rating not verified.",
+      "contactRoute": "public email from OSM listing plus phone; verify listing before send",
+      "publicEmail": "sicklestruckingandrepair@gmail.com",
+      "emailSource": "OSM public listing email field",
+      "opportunityScore": 76,
+      "primaryAngleCategory": "gmb_leak",
+      "secondaryAngles": [
+        "no_website",
+        "contact_route_gap",
+        "mobile_conversion",
+        "booking_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Public OSM listing supplied email, phone, hours, and car_repair category.",
+        "No website/contact:website/url field appeared in this pass."
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "truck service details beyond name",
+        "review count",
+        "certifications",
+        "warranty",
+        "owner name"
+      ],
+      "diagnosis": "Potential local-profile leak: phone/email/hours exist, but no website path was visible in this pass for service context or after-hours lead capture.",
+      "bestHook": "Profile/contact path cleanup; mockup later after confirming whether they want auto/truck service emphasized.",
+      "recommendedOffer": "gmb_cleanup",
+      "closeDifficulty": "medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "gmb_cleanup",
+        "first_site",
+        "booking_flow"
+      ],
+      "whyThisShouldClose": "Direct email route and no-website signal are strong, but the service mix should be verified before building a page.",
+      "recommendedChannel": "email draft after Stark approval",
+      "mockupNeed": "research_only",
+      "mockupUrl": null,
+      "mockupDecisionReason": "Skipped; Country Car received the no-website auto mockup today, and building a second similar no-site auto page would risk generic repetition before service mix is verified.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "No mockup built today.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Greenfield, IA"
+        ],
+        "phone": "+1-641-743-6618",
+        "email": "sicklestruckingandrepair@gmail.com",
+        "hours": "Mo-Fr 07:00-17:00; Sa 07:30-12:00"
+      },
+      "unverifiedClaimsAvoided": [
+        "review count",
+        "certifications",
+        "warranties",
+        "owner name",
+        "full service menu"
+      ],
+      "visualQaNotes": "No mockup built.",
+      "revisionNeededBeforeOutreach": true,
+      "subject": "quick local listing idea for Sickles Trucking and Repair",
+      "draftCopy": "Hi Sickles Trucking and Repair team — I came across a public Greenfield listing with your phone, email, and hours, but I did not see a website attached in the listing data I checked. If that is still true, customers may not have a simple page to confirm what you handle before calling.\n\nI would want to verify the service details first, but a simple one-page site/profile cleanup could close that gap. Worth polishing an example for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ]
+}
