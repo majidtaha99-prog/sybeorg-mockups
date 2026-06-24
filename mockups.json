@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-23",
-  "lastUpdated": "2026-06-23",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-24",
+  "lastUpdated": "2026-06-24",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -23,6 +23,71 @@
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "accurate-heating-cooling",
+      "business": "Accurate Heating & Cooling",
+      "vertical": "HVAC",
+      "market": "Omaha metro / nearby Midwest",
+      "phone": "+1-402-496-8955",
+      "email": "Accurate1998@gmail.com",
+      "officialSiteChecked": "https://accurateheatingcooling.com/",
+      "mockupPath": "accurate-heating-cooling/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/accurate-heating-cooling/",
+      "angle": "The listed website returned HTTP 200 but only a 163-byte blank/placeholder response with no visible title, phone, CTA, services, or emergency route during audit.",
+      "draftStatus": "daily_batch_2026_06_24_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-06-24",
+      "qualityDirection": "Light HVAC dispatch board with heat/cool triage tickets, blank-site alert banner, and mobile sticky call bar; not the standard contractor hero/form/cards structure.",
+      "designDirection": "emergency_dispatch",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "public email",
+        "listed website URL"
+      ],
+      "unverifiedClaimsAvoided": [
+        "24/7 availability",
+        "license/certification claims",
+        "review counts",
+        "owner names",
+        "guarantees"
+      ],
+      "visualQaNotes": "Browser QA on local server returned 200 with no horizontal overflow. Vision QA found the HVAC dispatch concept clear and readable, but slightly polished/AI-SaaS in places; outreach should lead with the blank-site alert first and present the mockup as a no-obligation concept to polish with real local assets.",
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "interstate-truck-repair",
+      "business": "Interstate Truck Repair",
+      "vertical": "Truck repair",
+      "market": "Iowa / I-80 corridor",
+      "phone": "+1-319-647-8283",
+      "email": null,
+      "officialSiteChecked": "https://www.interstatetruckrepairiowa.com/",
+      "mockupPath": "interstate-truck-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/interstate-truck-repair/",
+      "angle": "The listed website failed DNS/name resolution during audit. For truck repair, a broken domain is especially costly because fleet and driver searches tend to be urgent and mobile.",
+      "draftStatus": "daily_batch_2026_06_24_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-06-24",
+      "qualityDirection": "Dark asphalt/amber fleet dispatch board, lane-style intake cards, and truck-route visual language; intentionally not a residential contractor page.",
+      "designDirection": "service_specific",
+      "qualityGateScore": 8,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "listed website URL"
+      ],
+      "unverifiedClaimsAvoided": [
+        "24/7 roadside availability",
+        "specific diesel certifications",
+        "fleet client names",
+        "review counts",
+        "service guarantees"
+      ],
+      "visualQaNotes": "Browser QA on local server returned 200 with no horizontal overflow. Vision QA found the amber dispatch/fleet intake direction distinct and readable, while still concept/pitch-like; outreach should lead with the broken-domain alert first and use the mockup as a sample, with manual contact verification before outreach.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "8-finger-hvac",
       "business": "8 Finger HVAC",

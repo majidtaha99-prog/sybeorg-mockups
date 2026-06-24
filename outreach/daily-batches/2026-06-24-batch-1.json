@@ -1,0 +1,372 @@
+{
+  "batchDate": "2026-06-24",
+  "batchId": "2026-06-24-batch-1",
+  "scope": "SYBEORG only",
+  "approvalStatus": "pending_stark_review",
+  "sendStatus": "not_sent",
+  "noOutboundSent": true,
+  "candidateCount": 15,
+  "candidatesScored": [
+    {
+      "business": "Accurate Heating & Cooling",
+      "score": 91,
+      "angle": "urgent_bug / blank listed website",
+      "selected": true
+    },
+    {
+      "business": "Interstate Truck Repair",
+      "score": 88,
+      "angle": "urgent_bug / DNS failure",
+      "selected": true
+    },
+    {
+      "business": "Priority Plumbing",
+      "score": 84,
+      "angle": "CTA typo + emergency/drain landing opportunity",
+      "selected": true
+    },
+    {
+      "business": "AAA Septic Service Inc.",
+      "score": 79,
+      "angle": "GMB/profile + split septic/rental request path",
+      "selected": true
+    },
+    {
+      "business": "Ace Body and Motor",
+      "score": 77,
+      "angle": "reputation mismatch / diagnostics service page",
+      "selected": true
+    },
+    {
+      "business": "Integrity Comfort Solutions",
+      "score": 75,
+      "angle": "Wix site lacks visible parsed CTAs in audit; new-construction specialty",
+      "selected": false
+    },
+    {
+      "business": "Hildreth Garage",
+      "score": 73,
+      "angle": "local template site + tire/brake service split",
+      "selected": false
+    },
+    {
+      "business": "All Auto Repair",
+      "score": 72,
+      "angle": "clean site but no form/quote capture found",
+      "selected": false
+    },
+    {
+      "business": "Denny's Muffler Center",
+      "score": 70,
+      "angle": "WP site parse lacked visible H1/CTA in audit; muffler niche",
+      "selected": false
+    },
+    {
+      "business": "Mt. Vernon Road Tire",
+      "score": 69,
+      "angle": "functional tire site; moderate service-page opportunity",
+      "selected": false
+    },
+    {
+      "business": "Recon Roofing and Construction",
+      "score": 66,
+      "angle": "polished site; less closeable unless ad landing page needed",
+      "selected": false
+    },
+    {
+      "business": "Exspurt Plumbing",
+      "score": 65,
+      "angle": "HTTP non-HTTPS site and request form; outside Iowa but Midwest",
+      "selected": false
+    },
+    {
+      "business": "Suspension Shop Inc.",
+      "score": 63,
+      "angle": "specialty page already clear; lower urgency",
+      "selected": false
+    },
+    {
+      "business": "Milex Complete Auto Care",
+      "score": 58,
+      "angle": "franchise-style polished site, lower fit",
+      "selected": false
+    },
+    {
+      "business": "Al's Full Service",
+      "score": 52,
+      "angle": "redirects to GreatWater corporate shop page; likely less local control",
+      "selected": false
+    }
+  ],
+  "selectedLeads": [
+    {
+      "id": "accurate-heating-cooling",
+      "business": "Accurate Heating & Cooling",
+      "vertical": "HVAC",
+      "market": "Omaha metro / nearby Midwest",
+      "officialSite": "https://accurateheatingcooling.com/",
+      "publicListingSignals": [
+        "Overpass/OpenStreetMap listing shows HVAC category, public phone +1-402-496-8955, public email Accurate1998@gmail.com, and website URL."
+      ],
+      "contactRoute": {
+        "channel": "email_or_phone_after_approval",
+        "email": "Accurate1998@gmail.com",
+        "phone": "+1-402-496-8955",
+        "source": "Overpass/OpenStreetMap public listing"
+      },
+      "opportunityScore": 91,
+      "category": "bug_or_urgent_fix",
+      "primaryAngle": "urgent_bug",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "contact_route_gap",
+        "seasonal_urgency"
+      ],
+      "diagnosis": "The listed website returned HTTP 200 but only a 163-byte blank/placeholder response with no visible title, phone, CTA, services, or emergency route during audit.",
+      "recommendedOffer": "Fix the website/domain path and launch a one-page emergency HVAC dispatch page with tap-to-call, no-heat/no-cooling triage, and verified service-area copy.",
+      "whyThisShouldClose": "The leak is concrete and helpful rather than subjective: a customer can reach a blank page from the public listing during heating/cooling demand moments.",
+      "mockupDecision": "created",
+      "mockupPath": "accurate-heating-cooling/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/accurate-heating-cooling/",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Light HVAC dispatch board with heat/cool triage tickets, blank-site alert banner, and mobile sticky call bar; not the standard contractor hero/form/cards structure.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "public email",
+        "listed website URL"
+      ],
+      "unverifiedClaimsAvoided": [
+        "24/7 availability",
+        "license/certification claims",
+        "review counts",
+        "owner names",
+        "guarantees"
+      ],
+      "visualQaNotes": "Browser QA on local server returned 200 with no horizontal overflow. Vision QA found the HVAC dispatch concept clear and readable, but slightly polished/AI-SaaS in places; outreach should lead with the blank-site alert first and present the mockup as a no-obligation concept to polish with real local assets.",
+      "revisionNeededBeforeOutreach": false,
+      "draft": {
+        "channel": "email",
+        "subject": "quick blank-site heads up for Accurate Heating & Cooling",
+        "body": "Hi Accurate team — I was checking local HVAC sites and noticed the public URL I found for Accurate Heating & Cooling loaded like a blank placeholder on my end, with no visible phone/services/CTA.\n\nThat can be a real leak if someone is searching from their phone when heat or AC is out. I made a no-obligation sample page showing a cleaner emergency path: tap-to-call, no-heat/no-cooling triage, and no made-up claims.\n\nSample concept: https://sybeorg-mockups.vercel.app/accurate-heating-cooling/\n\nWorth polishing this up with your real wording/photos if the blank-site issue is real on your side too? Reply NO and I will not follow up."
+      }
+    },
+    {
+      "id": "interstate-truck-repair",
+      "business": "Interstate Truck Repair",
+      "vertical": "Truck repair",
+      "market": "Iowa / I-80 corridor",
+      "officialSite": "https://www.interstatetruckrepairiowa.com/",
+      "publicListingSignals": [
+        "Overpass/OpenStreetMap listing shows truck/car repair category, public phone +1-319-647-8283, and website URL."
+      ],
+      "contactRoute": {
+        "channel": "phone_script_after_approval",
+        "email": null,
+        "phone": "+1-319-647-8283",
+        "source": "Overpass/OpenStreetMap public listing; no email found in this pass"
+      },
+      "opportunityScore": 88,
+      "category": "needs_better_website",
+      "primaryAngle": "urgent_bug",
+      "secondaryAngles": [
+        "booking_gap",
+        "contact_route_gap",
+        "paid_ad_readiness"
+      ],
+      "diagnosis": "The listed website failed DNS/name resolution during audit. For truck repair, a broken domain is especially costly because fleet and driver searches tend to be urgent and mobile.",
+      "recommendedOffer": "Repair/replace the domain path with a truck-repair intake page: call now, location/unit number, breakdown type, driver callback, fleet billing contact.",
+      "whyThisShouldClose": "The pitch is a helpful alert about a publicly broken path plus a visible fix for high-intent breakdown calls.",
+      "mockupDecision": "created",
+      "mockupPath": "interstate-truck-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/interstate-truck-repair/",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Dark asphalt/amber fleet dispatch board, lane-style intake cards, and truck-route visual language; intentionally not a residential contractor page.",
+      "qualityGateScore": 8,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "listed website URL"
+      ],
+      "unverifiedClaimsAvoided": [
+        "24/7 roadside availability",
+        "specific diesel certifications",
+        "fleet client names",
+        "review counts",
+        "service guarantees"
+      ],
+      "visualQaNotes": "Browser QA on local server returned 200 with no horizontal overflow. Vision QA found the amber dispatch/fleet intake direction distinct and readable, while still concept/pitch-like; outreach should lead with the broken-domain alert first and use the mockup as a sample, with manual contact verification before outreach.",
+      "revisionNeededBeforeOutreach": false,
+      "draft": {
+        "channel": "phone_script",
+        "subject": null,
+        "body": "Hi — this is a quick helpful web note for Interstate Truck Repair. I found a public listing that points to interstatetruckrepairiowa.com, but the domain did not resolve on my end. Since truck-repair searches are often urgent, I mocked up a simple intake page idea that would put call, location, truck issue, and fleet callback details right up front. No obligation — should I send the sample link to the best email for whoever handles the website? If not, no worries and I will not follow up."
+      }
+    },
+    {
+      "id": "priority-plumbing",
+      "business": "Priority Plumbing",
+      "vertical": "Plumbing",
+      "market": "Ankeny / Des Moines, IA",
+      "officialSite": "https://www.priorityplumbingco.com/",
+      "publicListingSignals": [
+        "OSM listing shows plumber category, public phone +1-515-243-3509, public email priorityplumbinginvoices@gmail.com.",
+        "Audited homepage includes emergency plumbing, drain cleaning, water heaters, and a Request Serivce typo in CTA text."
+      ],
+      "contactRoute": {
+        "channel": "email_or_phone_after_approval",
+        "email": "priorityplumbinginvoices@gmail.com",
+        "phone": "+1-515-243-3509",
+        "source": "Overpass/OpenStreetMap public listing"
+      },
+      "opportunityScore": 84,
+      "category": "bug_or_urgent_fix",
+      "primaryAngle": "urgent_bug",
+      "secondaryAngles": [
+        "paid_ad_readiness",
+        "mobile_conversion",
+        "service_page_gap"
+      ],
+      "diagnosis": "The site is functional and service-rich, but the primary request CTA text appears misspelled as 'Request Serivce'. Emergency/drain pages could also be turned into tighter paid-ad landing routes.",
+      "recommendedOffer": "Low-pressure typo/helpful-alert first touch, then offer a dedicated emergency plumbing or drain-cleaning landing page for paid search.",
+      "whyThisShouldClose": "A precise typo alert earns trust quickly; the upsell is a measurable landing page, not a vague redesign.",
+      "mockupDecision": "skipped_research_only",
+      "designDirection": null,
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "public phone",
+        "public email",
+        "website headings for emergency plumbing/drain/water heaters"
+      ],
+      "unverifiedClaimsAvoided": [
+        "ranking/revenue claims",
+        "review counts"
+      ],
+      "visualQaNotes": "No mockup created because the site is already functional; a generic plumbing page would be weaker than a helpful typo + landing-page suggestion.",
+      "revisionNeededBeforeOutreach": true,
+      "draft": {
+        "channel": "email",
+        "subject": "tiny typo I noticed on Priority Plumbing’s site",
+        "body": "Hi Priority Plumbing team — quick helpful note, not a pitch blast. While reviewing local plumbing sites I noticed the CTA on your site appears to say “Request Serivce” instead of “Request Service.”\n\nYou already have strong emergency/drain/water-heater content, so this is just the kind of small public bug that can make a request path feel less polished than the rest of the business.\n\nIf helpful, I can also sketch a tighter emergency-plumbing or drain-cleaning landing page for paid-search traffic. Worth polishing this up for you? Reply NO and I will not follow up."
+      }
+    },
+    {
+      "id": "aaa-septic-service-inc",
+      "business": "AAA Septic Service Inc.",
+      "vertical": "Septic service / portable toilets",
+      "market": "Marshalltown, IA",
+      "officialSite": "https://aaasepticserviceinc.com/",
+      "publicListingSignals": [
+        "OSM listing shows plumber/septic category, website, public phone +1-641-754-9914, email s_brown_75@hotmail.com, hours Mo-Fr 08:00-15:00, Facebook URL.",
+        "Homepage meta says locally/family-owned, Marshalltown, since 1998, septic pumping and portable toilet/hand station rentals."
+      ],
+      "contactRoute": {
+        "channel": "email_or_phone_after_approval",
+        "email": "s_brown_75@hotmail.com",
+        "phone": "+1-641-754-9914",
+        "source": "Overpass/OpenStreetMap public listing and site audit"
+      },
+      "opportunityScore": 79,
+      "category": "needs_gmb",
+      "primaryAngle": "gmb_leak",
+      "secondaryAngles": [
+        "service_page_gap",
+        "seasonal_urgency",
+        "booking_gap"
+      ],
+      "diagnosis": "The business has useful local proof and service mix, but the public path does not appear tuned for separate high-intent routes: septic pumping emergency, porta-potty rentals/events, and hand-station rentals.",
+      "recommendedOffer": "Profile/local conversion cleanup plus separate request paths for septic pumping vs event/restroom rental inquiries.",
+      "whyThisShouldClose": "They have clear services and proof signals; the offer is to organize existing demand rather than replace the whole site.",
+      "mockupDecision": "skipped_research_only",
+      "designDirection": "gmb_conversion",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "public phone",
+        "public email",
+        "hours",
+        "Facebook URL",
+        "since-1998/family-owned wording from site meta"
+      ],
+      "unverifiedClaimsAvoided": [
+        "review counts",
+        "fleet size",
+        "guarantees"
+      ],
+      "visualQaNotes": "No mockup today; would need a distinct septic/event-rental split flow with real service photos to pass quality bar.",
+      "revisionNeededBeforeOutreach": true,
+      "draft": {
+        "channel": "email",
+        "subject": "quick septic/rental request-path idea for AAA Septic",
+        "body": "Hi AAA Septic team — I was reviewing Marshalltown-area service businesses and noticed you have two very different high-intent paths: septic pumping and portable toilet/hand-station rentals.\n\nYour public info already has the essentials, but those two request types could be separated more clearly so a homeowner with a septic issue and an event/rental customer do not have to take the same path.\n\nI have not contacted anyone else or submitted any forms — just wanted to flag the idea. Worth sketching a no-obligation sample split request page for you? Reply NO and I will not follow up."
+      }
+    },
+    {
+      "id": "ace-body-and-motor",
+      "business": "Ace Body and Motor",
+      "vertical": "Auto repair / diagnostics",
+      "market": "Des Moines, IA",
+      "officialSite": "https://acebodyandmotor.com/",
+      "publicListingSignals": [
+        "OSM listing shows car repair category, public email aceinfo15@gmail.com, public phone +1-515-243-7133.",
+        "Homepage meta says founded in 1982, trusted auto repair shop serving Des Moines, specializing in auto electrical service plus diagnostics/repair."
+      ],
+      "contactRoute": {
+        "channel": "email_after_approval",
+        "email": "aceinfo15@gmail.com",
+        "phone": "+1-515-243-7133",
+        "source": "Overpass/OpenStreetMap public listing and site audit"
+      },
+      "opportunityScore": 77,
+      "category": "needs_better_website",
+      "primaryAngle": "reputation_mismatch",
+      "secondaryAngles": [
+        "service_page_gap",
+        "brand_trust_gap",
+        "paid_ad_readiness"
+      ],
+      "diagnosis": "The site exposes strong differentiators — founded in 1982, diagnostics/electrical work, service loaners — but the page structure is very template-like and does not turn those into a sharp diagnostic/electrical service landing path.",
+      "recommendedOffer": "Create a specialty diagnostics/electrical landing page that leads with the hard-to-solve problem and uses existing proof safely.",
+      "whyThisShouldClose": "Specialty diagnostics/electrical work is a high-trust category; the business already has legitimate proof that can be presented better without fabricating reviews.",
+      "mockupDecision": "skipped_research_only",
+      "designDirection": "reputation_match",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "public phone",
+        "public email",
+        "founded 1982 wording from site meta",
+        "auto electrical/diagnostic service wording"
+      ],
+      "unverifiedClaimsAvoided": [
+        "review counts",
+        "certifications",
+        "loaner availability beyond site wording"
+      ],
+      "visualQaNotes": "Skipped today to avoid a generic auto repair page; should use real shop photos or a diagnostics-workbench visual direction if mocked up later.",
+      "revisionNeededBeforeOutreach": true,
+      "draft": {
+        "channel": "email",
+        "subject": "diagnostics page idea for Ace Body and Motor",
+        "body": "Hi Ace Body and Motor team — I noticed your public site mentions founded in 1982 and auto electrical/diagnostic work. That is a stronger trust angle than a normal “auto repair” page, especially for customers with intermittent electrical issues.\n\nMy suggestion would be a focused diagnostics/electrical landing page that explains what to bring, when to call, and why your experience matters — without making any exaggerated ranking or revenue claims.\n\nWorth sketching a no-obligation concept around that specialty? Reply NO and I will not follow up."
+      }
+    }
+  ],
+  "mockupsCreated": [
+    "accurate-heating-cooling",
+    "interstate-truck-repair"
+  ],
+  "mockupsSkipped": [
+    "priority-plumbing",
+    "aaa-septic-service-inc",
+    "ace-body-and-motor"
+  ],
+  "balancedDailyMix": {
+    "hotMockupLeads": 2,
+    "urgentBugHelpfulAlert": 1,
+    "paidAdServicePageOpportunity": 1,
+    "gmbReputationLocalProfileOpportunity": 1
+  }
+}
