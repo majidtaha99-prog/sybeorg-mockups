@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "campaign": "sybeorg-opportunity-engine",
+  "date": "2026-06-26",
+  "batch": "batch-1",
+  "scopeNote": "SYBEORG only; no outbound sent; all leads pending Stark review.",
+  "leads": [
+    {
+      "rank": 1,
+      "prospectId": "sieben-electric",
+      "business": "Sieben Electric",
+      "vertical": "Electrician",
+      "market": "Cedar Falls, IA",
+      "officialSite": "https://www.siebenelectric.com/",
+      "score": 90,
+      "primaryAngle": "urgent_bug",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "contact_route_gap",
+        "brand_trust_gap"
+      ],
+      "contactRoute": "email_or_phone_after_approval",
+      "email": "siebenelec@siebenelectric.com",
+      "phone": "+1-319-277-2600",
+      "diagnosis": "Thin under-construction first page and weak CTA in automated audit.",
+      "recommendedOffer": "Website first-click repair and electrical service-routing page.",
+      "mockupDecision": "created",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/sieben-electric/",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Warm electrical job-ticket ledger with service route tiles.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "public website URL",
+        "email in site HTML",
+        "Cedar Falls listing signal"
+      ],
+      "unverifiedClaimsAvoided": [
+        "license number",
+        "years in business",
+        "owner names",
+        "review counts",
+        "24/7 availability",
+        "guarantees",
+        "testimonials"
+      ],
+      "visualQaNotes": "Local HTTP QA returned 200 and browser/vision QA found it polished, distinctive, readable, and not a generic dark contractor hero. Minor polish note: simplify the right diagnostic panel/CTA hierarchy if revising.",
+      "revisionNeededBeforeOutreach": false,
+      "draftSubject": "quick under-construction site note for Sieben Electric",
+      "draftCopy": "Hi Sieben Electric team \u2014 quick helpful note. I checked the public website URL I found for Sieben Electric and the first page looked very thin on my end, including an under-construction signal and no obvious service request path.\n\nThat can make a real local electrician look unfinished before someone reaches the phone number. I made a no-obligation sample page showing a cleaner first click: tap-to-call, residential/commercial/urgent routing, and no made-up claims.\n\nSample concept: https://sybeorg-mockups.vercel.app/sieben-electric/\n\nWorth polishing this up with your real wording/photos if the under-construction issue is still visible on your side? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "ricks-radiator-heater-repair",
+      "business": "Rick's Radiator & Heater Repair",
+      "vertical": "Auto repair / radiator specialist",
+      "market": "Sioux City metro / nearby Midwest",
+      "officialSite": "http://ricksradiator.com/",
+      "score": 89,
+      "primaryAngle": "urgent_bug",
+      "secondaryAngles": [
+        "contact_route_gap",
+        "service_page_gap",
+        "mobile_conversion"
+      ],
+      "contactRoute": "phone_script_after_approval",
+      "email": null,
+      "phone": "+1-402-494-1614",
+      "diagnosis": "Listed domain failed DNS/name resolution during audit.",
+      "recommendedOffer": "Domain repair/replacement specialist intake page.",
+      "mockupDecision": "created",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/ricks-radiator-heater-repair/",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Old-school radiator ticket with temperature-gauge motif.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "listed website URL",
+        "public weekday hours from listing"
+      ],
+      "unverifiedClaimsAvoided": [
+        "certifications",
+        "owner names",
+        "review counts",
+        "warranties",
+        "same-day guarantee",
+        "exact service menu beyond radiator/heater framing"
+      ],
+      "visualQaNotes": "Local HTTP QA returned 200 and browser/vision QA found it polished, distinctive, readable, and not generic. Minor polish note: hero headline could breathe more and left panel could use added shop texture if revising.",
+      "revisionNeededBeforeOutreach": false,
+      "draftSubject": null,
+      "draftCopy": "Hi \u2014 this is a quick helpful website note for Rick's Radiator & Heater Repair. I found a public listing pointing to ricksradiator.com, but that domain did not resolve on my end. Since radiator/heater repair calls can be urgent, I mocked up a simple sample page that would put the phone number and radiator/heater intake path up front. No obligation \u2014 should I send the sample link to the best email for whoever handles the website? If not, no worries and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "adams-county-electrical",
+      "business": "Adams County Electrical",
+      "vertical": "Electrician",
+      "market": "Southwest Iowa / Adams County",
+      "officialSite": null,
+      "score": 82,
+      "primaryAngle": "no_website",
+      "secondaryAngles": [
+        "gmb_leak",
+        "contact_route_gap",
+        "mobile_conversion"
+      ],
+      "contactRoute": "phone_script_after_approval",
+      "email": null,
+      "phone": "+1-641-715-4142",
+      "diagnosis": "Public listing has phone but no owned website field in OSM pass.",
+      "recommendedOffer": "First-page/local-profile cleanup.",
+      "mockupDecision": "skipped_research_only",
+      "mockupUrl": null,
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": null,
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "public phone"
+      ],
+      "unverifiedClaimsAvoided": [
+        "service area claims",
+        "owner names",
+        "reviews",
+        "license claims",
+        "hours"
+      ],
+      "visualQaNotes": "Skipped: insufficient verified assets/contact route for quality mockup.",
+      "revisionNeededBeforeOutreach": true,
+      "draftSubject": null,
+      "draftCopy": "Hi \u2014 quick helpful web note for Adams County Electrical. I found a public listing with a phone number, but I did not see a website attached in the listing data I checked. If that is still true, customers may not have a simple page to confirm service area, hours, or what kind of electrical work to call about. Would it be okay if I sent a no-obligation sample first-page idea to the right email? Replying or saying no is completely fine and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 4,
+      "prospectId": "qca-electric",
+      "business": "QCA Electric",
+      "vertical": "Electrician",
+      "market": "Bettendorf, IA",
+      "officialSite": "https://qcaelectric.com/",
+      "score": 78,
+      "primaryAngle": "urgent_bug",
+      "secondaryAngles": [
+        "contact_route_gap",
+        "mobile_conversion"
+      ],
+      "contactRoute": "phone_or_contact_form_after_approval",
+      "email": null,
+      "phone": "+1-563-332-7717",
+      "diagnosis": "One direct verification attempt returned 403 Forbidden; may be tool-specific.",
+      "recommendedOffer": "Access-path recheck and conversion/accessibility audit.",
+      "mockupDecision": "skipped_research_only",
+      "mockupUrl": null,
+      "designDirection": null,
+      "designDifferentiation": null,
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "public phone",
+        "public website URL",
+        "Bettendorf listing signal"
+      ],
+      "unverifiedClaimsAvoided": [
+        "exact cause of 403",
+        "visitor impact claims",
+        "review counts",
+        "license claims"
+      ],
+      "visualQaNotes": "Skipped: better as careful access alert than generic redesign.",
+      "revisionNeededBeforeOutreach": true,
+      "draftSubject": null,
+      "draftCopy": "Hi QCA Electric team \u2014 quick helpful note, not a sales blast. I checked qcaelectric.com during a local-service audit and got a 403 Forbidden response on one direct verification attempt. It may be tool-specific or temporary, but if any real visitors hit that path it could block them before they reach your phone. Worth having me recheck and send the exact notes? If not, no worries and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 5,
+      "prospectId": "ko-roofing-storm-repair",
+      "business": "KO Roofing & Storm Repair",
+      "vertical": "Roofing / storm damage",
+      "market": "Plattsmouth, NE / nearby Midwest",
+      "officialSite": "https://koroofing.net/",
+      "score": 76,
+      "primaryAngle": "paid_ad_readiness",
+      "secondaryAngles": [
+        "seasonal_urgency",
+        "service_page_gap",
+        "tracking_gap"
+      ],
+      "contactRoute": "email_or_phone_after_approval",
+      "email": "info@koroofing.com / info@koroofing.net observed",
+      "phone": "+1 402-770-0388",
+      "diagnosis": "Credible storm site; opportunity is focused storm/hail ad landing page with tracking.",
+      "recommendedOffer": "Storm/hail landing page plus call tracking / paid-search readiness audit.",
+      "mockupDecision": "skipped_research_only",
+      "mockupUrl": null,
+      "designDirection": "service_specific",
+      "designDifferentiation": null,
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "public phone",
+        "public email",
+        "public website URL",
+        "storm/roofing title signal"
+      ],
+      "unverifiedClaimsAvoided": [
+        "storm-event recency",
+        "insurance claims",
+        "ad performance",
+        "review counts",
+        "project photos not verified"
+      ],
+      "visualQaNotes": "Skipped: needs real project photos/proof and campaign-specific offer.",
+      "revisionNeededBeforeOutreach": true,
+      "draftSubject": "quick storm landing-page idea for KO Roofing",
+      "draftCopy": "Hi KO Roofing team \u2014 I came across your storm/roofing site while reviewing Midwest service pages. Your site already has a clear storm-damage angle, so I would not lead with a redesign pitch.\n\nThe more useful opportunity looks like a focused storm/hail landing page for paid-search traffic: one offer, call tracking, and a cleaner path for homeowners who just had roof damage.\n\nIf helpful, I can sketch that as a no-obligation campaign page using only verified details from your site/listing and leaving room for real project photos. Worth polishing this up for you? Reply NO and I will not follow up.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ],
+  "discoveryCandidateCount": 15,
+  "mockupsCreated": [
+    "sieben-electric",
+    "ricks-radiator-heater-repair"
+  ],
+  "approvalStatus": "pending_stark_review",
+  "sendStatus": "not_sent"
+}

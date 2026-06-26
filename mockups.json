@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-24",
-  "lastUpdated": "2026-06-24",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-26",
+  "lastUpdated": "2026-06-26",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -23,6 +23,80 @@
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "sieben-electric",
+      "business": "Sieben Electric",
+      "vertical": "Electrician",
+      "market": "Cedar Falls, IA",
+      "phone": "+1-319-277-2600",
+      "email": "siebenelec@siebenelectric.com",
+      "officialSiteChecked": "https://www.siebenelectric.com/",
+      "siteDiscoverySource": "Overpass/OSM public listing + direct fetch verified 2026-06-26",
+      "mockupPath": "sieben-electric/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/sieben-electric/",
+      "angle": "The listed site loaded as a very thin Sieben Electric page with an under-construction signal and no clear CTA in the automated audit, creating a trust and conversion leak for electrical-service visitors.",
+      "draftStatus": "daily_batch_2026_06_26_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-06-26",
+      "qualityDirection": "Warm electrical job-ticket/ledger design with green/copper palette, service routing, and no fake reviews or license claims.",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Electrical repair-order ledger rather than dark contractor hero; verified issue alert card plus residential/commercial/urgent/project route tiles.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "public website URL",
+        "email found in site HTML",
+        "Cedar Falls listing signal"
+      ],
+      "unverifiedClaimsAvoided": [
+        "license number",
+        "years in business",
+        "owner names",
+        "review counts",
+        "24/7 availability",
+        "guarantees",
+        "testimonials"
+      ],
+      "visualQaNotes": "Local HTTP QA returned 200 and browser/vision QA found the warm job-ticket concept polished, distinctive, readable, and not a generic dark contractor hero. Notes: simplify the right diagnostic panel/CTA hierarchy if polishing further; current version is strong enough for review outreach.",
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "ricks-radiator-heater-repair",
+      "business": "Rick's Radiator & Heater Repair",
+      "vertical": "Auto repair / radiator specialist",
+      "market": "Sioux City metro / nearby Midwest",
+      "phone": "+1-402-494-1614",
+      "email": null,
+      "officialSiteChecked": "http://ricksradiator.com/",
+      "siteDiscoverySource": "Overpass/OSM public listing + direct fetch verified 2026-06-26",
+      "mockupPath": "ricks-radiator-heater-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/ricks-radiator-heater-repair/",
+      "angle": "The listed domain failed DNS/name resolution in the audit, which can lose radiator/heater repair customers before they reach the shop phone or service context.",
+      "draftStatus": "daily_batch_2026_06_26_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-06-26",
+      "qualityDirection": "Old-school radiator shop ticket with red/blue temperature gauge, specialist intake cards, public phone, and no fabricated shop proof.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Specialist radiator/heater ticket and temperature-gauge motif; not a generic auto repair bay page or dark hero/contact-form pattern.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "listed website URL",
+        "public weekday hours from listing"
+      ],
+      "unverifiedClaimsAvoided": [
+        "certifications",
+        "owner names",
+        "review counts",
+        "warranties",
+        "same-day guarantee",
+        "exact service menu beyond radiator/heater framing"
+      ],
+      "visualQaNotes": "Local HTTP QA returned 200 and browser/vision QA found the old-school radiator ticket concept polished, distinctive, readable, and not generic. Notes: headline is intentionally bold but could breathe more; left panel could use added shop texture if polishing further. Strong enough for review outreach; phone/manual route recommended because no verified email was found.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "accurate-heating-cooling",
       "business": "Accurate Heating & Cooling",
