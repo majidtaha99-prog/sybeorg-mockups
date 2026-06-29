@@ -1,0 +1,409 @@
+{
+  "date": "2026-06-29",
+  "batch": "batch-1",
+  "project": "sybeorg-opportunity-engine",
+  "approvalStatus": "pending_stark_review",
+  "sendStatus": "not_sent",
+  "discoveryCandidates": [
+    {
+      "business": "Exspurt Plumbing, Inc.",
+      "market": "Omaha, NE",
+      "score": 88,
+      "reason": "Verified site, email, phone; no tel link/form found; plumbing high-intent service-page/ads path."
+    },
+    {
+      "business": "Wilde Auto Repair",
+      "market": "Sioux City, IA",
+      "score": 86,
+      "reason": "Website field resolved to Google Maps; Facebook route signal; no controlled homepage."
+    },
+    {
+      "business": "General Tree Service",
+      "market": "Iowa City, IA",
+      "score": 83,
+      "reason": "24/7 listing and public email; site did not expose form in audit; storm/tree service seasonal opportunity."
+    },
+    {
+      "business": "Rons Auto Repair Center",
+      "market": "Ames, IA",
+      "score": 80,
+      "reason": "Large site returned no tel links/phone in audit; auto appointment/mobile conversion opportunity."
+    },
+    {
+      "business": "T&R Roofing",
+      "market": "Waterloo, IA",
+      "score": 78,
+      "reason": "Roofer listing with no website/phone fields in OSM; likely GMB/profile leakage but contact route weak."
+    },
+    {
+      "business": "Becker Roofing",
+      "market": "Ottumwa, IA",
+      "score": 75,
+      "reason": "Roofer listing with no website fields found; storm-damage page potential but contact route weak."
+    },
+    {
+      "business": "D.P. Plumbing",
+      "market": "Ottumwa, IA",
+      "score": 74,
+      "reason": "Plumber listing no website; high-intent vertical; needs manual contact verification."
+    },
+    {
+      "business": "Wallicks Auto Repair",
+      "market": "Davenport, IA",
+      "score": 72,
+      "reason": "Auto repair listing no website; route/phone needs verification."
+    },
+    {
+      "business": "Mark Hansen Auto Repair Service",
+      "market": "Ames, IA",
+      "score": 72,
+      "reason": "Phone listed but masked by source; no website field found."
+    },
+    {
+      "business": "Car-Tech Auto Repair",
+      "market": "Omaha, NE",
+      "score": 70,
+      "reason": "Hours visible but no website/phone/email found in listing; possible first-site opportunity."
+    },
+    {
+      "business": "Backlund Plumbing",
+      "market": "Omaha, NE",
+      "score": 68,
+      "reason": "Strong site exists with forms/tel links; weaker opportunity than selected leads."
+    },
+    {
+      "business": "Pyramid Roofing, Inc.",
+      "market": "Omaha, NE",
+      "score": 66,
+      "reason": "Modern site and form/tel links; lower need despite high-intent vertical."
+    }
+  ],
+  "selectedLeads": [
+    {
+      "business": "Exspurt Plumbing, Inc.",
+      "vertical": "Plumbing",
+      "market": "Omaha, NE",
+      "officialSite": "http://exspurtplumbingomaha.com/",
+      "publicListingSignals": [
+        "OSM/Nominatim plumber listing",
+        "phone +1-402-504-3447",
+        "email info@exspurtplumbingomaha.com",
+        "website field present"
+      ],
+      "contactRoute": "public email + phone; draft only",
+      "opportunityScore": 88,
+      "primaryAngleCategory": "service_page_gap",
+      "secondaryAngles": [
+        "mobile_conversion",
+        "paid_ad_readiness",
+        "contact_route_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Site returned 200",
+        "title: Exspurt Plumbing - Omaha commercial & residential plumbing experts",
+        "email and phone found in site HTML",
+        "audit found no href tel links and no form on first page"
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "24/7 hours",
+        "license/certifications",
+        "owner names",
+        "review counts",
+        "guarantees"
+      ],
+      "recommendedOffer": "ads_landing_page",
+      "mockupNeed": "create_now",
+      "mockupPath": "exspurt-plumbing-omaha/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/exspurt-plumbing-omaha/",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Warm paper plumbing ticket / issue router, not the repeated dark hero + quote form pattern.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Omaha listing signal"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "24/7",
+        "license",
+        "review counts",
+        "owner names",
+        "guarantees"
+      ],
+      "visualQaNotes": "Static QA passed locally; prod verification pending after push. Conservative phone/email concept, clear mobile CTA.",
+      "revisionNeededBeforeOutreach": false,
+      "mockupDecisionReason": "Visual sample makes the paid-ad/service-page pitch tangible.",
+      "closeDifficulty": "low-medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "landing_page",
+        "service_page_pack",
+        "google_ads"
+      ],
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "business": "Wilde Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Sioux City, IA",
+      "officialSite": "none_found_owned_site; listed website resolved to Google Maps",
+      "publicListingSignals": [
+        "OSM/Nominatim car repair listing",
+        "listed website field was Google Maps URL",
+        "Facebook URL metadata present",
+        "phone source masked"
+      ],
+      "contactRoute": "manual phone/Facebook confirmation needed before outreach",
+      "opportunityScore": 86,
+      "primaryAngleCategory": "gmb_leak",
+      "secondaryAngles": [
+        "no_website",
+        "contact_route_gap",
+        "mobile_conversion"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Listed website field fetched as Google Maps",
+        "no owned domain found in listing metadata",
+        "Facebook page URL present in listing metadata"
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "full phone number",
+        "hours",
+        "reviews",
+        "certifications",
+        "specific services beyond generic auto repair"
+      ],
+      "recommendedOffer": "full_site",
+      "mockupNeed": "create_now",
+      "mockupPath": "wilde-auto-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/wilde-auto-repair/",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Garage sign and service-lane layout with manual contact-note guardrail; not phone-first fake proof.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Sioux City listing signal"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "masked phone",
+        "hours",
+        "reviews",
+        "ASE",
+        "owner story"
+      ],
+      "visualQaNotes": "Static QA passed locally; prod verification pending after push. Page avoids unverified phone display and is safe as a review concept.",
+      "revisionNeededBeforeOutreach": false,
+      "mockupDecisionReason": "A mockup clearly shows the value of replacing a Google Maps website destination with an owned homepage.",
+      "closeDifficulty": "medium",
+      "nextBestAction": "manual_research",
+      "upsellPath": [
+        "full_site",
+        "gmb_cleanup",
+        "review_system"
+      ],
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "business": "General Tree Service",
+      "vertical": "Tree service",
+      "market": "Iowa City, IA",
+      "officialSite": "https://www.generaltreeia.com/",
+      "publicListingSignals": [
+        "OSM/Nominatim gardener/tree service listing",
+        "phone +1-319-354-2838",
+        "email generaltreeserviceiacity@gmail.com",
+        "opening_hours 24/7 in listing"
+      ],
+      "contactRoute": "public Gmail address + phone; draft only",
+      "opportunityScore": 83,
+      "primaryAngleCategory": "paid_ad_readiness",
+      "secondaryAngles": [
+        "seasonal_urgency",
+        "contact_route_gap",
+        "service_page_gap"
+      ],
+      "evidenceQuality": "good",
+      "verifiedEvidence": [
+        "Site returned 200",
+        "public email and two phone numbers found",
+        "audit did not find a form on first page",
+        "24/7 listed in OSM metadata"
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "review counts",
+        "arborist certifications",
+        "storm availability beyond public listing",
+        "owner names"
+      ],
+      "recommendedOffer": "service_page",
+      "mockupNeed": "research_only",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Would need real tree/crew imagery before being outreach hook.",
+      "qualityGateScore": 6,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Iowa City listing signal"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "certifications",
+        "review counts",
+        "insurance/licensing"
+      ],
+      "visualQaNotes": "Skipped mockup: without real imagery, tree service page would risk generic placeholder look.",
+      "revisionNeededBeforeOutreach": true,
+      "mockupDecisionReason": "Good lead, but mockup quality depends on real public imagery/assets.",
+      "closeDifficulty": "low-medium",
+      "nextBestAction": "email_draft",
+      "upsellPath": [
+        "storm_cleanup_page",
+        "gmb_cleanup",
+        "google_ads"
+      ],
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "business": "Rons Auto Repair Center",
+      "vertical": "Auto repair",
+      "market": "Ames, IA",
+      "officialSite": "https://www.ronsautorepairames.com/",
+      "publicListingSignals": [
+        "OSM/Nominatim car repair listing",
+        "phone listed in OSM + official site URL",
+        "vehicle repair/oil change tags"
+      ],
+      "contactRoute": "phone/manual; no email found in first-page audit",
+      "opportunityScore": 80,
+      "primaryAngleCategory": "mobile_conversion",
+      "secondaryAngles": [
+        "booking_gap",
+        "service_page_gap"
+      ],
+      "evidenceQuality": "fair",
+      "verifiedEvidence": [
+        "Site returned 200 and large page",
+        "audit found no phone values and no tel links in first-page HTML",
+        "no form found in first-page text sample"
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "reviews",
+        "hours",
+        "special offers",
+        "certifications"
+      ],
+      "recommendedOffer": "landing_page",
+      "mockupNeed": "research_only",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Could become an appointment-lane page after deeper site/contact verification.",
+      "qualityGateScore": 5,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Ames listing signal"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "ratings",
+        "offers",
+        "certifications"
+      ],
+      "visualQaNotes": "Skipped mockup pending deeper site crawl; first-page audit issue is useful but not enough proof for a strong mockup today.",
+      "revisionNeededBeforeOutreach": true,
+      "mockupDecisionReason": "Mobile CTA issue should be confirmed visually before building.",
+      "closeDifficulty": "medium",
+      "nextBestAction": "phone_script",
+      "upsellPath": [
+        "appointment_landing_page",
+        "service_page_pack"
+      ],
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "business": "T&R Roofing",
+      "vertical": "Roofing",
+      "market": "Waterloo, IA",
+      "officialSite": "none_found in public listing",
+      "publicListingSignals": [
+        "OSM/Nominatim roofer listing",
+        "address/display name visible",
+        "no website/phone/email in listing payload"
+      ],
+      "contactRoute": "manual research needed",
+      "opportunityScore": 78,
+      "primaryAngleCategory": "no_website",
+      "secondaryAngles": [
+        "gmb_leak",
+        "seasonal_urgency"
+      ],
+      "evidenceQuality": "fair",
+      "verifiedEvidence": [
+        "Public roofer listing found",
+        "No website/phone/email fields returned from listing payload"
+      ],
+      "unsafeOrUnverifiedClaims": [
+        "phone",
+        "email",
+        "reviews",
+        "storm work",
+        "license/insurance"
+      ],
+      "recommendedOffer": "full_site",
+      "mockupNeed": "research_only",
+      "designDirection": "local_heritage",
+      "designDifferentiation": "No mockup until contact route and proof are verified.",
+      "qualityGateScore": 4,
+      "qualityGatePassed": false,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Waterloo listing signal"
+        ]
+      },
+      "unverifiedClaimsAvoided": [
+        "all proof claims beyond listing existence"
+      ],
+      "visualQaNotes": "Skipped mockup; contact/proof too thin.",
+      "revisionNeededBeforeOutreach": true,
+      "mockupDecisionReason": "Potentially good no-website lead, but too little public proof for a useful daily mockup.",
+      "closeDifficulty": "medium-high",
+      "nextBestAction": "manual_research",
+      "upsellPath": [
+        "full_site",
+        "gmb_cleanup",
+        "storm_damage_page"
+      ],
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ],
+  "outboundActions": "none_sent"
+}

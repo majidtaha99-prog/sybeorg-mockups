@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-26",
-  "lastUpdated": "2026-06-26",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-29",
+  "lastUpdated": "2026-06-29",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -23,6 +23,82 @@
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "wilde-auto-repair",
+      "business": "Wilde Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Sioux City, IA",
+      "phone": null,
+      "email": null,
+      "officialSiteChecked": "Google Maps URL was listed as website; Facebook URL also appeared in public listing metadata",
+      "siteDiscoverySource": "Nominatim/OSM public listing + direct fetch of listed website field verified 2026-06-29",
+      "mockupPath": "wilde-auto-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/wilde-auto-repair/",
+      "angle": "The public website field resolved to Google Maps rather than a shop-owned homepage, keeping auto-repair searchers inside a directory instead of a controlled conversion path.",
+      "draftStatus": "daily_batch_2026_06_29_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-06-29",
+      "qualityDirection": "Garage-sign / service-lane first-site concept that highlights the directory-leak without inventing phone, reviews, hours, specialties, or owner story.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Light mechanic-garage signboard and service-lane composition; contact route is explicitly marked for confirmation because source phone was masked.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public business name",
+        "Sioux City public listing signal",
+        "listed website field pointing to Google Maps",
+        "Facebook URL in listing metadata"
+      ],
+      "unverifiedClaimsAvoided": [
+        "full phone number from masked source",
+        "hours",
+        "review counts",
+        "ASE/certifications",
+        "owner names",
+        "service guarantees",
+        "specific specialties beyond generic repair/maintenance"
+      ],
+      "visualQaNotes": "Local/prod HTTP QA pending after push. Page intentionally avoids fake tel links and uses manual confirmation notes, making it outreach-safe as a concept after Stark review.",
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "exspurt-plumbing-omaha",
+      "business": "Exspurt Plumbing, Inc.",
+      "vertical": "Plumbing",
+      "market": "Omaha, NE",
+      "phone": "+1-402-504-3447",
+      "email": "info@exspurtplumbingomaha.com",
+      "officialSiteChecked": "http://exspurtplumbingomaha.com/",
+      "siteDiscoverySource": "Nominatim/OSM public listing + direct fetch verified 2026-06-29",
+      "mockupPath": "exspurt-plumbing-omaha/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/exspurt-plumbing-omaha/",
+      "angle": "The site exposes phone/email, but the audit found no tap-to-call links and no form in first-page HTML; a mobile-first plumbing intake page can capture urgent Omaha calls and service-page/ads traffic.",
+      "draftStatus": "daily_batch_2026_06_29_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-06-29",
+      "qualityDirection": "Warm invoice/ticket plumbing triage page using verified phone/email and no fake hours, license, owner, review, or guarantee claims.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Cream paper + plumbing ticket/router composition with emergency/project lanes; not a dark contractor hero and not a quote-form-first layout.",
+      "qualityGateScore": 10,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public phone",
+        "public email",
+        "official website URL",
+        "Omaha public listing signal"
+      ],
+      "unverifiedClaimsAvoided": [
+        "24/7 hours",
+        "license number",
+        "owner names",
+        "review counts",
+        "guarantees",
+        "service-area breadth beyond Omaha",
+        "testimonials"
+      ],
+      "visualQaNotes": "Local/prod HTTP QA pending after push. Static page uses verified phone/email, readable contrast, mobile sticky call CTA, and conservative claim-safe copy.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "sieben-electric",
       "business": "Sieben Electric",
