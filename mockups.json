@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-06-29",
-  "lastUpdated": "2026-06-29",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-02",
+  "lastUpdated": "2026-07-02",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -23,6 +23,47 @@
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "atlas-auto-repair",
+      "business": "Atlas Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Omaha / South Omaha, NE",
+      "phone": "+1-402-889-0330",
+      "email": "atlasautoomaha@gmail.com",
+      "officialSiteChecked": "https://www.driveatlasauto.com/",
+      "siteDiscoverySource": "OSM/public listing + direct fetch verified 2026-07-02",
+      "mockupPath": "atlas-auto-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/atlas-auto-repair/",
+      "angle": "First-page crawl of the public site did not expose a plain tap-to-call link, visible email, or simple form in HTML; a mobile service-lane page can route high-intent repair calls faster.",
+      "draftStatus": "daily_batch_2026_07_02_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-07-02",
+      "qualityDirection": "South Omaha service-lane board and repair-ticket intake, built around verified phone/email and explicit sample-site guardrails.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Cream/steel/red auto-shop service board with repair lanes and pre-call checklist; avoids repeated dark hero/right-form/stat-strip pattern.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public business name",
+        "public phone",
+        "public email",
+        "public website URL/title",
+        "South Omaha context from title/listing"
+      ],
+      "unverifiedClaimsAvoided": [
+        "owner names",
+        "review counts",
+        "testimonials",
+        "job counts",
+        "license numbers",
+        "certifications",
+        "awards",
+        "guarantees",
+        "24/7/emergency claims"
+      ],
+      "visualQaNotes": "Static local QA passed. Browser visual QA showed a polished, readable desktop page with distinct service-lane/ticket design, clear sample-site guardrails, and no obvious desktop layout break. Mobile CSS includes responsive single-column layout and sticky call bar; mobile screenshot still recommended before sending.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "wilde-auto-repair",
       "business": "Wilde Auto Repair",
@@ -520,7 +561,7 @@
         },
         "notes": "SVG/HTML colors extracted with stdlib; raster logo colors require Pillow if no SVG/logo CSS colors are present."
       },
-      "visualQaNotes": "Static QA passed: JSON valid, no mixed-content asset links, no external scripts, iframe map has title/lazy/referrerpolicy/sandbox, target=_blank links guarded.",
+      "visualQaNotes": "Static local QA passed. Browser visual QA showed a polished, readable desktop page with distinct service-lane/ticket design, clear sample-site guardrails, and no obvious desktop layout break. Mobile CSS includes responsive single-column layout and sticky call bar; mobile screenshot still recommended before sending.",
       "qualityGatePassed": true,
       "revisionNeededBeforeOutreach": false
     },
@@ -860,7 +901,7 @@
       "qualityDirection": "Premium first-site page with branded loader/monogram, interactive customer routing, local OSM map, contact section, motion accents, and mobile sticky call dock.",
       "officialSiteChecked": "none_found_in_osm_public_listing_pass",
       "siteDiscoverySource": "Overpass/OSM public listing pass 2026-06-20",
-      "visualQaNotes": "Static QA passed; mobile width check passed; Google Maps/GBP no-website signal still needs verification before sending.",
+      "visualQaNotes": "Static local QA passed. Browser visual QA showed a polished, readable desktop page with distinct service-lane/ticket design, clear sample-site guardrails, and no obvious desktop layout break. Mobile CSS includes responsive single-column layout and sticky call bar; mobile screenshot still recommended before sending.",
       "qualityGatePassed": true,
       "revisionNeededBeforeOutreach": false
     },

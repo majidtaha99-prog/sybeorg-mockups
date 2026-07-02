@@ -4,7 +4,7 @@
   "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
   "status": "current_pipeline_approval_required_no_sends",
   "senderAccount": "sybeorg@gmail.com",
-  "lastReviewed": "2026-06-22",
+  "lastReviewed": "2026-07-02",
   "policy": {
     "noOutboundWithoutStarkApproval": true,
     "approvalRequiredFor": [
@@ -198,7 +198,7 @@
     ]
   },
   "pipelineSummary": {
-    "updated": "2026-06-22",
+    "updated": "2026-07-02",
     "source": "repo + live SYBEORG Gmail Drafts via Himalaya",
     "gmailReadyCount": 2,
     "gmailReadyDraftIds": [
@@ -214,7 +214,8 @@
       "Richardson Plumbing",
       "Platinum PHC"
     ],
-    "noOutboundWithoutStarkApproval": true
+    "noOutboundWithoutStarkApproval": true,
+    "lastDailyBatch": "2026-07-02-batch-1"
   },
   "needsWorkOrPausedQueue": [
     {
@@ -300,5 +301,26 @@
       "sentStatus": "sent_2026-06-22"
     }
   ],
-  "contactResearchStatus": "Existing pass checked public listing/OSM fields, official-site HTML/mailto, and direct site/contact-page fetches where available; contact forms were identified but not submitted because that is outbound and requires Stark approval."
+  "contactResearchStatus": "Existing pass checked public listing/OSM fields, official-site HTML/mailto, and direct site/contact-page fetches where available; contact forms were identified but not submitted because that is outbound and requires Stark approval.",
+  "dailyBatchReferences": [
+    {
+      "batchDate": "2026-07-02",
+      "batchNumber": 1,
+      "mdPath": "outreach/daily-batches/2026-07-02-batch-1.md",
+      "jsonPath": "outreach/daily-batches/2026-07-02-batch-1.json",
+      "selectedProspects": [
+        "atlas-auto-repair",
+        "certified-fleet-services-inc",
+        "brads-complete-auto-care",
+        "recon-roofing-construction",
+        "schaal-plumbing-heating-cooling"
+      ],
+      "mockupsCreated": [
+        "atlas-auto-repair"
+      ],
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "noOutboundSent": true
+    }
+  ]
 }

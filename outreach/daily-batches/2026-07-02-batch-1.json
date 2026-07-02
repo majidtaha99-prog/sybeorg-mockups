@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "batchDate": "2026-07-02",
+  "batchNumber": 1,
+  "campaign": "sybeorg-opportunity-engine-v2",
+  "scopeNote": "SYBEORG only. No Radi / House of Meroe targets, files, drafts, accounts, or campaigns used.",
+  "outboundStatus": "no_outbound_sent",
+  "discoveryCandidates": [
+    {
+      "business": "Atlas Auto Repair",
+      "market": "Omaha, NE",
+      "vertical": "auto repair",
+      "selected": true,
+      "initialAngle": "mobile_conversion"
+    },
+    {
+      "business": "Certified Fleet Services Inc",
+      "market": "Omaha, NE",
+      "vertical": "fleet / auto repair",
+      "selected": true,
+      "initialAngle": "no_website"
+    },
+    {
+      "business": "Brad's Complete Auto Care",
+      "market": "Des Moines, IA",
+      "vertical": "auto repair",
+      "selected": true,
+      "initialAngle": "gmb_leak"
+    },
+    {
+      "business": "Recon Roofing & Construction",
+      "market": "Des Moines, IA",
+      "vertical": "roofing",
+      "selected": true,
+      "initialAngle": "paid_ad_readiness"
+    },
+    {
+      "business": "Schaal Plumbing, Heating and Cooling",
+      "market": "Des Moines, IA",
+      "vertical": "HVAC / plumbing",
+      "selected": true,
+      "initialAngle": "seasonal_urgency"
+    },
+    {
+      "business": "Apple Roofing",
+      "market": "Urbandale, IA",
+      "vertical": "roofing",
+      "selected": false,
+      "initialAngle": "strong_site_campaign_only"
+    },
+    {
+      "business": "White Castle Roofing",
+      "market": "Omaha, NE",
+      "vertical": "roofing",
+      "selected": false,
+      "initialAngle": "strong_site_campaign_only"
+    },
+    {
+      "business": "Rebuilders Auto",
+      "market": "Omaha, NE",
+      "vertical": "auto/collision",
+      "selected": false,
+      "initialAngle": "contact_route_gap"
+    },
+    {
+      "business": "Johnstone Supply Stockyards",
+      "market": "Omaha, NE",
+      "vertical": "HVAC supply",
+      "selected": false,
+      "initialAngle": "no_website_b2b_lower_fit"
+    },
+    {
+      "business": "Johnstone Supply West",
+      "market": "Omaha, NE",
+      "vertical": "HVAC supply",
+      "selected": false,
+      "initialAngle": "no_website_b2b_lower_fit"
+    },
+    {
+      "business": "Golden Rule Plumbing, Heating & Cooling",
+      "market": "Grimes, IA",
+      "vertical": "HVAC / plumbing",
+      "selected": false,
+      "initialAngle": "too_polished"
+    },
+    {
+      "business": "American Air Heating & Cooling",
+      "market": "Sioux City, IA",
+      "vertical": "HVAC",
+      "selected": false,
+      "initialAngle": "conversion_audit_lower_route_confidence"
+    },
+    {
+      "business": "Hillcrest RV",
+      "market": "Ankeny, IA",
+      "vertical": "RV",
+      "selected": false,
+      "initialAngle": "outside_primary_pipeline"
+    }
+  ],
+  "selectedLeads": [
+    {
+      "prospectId": "atlas-auto-repair",
+      "business": "Atlas Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Omaha / South Omaha, NE",
+      "officialSite": "https://www.driveatlasauto.com/",
+      "publicListingSignals": [
+        "public phone +1-402-889-0330",
+        "public email atlasautoomaha@gmail.com",
+        "site title references Auto Repair South Omaha"
+      ],
+      "contactRoute": {
+        "type": "email",
+        "recipient": "atlasautoomaha@gmail.com",
+        "phone": "+1-402-889-0330",
+        "status": "verified_public_listing_no_send"
+      },
+      "opportunityScore": 88,
+      "primaryAngle": "mobile_conversion",
+      "secondaryAngles": [
+        "paid_ad_readiness",
+        "booking_gap",
+        "contact_route_gap"
+      ],
+      "diagnosis": "First-page crawl did not expose a plain tap-to-call link, visible email, or form in HTML; a simpler mobile service-lane page can route high-intent repair visitors faster.",
+      "recommendedOffer": "Mobile-first service-lane landing page for repair triage and tap-to-call.",
+      "whyThisShouldClose": "Concrete call-path improvement tied to verified phone/email and auto-repair urgency.",
+      "mockupDecision": "created",
+      "mockupPath": "atlas-auto-repair/index.html",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/atlas-auto-repair/",
+      "designDirection": "service_specific",
+      "designDifferentiation": "South Omaha repair service-lane board plus repair-ticket intake; distinct from generic dark hero/form layouts.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "business name",
+        "public phone",
+        "public email",
+        "public website URL/title",
+        "South Omaha context"
+      ],
+      "unverifiedClaimsAvoided": [
+        "owner names",
+        "review counts",
+        "testimonials",
+        "certifications",
+        "warranties",
+        "years in business",
+        "24/7 claims"
+      ],
+      "visualQaNotes": "Static local QA passed. Browser visual QA showed a polished, readable desktop page with distinct service-lane/ticket design, clear sample-site guardrails, and no obvious desktop layout break. Mobile CSS includes responsive single-column layout and sticky call bar; mobile screenshot still recommended before sending.",
+      "revisionNeededBeforeOutreach": false,
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "draft": {
+        "channel": "email",
+        "subject": "quick service-lane page idea for Atlas Auto Repair",
+        "body": "Hi Atlas Auto Repair team — I was looking at your public listing/site and noticed one small conversion thing: in a first-page crawl I could verify the shop phone and Gmail route from the listing, but I did not see a plain tap-to-call path or simple repair request form exposed in the page HTML.\n\nI put together a no-obligation sample concept for a cleaner South Omaha service lane page: call button first, quick repair symptom lanes, and a short pre-call checklist so drivers know what to send before they come in.\n\nSample concept: https://sybeorg-mockups.vercel.app/atlas-auto-repair/\n\nIf useful, I can polish it with your real photos, services, hours, and preferred wording. Worth polishing this up for you?\n\nReply NO and I will not follow up."
+      }
+    },
+    {
+      "prospectId": "certified-fleet-services-inc",
+      "business": "Certified Fleet Services Inc",
+      "vertical": "Fleet / auto repair",
+      "market": "Omaha, NE",
+      "officialSite": null,
+      "publicListingSignals": [
+        "public phone +1-402-731-5322",
+        "weekday hours in OSM/public listing pass",
+        "no website field found"
+      ],
+      "contactRoute": {
+        "type": "phone_manual_research",
+        "phone": "+1-402-731-5322",
+        "recipient": null,
+        "status": "no_verified_email"
+      },
+      "opportunityScore": 84,
+      "primaryAngle": "no_website",
+      "secondaryAngles": [
+        "gmb_leak",
+        "booking_gap",
+        "brand_trust_gap"
+      ],
+      "diagnosis": "Fleet service buyers need fast trust and routing; a no-site listing depends on directories instead of a controlled page.",
+      "recommendedOffer": "Minimal fleet-service landing page with phone-first intake and verified hours/contact.",
+      "whyThisShouldClose": "Commercial fleet repair is high-ticket enough that one captured lead can justify a focused page.",
+      "mockupDecision": "skipped_too_little_verified_content",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Would need fleet-intake and vehicle-issue routing after verification.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "business name",
+        "public phone",
+        "hours signal"
+      ],
+      "unverifiedClaimsAvoided": [
+        "services",
+        "fleet size",
+        "certifications",
+        "reviews",
+        "emergency availability"
+      ],
+      "visualQaNotes": "No mockup created; insufficient verified proof/assets for a high-quality page today.",
+      "revisionNeededBeforeOutreach": true,
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "draft": {
+        "channel": "phone_script",
+        "body": "Hi — this is Stark with SYBEORG. I was checking local fleet/repair listings around Omaha and noticed Certified Fleet Services appears in public listings with a phone number and hours, but I did not find a clear shop-owned website route in this pass. I drafted a quick idea for a simple fleet-service landing page that would put phone, hours, and request details in one place. Who would be the right person to send that preview to?\n\nIf not relevant, no worries — just say NO and I will not follow up."
+      }
+    },
+    {
+      "prospectId": "brads-complete-auto-care",
+      "business": "Brad's Complete Auto Care",
+      "vertical": "Auto repair",
+      "market": "Des Moines, IA",
+      "officialSite": null,
+      "publicListingSignals": [
+        "public phone +1-515-957-4271",
+        "weekday/Saturday hours in OSM/public listing pass",
+        "no website field found"
+      ],
+      "contactRoute": {
+        "type": "phone_manual_research",
+        "phone": "+1-515-957-4271",
+        "recipient": null,
+        "status": "no_verified_email"
+      },
+      "opportunityScore": 82,
+      "primaryAngle": "gmb_leak",
+      "secondaryAngles": [
+        "no_website",
+        "mobile_conversion",
+        "review_gap"
+      ],
+      "diagnosis": "No controlled website route found in listing pass; mobile repair searchers rely on directory data only.",
+      "recommendedOffer": "First-site / Google Business Profile conversion page with phone, hours, service categories, and repair-triage copy.",
+      "whyThisShouldClose": "Auto-repair intent is local/immediate; a lean page plus GBP cleanup is a practical first offer.",
+      "mockupDecision": "skipped_limited_verified_assets",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Would use repair-triage and GBP cleanup once verified details/assets are available.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "business name",
+        "public phone",
+        "hours signal"
+      ],
+      "unverifiedClaimsAvoided": [
+        "reviews",
+        "services",
+        "owner",
+        "certifications",
+        "guarantees"
+      ],
+      "visualQaNotes": "No mockup created; would be too generic without verified service/photo/proof inputs.",
+      "revisionNeededBeforeOutreach": true,
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "draft": {
+        "channel": "phone_script",
+        "body": "Hi — this is Stark with SYBEORG. I was reviewing Des Moines auto repair listings and saw Brad's Complete Auto Care listed with phone/hours, but I did not find a clear website route in the public listing pass. I had a simple idea for a phone-first page that makes repairs, hours, and directions easier for mobile customers. Who should I send a no-obligation preview to?\n\nReplying or saying NO is totally fine — I will not follow up if it is not useful."
+      }
+    },
+    {
+      "prospectId": "recon-roofing-construction",
+      "business": "Recon Roofing & Construction",
+      "vertical": "Roofing",
+      "market": "Des Moines, IA",
+      "officialSite": "https://reconroof.com/",
+      "publicListingSignals": [
+        "public email info@reconroof.com",
+        "public phone +1-515-489-0123",
+        "HTTP 200 official site",
+        "phone found in homepage HTML",
+        "no form found in automated homepage crawl"
+      ],
+      "contactRoute": {
+        "type": "email",
+        "recipient": "info@reconroof.com",
+        "phone": "+1-515-489-0123",
+        "status": "verified_public_listing_no_send"
+      },
+      "opportunityScore": 80,
+      "primaryAngle": "paid_ad_readiness",
+      "secondaryAngles": [
+        "seasonal_urgency",
+        "service_page_gap",
+        "tracking_gap"
+      ],
+      "diagnosis": "Existing site is credible; money leak is likely campaign-specific storm/inspection traffic needing a focused call/request page and tracking.",
+      "recommendedOffer": "Storm-damage or roof-inspection paid-ad landing page plus optional short video/commercial ad creative.",
+      "whyThisShouldClose": "Complements their existing site and ties to high-value storm roofing leads.",
+      "mockupDecision": "skipped_strong_existing_site_campaign_angle_needed",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Would be a single storm-inspection offer page, not a homepage redesign.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "business name",
+        "public phone",
+        "public email",
+        "official site"
+      ],
+      "unverifiedClaimsAvoided": [
+        "review counts",
+        "guarantees",
+        "license details",
+        "insurance claims language"
+      ],
+      "visualQaNotes": "No mockup created; needs campaign-specific creative brief to beat the existing site.",
+      "revisionNeededBeforeOutreach": true,
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "draft": {
+        "channel": "email",
+        "subject": "storm/roof inspection landing page idea for Recon Roofing",
+        "body": "Hi Recon Roofing team — your main site already does a lot right, so this is not a “you need a new website” note.\n\nThe specific opportunity I noticed is more campaign-focused: for storm damage or roof inspection traffic, a dedicated landing page could keep the visitor on one action — call/request inspection — instead of sending paid or seasonal traffic into the broader homepage experience.\n\nI can mock up a focused storm-inspection page with your real branding, phone route, and tracking-ready CTA if that would be useful. Worth polishing this up for you?\n\nReply NO and I will not follow up."
+      }
+    },
+    {
+      "prospectId": "schaal-plumbing-heating-cooling",
+      "business": "Schaal Plumbing, Heating and Cooling",
+      "vertical": "HVAC / plumbing",
+      "market": "Des Moines, IA",
+      "officialSite": "https://callschaalyaall.com/",
+      "publicListingSignals": [
+        "public phone +1-515-288-3631",
+        "HTTP 200 official site",
+        "title references trusted HVAC services in Des Moines"
+      ],
+      "contactRoute": {
+        "type": "contact_form_or_phone_manual",
+        "recipient": null,
+        "phone": "+1-515-288-3631",
+        "status": "no_verified_email_no_form_submission"
+      },
+      "opportunityScore": 78,
+      "primaryAngle": "seasonal_urgency",
+      "secondaryAngles": [
+        "paid_ad_readiness",
+        "service_page_gap",
+        "mobile_conversion"
+      ],
+      "diagnosis": "Active main site; best money leak is a seasonal/paid service page, not homepage redesign.",
+      "recommendedOffer": "One service-specific paid search landing page for seasonal high-intent category.",
+      "whyThisShouldClose": "Larger home-service operators buy measurable lead flow and campaign-specific assets.",
+      "mockupDecision": "skipped_service_specific_campaign_needed",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Would be an AC failure or urgent plumbing landing page after selecting a specific campaign.",
+      "qualityGateScore": 0,
+      "qualityGatePassed": false,
+      "realAssetsFound": [
+        "business name",
+        "public phone",
+        "official site"
+      ],
+      "unverifiedClaimsAvoided": [
+        "review counts",
+        "technician counts",
+        "guarantees",
+        "same-day promises"
+      ],
+      "visualQaNotes": "No mockup created; generic redesign would be lower-quality than a campaign-specific page.",
+      "revisionNeededBeforeOutreach": true,
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "draft": {
+        "channel": "contact_form_draft_not_submitted",
+        "body": "Hi Schaal team — I was reviewing Des Moines HVAC/plumbing search paths and had a campaign-specific idea, not a general redesign pitch.\n\nFor seasonal high-intent traffic like AC failure or urgent plumbing, a dedicated landing page can keep the visitor on one action, carry source tracking cleanly, and support Google Ads or local SEO without changing your main site.\n\nIf useful, I can put together a no-obligation sample page around one service category using your existing brand direction. Worth polishing this up for you?\n\nReply NO and I will not follow up."
+      }
+    }
+  ]
+}
