@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-02",
-  "lastUpdated": "2026-07-02",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-03",
+  "lastUpdated": "2026-07-03",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -23,6 +23,80 @@
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "tims-auto-services-radiator-repair",
+      "business": "Tim's Auto Services & Radiator Repair",
+      "vertical": "Auto repair / radiator specialist",
+      "market": "Lincoln, NE",
+      "phone": "+1 402-477-2100",
+      "email": "timgriess@timsautocenter.net",
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "Nominatim/OSM public listing + no website field verified 2026-07-03",
+      "mockupPath": "tims-auto-services-radiator-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/tims-auto-services-radiator-repair/",
+      "angle": "Public listing surfaced phone/email but no owned website field; a radiator/heater-specific mobile page can turn directory discovery into a controlled call/email path.",
+      "draftStatus": "daily_batch_2026_07_03_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-07-03",
+      "qualityDirection": "Old-school radiator repair ticket/gauge page with specialty intake lanes, public phone/email, and explicit sample-site guardrails.",
+      "designDirection": "service_specific",
+      "designDifferentiation": "Cream/red/blue radiator-ticket and temperature-gauge composition; avoids generic mechanic hero, fake ASE badges, fake reviews, and right-side quote form.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public business name",
+        "public phone",
+        "public email",
+        "Lincoln listing context"
+      ],
+      "unverifiedClaimsAvoided": [
+        "owner names",
+        "ASE/certifications",
+        "review counts",
+        "warranties",
+        "years in business",
+        "same-day guarantees",
+        "24/7 claims"
+      ],
+      "visualQaNotes": "Static code includes responsive layout, mobile sticky call bar, clear sample-site guardrails, and no fabricated proof. Browser visual QA completed locally after creation; page is distinctive enough for Stark review.",
+      "revisionNeededBeforeOutreach": false
+    },
+    {
+      "id": "custom-cooling-heating",
+      "business": "Custom Cooling & Heating",
+      "vertical": "HVAC",
+      "market": "Lincoln, NE",
+      "phone": "+1-402-489-9227",
+      "email": null,
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "Nominatim/OSM public listing + no website field verified 2026-07-03",
+      "mockupPath": "custom-cooling-heating/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/custom-cooling-heating/",
+      "angle": "Public listing surfaced a phone number but no owned website field; a seasonal HVAC dispatch page can provide tap-to-call, issue routing, and a landing page for summer/winter campaigns.",
+      "draftStatus": "daily_batch_2026_07_03_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-07-03",
+      "qualityDirection": "Light thermostat/comfort dispatch design with cooling/heating/tune-up route cards and phone-only contact path.",
+      "designDirection": "emergency_dispatch",
+      "designDifferentiation": "Thermostat dial and comfort-routing visual system; avoids dark contractor hero/right quote-form/stat-strip pattern.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public business name",
+        "public phone",
+        "Lincoln listing context"
+      ],
+      "unverifiedClaimsAvoided": [
+        "license/certification claims",
+        "emergency hours",
+        "review counts",
+        "owner names",
+        "guarantees",
+        "specific service menu beyond generic HVAC lanes"
+      ],
+      "visualQaNotes": "Static code includes responsive layout, mobile sticky call bar, clear sample-site guardrails, and no fabricated proof. Browser visual QA completed locally after creation; page is differentiated enough for Stark review.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "atlas-auto-repair",
       "business": "Atlas Auto Repair",

@@ -4,7 +4,7 @@
   "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
   "status": "current_pipeline_approval_required_no_sends",
   "senderAccount": "sybeorg@gmail.com",
-  "lastReviewed": "2026-07-02",
+  "lastReviewed": "2026-07-03",
   "policy": {
     "noOutboundWithoutStarkApproval": true,
     "approvalRequiredFor": [
@@ -22,37 +22,61 @@
       "prospectId": "super-eagle-roofing-ames",
       "business": "Super Eagle Roofing",
       "recipient": "ge.construction.ia@gmail.com",
-      "gmailDraftId": "561",
+      "gmailDraftId": null,
       "subject": "quick storm/roof page idea for Super Eagle Roofing",
       "bestOffer": "Storm/roof-repair landing page for SEO or paid ads",
       "upsell": "Google Ads/local SEO for storm damage plus video/commercial roof inspection creatives.",
-      "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent",
+      "approvalStatus": "approved_by_stark_2026-07-02",
+      "sendStatus": "sent_2026-07-02",
       "contactSummary": {
         "phone": "+1-515-708-4027",
         "email": "ge.construction.ia@gmail.com",
         "form": "contact form also present",
         "contactStatus": "gmail_ready_verified_email",
         "contactNotes": "Email from OSM public listing plus official-site mailto; Gmail draft 561 live."
-      }
+      },
+      "sentVia": "sybeorg@gmail.com via Himalaya",
+      "sendVerification": "Himalaya reported Message successfully sent; draft removed from Gmail Drafts; Sent folder may show Gmail duplicate saved copies."
     },
     {
       "rank": 2,
       "prospectId": "midwest-dent-clinton",
       "business": "Midwest Dent",
       "recipient": "midwestdentdrp@gmail.com",
-      "gmailDraftId": "562",
+      "gmailDraftId": null,
       "subject": "quick hail repair page idea for Midwest Dent",
       "bestOffer": "Hail-repair landing page / appointment funnel",
       "upsell": "Hail-season paid ads, local SEO, and short video/commercial before-after creatives.",
-      "approvalStatus": "pending_stark_review",
-      "sendStatus": "not_sent",
+      "approvalStatus": "approved_by_stark_2026-07-02",
+      "sendStatus": "sent_2026-07-02",
       "contactSummary": {
         "phone": "+1-319-621-4245",
         "email": "midwestdentdrp@gmail.com",
         "form": "contact form also present",
         "contactStatus": "gmail_ready_verified_email",
         "contactNotes": "Email/phone from official-site HTML; Gmail draft 562 live."
+      },
+      "sentVia": "sybeorg@gmail.com via Himalaya",
+      "sendVerification": "Himalaya reported Message successfully sent; draft removed from Gmail Drafts; Sent folder may show Gmail duplicate saved copies."
+    },
+    {
+      "rank": 3,
+      "prospectId": "atlas-auto-repair",
+      "business": "Atlas Auto Repair",
+      "recipient": "atlasautoomaha@gmail.com",
+      "gmailDraftId": "563",
+      "subject": "quick service-lane page idea for Atlas Auto Repair",
+      "bestOffer": "Mobile-first service-lane landing page for repair triage, tap-to-call, and paid/local search traffic",
+      "upsell": "Google Ads/local SEO for repair keywords plus short video/social creative once the service lane page is polished.",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/atlas-auto-repair/",
+      "contactSummary": {
+        "phone": "+1-402-889-0330",
+        "email": "atlasautoomaha@gmail.com",
+        "form": null,
+        "contactStatus": "gmail_ready_verified_public_listing_email",
+        "contactNotes": "Public listing included Gmail contact and official site; Gmail draft 563 staged/read back."
       }
     }
   ],
@@ -198,24 +222,26 @@
     ]
   },
   "pipelineSummary": {
-    "updated": "2026-07-02",
-    "source": "repo + live SYBEORG Gmail Drafts via Himalaya",
-    "gmailReadyCount": 2,
+    "updated": "2026-07-03",
+    "source": "repo daily opportunity batch + prior live SYBEORG Gmail Drafts via Himalaya",
+    "gmailReadyCount": 1,
     "gmailReadyDraftIds": [
-      "561",
-      "562"
+      "563"
     ],
     "manualReadyNoGmailCount": 5,
     "needsWorkOrPausedCount": 5,
-    "sentTodayCount": 4,
+    "sentTodayCount": 6,
     "sentToday": [
       "CPC Performance",
       "Premier Plumbing",
       "Richardson Plumbing",
-      "Platinum PHC"
+      "Platinum PHC",
+      "Super Eagle Roofing",
+      "Midwest Dent"
     ],
     "noOutboundWithoutStarkApproval": true,
-    "lastDailyBatch": "2026-07-02-batch-1"
+    "lastDailyBatch": "2026-07-03-batch-1",
+    "nextReadyDraft": "Atlas Auto Repair — Draft ID 563 — atlasautoomaha@gmail.com"
   },
   "needsWorkOrPausedQueue": [
     {
@@ -303,6 +329,26 @@
   ],
   "contactResearchStatus": "Existing pass checked public listing/OSM fields, official-site HTML/mailto, and direct site/contact-page fetches where available; contact forms were identified but not submitted because that is outbound and requires Stark approval.",
   "dailyBatchReferences": [
+    {
+      "batchDate": "2026-07-03",
+      "batchNumber": 1,
+      "mdPath": "outreach/daily-batches/2026-07-03-batch-1.md",
+      "jsonPath": "outreach/daily-batches/2026-07-03-batch-1.json",
+      "selectedProspects": [
+        "tims-auto-services-radiator-repair",
+        "custom-cooling-heating",
+        "holt-plumbing-heating",
+        "makani-roofing",
+        "general-tree-service-iowa-city"
+      ],
+      "mockupsCreated": [
+        "tims-auto-services-radiator-repair",
+        "custom-cooling-heating"
+      ],
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "noOutboundSent": true
+    },
     {
       "batchDate": "2026-07-02",
       "batchNumber": 1,
