@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-03",
-  "lastUpdated": "2026-07-03",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-04",
+  "lastUpdated": "2026-07-04",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -23,6 +23,45 @@
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "harter-s-service-repair",
+      "business": "Harter's Service & Repair",
+      "vertical": "Auto repair",
+      "market": "Council Bluffs, IA",
+      "phone": "+1-712-328-9526",
+      "email": null,
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "OSM/Overpass public listing node/6559001368; no website field verified 2026-07-04",
+      "mockupPath": "harters-service-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/harters-service-repair/",
+      "angle": "Public listing surfaced phone/address but no owned website field; a Council Bluffs repair-counter page can turn directory discovery into a controlled mobile call path.",
+      "draftStatus": "daily_batch_2026_07_04_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-07-04",
+      "qualityDirection": "Local-heritage repair counter page with odometer visual, public phone/address, and sample-site guardrails.",
+      "designDirection": "local_heritage",
+      "designDifferentiation": "Cream/orange Council Bluffs repair-counter and odometer motif; avoids generic mechanic hero, fake badges/reviews, and right-side quote form.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public business name",
+        "public phone",
+        "public address",
+        "Council Bluffs market context"
+      ],
+      "unverifiedClaimsAvoided": [
+        "owner names",
+        "years in business",
+        "ASE/certifications",
+        "review counts",
+        "warranties",
+        "same-day guarantees",
+        "24/7 claims",
+        "specific service menu claims"
+      ],
+      "visualQaNotes": "Browser visual QA found the concept polished and usable but initially too agency/audit-like; hero and section copy were revised to be more customer-facing while preserving sample-site guardrails. Live production check pending after deployment.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "tims-auto-services-radiator-repair",
       "business": "Tim's Auto Services & Radiator Repair",

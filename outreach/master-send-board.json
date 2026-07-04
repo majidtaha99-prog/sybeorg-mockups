@@ -4,7 +4,7 @@
   "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
   "status": "current_pipeline_approval_required_no_sends",
   "senderAccount": "sybeorg@gmail.com",
-  "lastReviewed": "2026-07-03",
+  "lastReviewed": "2026-07-04",
   "policy": {
     "noOutboundWithoutStarkApproval": true,
     "approvalRequiredFor": [
@@ -83,6 +83,24 @@
   "manualHighPriorityQueue": [
     {
       "rank": 1,
+      "prospectId": "harter-s-service-repair",
+      "business": "Harter's Service & Repair",
+      "status": "mockup_ready_no_verified_email",
+      "route": "phone/manual research",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/harters-service-repair/",
+      "bestOffer": "Starter website / phone-first Council Bluffs repair call path",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1-712-328-9526",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "Phone/address from OSM public listing; no website field found in 2026-07-04 discovery pass."
+      }
+    },
+    {
+      "rank": 2,
       "prospectId": "howards-auto-repair",
       "business": "Howard's Auto Repair",
       "status": "mockup_ready_no_verified_email",
@@ -98,7 +116,7 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "prospectId": "xpress-oil-lube-waterloo",
       "business": "Xpress Oil & Lube",
       "status": "mockup_ready_no_verified_email",
@@ -114,7 +132,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "prospectId": "grenell-tree-service",
       "business": "Grenell Tree Service LLC",
       "status": "local_draft_ready_no_verified_email",
@@ -130,7 +148,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "prospectId": "arriaga-lawn-maintenance",
       "business": "Arriaga Lawn Maintenance",
       "status": "local_draft_ready_no_verified_email",
@@ -146,7 +164,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "prospectId": "fini-conditioned-air",
       "business": "Fini Conditioned Air",
       "status": "local_draft_ready_no_verified_email",
