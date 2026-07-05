@@ -1372,6 +1372,47 @@
       "visualQaNotes": "Local browser QA passed: clean water/plumbing diagnostic page, sample framing clear, mobile contact dock visible, no fabricated proof or unsupported service claims.",
       "revisionNeededBeforeOutreach": false,
       "redesignStatus": "created_2026-06-23_batch_1"
+    },
+    {
+      "id": "master-auto-repair",
+      "business": "Master Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Marion, IA",
+      "phone": "+1-319-377-8350",
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "Overpass/OSM public listing node way/247970156 reviewed 2026-07-05; listing had phone/address but no website/contact:website/url field.",
+      "mockupPath": "master-auto-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/master-auto-repair/",
+      "angle": "Public listing discovery shows a Marion auto-repair shop with phone and address but no owned website field, so high-intent drivers may only see directory snippets instead of a controlled call path.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "local_heritage",
+      "designDifferentiation": "Light repair-bay work-order board with shop-location routing and a sticky mobile call dock; intentionally avoids the dark hero/right-form contractor template and avoids fake reviews or certifications.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Marion, IA"
+        ],
+        "phone": "+1-319-377-8350",
+        "address": "243 7th Avenue"
+      },
+      "unverifiedClaimsAvoided": [
+        "owner name",
+        "years in business",
+        "ASE/certifications",
+        "review counts",
+        "warranties",
+        "same-day guarantee",
+        "exact service menu"
+      ],
+      "visualQaNotes": "Local screenshot QA passed: distinctive bay-board/work-order composition, sample-not-official notice visible, phone-first path and mobile sticky call dock present, no fake testimonials/certifications/owner story.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "created_2026-07-05_batch_1"
     }
   ],
   "nextBatchQueue": [
