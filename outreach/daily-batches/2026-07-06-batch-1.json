@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-07-06-batch-1",
+  "date": "2026-07-06",
+  "campaign": "sybeorg-opportunity-engine",
+  "scopeNote": "SYBEORG only. No Radi / House of Meroe files, targets, drafts, accounts, or campaigns used.",
+  "discoveryPool": [
+    {
+      "business": "Ari Auto Repair",
+      "market": "Lincoln, NE",
+      "vertical": "Auto repair",
+      "score": 86,
+      "primaryAngle": "no_website",
+      "selected": true
+    },
+    {
+      "business": "Crabtree Auto Body",
+      "market": "Omaha, NE",
+      "vertical": "Auto body",
+      "score": 82,
+      "primaryAngle": "no_website",
+      "selected": true
+    },
+    {
+      "business": "Pearson Plumbing & Heating",
+      "market": "Rockford, IL",
+      "vertical": "Plumbing/HVAC/Pest",
+      "score": 79,
+      "primaryAngle": "urgent_bug",
+      "selected": true
+    },
+    {
+      "business": "Classic Auto Repair",
+      "market": "Rockford, IL",
+      "vertical": "Auto repair",
+      "score": 78,
+      "primaryAngle": "paid_ad_readiness",
+      "selected": true
+    },
+    {
+      "business": "Greenley Heating & Cooling",
+      "market": "Cedar Falls, IA",
+      "vertical": "HVAC",
+      "score": 74,
+      "primaryAngle": "gmb_leak",
+      "selected": true
+    },
+    {
+      "business": "Schuerman Auto Repair",
+      "market": "Cedar Falls, IA",
+      "vertical": "Auto repair",
+      "score": 69,
+      "primaryAngle": "no_website",
+      "selected": false,
+      "reason": "No phone/email surfaced; less closeable than selected no-site leads."
+    },
+    {
+      "business": "Woody's Auto Repair Services",
+      "market": "Ankeny, IA",
+      "vertical": "Auto repair",
+      "score": 67,
+      "primaryAngle": "no_website",
+      "selected": false,
+      "reason": "No contact route surfaced in listing pass."
+    },
+    {
+      "business": "Mark Hansen Auto Repair Service",
+      "market": "Ames, IA",
+      "vertical": "Auto repair",
+      "score": 66,
+      "primaryAngle": "no_website",
+      "selected": false,
+      "reason": "Phone surfaced masked/redacted in source; needs manual verification before use."
+    },
+    {
+      "business": "W. F. Butler Plumbing Inc.",
+      "market": "Fort Wayne, IN",
+      "vertical": "Plumbing",
+      "score": 63,
+      "primaryAngle": "gmb_leak",
+      "selected": false,
+      "reason": "Nearby Midwest but outside Iowa-adjacent core and no contact route surfaced."
+    },
+    {
+      "business": "Howe Brothers Plumbing",
+      "market": "Iowa City, IA",
+      "vertical": "Plumbing",
+      "score": 61,
+      "primaryAngle": "gmb_leak",
+      "selected": false,
+      "reason": "No phone/site surfaced; possibly duplicate style of contact-route weak lead."
+    },
+    {
+      "business": "Triggs Plumbing",
+      "market": "Cedar Rapids, IA",
+      "vertical": "Plumbing",
+      "score": 60,
+      "primaryAngle": "gmb_leak",
+      "selected": false,
+      "reason": "No phone/site surfaced; hold for manual research."
+    },
+    {
+      "business": "Greg's Lawn & Landscaping",
+      "market": "Cedar Rapids, IA",
+      "vertical": "Landscaping",
+      "score": 58,
+      "primaryAngle": "seasonal_urgency",
+      "selected": false,
+      "reason": "No contact route or services proof surfaced."
+    }
+  ],
+  "selectedLeads": [
+    {
+      "rank": 1,
+      "prospectId": "ari-auto-repair",
+      "business": "Ari Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Lincoln, NE",
+      "officialSite": "none found in OSM public listing reviewed 2026-07-06",
+      "publicSignals": [
+        "OSM way/1301172740 lists 1640 North Cotner Boulevard, Lincoln, NE 68505",
+        "Phone +1-402-413-0303",
+        "Opening hours Mo-Sa 08:00-18:00",
+        "Vehicle repair and oil-change service tags; credit/debit accepted tags"
+      ],
+      "contactRoute": {
+        "type": "phone_script",
+        "phone": "+1-402-413-0303",
+        "email": null,
+        "form": null,
+        "status": "phone_found_email_not_found"
+      },
+      "opportunityScore": 86,
+      "primaryAngles": [
+        "no_website",
+        "mobile_conversion"
+      ],
+      "secondaryAngles": [
+        "booking_gap",
+        "contact_route_gap",
+        "service_page_gap"
+      ],
+      "mixRole": "hot_lead_mockup_helpful",
+      "diagnosis": "A directory/listing searcher can see the phone and hours, but there is no controlled first-click page to explain repair/oil-change intake, map the Cotner Boulevard location, or make tap-to-call obvious on mobile.",
+      "recommendedOffer": "One-page repair counter landing page with tap-to-call, hours/location, and simple issue routing.",
+      "whyThisShouldClose": "The leak is easy to explain, the public phone route is usable, and the first useful asset is small enough to polish quickly with real photos/services if they respond.",
+      "mockupDecision": "created_high_quality_mockup",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/ari-auto-repair/",
+      "qualityGate": {
+        "designDirection": "local_heritage",
+        "designDifferentiation": "Bright garage-counter / clipboard-and-bay-sign motif in cream, teal, and safety orange; uses verified hours/address/phone and avoids the repeated dark contractor hero/right quote-form pattern.",
+        "qualityGateScore": 9,
+        "qualityGatePassed": true,
+        "realAssetsFound": [
+          "public business name",
+          "public phone",
+          "public address",
+          "public opening hours",
+          "OSM service tags for car repair/oil change",
+          "Lincoln market context"
+        ],
+        "unverifiedClaimsAvoided": [
+          "owner names",
+          "review counts",
+          "certifications",
+          "warranties",
+          "years in business",
+          "same-day guarantees",
+          "24/7 emergency claims",
+          "full service menu beyond public tags"
+        ],
+          "visualQaNotes": "Local browser/vision QA completed at desktop width. Initial pass was polished but had a few agency/audit labels, so copy was softened from jargon like money-leak/minimum-fix language to plainer shop-owner wording. Final page remains distinctive, has visible sample-site guardrail, no fake proof, readable sections, and a mobile sticky call path. Production verification pending Vercel deployment.",
+        "revisionNeededBeforeOutreach": false
+      },
+      "draft": {
+        "type": "phone_script",
+        "subject": null,
+        "body": "Hi \u2014 this is Stark with SYBEORG. I was looking at Lincoln auto repair listings and noticed Ari Auto Repair has a public phone, hours, and Cotner Boulevard address listed, but I did not see an owned website field attached in the listing I checked. I made a no-obligation sample first page that puts the call button, hours, location, and repair/oil-change intake path upfront for mobile visitors. Worth polishing this up with your real photos and wording? If not, reply or tell me NO and I will not follow up."
+      },
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 2,
+      "prospectId": "crabtree-auto-body",
+      "business": "Crabtree Auto Body",
+      "vertical": "Auto body",
+      "market": "Omaha, NE",
+      "officialSite": "none found in public listing reviewed 2026-07-06",
+      "publicSignals": [
+        "Nominatim/OSM public listing returned shop=car_repair in Omaha",
+        "Phone +1-402-614-3737",
+        "No website/email fields surfaced in the listing pass"
+      ],
+      "contactRoute": {
+        "type": "phone_script",
+        "phone": "+1-402-614-3737",
+        "email": null,
+        "form": null,
+        "status": "phone_found_email_not_found"
+      },
+      "opportunityScore": 82,
+      "primaryAngles": [
+        "no_website",
+        "contact_route_gap"
+      ],
+      "secondaryAngles": [
+        "mobile_conversion",
+        "service_page_gap",
+        "brand_trust_gap"
+      ],
+      "mixRole": "hot_lead_mockup_helpful",
+      "diagnosis": "A phone-only body-shop listing can lose collision/estimate shoppers to competitors with clearer estimate request pages and photo-upload paths.",
+      "recommendedOffer": "Small collision-estimate page: tap-to-call, photo checklist, insurance/estimate flow after verification.",
+      "whyThisShouldClose": "Auto body customers often need fast next steps; the current public signal leaves SYBEORG room to propose a concrete call/photo-estimate funnel.",
+      "mockupDecision": "skipped_today_research_only",
+      "mockupUrl": null,
+      "qualityGate": {
+        "designDirection": "service_specific",
+        "designDifferentiation": "Would need a collision-estimate/photo-upload concept, but public assets were too thin today to make it excellent rather than generic.",
+        "qualityGateScore": 6,
+        "qualityGatePassed": false,
+        "realAssetsFound": [
+          "public business name",
+          "public phone",
+          "Omaha market context"
+        ],
+        "unverifiedClaimsAvoided": [
+          "insurance relationships",
+          "review counts",
+          "before/after photos",
+          "certifications",
+          "turnaround times",
+          "warranties"
+        ],
+        "visualQaNotes": "No mockup created; would be stronger after finding real photos, services, or official listing proof.",
+        "revisionNeededBeforeOutreach": true
+      },
+      "draft": {
+        "type": "phone_script",
+        "subject": null,
+        "body": "Hi \u2014 this is Stark with SYBEORG. I was checking Omaha auto body listings and noticed Crabtree Auto Body shows a public phone number, but I did not see an owned website field in the listing I checked. For collision/estimate shoppers, a simple mobile page with tap-to-call and a photo/estimate checklist can make the next step clearer. I have notes for a no-obligation sample concept if you want me to polish it up. Worth a quick look? If not, tell me NO and I will not follow up."
+      },
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 3,
+      "prospectId": "pearson-plumbing-heating-rockford",
+      "business": "Pearson Plumbing & Heating",
+      "vertical": "Plumbing / HVAC / pest control",
+      "market": "Rockford, IL",
+      "officialSite": "https://www.pearsonguy.com/",
+      "publicSignals": [
+        "Website returned HTTP 200 and title 'Pearson Plumbing, HVAC & Pest Control in Rockford IL'",
+        "Phone +1-815-398-8312",
+        "Listing email christie@rstenstrom.com differs from public website domain pearsonguy.com",
+        "Site has tel links and form/estimate language; no mailto detected in HTML probe"
+      ],
+      "contactRoute": {
+        "type": "contact_form_or_manual_email_review",
+        "phone": "+1-815-398-8312",
+        "email": "christie@rstenstrom.com",
+        "form": "official site form appears present",
+        "status": "manual_review_before_any_send"
+      },
+      "opportunityScore": 79,
+      "primaryAngles": [
+        "urgent_bug",
+        "tracking_gap"
+      ],
+      "secondaryAngles": [
+        "contact_route_gap",
+        "paid_ad_readiness"
+      ],
+      "mixRole": "urgent_bug_helpful_alert",
+      "diagnosis": "The helpful-alert angle is not that the site is broken; it is that a public listing email appears to use a different domain than the customer-facing site, which can look inconsistent and can fragment tracking/lead ownership.",
+      "recommendedOffer": "Contact-route audit: reconcile public email/domain, add clear tracked conversion routes, and verify form/email attribution.",
+      "whyThisShouldClose": "It is a low-accusation operations fix for an otherwise established service company: helpful, specific, and easy to validate internally.",
+      "mockupDecision": "skipped_no_mockup_needed_alert_only",
+      "mockupUrl": null,
+      "qualityGate": {
+        "designDirection": "gmb_conversion",
+        "designDifferentiation": "Mockup not created because an alert/audit note is more useful than a speculative redesign for a working site.",
+        "qualityGateScore": 7,
+        "qualityGatePassed": false,
+        "realAssetsFound": [
+          "official website HTTP 200",
+          "site title",
+          "public phone",
+          "public listing email",
+          "form/tel signals"
+        ],
+        "unverifiedClaimsAvoided": [
+          "revenue loss",
+          "ranking impact",
+          "ownership assumptions about the email domain"
+        ],
+        "visualQaNotes": "No visual mockup; recommend a concise screenshot-backed alert before outreach if Stark wants this sent.",
+        "revisionNeededBeforeOutreach": true
+      },
+      "draft": {
+        "type": "contact_form_or_email_draft",
+        "subject": "small contact-route note for Pearson",
+        "body": "Hi Pearson team \u2014 I was checking Rockford plumbing/HVAC listings and noticed one small contact-route detail that may be worth verifying: the public listing I reviewed surfaced an email at rstenstrom.com while the customer-facing website is pearsonguy.com. Your website itself loaded correctly and has phone/form paths, so this is not a redesign pitch \u2014 just a quick consistency/tracking item that could confuse attribution or look unfamiliar to some customers. Worth having me send the exact note/screenshot? Reply NO and I will not follow up."
+      },
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 4,
+      "prospectId": "classic-auto-repair-rockford",
+      "business": "Classic Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Rockford, IL",
+      "officialSite": "none found in public listing reviewed 2026-07-06",
+      "publicSignals": [
+        "Nominatim/OSM public listing returned shop=car_repair in Rockford",
+        "Phone +1-779-423-0258",
+        "No website/email fields surfaced in listing pass"
+      ],
+      "contactRoute": {
+        "type": "phone_script",
+        "phone": "+1-779-423-0258",
+        "email": null,
+        "form": null,
+        "status": "phone_found_email_not_found"
+      },
+      "opportunityScore": 78,
+      "primaryAngles": [
+        "paid_ad_readiness",
+        "no_website"
+      ],
+      "secondaryAngles": [
+        "mobile_conversion",
+        "booking_gap",
+        "tracking_gap"
+      ],
+      "mixRole": "paid_ad_service_page_opportunity",
+      "diagnosis": "A no-site repair listing cannot support a clean oil-change/brake/diagnostic landing page for search ads or track which calls came from which offer.",
+      "recommendedOffer": "Trackable repair-service landing page for one high-intent offer before any paid ads.",
+      "whyThisShouldClose": "The offer can be framed as pragmatic ad readiness: one focused page, one call route, no broad website rebuild required at first.",
+      "mockupDecision": "skipped_today_research_only",
+      "mockupUrl": null,
+      "qualityGate": {
+        "designDirection": "service_specific",
+        "designDifferentiation": "Would use a trackable service-lane concept, but no unique proof/assets found today beyond phone and category.",
+        "qualityGateScore": 6,
+        "qualityGatePassed": false,
+        "realAssetsFound": [
+          "public business name",
+          "public phone",
+          "Rockford market context"
+        ],
+        "unverifiedClaimsAvoided": [
+          "service menu",
+          "certifications",
+          "review counts",
+          "warranties",
+          "years in business"
+        ],
+        "visualQaNotes": "No mockup created; copy should stay audit-style until more proof is verified.",
+        "revisionNeededBeforeOutreach": true
+      },
+      "draft": {
+        "type": "phone_script",
+        "subject": null,
+        "body": "Hi \u2014 this is Stark with SYBEORG. I was looking at Rockford auto repair listings and noticed Classic Auto Repair has a public phone number, but I did not see an owned website field in the listing I checked. If you ever run Google/search ads, even a single focused page for one service offer can make calls easier to track than sending people to a directory listing. Worth me putting together a no-obligation sample for one service page? If not, tell me NO and I will not follow up."
+      },
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    },
+    {
+      "rank": 5,
+      "prospectId": "greenley-heating-cooling",
+      "business": "Greenley Heating & Cooling",
+      "vertical": "HVAC",
+      "market": "Cedar Falls, IA",
+      "officialSite": "none found in OSM public listing reviewed 2026-07-06",
+      "publicSignals": [
+        "OSM node/13825290137 lists craft=hvac and business name",
+        "No phone, website, hours, or email fields surfaced in the listing pass"
+      ],
+      "contactRoute": {
+        "type": "manual_research_required",
+        "phone": null,
+        "email": null,
+        "form": null,
+        "status": "contact_route_missing"
+      },
+      "opportunityScore": 74,
+      "primaryAngles": [
+        "gmb_leak",
+        "contact_route_gap"
+      ],
+      "secondaryAngles": [
+        "no_website",
+        "seasonal_urgency",
+        "mobile_conversion"
+      ],
+      "mixRole": "gmb_reputation_local_profile_opportunity",
+      "diagnosis": "The local profile/listing leak is the lead: HVAC demand is seasonal and urgent, but the public listing reviewed had only the name/category, not a call route or website.",
+      "recommendedOffer": "GMB/local profile cleanup and starter HVAC call page once a verified phone/contact route is found.",
+      "whyThisShouldClose": "A missing call route is highly concrete, but outreach should wait until Stark or a manual researcher verifies the correct contact path.",
+      "mockupDecision": "skipped_contact_route_too_weak",
+      "mockupUrl": null,
+      "qualityGate": {
+        "designDirection": "gmb_conversion",
+        "designDifferentiation": "Mockup intentionally skipped; without verified phone/services/photos, a sample page would be generic and potentially misleading.",
+        "qualityGateScore": 5,
+        "qualityGatePassed": false,
+        "realAssetsFound": [
+          "public business name",
+          "HVAC category",
+          "Cedar Falls market context"
+        ],
+        "unverifiedClaimsAvoided": [
+          "phone number",
+          "hours",
+          "emergency service",
+          "service area",
+          "certifications",
+          "review counts"
+        ],
+        "visualQaNotes": "Research-only record; needs contact verification before any outreach or mockup hook.",
+        "revisionNeededBeforeOutreach": true
+      },
+      "draft": {
+        "type": "internal_research_note",
+        "subject": null,
+        "body": "Do not send yet. Manual verification needed: find official phone/site/profile for Greenley Heating & Cooling. If verified, helpful first-touch angle is that the listing reviewed surfaced name/category only, so customers may not have a clear call/website route during HVAC demand windows."
+      },
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent"
+    }
+  ],
+  "outreachPolicy": {
+    "approvalStatus": "pending_stark_review",
+    "sendStatus": "not_sent",
+    "noOutboundSent": true
+  }
+}

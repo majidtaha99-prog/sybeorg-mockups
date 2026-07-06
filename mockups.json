@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-04",
-  "lastUpdated": "2026-07-04",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-06",
+  "lastUpdated": "2026-07-06",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -19,10 +19,51 @@
       "Use the phrase sample/mockup/concept so the recipient understands it is a preview, not a live replacement site."
     ],
     "bestCTA": "Keep the ask human and specific: offer to clean up the concept with their real photos, services, and wording after Stark approves the send.",
-    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30–60 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
+    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30\u201360 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "ari-auto-repair",
+      "business": "Ari Auto Repair",
+      "vertical": "Auto repair",
+      "market": "Lincoln, NE",
+      "phone": "+1-402-413-0303",
+      "email": null,
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "Nominatim/OSM public listing way/1301172740; no website field verified 2026-07-06",
+      "mockupPath": "ari-auto-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/ari-auto-repair/",
+      "angle": "Public listing surfaced phone/address/hours but no owned website field; a Lincoln repair-counter page can turn directory discovery into a controlled mobile call path.",
+      "draftStatus": "daily_batch_2026_07_06_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-07-06",
+      "qualityDirection": "Local-heritage repair counter page with clipboard/front-counter motif, public phone/address/hours, and explicit sample-site guardrails.",
+      "designDirection": "local_heritage",
+      "designDifferentiation": "Bright garage-counter / clipboard-and-bay-sign motif in cream, teal, and safety orange; avoids generic dark contractor hero, fake reviews, and right-side quote form.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public business name",
+        "public phone",
+        "public address",
+        "public opening hours",
+        "OSM service tags for car repair/oil change",
+        "Lincoln market context"
+      ],
+      "unverifiedClaimsAvoided": [
+        "owner names",
+        "review counts",
+        "certifications",
+        "warranties",
+        "years in business",
+        "same-day guarantees",
+        "24/7 claims",
+        "full service menu beyond public tags"
+      ],
+      "visualQaNotes": "Local browser/vision QA completed at desktop width. Initial pass was polished but had a few agency/audit labels, so copy was softened from jargon like money-leak/minimum-fix language to plainer shop-owner wording. Final page remains distinctive, has visible sample-site guardrail, no fake proof, readable sections, and a mobile sticky call path. Production verification pending Vercel deployment.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "harter-s-service-repair",
       "business": "Harter's Service & Repair",
