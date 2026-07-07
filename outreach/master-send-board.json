@@ -4,7 +4,7 @@
   "scopeNote": "SYBEORG only. Radi / House of Meroe targets, drafts, files, and accounts are excluded.",
   "status": "current_pipeline_approval_required_no_sends",
   "senderAccount": "sybeorg@gmail.com",
-  "lastReviewed": "2026-07-04",
+  "lastReviewed": "2026-07-07",
   "policy": {
     "noOutboundWithoutStarkApproval": true,
     "approvalRequiredFor": [
@@ -82,7 +82,97 @@
   ],
   "manualHighPriorityQueue": [
     {
-      "rank": 1,
+      "prospectId": "fitchburg-plumbing-inc",
+      "business": "Fitchburg Plumbing Inc.",
+      "status": "mockup_ready_no_verified_email",
+      "route": "phone/manual research",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/fitchburg-plumbing-inc/",
+      "bestOffer": "Starter plumbing call-page + Google/local profile website-link cleanup",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1-608-274-1884",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "OSM public listing node/4620099503; no website field found in 2026-07-07 discovery pass."
+      },
+      "rank": 1
+    },
+    {
+      "prospectId": "badger-transmission-auto-repair",
+      "business": "Badger Transmission & Auto Repair",
+      "status": "research_ready_no_mockup",
+      "route": "phone/manual research",
+      "mockupUrl": null,
+      "bestOffer": "Transmission-specific starter landing page with symptom checklist and tap-to-call",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1-608-241-7179",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "OSM public listing node/11206443005; no website field found in 2026-07-07 discovery pass."
+      },
+      "rank": 2
+    },
+    {
+      "prospectId": "black-hawk-customs-waterloo",
+      "business": "Black Hawk Customs",
+      "status": "helpful_alert_ready_ssl_issue",
+      "route": "email or phone/manual approval",
+      "mockupUrl": null,
+      "bestOffer": "SSL/canonical domain helpful alert before any design pitch",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1-319-232-1552",
+        "email": "cameron.enterprises.ia@gmail.com",
+        "form": null,
+        "contactStatus": "email_and_phone_found_public_listing",
+        "contactNotes": "Website fetch for blackhawkcustomswaterloo.com failed with certificate hostname mismatch on 2026-07-07."
+      },
+      "rank": 3
+    },
+    {
+      "prospectId": "burrage-roofing",
+      "business": "Burrage Roofing",
+      "status": "email_draft_ready_no_mockup",
+      "route": "email/manual approval",
+      "mockupUrl": null,
+      "bestOffer": "Storm/roof-repair paid-ad landing page with call tracking-ready CTA and short intake form",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1 563-549-9544",
+        "email": "kendrick@burrageroofing.com",
+        "form": null,
+        "contactStatus": "email_and_phone_found_public_listing",
+        "contactNotes": "Site fetched 200; first-page HTML found tel links but no form in 2026-07-07 pass."
+      },
+      "rank": 4
+    },
+    {
+      "prospectId": "vivid-window-tinting",
+      "business": "Vivid Window Tinting",
+      "status": "research_ready_no_mockup",
+      "route": "phone/manual research",
+      "mockupUrl": null,
+      "bestOffer": "Visual profile/gallery starter page plus local profile website-link cleanup",
+      "approvalStatus": "pending_stark_review",
+      "sendStatus": "not_sent",
+      "contactSummary": {
+        "phone": "+1-608-520-6071",
+        "email": null,
+        "form": null,
+        "contactStatus": "phone_found_email_not_found",
+        "contactNotes": "OSM public listing node/13674727080; phone/address/hours found and no website field found in 2026-07-07 discovery pass."
+      },
+      "rank": 5
+    },
+    {
+      "rank": 6,
       "prospectId": "harter-s-service-repair",
       "business": "Harter's Service & Repair",
       "status": "mockup_ready_no_verified_email",
@@ -100,7 +190,7 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 7,
       "prospectId": "howards-auto-repair",
       "business": "Howard's Auto Repair",
       "status": "mockup_ready_no_verified_email",
@@ -116,7 +206,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 8,
       "prospectId": "xpress-oil-lube-waterloo",
       "business": "Xpress Oil & Lube",
       "status": "mockup_ready_no_verified_email",
@@ -132,7 +222,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 9,
       "prospectId": "grenell-tree-service",
       "business": "Grenell Tree Service LLC",
       "status": "local_draft_ready_no_verified_email",
@@ -148,7 +238,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 10,
       "prospectId": "arriaga-lawn-maintenance",
       "business": "Arriaga Lawn Maintenance",
       "status": "local_draft_ready_no_verified_email",
@@ -164,7 +254,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 11,
       "prospectId": "fini-conditioned-air",
       "business": "Fini Conditioned Air",
       "status": "local_draft_ready_no_verified_email",

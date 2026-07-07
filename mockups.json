@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "project": "sybeorg-mockups",
   "purpose": "Root tracker for Sybeorg prospect mockups, outreach angles, draft status, and next-batch queue.",
-  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-06",
-  "lastUpdated": "2026-07-06",
+  "updatedBy": "Hermes / SYBEORG Opportunity Engine batch 2026-07-07",
+  "lastUpdated": "2026-07-07",
   "liveRoot": "https://sybeorg-mockups.vercel.app",
   "sourceRoot": "C:/Users/TAHA/workspace/github/sybeorg-mockups",
   "github": {
@@ -19,10 +19,51 @@
       "Use the phrase sample/mockup/concept so the recipient understands it is a preview, not a live replacement site."
     ],
     "bestCTA": "Keep the ask human and specific: offer to clean up the concept with their real photos, services, and wording after Stark approves the send.",
-    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30\u201360 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
+    "videoCommercialAngle": "SYBEORG can package custom landing pages with professional 30–60 sec business commercials, short vertical video ad cuts, and optional ad launch/management.",
     "videoOfferUrl": "https://sybeorg-mockups.vercel.app/video-commercial/"
   },
   "currentProspects": [
+    {
+      "id": "fitchburg-plumbing-inc",
+      "business": "Fitchburg Plumbing Inc.",
+      "vertical": "Plumbing",
+      "market": "Fitchburg / Madison, WI",
+      "phone": "+1-608-274-1884",
+      "email": null,
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "OSM/Overpass public listing node/4620099503; phone/address found and no website field verified 2026-07-07",
+      "mockupPath": "fitchburg-plumbing-inc/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/fitchburg-plumbing-inc/",
+      "angle": "Public listing surfaced phone/address but no owned website field; a Fitchburg plumbing call page can turn directory discovery into a controlled mobile tap-to-call path.",
+      "draftStatus": "daily_batch_2026_07_07_ready_for_review",
+      "priority": "high",
+      "redesignStatus": "created_2026-07-07",
+      "qualityDirection": "Phone-first plumbing blueprint concept with verified phone/address, service prompts marked for owner confirmation, and explicit sample-site guardrails.",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Light cream/blue plumbing blueprint and service-ticket layout with pipe-grid visual system; avoids generic dark contractor hero, fake review proof, stat strip, and right-side quote form.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": [
+        "public business name",
+        "public phone",
+        "public address",
+        "Fitchburg/Madison market context",
+        "OSM plumber tag",
+        "no website field in OSM public listing pass"
+      ],
+      "unverifiedClaimsAvoided": [
+        "owner names",
+        "review counts",
+        "license numbers",
+        "certifications",
+        "years in business",
+        "emergency/24-7 claims",
+        "guarantees",
+        "specific service menu beyond confirm-before-launch prompts"
+      ],
+      "visualQaNotes": "Browser/vision QA completed locally. Initial desktop sticky call bar obscured the hero and was removed for desktop; revised above-fold layout is clear, polished, differentiated, and safe to use as an outreach hook. No fabricated proof, fake reviews, license claims, owner names, years-in-business, 24/7 promises, or guarantees are present. Production verification pending Vercel deployment.",
+      "revisionNeededBeforeOutreach": false
+    },
     {
       "id": "ari-auto-repair",
       "business": "Ari Auto Repair",
