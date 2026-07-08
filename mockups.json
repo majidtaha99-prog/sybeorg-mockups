@@ -1495,6 +1495,49 @@
       "visualQaNotes": "Local screenshot QA passed: distinctive bay-board/work-order composition, sample-not-official notice visible, phone-first path and mobile sticky call dock present, no fake testimonials/certifications/owner story.",
       "revisionNeededBeforeOutreach": false,
       "redesignStatus": "created_2026-07-05_batch_1"
+    },
+    {
+      "id": "zips-repair",
+      "business": "Zip's Repair",
+      "vertical": "Auto repair",
+      "market": "Bernard / Dubuque-area IA",
+      "phone": "+1-563-879-4144",
+      "officialSiteChecked": "none_found_in_osm_public_listing_pass",
+      "siteDiscoverySource": "Overpass/OSM public listing way/1474050653 reviewed 2026-07-08; listing had phone/address but no website/contact:website/url field.",
+      "mockupPath": "zips-repair/",
+      "mockupUrl": "https://sybeorg-mockups.vercel.app/zips-repair/",
+      "angle": "Public listing discovery shows a Bernard/Dubuque-area auto-repair shop with phone and address but no owned website field, so high-intent drivers may only see directory snippets instead of a controlled call path.",
+      "draftStatus": "pending_stark_review_not_sent",
+      "priority": "high",
+      "designDirection": "gmb_conversion",
+      "designDifferentiation": "Warm rural road/service-slip layout with public-facts verification card and mobile call dock; avoids dark bay-board/right-form/fake-review patterns.",
+      "qualityGateScore": 9,
+      "qualityGatePassed": true,
+      "realAssetsFound": {
+        "photos": [],
+        "logo": null,
+        "reviews": [],
+        "ownerOrTeam": [],
+        "serviceAreas": [
+          "Bernard / Dubuque area, IA"
+        ],
+        "phone": "+1-563-879-4144",
+        "address": "171 Bernard Road",
+        "osm": "way/1474050653"
+      },
+      "unverifiedClaimsAvoided": [
+        "owner names",
+        "years in business",
+        "ASE/certifications",
+        "review counts",
+        "warranties",
+        "same-day guarantees",
+        "testimonials",
+        "exact service menu"
+      ],
+      "visualQaNotes": "Browser visual QA passed 2026-07-08: distinctive cream/orange rural road/service-slip concept; sample-not-official banner and footer visible; phone CTA visible; verified public facts card present; no fake reviews/certifications/owner claims. Minor watch item: logo-like ZR mark is acceptable because sample framing is prominent.",
+      "revisionNeededBeforeOutreach": false,
+      "redesignStatus": "created_2026-07-08_batch_1"
     }
   ],
   "nextBatchQueue": [
