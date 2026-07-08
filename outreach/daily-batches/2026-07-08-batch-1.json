@@ -180,6 +180,6 @@
   ],
   "mockupsCreated": ["zips-repair"],
   "mockupsSkippedReason": "Quality standard: skipped generic or insufficiently verified mockups; used helpful-alert/research-only drafts where a mockup would be premature.",
-  "git": {"commit": null, "pushed": false},
+  "git": {"commit": "3c0411a", "pushed": true, "liveVerification": {"zips-repair":"200 OK with Zip's Repair content on https://sybeorg-mockups.vercel.app/zips-repair/"}},
   "noOutboundSent": true
 }
